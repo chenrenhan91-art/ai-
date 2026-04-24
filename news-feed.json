@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-04-24T06:28:40.408Z",
+  "generatedAt": "2026-04-24T12:02:26.018Z",
   "timezone": "Asia/Shanghai",
-  "runSlot": "noon",
-  "runSlotLabel": "午报",
+  "runSlot": "evening",
+  "runSlotLabel": "晚报",
   "sourceStats": {
-    "official": 3,
-    "creator": 8,
-    "failed": 0
+    "official": 10,
+    "creator": 5,
+    "failed": 3
   },
   "sources": [
     {
       "id": "openai",
       "label": "OpenAI",
       "type": "official",
-      "platform": "Official Blog",
+      "platform": "官方博客",
       "url": "https://openai.com/news/",
       "tags": [
         "OpenAI",
@@ -27,7 +27,7 @@
       "id": "anthropic",
       "label": "Anthropic",
       "type": "official",
-      "platform": "Official News",
+      "platform": "官方新闻",
       "url": "https://www.anthropic.com/news",
       "tags": [
         "Claude",
@@ -41,7 +41,7 @@
       "id": "google",
       "label": "Google AI",
       "type": "official",
-      "platform": "Official Blog",
+      "platform": "官方博客",
       "url": "https://blog.google/innovation-and-ai/technology/ai/",
       "tags": [
         "Google",
@@ -52,112 +52,231 @@
       ]
     },
     {
-      "id": "simonwillison",
-      "label": "Simon Willison",
-      "type": "creator",
-      "platform": "Blog",
-      "url": "https://simonwillison.net/",
+      "id": "microsoft-ai",
+      "label": "Microsoft AI",
+      "type": "official",
+      "platform": "官方博客",
+      "url": "https://blogs.microsoft.com/ai/",
       "tags": [
-        "LLM",
-        "AI 工具",
-        "开发者",
-        "实测"
-      ]
-    },
-    {
-      "id": "oneusefulthing",
-      "label": "One Useful Thing",
-      "type": "creator",
-      "platform": "Substack",
-      "url": "https://www.oneusefulthing.org/",
-      "tags": [
-        "AI 影响",
-        "教育",
-        "工作",
-        "大众化观点"
-      ]
-    },
-    {
-      "id": "bensbites",
-      "label": "Ben's Bites",
-      "type": "creator",
-      "platform": "Newsletter",
-      "url": "https://www.bensbites.com/",
-      "tags": [
-        "AI 新闻",
-        "工具",
-        "创业",
-        "热点"
-      ]
-    },
-    {
-      "id": "aitidbits",
-      "label": "AI Tidbits",
-      "type": "creator",
-      "platform": "Newsletter",
-      "url": "https://www.aitidbits.ai/",
-      "tags": [
-        "AI 新闻",
+        "Microsoft",
+        "Copilot",
+        "Azure",
         "产品",
-        "工具",
-        "趋势"
+        "模型"
       ]
     },
     {
-      "id": "latentspace",
-      "label": "Latent Space",
-      "type": "creator",
-      "platform": "Substack / Podcast",
-      "url": "https://www.latent.space/",
+      "id": "meta-ai",
+      "label": "Meta AI",
+      "type": "official",
+      "platform": "官方博客",
+      "url": "https://ai.meta.com/blog/",
       "tags": [
-        "AI 工程",
-        "Agent",
+        "Meta",
+        "Llama",
+        "开源",
+        "模型",
+        "产品"
+      ]
+    },
+    {
+      "id": "qbitai",
+      "label": "量子位",
+      "type": "official",
+      "platform": "科技媒体",
+      "url": "https://www.qbitai.com/",
+      "tags": [
+        "AI新闻",
+        "模型",
+        "产品",
+        "创业",
+        "前沿"
+      ]
+    },
+    {
+      "id": "jiqizhixin",
+      "label": "机器之心",
+      "type": "official",
+      "platform": "科技媒体",
+      "url": "https://www.jiqizhixin.com/",
+      "tags": [
+        "AI研究",
+        "论文",
+        "模型",
+        "技术",
+        "前沿"
+      ]
+    },
+    {
+      "id": "xinzhiyuan",
+      "label": "新智元",
+      "type": "official",
+      "platform": "科技媒体",
+      "url": "https://www.xinzhiyuan.net/",
+      "tags": [
+        "AI新闻",
+        "产业",
+        "大模型",
+        "观点",
+        "前沿"
+      ]
+    },
+    {
+      "id": "aibase",
+      "label": "AIbase",
+      "type": "official",
+      "platform": "AI工具媒体",
+      "url": "https://www.aibase.com/",
+      "tags": [
+        "AI工具",
+        "产品",
+        "评测",
+        "效率",
+        "应用"
+      ]
+    },
+    {
+      "id": "36kr-ai",
+      "label": "36氪AI",
+      "type": "official",
+      "platform": "商业科技媒体",
+      "url": "https://36kr.com/information/technology",
+      "tags": [
+        "AI创业",
+        "融资",
+        "商业",
+        "产品",
+        "前沿"
+      ]
+    },
+    {
+      "id": "ruanyifeng",
+      "label": "阮一峰的网络日志",
+      "type": "creator",
+      "platform": "个人博客",
+      "url": "https://www.ruanyifeng.com/blog/",
+      "tags": [
+        "技术",
+        "AI工具",
+        "每周精选",
         "开发者",
-        "播客"
-      ]
-    },
-    {
-      "id": "interconnects",
-      "label": "Interconnects",
-      "type": "creator",
-      "platform": "Substack",
-      "url": "https://www.interconnects.ai/",
-      "tags": [
-        "开源模型",
-        "产业判断",
-        "模型生态",
         "观点"
       ]
     },
     {
-      "id": "understandingai",
-      "label": "Understanding AI",
+      "id": "sspai",
+      "label": "少数派",
       "type": "creator",
-      "platform": "Newsletter",
-      "url": "https://www.understandingai.org/",
+      "platform": "优质内容社区",
+      "url": "https://sspai.com/",
       "tags": [
-        "AI 解释",
-        "产业",
-        "技术趋势",
-        "大众化"
+        "AI工具",
+        "效率",
+        "应用",
+        "实测",
+        "教程"
       ]
     },
     {
-      "id": "marktechpost",
-      "label": "MarkTechPost",
+      "id": "baoyu",
+      "label": "宝玉xp",
       "type": "creator",
-      "platform": "AI Media",
-      "url": "https://www.marktechpost.com/",
+      "platform": "个人博客",
+      "url": "https://baoyu.io/",
       "tags": [
-        "AI 新闻",
-        "论文",
-        "模型",
-        "工具"
+        "AI前沿",
+        "大模型",
+        "产品经理",
+        "深度分析",
+        "观点"
+      ]
+    },
+    {
+      "id": "infoq-zh",
+      "label": "InfoQ中文",
+      "type": "creator",
+      "platform": "开发者社区",
+      "url": "https://www.infoq.cn/",
+      "tags": [
+        "AI技术",
+        "大模型",
+        "开发者",
+        "架构",
+        "工程"
+      ]
+    },
+    {
+      "id": "ithome",
+      "label": "IT之家",
+      "type": "creator",
+      "platform": "科技资讯",
+      "url": "https://www.ithome.com/",
+      "tags": [
+        "AI新闻",
+        "产品",
+        "科技",
+        "前沿",
+        "热点"
       ]
     }
   ],
-  "errors": [],
+  "errors": [
+    {
+      "source": "meta-ai",
+      "message": "HTTP 404"
+    },
+    {
+      "source": "xinzhiyuan",
+      "message": "fetch failed"
+    },
+    {
+      "source": "aibase",
+      "message": "HTTP 404"
+    }
+  ],
   "items": [
+    {
+      "id": "anthropic-a21eb3bb64",
+      "source": "anthropic",
+      "category": "product",
+      "format": "产品发布",
+      "evidence": "官方一手",
+      "priority": 3,
+      "featured": true,
+      "publishedAt": "2026-04-24",
+      "slots": [
+        "morning",
+        "noon",
+        "evening"
+      ],
+      "titleZh": "Announcements Anthropic and NEC collaborate to build Japan’s largest AI engineering workforce",
+      "titleEn": "Announcements Anthropic and NEC collaborate to build Japan’s largest AI engineering workforce",
+      "summary": "Anthropic 更新：Apr 24, 2026 Announcements Anthropic and NEC collaborate to build Japan’s largest AI engineering workforce",
+      "whyMatters": "Anthropic 官方发布，直接反映当前 AI 产品方向，影响日常工具使用体验。",
+      "takeaways": [
+        "功能更新通常先出现在网页版或API，App端会稍后跟进，留意你习惯的入口。",
+        "上手成本低，不需要技术背景，建议结合你最高频的工作场景直接实测。",
+        "判断新功能值不值得用：看它能不能替换你现在某个重复性的操作。"
+      ],
+      "tags": [
+        "Claude",
+        "Anthropic",
+        "产品",
+        "模型",
+        "Agent"
+      ],
+      "sourceUrl": "https://www.anthropic.com/news/anthropic-nec",
+      "creator": {
+        "duration": "60 秒",
+        "oneLiner": "一个 AI 产品发布了新功能，核心变化直接影响现有用户的使用体验。",
+        "hook": "这个功能刚上线，可能你还不知道它能做什么。",
+        "angle": "这是 Anthropic 官方发布的动态，会直接反映在你正在使用的 AI 产品里。",
+        "coverTitle": "Anthropic · 产品发布",
+        "coverSubtitle": "官方第一手",
+        "commentPrompt": "这个功能你会用还是不用？评论区选边站。",
+        "cta": "关注我，每天帮你筛出真正值得关注的 AI 动态。"
+      }
+    },
     {
       "id": "anthropic-3a0b457242",
       "source": "anthropic",
@@ -172,14 +291,14 @@
         "noon",
         "evening"
       ],
-      "titleZh": "Anthropic: Responsible Scaling Policy",
+      "titleZh": "Responsible Scaling Policy",
       "titleEn": "Responsible Scaling Policy",
       "summary": "Anthropic 更新：Responsible Scaling Policy",
       "whyMatters": "Anthropic 官方发布，直接反映当前 AI 产品方向，影响日常工具使用体验。",
       "takeaways": [
-        "发布于 2026-04-24，来自 Anthropic（Official News）。",
-        "Responsible Scaling Policy",
-        "点击原文可查看完整内容，结合自身需求做判断。"
+        "AI 安全最直接影响你输入的数据——不要在 AI 工具里输入身份证号、密码、合同原文。",
+        "企业用户风险高于个人，公司内部敏感数据要用支持私有化部署的方案处理。",
+        "遇到 AI 工具要求过多权限或存储对话记录的，先查清数据政策再决定是否使用。"
       ],
       "tags": [
         "Claude",
@@ -191,18 +310,880 @@
       "sourceUrl": "https://www.anthropic.com/news/announcing-our-updated-responsible-scaling-policy",
       "creator": {
         "duration": "60 秒",
-        "oneLiner": "Responsible Scaling Policy",
-        "hook": "Responsible Scalin——今天这条 AI 消息，和你有关。",
-        "angle": "这是来自 Anthropic 的官方更新，直接影响你正在使用的 AI 产品或工具。",
-        "coverTitle": "Responsible Scaling Policy",
-        "coverSubtitle": "官方最新动态",
-        "commentPrompt": "这条更新你觉得对你的工作或生活有影响吗？",
+        "oneLiner": "一条 AI 安全动态，涉及数据权限或使用风险，普通用户需要了解。",
+        "hook": "用 AI 的时候，有一件事你最好现在就知道。",
+        "angle": "这是 Anthropic 官方发布的动态，会直接反映在你正在使用的 AI 产品里。",
+        "coverTitle": "Anthropic · 安全动态",
+        "coverSubtitle": "官方第一手",
+        "commentPrompt": "你平时在 AI 工具里输入过真实个人信息吗？A有 B没有。",
         "cta": "关注我，每天帮你筛出真正值得关注的 AI 动态。"
       }
     },
     {
-      "id": "simonwillison-29df7a2987",
-      "source": "simonwillison",
+      "id": "qbitai-59cbc09e56",
+      "source": "qbitai",
+      "category": "open",
+      "format": "开源生态",
+      "evidence": "官方一手",
+      "priority": 3,
+      "featured": true,
+      "publishedAt": "2026-04-24",
+      "slots": [
+        "morning",
+        "noon",
+        "evening"
+      ],
+      "titleZh": "PPIO首批上线DeepSeek-V4预览版，1M超长上下文能力开箱即用",
+      "titleEn": "PPIO首批上线DeepSeek-V4预览版，1M超长上下文能力开箱即用",
+      "summary": "量子位 更新：PPIO首批上线DeepSeek-V4预览版，1M超长上下文能力开箱即用",
+      "whyMatters": "量子位 官方发布，直接反映当前 AI 产品方向，影响日常工具使用体验。",
+      "takeaways": [
+        "开源模型的核心优势：可以本地运行，数据不离开你的设备，适合隐私要求高的场景。",
+        "开源和商业 AI 的差距在今年快速缩小，某些任务上开源已经够用甚至更好。",
+        "对普通用户来说，关注以开源模型为底层的封装产品，会比直接用原始模型更方便。"
+      ],
+      "tags": [
+        "AI新闻",
+        "模型",
+        "产品",
+        "创业",
+        "前沿",
+        "资讯"
+      ],
+      "sourceUrl": "https://www.qbitai.com/2026/04/406802.html",
+      "creator": {
+        "duration": "60 秒",
+        "oneLiner": "开源 AI 生态有新进展，可自由部署，开发者和进阶用户值得关注。",
+        "hook": "开源 AI 和商业 AI 的差距，正在快速缩小——这次缩到了这里。",
+        "angle": "这是 量子位 官方发布的动态，会直接反映在你正在使用的 AI 产品里。",
+        "coverTitle": "量子位 · 开源进展",
+        "coverSubtitle": "官方第一手",
+        "commentPrompt": "你用开源还是商业 AI 工具？告诉我你的选择。",
+        "cta": "关注我，每天帮你筛出真正值得关注的 AI 动态。"
+      }
+    },
+    {
+      "id": "qbitai-ce198b9745",
+      "source": "qbitai",
+      "category": "open",
+      "format": "开源生态",
+      "evidence": "官方一手",
+      "priority": 3,
+      "featured": true,
+      "publishedAt": "2026-04-24",
+      "slots": [
+        "morning",
+        "noon",
+        "evening"
+      ],
+      "titleZh": "DeepSeek-V4发布，华为云首发适配",
+      "titleEn": "DeepSeek-V4发布，华为云首发适配",
+      "summary": "量子位 更新：DeepSeek-V4发布，华为云首发适配",
+      "whyMatters": "量子位 官方发布，直接反映当前 AI 产品方向，影响日常工具使用体验。",
+      "takeaways": [
+        "开源模型的核心优势：可以本地运行，数据不离开你的设备，适合隐私要求高的场景。",
+        "开源和商业 AI 的差距在今年快速缩小，某些任务上开源已经够用甚至更好。",
+        "对普通用户来说，关注以开源模型为底层的封装产品，会比直接用原始模型更方便。"
+      ],
+      "tags": [
+        "AI新闻",
+        "模型",
+        "产品",
+        "创业",
+        "前沿",
+        "资讯"
+      ],
+      "sourceUrl": "https://www.qbitai.com/2026/04/406791.html",
+      "creator": {
+        "duration": "60 秒",
+        "oneLiner": "开源 AI 生态有新进展，可自由部署，开发者和进阶用户值得关注。",
+        "hook": "开源 AI 和商业 AI 的差距，正在快速缩小——这次缩到了这里。",
+        "angle": "这是 量子位 官方发布的动态，会直接反映在你正在使用的 AI 产品里。",
+        "coverTitle": "量子位 · 开源进展",
+        "coverSubtitle": "官方第一手",
+        "commentPrompt": "你用开源还是商业 AI 工具？告诉我你的选择。",
+        "cta": "关注我，每天帮你筛出真正值得关注的 AI 动态。"
+      }
+    },
+    {
+      "id": "qbitai-cdfc034510",
+      "source": "qbitai",
+      "category": "model",
+      "format": "模型更新",
+      "evidence": "官方一手",
+      "priority": 3,
+      "featured": true,
+      "publishedAt": "2026-04-24",
+      "slots": [
+        "morning",
+        "noon",
+        "evening"
+      ],
+      "titleZh": "Mobileye 2026财年一季度营收增长27%，自动驾驶商业化进程持续推进",
+      "titleEn": "Mobileye 2026财年一季度营收增长27%，自动驾驶商业化进程持续推进",
+      "summary": "量子位 更新：表现超出此前市场预期。",
+      "whyMatters": "量子位 官方发布，直接反映当前 AI 产品方向，影响日常工具使用体验。",
+      "takeaways": [
+        "模型升级会传导到下游产品，你在用的 AI 工具通常1-2周内就会接入新能力。",
+        "关键看三个提升点：推理更准 / 速度更快 / 输出更长——哪条对你的场景更重要。",
+        "不用急着切换，等产品层接入后看实际表现，再决定要不要调整工作流。"
+      ],
+      "tags": [
+        "AI新闻",
+        "模型",
+        "产品",
+        "创业",
+        "前沿",
+        "资讯",
+        "Mobileye",
+        "财报"
+      ],
+      "sourceUrl": "https://www.qbitai.com/2026/04/406775.html",
+      "creator": {
+        "duration": "60 秒",
+        "oneLiner": "一个新 AI 模型更新了，能力边界有明显变化，下游应用很快会跟进。",
+        "hook": "新模型出来了，先别急着换——先看它在你用的场景里强在哪。",
+        "angle": "这是 量子位 官方发布的动态，会直接反映在你正在使用的 AI 产品里。",
+        "coverTitle": "量子位 · 模型更新",
+        "coverSubtitle": "官方第一手",
+        "commentPrompt": "你觉得这次升级值不值得关注？A值 B不值。",
+        "cta": "关注我，每天帮你筛出真正值得关注的 AI 动态。"
+      }
+    },
+    {
+      "id": "qbitai-ab685dbad7",
+      "source": "qbitai",
+      "category": "model",
+      "format": "模型更新",
+      "evidence": "官方一手",
+      "priority": 3,
+      "featured": true,
+      "publishedAt": "2026-04-24",
+      "slots": [
+        "morning",
+        "noon",
+        "evening"
+      ],
+      "titleZh": "100%主流车企的共同选择：一个AI“通用底座”正在汽车行业成型",
+      "titleEn": "100%主流车企的共同选择：一个AI“通用底座”正在汽车行业成型",
+      "summary": "量子位 更新：从被动响应到主动服务",
+      "whyMatters": "量子位 官方发布，直接反映当前 AI 产品方向，影响日常工具使用体验。",
+      "takeaways": [
+        "模型升级会传导到下游产品，你在用的 AI 工具通常1-2周内就会接入新能力。",
+        "关键看三个提升点：推理更准 / 速度更快 / 输出更长——哪条对你的场景更重要。",
+        "不用急着切换，等产品层接入后看实际表现，再决定要不要调整工作流。"
+      ],
+      "tags": [
+        "AI新闻",
+        "模型",
+        "产品",
+        "创业",
+        "前沿",
+        "智能车参考",
+        "火山引擎",
+        "车圈最新认知"
+      ],
+      "sourceUrl": "https://www.qbitai.com/2026/04/406767.html",
+      "creator": {
+        "duration": "60 秒",
+        "oneLiner": "一个新 AI 模型更新了，能力边界有明显变化，下游应用很快会跟进。",
+        "hook": "主流车企的共同选择一个通用底座正——这条 AI 消息，和你直接有关。",
+        "angle": "这是 量子位 官方发布的动态，会直接反映在你正在使用的 AI 产品里。",
+        "coverTitle": "100%主流车企的共同选择：一个AI“通用底座”正在汽车行业成型",
+        "coverSubtitle": "官方第一手",
+        "commentPrompt": "你觉得这次升级值不值得关注？A值 B不值。",
+        "cta": "关注我，每天帮你筛出真正值得关注的 AI 动态。"
+      }
+    },
+    {
+      "id": "qbitai-7402497a23",
+      "source": "qbitai",
+      "category": "open",
+      "format": "开源生态",
+      "evidence": "官方一手",
+      "priority": 3,
+      "featured": true,
+      "publishedAt": "2026-04-24",
+      "slots": [
+        "morning",
+        "noon",
+        "evening"
+      ],
+      "titleZh": "PPIO首批上线DeepSeek-V4预览版，1M超长上下文能力开箱即用",
+      "titleEn": "PPIO首批上线DeepSeek-V4预览版，1M超长上下文能力开箱即用",
+      "summary": "量子位 更新：开源SOTA大模型能力一键直达",
+      "whyMatters": "量子位 官方发布，直接反映当前 AI 产品方向，影响日常工具使用体验。",
+      "takeaways": [
+        "开源模型的核心优势：可以本地运行，数据不离开你的设备，适合隐私要求高的场景。",
+        "开源和商业 AI 的差距在今年快速缩小，某些任务上开源已经够用甚至更好。",
+        "对普通用户来说，关注以开源模型为底层的封装产品，会比直接用原始模型更方便。"
+      ],
+      "tags": [
+        "AI新闻",
+        "模型",
+        "产品",
+        "创业",
+        "前沿",
+        "资讯",
+        "DeepSeek V4",
+        "PPIO"
+      ],
+      "sourceUrl": "https://www.qbitai.com/2026/04/406760.html",
+      "creator": {
+        "duration": "60 秒",
+        "oneLiner": "开源 AI 生态有新进展，可自由部署，开发者和进阶用户值得关注。",
+        "hook": "开源 AI 和商业 AI 的差距，正在快速缩小——这次缩到了这里。",
+        "angle": "这是 量子位 官方发布的动态，会直接反映在你正在使用的 AI 产品里。",
+        "coverTitle": "量子位 · 开源进展",
+        "coverSubtitle": "官方第一手",
+        "commentPrompt": "你用开源还是商业 AI 工具？告诉我你的选择。",
+        "cta": "关注我，每天帮你筛出真正值得关注的 AI 动态。"
+      }
+    },
+    {
+      "id": "qbitai-e5b44c3929",
+      "source": "qbitai",
+      "category": "model",
+      "format": "模型更新",
+      "evidence": "官方一手",
+      "priority": 3,
+      "featured": true,
+      "publishedAt": "2026-04-24",
+      "slots": [
+        "morning",
+        "noon",
+        "evening"
+      ],
+      "titleZh": "真有人做AI小猫啊？！生产力和情绪价值都拉满了",
+      "titleEn": "真有人做AI小猫啊？！生产力和情绪价值都拉满了",
+      "summary": "量子位 更新：做PPT、写报告、做攻略，全包圆了",
+      "whyMatters": "量子位 官方发布，直接反映当前 AI 产品方向，影响日常工具使用体验。",
+      "takeaways": [
+        "模型升级会传导到下游产品，你在用的 AI 工具通常1-2周内就会接入新能力。",
+        "关键看三个提升点：推理更准 / 速度更快 / 输出更长——哪条对你的场景更重要。",
+        "不用急着切换，等产品层接入后看实际表现，再决定要不要调整工作流。"
+      ],
+      "tags": [
+        "AI新闻",
+        "模型",
+        "产品",
+        "创业",
+        "前沿",
+        "资讯",
+        "首页轮播",
+        "AI"
+      ],
+      "sourceUrl": "https://www.qbitai.com/2026/04/406560.html",
+      "creator": {
+        "duration": "60 秒",
+        "oneLiner": "做PPT、写报告、做攻略，全包圆了",
+        "hook": "真有人做小猫啊生产力和情绪价值都——这条 AI 消息，和你直接有关。",
+        "angle": "这是 量子位 官方发布的动态，会直接反映在你正在使用的 AI 产品里。",
+        "coverTitle": "真有人做AI小猫啊？！生产力和情绪价值都拉满了",
+        "coverSubtitle": "官方第一手",
+        "commentPrompt": "你觉得这次升级值不值得关注？A值 B不值。",
+        "cta": "关注我，每天帮你筛出真正值得关注的 AI 动态。"
+      }
+    },
+    {
+      "id": "qbitai-32627deef8",
+      "source": "qbitai",
+      "category": "product",
+      "format": "产品发布",
+      "evidence": "官方一手",
+      "priority": 3,
+      "featured": true,
+      "publishedAt": "2026-04-24",
+      "slots": [
+        "morning",
+        "noon",
+        "evening"
+      ],
+      "titleZh": "Coordination Engineering关键一环，JiuwenClaw再发布Team Skills技能新范式",
+      "titleEn": "Coordination Engineering关键一环，JiuwenClaw再发布Team Skills技能新范式",
+      "summary": "量子位 更新：业界首个面向多Agent协作的标准化能力包规范",
+      "whyMatters": "量子位 官方发布，直接反映当前 AI 产品方向，影响日常工具使用体验。",
+      "takeaways": [
+        "功能更新通常先出现在网页版或API，App端会稍后跟进，留意你习惯的入口。",
+        "上手成本低，不需要技术背景，建议结合你最高频的工作场景直接实测。",
+        "判断新功能值不值得用：看它能不能替换你现在某个重复性的操作。"
+      ],
+      "tags": [
+        "AI新闻",
+        "模型",
+        "产品",
+        "创业",
+        "前沿",
+        "资讯",
+        "JiuwenClaw",
+        "openJiuwen社区"
+      ],
+      "sourceUrl": "https://www.qbitai.com/2026/04/406393.html",
+      "creator": {
+        "duration": "60 秒",
+        "oneLiner": "一个 AI 产品发布了新功能，核心变化直接影响现有用户的使用体验。",
+        "hook": "这个功能刚上线，可能你还不知道它能做什么。",
+        "angle": "这是 量子位 官方发布的动态，会直接反映在你正在使用的 AI 产品里。",
+        "coverTitle": "量子位 · 产品发布",
+        "coverSubtitle": "官方第一手",
+        "commentPrompt": "这个功能你会用还是不用？评论区选边站。",
+        "cta": "关注我，每天帮你筛出真正值得关注的 AI 动态。"
+      }
+    },
+    {
+      "id": "qbitai-bc04b36580",
+      "source": "qbitai",
+      "category": "open",
+      "format": "开源生态",
+      "evidence": "官方一手",
+      "priority": 3,
+      "featured": true,
+      "publishedAt": "2026-04-24",
+      "slots": [
+        "morning",
+        "noon",
+        "evening"
+      ],
+      "titleZh": "DeepSeek V4终于发布！打破最强闭源垄断，明确携手华为芯片",
+      "titleEn": "DeepSeek V4终于发布！打破最强闭源垄断，明确携手华为芯片",
+      "summary": "量子位 更新：在Agent能力、世界知识和推理性能上均实现国内与开源领域的领先。",
+      "whyMatters": "量子位 官方发布，直接反映当前 AI 产品方向，影响日常工具使用体验。",
+      "takeaways": [
+        "开源模型的核心优势：可以本地运行，数据不离开你的设备，适合隐私要求高的场景。",
+        "开源和商业 AI 的差距在今年快速缩小，某些任务上开源已经够用甚至更好。",
+        "对普通用户来说，关注以开源模型为底层的封装产品，会比直接用原始模型更方便。"
+      ],
+      "tags": [
+        "AI新闻",
+        "模型",
+        "产品",
+        "创业",
+        "前沿",
+        "资讯",
+        "首页轮播",
+        "DeepSeek V4"
+      ],
+      "sourceUrl": "https://www.qbitai.com/2026/04/406359.html",
+      "creator": {
+        "duration": "60 秒",
+        "oneLiner": "开源 AI 生态有新进展，可自由部署，开发者和进阶用户值得关注。",
+        "hook": "开源 AI 和商业 AI 的差距，正在快速缩小——这次缩到了这里。",
+        "angle": "这是 量子位 官方发布的动态，会直接反映在你正在使用的 AI 产品里。",
+        "coverTitle": "量子位 · 开源进展",
+        "coverSubtitle": "官方第一手",
+        "commentPrompt": "你用开源还是商业 AI 工具？告诉我你的选择。",
+        "cta": "关注我，每天帮你筛出真正值得关注的 AI 动态。"
+      }
+    },
+    {
+      "id": "qbitai-853162a2bb",
+      "source": "qbitai",
+      "category": "research",
+      "format": "研究发布",
+      "evidence": "官方一手",
+      "priority": 3,
+      "featured": true,
+      "publishedAt": "2026-04-24",
+      "slots": [
+        "morning",
+        "noon",
+        "evening"
+      ],
+      "titleZh": "荣耀WIN游戏本等多款新品正式发布，荣耀PC家族全面爆发",
+      "titleEn": "荣耀WIN游戏本等多款新品正式发布，荣耀PC家族全面爆发",
+      "summary": "量子位 更新：半马冠军荣耀机器人“闪电”惊喜亮相",
+      "whyMatters": "量子位 官方发布，直接反映当前 AI 产品方向，影响日常工具使用体验。",
+      "takeaways": [
+        "研究结论和产品落地之间通常有6-18个月的滞后，现在看到的是方向信号。",
+        "关注这类研究的价值：提前了解 AI 能力还卡在哪些地方、哪些方向已经打通了。",
+        "对普通用户来说，研究成果转化成工具功能才有实际影响，可持续跟进这个领域。"
+      ],
+      "tags": [
+        "AI新闻",
+        "模型",
+        "产品",
+        "创业",
+        "前沿",
+        "资讯",
+        "荣耀WIN游戏本"
+      ],
+      "sourceUrl": "https://www.qbitai.com/2026/04/406402.html",
+      "creator": {
+        "duration": "60 秒",
+        "oneLiner": "半马冠军荣耀机器人“闪电”惊喜亮相",
+        "hook": "荣耀游戏本等多款新品正式发布荣耀——这条 AI 消息，和你直接有关。",
+        "angle": "这是 量子位 官方发布的动态，会直接反映在你正在使用的 AI 产品里。",
+        "coverTitle": "荣耀WIN游戏本等多款新品正式发布，荣耀PC家族全面爆发",
+        "coverSubtitle": "官方第一手",
+        "commentPrompt": "这个研究结论你信吗？评论区聊聊。",
+        "cta": "关注我，每天帮你筛出真正值得关注的 AI 动态。"
+      }
+    },
+    {
+      "id": "36kr-ai-720701bf96",
+      "source": "36kr-ai",
+      "category": "product",
+      "format": "产品发布",
+      "evidence": "官方一手",
+      "priority": 3,
+      "featured": true,
+      "publishedAt": "2026-04-24",
+      "slots": [
+        "morning",
+        "noon",
+        "evening"
+      ],
+      "titleZh": "氪星晚报｜美团万亿级参数大模型开放测试，训练全程由国产算力集群完成；百度联盟正式发布海外App业务；央行等八部门发布金融产品网络营销管理办法",
+      "titleEn": "氪星晚报｜美团万亿级参数大模型开放测试，训练全程由国产算力集群完成；百度联盟正式发布海外App业务；央行等八部门发布金融产品网络营销管理办法",
+      "summary": "36氪AI 更新：大公司： 京东和格力推出空调换新全包服务 36氪获悉，近日，京东与格力正式签署深度合作协议，推出空调换新全包服务，覆盖全国超过300个城市。 据了解，京东与格力已合作多年，在去年双方合作安装空调量达数百万台。 如祺出行与黑芝麻智能达成战略合作 4月24日，出行科技与服务公司如祺出行和车规级智能汽车计算芯片及解决方案供应商黑芝麻智能达成战略合作。根据协...",
+      "whyMatters": "36氪AI 官方发布，直接反映当前 AI 产品方向，影响日常工具使用体验。",
+      "takeaways": [
+        "京东和格力推出空调换新全包服务 36氪获悉，近日，京东与格力正式签署深度合作协议，推出空调换新全包服务，覆盖全国超过300个城市。 据了解，京东与格力已合作多年，在去年双方合作安装……",
+        "上手成本低，不需要技术背景，建议结合你最高频的工作场景直接实测。",
+        "判断新功能值不值得用：看它能不能替换你现在某个重复性的操作。"
+      ],
+      "tags": [
+        "AI创业",
+        "融资",
+        "商业",
+        "产品",
+        "前沿"
+      ],
+      "sourceUrl": "https://36kr.com/p/3777694346548482?f=rss",
+      "creator": {
+        "duration": "60 秒",
+        "oneLiner": "大公司： 京东和格力推出空调换新全包服务 36氪获悉，近日，京东与格力正式签署深度合作协议，推出空调换新全包服……",
+        "hook": "氪星晚报美团万亿级参数大模型开放——这条 AI 消息，和你直接有关。",
+        "angle": "这是 36氪AI 官方发布的动态，会直接反映在你正在使用的 AI 产品里。",
+        "coverTitle": "氪星晚报｜美团万亿级参数大模型开放测试，训练全程由国产算力集群完",
+        "coverSubtitle": "官方第一手",
+        "commentPrompt": "这个功能你会用还是不用？评论区选边站。",
+        "cta": "关注我，每天帮你筛出真正值得关注的 AI 动态。"
+      }
+    },
+    {
+      "id": "36kr-ai-4c2ad7f580",
+      "source": "36kr-ai",
+      "category": "product",
+      "format": "产品发布",
+      "evidence": "官方一手",
+      "priority": 3,
+      "featured": true,
+      "publishedAt": "2026-04-24",
+      "slots": [
+        "morning",
+        "noon",
+        "evening"
+      ],
+      "titleZh": "科氪|高配不溢价，20万内首选！国民好车2.0深蓝L06增程版折后价低至127155元起",
+      "titleEn": "科氪|高配不溢价，20万内首选！国民好车2.0深蓝L06增程版折后价低至127155元起",
+      "summary": "36氪AI 更新：4月23日，京东汽车与深蓝汽车联合推出的国民好车2.0车型——深蓝L06增程版正式公布售价，开启大定。京东汽车宣布京东PLUS会员购车可享95折，深蓝L06增程版叠加会员折扣后价格低至127155元起。这也是汽车行业首次开创平台会员直接享受整车价格折扣的新模式，标志着“电商+车企”合作模式迈向了新阶段，平台会员价值也从日常消费延伸到了涵盖购车、用车等...",
+      "whyMatters": "36氪AI 官方发布，直接反映当前 AI 产品方向，影响日常工具使用体验。",
+      "takeaways": [
+        "4月23日，京东汽车与深蓝汽车联合推出的国民好车2.0车型——深蓝L06增程版正式公布售价，开启大定。京东汽车宣布京东PLUS会员购车可享95折，深蓝L06增程版叠加会员折扣后价格……",
+        "上手成本低，不需要技术背景，建议结合你最高频的工作场景直接实测。",
+        "判断新功能值不值得用：看它能不能替换你现在某个重复性的操作。"
+      ],
+      "tags": [
+        "AI创业",
+        "融资",
+        "商业",
+        "产品",
+        "前沿"
+      ],
+      "sourceUrl": "https://36kr.com/p/3780654186535941?f=rss",
+      "creator": {
+        "duration": "60 秒",
+        "oneLiner": "4月23日，京东汽车与深蓝汽车联合推出的国民好车2.0车型——深蓝L06增程版正式公布售价，开启大定。京东汽车……",
+        "hook": "科氪高配不溢价万内首选国民好车深——这条 AI 消息，和你直接有关。",
+        "angle": "这是 36氪AI 官方发布的动态，会直接反映在你正在使用的 AI 产品里。",
+        "coverTitle": "科氪|高配不溢价，20万内首选！国民好车2.0深蓝L06增程版折",
+        "coverSubtitle": "官方第一手",
+        "commentPrompt": "这个功能你会用还是不用？评论区选边站。",
+        "cta": "关注我，每天帮你筛出真正值得关注的 AI 动态。"
+      }
+    },
+    {
+      "id": "36kr-ai-84e977d7b7",
+      "source": "36kr-ai",
+      "category": "security",
+      "format": "安全治理",
+      "evidence": "官方一手",
+      "priority": 3,
+      "featured": true,
+      "publishedAt": "2026-04-24",
+      "slots": [
+        "morning",
+        "noon",
+        "evening"
+      ],
+      "titleZh": "最前线｜AI收入破亿后的路径选择：微盟推行AI First战略与B端交付的挑战",
+      "titleEn": "最前线｜AI收入破亿后的路径选择：微盟推行AI First战略与B端交付的挑战",
+      "summary": "36氪AI 更新：文｜张子怡 编辑｜袁斯来 在SaaS行业普遍面临增长瓶颈、寻求数智化转型的背景下，微盟于2026年4月22日在上海总部举办了城市峰会，正式对外呈现其“AI First”战略全景。 根据微盟2025年财报披露，其AI相关业务收入已首次突破亿元大关，且2025年下半年的环比增长率达到130%。在此财务数据基础上，微盟试图通过战略升维，将AI从原有的产品辅...",
+      "whyMatters": "36氪AI 官方发布，直接反映当前 AI 产品方向，影响日常工具使用体验。",
+      "takeaways": [
+        "文｜张子怡 编辑｜袁斯来 在SaaS行业普遍面临增长瓶颈、寻求数智化转型的背景下，微盟于2026年4月22日在上海总部举办了城市峰会，正式对外呈现其“AI First”战略全景。 ……",
+        "企业用户风险高于个人，公司内部敏感数据要用支持私有化部署的方案处理。",
+        "遇到 AI 工具要求过多权限或存储对话记录的，先查清数据政策再决定是否使用。"
+      ],
+      "tags": [
+        "AI创业",
+        "融资",
+        "商业",
+        "产品",
+        "前沿"
+      ],
+      "sourceUrl": "https://36kr.com/p/3780556402531330?f=rss",
+      "creator": {
+        "duration": "60 秒",
+        "oneLiner": "一条 AI 安全动态，涉及数据权限或使用风险，普通用户需要了解。",
+        "hook": "用 AI 的时候，有一件事你最好现在就知道。",
+        "angle": "这是 36氪AI 官方发布的动态，会直接反映在你正在使用的 AI 产品里。",
+        "coverTitle": "36氪AI · 安全动态",
+        "coverSubtitle": "官方第一手",
+        "commentPrompt": "你平时在 AI 工具里输入过真实个人信息吗？A有 B没有。",
+        "cta": "关注我，每天帮你筛出真正值得关注的 AI 动态。"
+      }
+    },
+    {
+      "id": "36kr-ai-93da234d79",
+      "source": "36kr-ai",
+      "category": "open",
+      "format": "开源生态",
+      "evidence": "官方一手",
+      "priority": 3,
+      "featured": true,
+      "publishedAt": "2026-04-24",
+      "slots": [
+        "morning",
+        "noon",
+        "evening"
+      ],
+      "titleZh": "DeepSeek V4终于发布，但它留下的5道主观题还没有答案",
+      "titleEn": "DeepSeek V4终于发布，但它留下的5道主观题还没有答案",
+      "summary": "36氪AI 更新：文｜周鑫雨 资料整理｜钟楚笛 编辑｜苏建勋 杨轩 靴子终于落地。 被调侃“Next Week”近3个月的DeepSeek V4，终于显露真身。 1.6T的最大参数量、1M的上下文窗口、针对Agent的性能优化，以及基于MoE（混合专家模型）和稀疏注意力机制DSA，降低计算和显存需求——这些曾被外界纷纷猜测的参数和性能，随着V4的官宣，一锤定音。 De...",
+      "whyMatters": "36氪AI 官方发布，直接反映当前 AI 产品方向，影响日常工具使用体验。",
+      "takeaways": [
+        "文｜周鑫雨 资料整理｜钟楚笛 编辑｜苏建勋 杨轩 靴子终于落地。 被调侃“Next Week”近3个月的DeepSeek V4，终于显露真身。 1.6T的最大参数量、1M的上下文窗……",
+        "开源和商业 AI 的差距在今年快速缩小，某些任务上开源已经够用甚至更好。",
+        "对普通用户来说，关注以开源模型为底层的封装产品，会比直接用原始模型更方便。"
+      ],
+      "tags": [
+        "AI创业",
+        "融资",
+        "商业",
+        "产品",
+        "前沿"
+      ],
+      "sourceUrl": "https://36kr.com/p/3780375304312072?f=rss",
+      "creator": {
+        "duration": "60 秒",
+        "oneLiner": "开源 AI 生态有新进展，可自由部署，开发者和进阶用户值得关注。",
+        "hook": "开源 AI 和商业 AI 的差距，正在快速缩小——这次缩到了这里。",
+        "angle": "这是 36氪AI 官方发布的动态，会直接反映在你正在使用的 AI 产品里。",
+        "coverTitle": "36氪AI · 开源进展",
+        "coverSubtitle": "官方第一手",
+        "commentPrompt": "你用开源还是商业 AI 工具？告诉我你的选择。",
+        "cta": "关注我，每天帮你筛出真正值得关注的 AI 动态。"
+      }
+    },
+    {
+      "id": "36kr-ai-6eddbdf697",
+      "source": "36kr-ai",
+      "category": "product",
+      "format": "产品发布",
+      "evidence": "官方一手",
+      "priority": 3,
+      "featured": true,
+      "publishedAt": "2026-04-24",
+      "slots": [
+        "morning",
+        "noon",
+        "evening"
+      ],
+      "titleZh": "融了2000万美金，这家2000万美金ARR的AI公司，推出“视频版Photoshop”「Buzzy」",
+      "titleEn": "融了2000万美金，这家2000万美金ARR的AI公司，推出“视频版Photoshop”「Buzzy」",
+      "summary": "36氪AI 更新：文｜周鑫雨 编辑｜杨轩 一句话介绍 Buzzy（https://www.buzzy.now/）是AI内容创作公司“感知阶跃”旗下的视频编辑Agent平台，主要面向C端内容创作者和中小型商家。 好比“视频版的PhotoShop”，用户只需下达自然语言指令，就能驱动Agent对视频进行背景去除、光线修正、产品替换、背景/视角更改等编辑操作。 团队介绍 “...",
+      "whyMatters": "36氪AI 官方发布，直接反映当前 AI 产品方向，影响日常工具使用体验。",
+      "takeaways": [
+        "功能更新通常先出现在网页版或API，App端会稍后跟进，留意你习惯的入口。",
+        "上手成本低，不需要技术背景，建议结合你最高频的工作场景直接实测。",
+        "判断新功能值不值得用：看它能不能替换你现在某个重复性的操作。"
+      ],
+      "tags": [
+        "AI创业",
+        "融资",
+        "商业",
+        "产品",
+        "前沿"
+      ],
+      "sourceUrl": "https://36kr.com/p/3780352721851397?f=rss",
+      "creator": {
+        "duration": "60 秒",
+        "oneLiner": "一个 AI 产品发布了新功能，核心变化直接影响现有用户的使用体验。",
+        "hook": "这个功能刚上线，可能你还不知道它能做什么。",
+        "angle": "这是 36氪AI 官方发布的动态，会直接反映在你正在使用的 AI 产品里。",
+        "coverTitle": "36氪AI · 产品发布",
+        "coverSubtitle": "官方第一手",
+        "commentPrompt": "这个功能你会用还是不用？评论区选边站。",
+        "cta": "关注我，每天帮你筛出真正值得关注的 AI 动态。"
+      }
+    },
+    {
+      "id": "36kr-ai-e62d8be7bf",
+      "source": "36kr-ai",
+      "category": "product",
+      "format": "产品发布",
+      "evidence": "官方一手",
+      "priority": 3,
+      "featured": true,
+      "publishedAt": "2026-04-24",
+      "slots": [
+        "morning",
+        "noon",
+        "evening"
+      ],
+      "titleZh": "茅台向经销商「要利润」",
+      "titleEn": "茅台向经销商「要利润」",
+      "summary": "36氪AI 更新：作者 | &nbsp;谢芸子 编辑 |&nbsp; 张帆&nbsp; 蹲守在A股市场的投资人们可能被“吓了一跳”。 4月16日晚间，贵州茅台发布了2025年财报数据，营收达到1720.54亿元，同比下降1.2%；归母净利润为823.2亿元，同比下降4.53%。这是茅台自2001年上市以来的首次“双降”，至此终结了此前二十余年持续的正增长纪录。 受此影...",
+      "whyMatters": "36氪AI 官方发布，直接反映当前 AI 产品方向，影响日常工具使用体验。",
+      "takeaways": [
+        "作者 | &nbsp;谢芸子 编辑 |&nbsp; 张帆&nbsp; 蹲守在A股市场的投资人们可能被“吓了一跳”。 4月16日晚间，贵州茅台发布了2025年财报数据，营收达到172……",
+        "上手成本低，不需要技术背景，建议结合你最高频的工作场景直接实测。",
+        "判断新功能值不值得用：看它能不能替换你现在某个重复性的操作。"
+      ],
+      "tags": [
+        "AI创业",
+        "融资",
+        "商业",
+        "产品",
+        "前沿"
+      ],
+      "sourceUrl": "https://36kr.com/p/3780191213229314?f=rss",
+      "creator": {
+        "duration": "60 秒",
+        "oneLiner": "作者 | &nbsp;谢芸子 编辑 |&nbsp; 张帆&nbsp; 蹲守在A股市场的投资人们可能被“吓了一跳……",
+        "hook": "茅台向经销商要利润——这条 AI 消息，和你直接有关。",
+        "angle": "这是 36氪AI 官方发布的动态，会直接反映在你正在使用的 AI 产品里。",
+        "coverTitle": "茅台向经销商「要利润」",
+        "coverSubtitle": "官方第一手",
+        "commentPrompt": "这个功能你会用还是不用？评论区选边站。",
+        "cta": "关注我，每天帮你筛出真正值得关注的 AI 动态。"
+      }
+    },
+    {
+      "id": "36kr-ai-e16b8d8e3a",
+      "source": "36kr-ai",
+      "category": "research",
+      "format": "研究发布",
+      "evidence": "官方一手",
+      "priority": 3,
+      "featured": true,
+      "publishedAt": "2026-04-24",
+      "slots": [
+        "morning",
+        "noon",
+        "evening"
+      ],
+      "titleZh": "用“活人感”做科技社区，小红书能成吗？",
+      "titleEn": "用“活人感”做科技社区，小红书能成吗？",
+      "summary": "36氪AI 更新：文 | 钟艺璇 编辑 | 乔芊 没人能脱离AI这个浪潮，社区APP也不例外。 只是对比豆包、千问——它们背后往往站着有能力制造C端入口的大公司，社区似乎天然有短板，从过去的路径看，它似乎只能做到在内容上与科技无限靠近，成为一个极客范儿的存在，但终究面临垂类用户增长见顶的事实。 如果是一个综合类社区呢？在过去的垂类运营中，大规模引入KOL、KOC是迅速...",
+      "whyMatters": "36氪AI 官方发布，直接反映当前 AI 产品方向，影响日常工具使用体验。",
+      "takeaways": [
+        "文 | 钟艺璇 编辑 | 乔芊 没人能脱离AI这个浪潮，社区APP也不例外。 只是对比豆包、千问——它们背后往往站着有能力制造C端入口的大公司，社区似乎天然有短板，从过去的路径看，……",
+        "关注这类研究的价值：提前了解 AI 能力还卡在哪些地方、哪些方向已经打通了。",
+        "对普通用户来说，研究成果转化成工具功能才有实际影响，可持续跟进这个领域。"
+      ],
+      "tags": [
+        "AI创业",
+        "融资",
+        "商业",
+        "产品",
+        "前沿"
+      ],
+      "sourceUrl": "https://36kr.com/p/3778772970444033?f=rss",
+      "creator": {
+        "duration": "60 秒",
+        "oneLiner": "文 | 钟艺璇 编辑 | 乔芊 没人能脱离AI这个浪潮，社区APP也不例外。 只是对比豆包、千问——它们背后往……",
+        "hook": "用活人感做科技社区小红书能成吗——这条 AI 消息，和你直接有关。",
+        "angle": "这是 36氪AI 官方发布的动态，会直接反映在你正在使用的 AI 产品里。",
+        "coverTitle": "用“活人感”做科技社区，小红书能成吗？",
+        "coverSubtitle": "官方第一手",
+        "commentPrompt": "这个研究结论你信吗？评论区聊聊。",
+        "cta": "关注我，每天帮你筛出真正值得关注的 AI 动态。"
+      }
+    },
+    {
+      "id": "36kr-ai-eb55c64ccf",
+      "source": "36kr-ai",
+      "category": "product",
+      "format": "产品发布",
+      "evidence": "官方一手",
+      "priority": 3,
+      "featured": true,
+      "publishedAt": "2026-04-24",
+      "slots": [
+        "morning",
+        "noon",
+        "evening"
+      ],
+      "titleZh": "博裕、经纬、顺为等投资前新石器COO超亿元，押注AI超便携电子纸｜硬氪独家",
+      "titleEn": "博裕、经纬、顺为等投资前新石器COO超亿元，押注AI超便携电子纸｜硬氪独家",
+      "summary": "36氪AI 更新：作者｜黄楠 编辑｜袁斯来 当智能手机陷入性能过剩、AI功能同质化内卷，用户注意力被无限拆解与争夺时，一个被长期忽视的角落正悄然打开新赛道——手机背面的闲置空间。 硬氪独家获悉，AI超便携电子纸品牌阅星曈近日完成天使轮至A轮融资，累计五轮金额超亿元人民币，投资方包括博裕创投、清流资本、希扬资本、小红书、经纬创投、顺为资本，多数股东持续追加。资金将用于完...",
+      "whyMatters": "36氪AI 官方发布，直接反映当前 AI 产品方向，影响日常工具使用体验。",
+      "takeaways": [
+        "作者｜黄楠 编辑｜袁斯来 当智能手机陷入性能过剩、AI功能同质化内卷，用户注意力被无限拆解与争夺时，一个被长期忽视的角落正悄然打开新赛道——手机背面的闲置空间。 硬氪独家获悉，AI……",
+        "上手成本低，不需要技术背景，建议结合你最高频的工作场景直接实测。",
+        "判断新功能值不值得用：看它能不能替换你现在某个重复性的操作。"
+      ],
+      "tags": [
+        "AI创业",
+        "融资",
+        "商业",
+        "产品",
+        "前沿"
+      ],
+      "sourceUrl": "https://36kr.com/p/3778175428777218?f=rss",
+      "creator": {
+        "duration": "60 秒",
+        "oneLiner": "作者｜黄楠 编辑｜袁斯来 当智能手机陷入性能过剩、AI功能同质化内卷，用户注意力被无限拆解与争夺时，一个被长期……",
+        "hook": "博裕经纬顺为等投资前新石器超亿元——这条 AI 消息，和你直接有关。",
+        "angle": "这是 36氪AI 官方发布的动态，会直接反映在你正在使用的 AI 产品里。",
+        "coverTitle": "博裕、经纬、顺为等投资前新石器COO超亿元，押注AI超便携电子纸",
+        "coverSubtitle": "官方第一手",
+        "commentPrompt": "这个功能你会用还是不用？评论区选边站。",
+        "cta": "关注我，每天帮你筛出真正值得关注的 AI 动态。"
+      }
+    },
+    {
+      "id": "36kr-ai-3a40ef3e77",
+      "source": "36kr-ai",
+      "category": "security",
+      "format": "安全治理",
+      "evidence": "官方一手",
+      "priority": 3,
+      "featured": true,
+      "publishedAt": "2026-04-24",
+      "slots": [
+        "morning",
+        "noon",
+        "evening"
+      ],
+      "titleZh": "8点1氪丨华谊兄弟被申请破产重整；普华永道因恒大审计赔偿10亿港元；伊朗将恢复往返中国的航班",
+      "titleEn": "8点1氪丨华谊兄弟被申请破产重整；普华永道因恒大审计赔偿10亿港元；伊朗将恢复往返中国的航班",
+      "summary": "36氪AI 更新：今日热点导览 抖音整治AI不当内容，重点处置利用AI技术换脸、盗声 受燃油价格冲击，德国汉莎拟削减2万架次航班 刹车功能或丧失，大众在美召回18853辆汽车 光线传媒：公司第一款3A游戏开发进展比较顺利 TOP3大新闻 华谊兄弟被申请破产重整 近日，华谊兄弟（300027）新增一则破产审查案件信息，申请人为北京泰睿飞克科技有限公司，经办法院为浙江省金...",
+      "whyMatters": "36氪AI 官方发布，直接反映当前 AI 产品方向，影响日常工具使用体验。",
+      "takeaways": [
+        "公司第一款3A游戏开发进展比较顺利 TOP3大新闻 华谊兄弟被申请破产重整 近日，华谊兄弟（300027）新增一则破产审查案件信息，申请人为北京泰睿飞克科技有限公司，经办法院为浙江……",
+        "企业用户风险高于个人，公司内部敏感数据要用支持私有化部署的方案处理。",
+        "遇到 AI 工具要求过多权限或存储对话记录的，先查清数据政策再决定是否使用。"
+      ],
+      "tags": [
+        "AI创业",
+        "融资",
+        "商业",
+        "产品",
+        "前沿"
+      ],
+      "sourceUrl": "https://36kr.com/p/3780065714148610?f=rss",
+      "creator": {
+        "duration": "60 秒",
+        "oneLiner": "今日热点导览 抖音整治AI不当内容，重点处置利用AI技术换脸、盗声 受燃油价格冲击，德国汉莎拟削减2万架次航班……",
+        "hook": "点氪丨华谊兄弟被申请破产重整普华——这条 AI 消息，和你直接有关。",
+        "angle": "这是 36氪AI 官方发布的动态，会直接反映在你正在使用的 AI 产品里。",
+        "coverTitle": "8点1氪丨华谊兄弟被申请破产重整；普华永道因恒大审计赔偿10亿港",
+        "coverSubtitle": "官方第一手",
+        "commentPrompt": "你平时在 AI 工具里输入过真实个人信息吗？A有 B没有。",
+        "cta": "关注我，每天帮你筛出真正值得关注的 AI 动态。"
+      }
+    },
+    {
+      "id": "36kr-ai-5dd7338f76",
+      "source": "36kr-ai",
+      "category": "research",
+      "format": "研究发布",
+      "evidence": "官方一手",
+      "priority": 3,
+      "featured": true,
+      "publishedAt": "2026-04-24",
+      "slots": [
+        "morning",
+        "noon",
+        "evening"
+      ],
+      "titleZh": "打造生物智能基础设施，AI4S企业「奥明星程」获超亿元A轮融资｜36氪首发",
+      "titleEn": "打造生物智能基础设施，AI4S企业「奥明星程」获超亿元A轮融资｜36氪首发",
+      "summary": "36氪AI 更新：36氪获悉，AI for Science公司「奥明星程」近日完成超亿元A轮战略融资。本轮投资方包括深创投、复星医药（复健资本）、太平股权、广东中医药大健康基金、杭实集团等多家头部投资机构、产业链龙头企业及多地国资。同时，公司也与包括深圳湾实验室在内的多家国际顶尖科研机构建立了深度成果转化合作机制，形成覆盖技术研发、临床应用及产业生态赋能的全链条布局。...",
+      "whyMatters": "36氪AI 官方发布，直接反映当前 AI 产品方向，影响日常工具使用体验。",
+      "takeaways": [
+        "研究结论和产品落地之间通常有6-18个月的滞后，现在看到的是方向信号。",
+        "关注这类研究的价值：提前了解 AI 能力还卡在哪些地方、哪些方向已经打通了。",
+        "对普通用户来说，研究成果转化成工具功能才有实际影响，可持续跟进这个领域。"
+      ],
+      "tags": [
+        "AI创业",
+        "融资",
+        "商业",
+        "产品",
+        "前沿"
+      ],
+      "sourceUrl": "https://36kr.com/p/3778831119897600?f=rss",
+      "creator": {
+        "duration": "60 秒",
+        "oneLiner": "36氪获悉，AI for Science公司「奥明星程」近日完成超亿元A轮战略融资。本轮投资方包括深创投、复星……",
+        "hook": "打造生物智能基础设施企业奥明星程——这条 AI 消息，和你直接有关。",
+        "angle": "这是 36氪AI 官方发布的动态，会直接反映在你正在使用的 AI 产品里。",
+        "coverTitle": "打造生物智能基础设施，AI4S企业「奥明星程」获超亿元A轮融资｜",
+        "coverSubtitle": "官方第一手",
+        "commentPrompt": "这个研究结论你信吗？评论区聊聊。",
+        "cta": "关注我，每天帮你筛出真正值得关注的 AI 动态。"
+      }
+    },
+    {
+      "id": "sspai-7ad9fe9d59",
+      "source": "sspai",
+      "category": "product",
+      "format": "个人解读",
+      "evidence": "个人解读",
+      "priority": 3,
+      "featured": true,
+      "publishedAt": "2026-04-24",
+      "slots": [
+        "morning",
+        "noon",
+        "evening"
+      ],
+      "titleZh": "派早报：OpenAI 发布 GPT-5.5 系列模型等",
+      "titleEn": "派早报：OpenAI 发布 GPT-5.5 系列模型等",
+      "summary": "少数派 更新：汉王发布 Clear7C 彩色墨水屏电纸书、文石发布 Leaf5+ 黑白墨水屏电纸书等。 查看全文",
+      "whyMatters": "少数派 基于实测或研究分享了这条判断，对普通用户了解 AI 工具现状有直接参考价值。",
+      "takeaways": [
+        "功能更新通常先出现在网页版或API，App端会稍后跟进，留意你习惯的入口。",
+        "上手成本低，不需要技术背景，建议结合你最高频的工作场景直接实测。",
+        "判断新功能值不值得用：看它能不能替换你现在某个重复性的操作。"
+      ],
+      "tags": [
+        "AI工具",
+        "效率",
+        "应用",
+        "实测",
+        "教程"
+      ],
+      "sourceUrl": "https://sspai.com/post/109032",
+      "creator": {
+        "duration": "60 秒",
+        "oneLiner": "一个 AI 产品发布了新功能，核心变化直接影响现有用户的使用体验。",
+        "hook": "这个功能刚上线，可能你还不知道它能做什么。",
+        "angle": "这位博主长期追踪 AI 工具实际表现，这条判断对你评估工具是否值得用有直接参考价值。",
+        "coverTitle": "少数派 · 产品发布",
+        "coverSubtitle": "博主深度解读",
+        "commentPrompt": "这个功能你会用还是不用？评论区选边站。",
+        "cta": "关注我，每天帮你筛出真正值得关注的 AI 动态。"
+      }
+    },
+    {
+      "id": "ithome-fef60ce32f",
+      "source": "ithome",
       "category": "open",
       "format": "个人解读",
       "evidence": "个人解读",
@@ -214,36 +1195,37 @@
         "noon",
         "evening"
       ],
-      "titleZh": "Simon Willison: DeepSeek V4 - almost on the frontier, a fraction of the price",
-      "titleEn": "DeepSeek V4 - almost on the frontier, a fraction of the price",
-      "summary": "Simon Willison 更新：Chinese AI lab DeepSeek's last model release was V3.2 (and V3.2 Speciale) last December . They just dropped the first of their hotly anticipated V4 series in the shape of two p...",
-      "whyMatters": "Simon Willison 基于实测或研究分享了这条判断，对普通用户了解 AI 工具现状有直接参考价值。",
+      "titleZh": "美团万亿级大模型 LongCat-2.0-Preview 开放测试，全程基于国产算力集群训练",
+      "titleEn": "美团万亿级大模型 LongCat-2.0-Preview 开放测试，全程基于国产算力集群训练",
+      "summary": "IT之家 更新：IT之家 4 月 24 日消息，据《科创板日报》今日报道，美团新一代基础大模型 LongCat-2.0-Preview 已经开放邀请测试，该模型总参数规模突破万亿，量级跻身全球顶尖大模型行列。 这款尚未公布正式命名的大模型参数量级达到万亿级别，采用了混合专家（MoE）的先进架构，整体能力被业内人士认为对标 GPT-4。此外，有知情人士称该模型完全基于...",
+      "whyMatters": "IT之家 基于实测或研究分享了这条判断，对普通用户了解 AI 工具现状有直接参考价值。",
       "takeaways": [
-        "发布于 2026-04-24，来自 Simon Willison（Blog）。",
-        "Chinese AI lab DeepSeek's last model release was V3.2 (and V3.2 Speciale) last December . They just dropped the first of",
-        "点击原文可查看完整内容，结合自身需求做判断。"
+        "开源模型的核心优势：可以本地运行，数据不离开你的设备，适合隐私要求高的场景。",
+        "开源和商业 AI 的差距在今年快速缩小，某些任务上开源已经够用甚至更好。",
+        "对普通用户来说，关注以开源模型为底层的封装产品，会比直接用原始模型更方便。"
       ],
       "tags": [
-        "LLM",
-        "AI 工具",
-        "开发者",
-        "实测"
+        "AI新闻",
+        "产品",
+        "科技",
+        "前沿",
+        "热点"
       ],
-      "sourceUrl": "https://simonwillison.net/2026/Apr/24/deepseek-v4/#atom-everything",
+      "sourceUrl": "https://www.ithome.com/0/943/312.htm",
       "creator": {
         "duration": "60 秒",
-        "oneLiner": "Chinese AI lab DeepSeek's last model release was V3.2 (and V……",
-        "hook": "DeepSeek V4 - almo——今天这条 AI 消息，和你有关。",
-        "angle": "这位博主长期追踪 AI 工具动态，这条判断对你评估相关工具是否值得关注有直接参考价值。",
-        "coverTitle": "DeepSeek V4 - almost on the fron",
-        "coverSubtitle": "博主深度分析",
-        "commentPrompt": "这条更新你觉得对你的工作或生活有影响吗？",
+        "oneLiner": "开源 AI 生态有新进展，可自由部署，开发者和进阶用户值得关注。",
+        "hook": "开源 AI 和商业 AI 的差距，正在快速缩小——这次缩到了这里。",
+        "angle": "这位博主长期追踪 AI 工具实际表现，这条判断对你评估工具是否值得用有直接参考价值。",
+        "coverTitle": "IT之家 · 开源进展",
+        "coverSubtitle": "博主深度解读",
+        "commentPrompt": "你用开源还是商业 AI 工具？告诉我你的选择。",
         "cta": "关注我，每天帮你筛出真正值得关注的 AI 动态。"
       }
     },
     {
-      "id": "simonwillison-f51e5938d1",
-      "source": "simonwillison",
+      "id": "ithome-c2725cdb3f",
+      "source": "ithome",
       "category": "product",
       "format": "个人解读",
       "evidence": "个人解读",
@@ -255,37 +1237,38 @@
         "noon",
         "evening"
       ],
-      "titleZh": "Simon Willison: An update on recent Claude Code quality reports",
-      "titleEn": "An update on recent Claude Code quality reports",
-      "summary": "Simon Willison 更新：An update on recent Claude Code quality reports It turns out the high volume of complaints that Claude Code was providing worse quality results over the past two months was gro...",
-      "whyMatters": "Simon Willison 基于实测或研究分享了这条判断，对普通用户了解 AI 工具现状有直接参考价值。",
+      "titleZh": "腾讯面向汽车行业发布全场景智能体开放平台，可化身专属 AI 导游、提供选品下单取餐全链路服务等",
+      "titleEn": "腾讯面向汽车行业发布全场景智能体开放平台，可化身专属 AI 导游、提供选品下单取餐全链路服务等",
+      "summary": "IT之家 更新：IT之家 4 月 24 日消息，腾讯昨日举办 2026 TIME DAY· 腾讯智慧出行技术开放日，正式面向汽车行业发布“出行全场景智能体开放平台”。 目前，腾讯已服务超过 100 家车企及出行科技公司，其中超过 50 家使用了腾讯海外云服务。 在应用生态层，腾讯围绕用户通勤、出游、下单、娱乐等高频场景，打造开箱即用的智能体产品，IT之家附部分应用场...",
+      "whyMatters": "IT之家 基于实测或研究分享了这条判断，对普通用户了解 AI 工具现状有直接参考价值。",
       "takeaways": [
-        "发布于 2026-04-24，来自 Simon Willison（Blog）。",
-        "An update on recent Claude Code quality reports It turns out the high volume of complaints that Claude Code was providin",
-        "点击原文可查看完整内容，结合自身需求做判断。"
+        "IT之家 4 月 24 日消息，腾讯昨日举办 2026 TIME DAY· 腾讯智慧出行技术开放日，正式面向汽车行业发布“出行全场景智能体开放平台”。 目前，腾讯已服务超过 100……",
+        "上手成本低，不需要技术背景，建议结合你最高频的工作场景直接实测。",
+        "判断新功能值不值得用：看它能不能替换你现在某个重复性的操作。"
       ],
       "tags": [
-        "LLM",
-        "AI 工具",
-        "开发者",
-        "实测"
+        "AI新闻",
+        "产品",
+        "科技",
+        "前沿",
+        "热点"
       ],
-      "sourceUrl": "https://simonwillison.net/2026/Apr/24/recent-claude-code-quality-reports/#atom-everything",
+      "sourceUrl": "https://www.ithome.com/0/943/214.htm",
       "creator": {
         "duration": "60 秒",
-        "oneLiner": "An update on recent Claude Code quality reports It turns out……",
-        "hook": "An update on recen——今天这条 AI 消息，和你有关。",
-        "angle": "这位博主长期追踪 AI 工具动态，这条判断对你评估相关工具是否值得关注有直接参考价值。",
-        "coverTitle": "An update on recent Claude Code ",
-        "coverSubtitle": "博主深度分析",
-        "commentPrompt": "这条更新你觉得对你的工作或生活有影响吗？",
+        "oneLiner": "IT之家 4 月 24 日消息，腾讯昨日举办 2026 TIME DAY· 腾讯智慧出行技术开放日，正式面向汽……",
+        "hook": "腾讯面向汽车行业发布全场景智能体——这条 AI 消息，和你直接有关。",
+        "angle": "这位博主长期追踪 AI 工具实际表现，这条判断对你评估工具是否值得用有直接参考价值。",
+        "coverTitle": "腾讯面向汽车行业发布全场景智能体开放平台，可化身专属 AI 导游",
+        "coverSubtitle": "博主深度解读",
+        "commentPrompt": "这个功能你会用还是不用？评论区选边站。",
         "cta": "关注我，每天帮你筛出真正值得关注的 AI 动态。"
       }
     },
     {
-      "id": "latentspace-935c80b72a",
-      "source": "latentspace",
-      "category": "product",
+      "id": "ithome-2200727fc3",
+      "source": "ithome",
+      "category": "open",
       "format": "个人解读",
       "evidence": "个人解读",
       "priority": 3,
@@ -296,75 +1279,31 @@
         "noon",
         "evening"
       ],
-      "titleZh": "Latent Space: [AINews] GPT 5.5 and OpenAI Codex Superapp",
-      "titleEn": "[AINews] GPT 5.5 and OpenAI Codex Superapp",
-      "summary": "Latent Space 更新：Spud lives!",
-      "whyMatters": "Latent Space 基于实测或研究分享了这条判断，对普通用户了解 AI 工具现状有直接参考价值。",
+      "titleZh": "华为云首发适配 DeepSeek-V4，提供免部署、一键调用 API 的 Tokens 服务",
+      "titleEn": "华为云首发适配 DeepSeek-V4，提供免部署、一键调用 API 的 Tokens 服务",
+      "summary": "IT之家 更新：IT之家 4 月 24 日消息，备受关注的 DeepSeek-V4 预览版今日正式上线并同步开源。 随后，华为云官方宣布为 DeepSeek-V4 提供首发适配，华为云 MaaS 模型即服务平台已为开发者提供免部署、一键调用 DeepSeek-V4-Flash API 的 Tokens 服务。 在适配过程中，华为云针对 V4 模型的特性，首发适配了模...",
+      "whyMatters": "IT之家 基于实测或研究分享了这条判断，对普通用户了解 AI 工具现状有直接参考价值。",
       "takeaways": [
-        "发布于 2026-04-24，来自 Latent Space（Substack / Podcast）。",
-        "[AINews] GPT 5.5 and OpenAI Codex Superapp",
-        "点击原文可查看完整内容，结合自身需求做判断。"
+        "开源模型的核心优势：可以本地运行，数据不离开你的设备，适合隐私要求高的场景。",
+        "开源和商业 AI 的差距在今年快速缩小，某些任务上开源已经够用甚至更好。",
+        "对普通用户来说，关注以开源模型为底层的封装产品，会比直接用原始模型更方便。"
       ],
       "tags": [
-        "AI 工程",
-        "Agent",
-        "开发者",
-        "播客"
+        "AI新闻",
+        "产品",
+        "科技",
+        "前沿",
+        "热点"
       ],
-      "sourceUrl": "https://www.latent.space/p/ainews-gpt-55-and-openai-codex-superapp",
+      "sourceUrl": "https://www.ithome.com/0/943/186.htm",
       "creator": {
         "duration": "60 秒",
-        "oneLiner": "Latent Space 发布了关于「[AINews] GPT 5.5 and」的最新动态。",
-        "hook": "[AINews] GPT 5.5 a——今天这条 AI 消息，和你有关。",
-        "angle": "这位博主长期追踪 AI 工具动态，这条判断对你评估相关工具是否值得关注有直接参考价值。",
-        "coverTitle": "[AINews] GPT 5.5 and OpenAI Code",
-        "coverSubtitle": "博主深度分析",
-        "commentPrompt": "这条更新你觉得对你的工作或生活有影响吗？",
-        "cta": "关注我，每天帮你筛出真正值得关注的 AI 动态。"
-      }
-    },
-    {
-      "id": "marktechpost-9ca2bb49ab",
-      "source": "marktechpost",
-      "category": "security",
-      "format": "个人解读",
-      "evidence": "个人解读",
-      "priority": 3,
-      "featured": true,
-      "publishedAt": "2026-04-24",
-      "slots": [
-        "morning",
-        "noon",
-        "evening"
-      ],
-      "titleZh": "MarkTechPost: Mend Releases AI Security Governance Framework: Covering Asset Inventory, Risk Tiering, AI Supply Chain Security, and Maturity Model",
-      "titleEn": "Mend Releases AI Security Governance Framework: Covering Asset Inventory, Risk Tiering, AI Supply Chain Security, and Maturity Model",
-      "summary": "MarkTechPost 更新：Mend.io's new framework gives engineering and security teams a practical playbook for governing AI systems before the next incident forces the conversation. The post Mend Relea...",
-      "whyMatters": "MarkTechPost 基于实测或研究分享了这条判断，对普通用户了解 AI 工具现状有直接参考价值。",
-      "takeaways": [
-        "发布于 2026-04-24，来自 MarkTechPost（AI Media）。",
-        "Mend.io's new framework gives engineering and security teams a practical playbook for governing AI systems before the ne",
-        "点击原文可查看完整内容，结合自身需求做判断。"
-      ],
-      "tags": [
-        "AI 新闻",
-        "论文",
-        "模型",
-        "工具",
-        "Agentic AI",
-        "AI Infrastructure",
-        "AI Shorts",
-        "Applications"
-      ],
-      "sourceUrl": "https://www.marktechpost.com/2026/04/23/mend-releases-ai-security-governance-framework/",
-      "creator": {
-        "duration": "60 秒",
-        "oneLiner": "Mend.io's new framework gives engineering and security teams……",
-        "hook": "Covering Asset Inv——今天这条 AI 消息，和你有关。",
-        "angle": "这位博主长期追踪 AI 工具动态，这条判断对你评估相关工具是否值得关注有直接参考价值。",
-        "coverTitle": "Covering Asset Inventory, Risk T",
-        "coverSubtitle": "博主深度分析",
-        "commentPrompt": "这条更新你觉得对你的工作或生活有影响吗？",
+        "oneLiner": "开源 AI 生态有新进展，可自由部署，开发者和进阶用户值得关注。",
+        "hook": "开源 AI 和商业 AI 的差距，正在快速缩小——这次缩到了这里。",
+        "angle": "这位博主长期追踪 AI 工具实际表现，这条判断对你评估工具是否值得用有直接参考价值。",
+        "coverTitle": "IT之家 · 开源进展",
+        "coverSubtitle": "博主深度解读",
+        "commentPrompt": "你用开源还是商业 AI 工具？告诉我你的选择。",
         "cta": "关注我，每天帮你筛出真正值得关注的 AI 动态。"
       }
     },
@@ -382,14 +1321,14 @@
         "noon",
         "evening"
       ],
-      "titleZh": "OpenAI: Introducing GPT-5.5",
+      "titleZh": "Introducing GPT-5.5",
       "titleEn": "Introducing GPT-5.5",
       "summary": "OpenAI 更新：Introducing GPT-5.5, our smartest model yet—faster, more capable, and built for complex tasks like coding, research, and data analysis across tools.",
       "whyMatters": "OpenAI 官方发布，直接反映当前 AI 产品方向，影响日常工具使用体验。",
       "takeaways": [
-        "发布于 2026-04-23，来自 OpenAI（Official Blog）。",
-        "Introducing GPT-5.5, our smartest model yet—faster, more capable, and built for complex tasks like coding, research, and",
-        "点击原文可查看完整内容，结合自身需求做判断。"
+        "研究结论和产品落地之间通常有6-18个月的滞后，现在看到的是方向信号。",
+        "关注这类研究的价值：提前了解 AI 能力还卡在哪些地方、哪些方向已经打通了。",
+        "对普通用户来说，研究成果转化成工具功能才有实际影响，可持续跟进这个领域。"
       ],
       "tags": [
         "OpenAI",
@@ -402,12 +1341,12 @@
       "sourceUrl": "https://openai.com/index/introducing-gpt-5-5",
       "creator": {
         "duration": "60 秒",
-        "oneLiner": "Introducing GPT-5.5, our smartest model yet—faster, more cap……",
-        "hook": "Introducing GPT-5.——今天这条 AI 消息，和你有关。",
-        "angle": "这是来自 OpenAI 的官方更新，直接影响你正在使用的 AI 产品或工具。",
-        "coverTitle": "Introducing GPT-5.5",
-        "coverSubtitle": "官方最新动态",
-        "commentPrompt": "这条更新你觉得对你的工作或生活有影响吗？",
+        "oneLiner": "一项 AI 研究出了新结论，代表技术方向的最新信号，几个月后会反映在产品里。",
+        "hook": "一个研究结论让人意外：AI 在这件事上，比我们预期强得多。",
+        "angle": "这是 OpenAI 官方发布的动态，会直接反映在你正在使用的 AI 产品里。",
+        "coverTitle": "OpenAI · 研究发现",
+        "coverSubtitle": "官方第一手",
+        "commentPrompt": "这个研究结论你信吗？评论区聊聊。",
         "cta": "关注我，每天帮你筛出真正值得关注的 AI 动态。"
       }
     },
@@ -425,14 +1364,14 @@
         "noon",
         "evening"
       ],
-      "titleZh": "OpenAI: GPT-5.5 System Card",
+      "titleZh": "GPT-5.5 System Card",
       "titleEn": "GPT-5.5 System Card",
       "summary": "OpenAI 更新：GPT-5.5 System Card",
       "whyMatters": "OpenAI 官方发布，直接反映当前 AI 产品方向，影响日常工具使用体验。",
       "takeaways": [
-        "发布于 2026-04-23，来自 OpenAI（Official Blog）。",
-        "GPT-5.5 System Card",
-        "点击原文可查看完整内容，结合自身需求做判断。"
+        "AI 安全最直接影响你输入的数据——不要在 AI 工具里输入身份证号、密码、合同原文。",
+        "企业用户风险高于个人，公司内部敏感数据要用支持私有化部署的方案处理。",
+        "遇到 AI 工具要求过多权限或存储对话记录的，先查清数据政策再决定是否使用。"
       ],
       "tags": [
         "OpenAI",
@@ -445,12 +1384,12 @@
       "sourceUrl": "https://openai.com/index/gpt-5-5-system-card",
       "creator": {
         "duration": "60 秒",
-        "oneLiner": "GPT-5.5 System Card",
-        "hook": "GPT-5.5 System Car——今天这条 AI 消息，和你有关。",
-        "angle": "这是来自 OpenAI 的官方更新，直接影响你正在使用的 AI 产品或工具。",
-        "coverTitle": "GPT-5.5 System Card",
-        "coverSubtitle": "官方最新动态",
-        "commentPrompt": "这条更新你觉得对你的工作或生活有影响吗？",
+        "oneLiner": "一条 AI 安全动态，涉及数据权限或使用风险，普通用户需要了解。",
+        "hook": "用 AI 的时候，有一件事你最好现在就知道。",
+        "angle": "这是 OpenAI 官方发布的动态，会直接反映在你正在使用的 AI 产品里。",
+        "coverTitle": "OpenAI · 安全动态",
+        "coverSubtitle": "官方第一手",
+        "commentPrompt": "你平时在 AI 工具里输入过真实个人信息吗？A有 B没有。",
         "cta": "关注我，每天帮你筛出真正值得关注的 AI 动态。"
       }
     },
@@ -468,14 +1407,14 @@
         "noon",
         "evening"
       ],
-      "titleZh": "OpenAI: Automations",
+      "titleZh": "Automations",
       "titleEn": "Automations",
       "summary": "OpenAI 更新：Learn how to automate tasks in Codex using schedules and triggers to create reports, summaries, and recurring workflows without manual effort.",
       "whyMatters": "OpenAI 官方发布，直接反映当前 AI 产品方向，影响日常工具使用体验。",
       "takeaways": [
-        "发布于 2026-04-23，来自 OpenAI（Official Blog）。",
-        "Learn how to automate tasks in Codex using schedules and triggers to create reports, summaries, and recurring workflows ",
-        "点击原文可查看完整内容，结合自身需求做判断。"
+        "功能更新通常先出现在网页版或API，App端会稍后跟进，留意你习惯的入口。",
+        "上手成本低，不需要技术背景，建议结合你最高频的工作场景直接实测。",
+        "判断新功能值不值得用：看它能不能替换你现在某个重复性的操作。"
       ],
       "tags": [
         "OpenAI",
@@ -488,12 +1427,12 @@
       "sourceUrl": "https://openai.com/academy/codex-automations",
       "creator": {
         "duration": "60 秒",
-        "oneLiner": "Learn how to automate tasks in Codex using schedules and tri……",
-        "hook": "Automations——今天这条 AI 消息，和你有关。",
-        "angle": "这是来自 OpenAI 的官方更新，直接影响你正在使用的 AI 产品或工具。",
-        "coverTitle": "Automations",
-        "coverSubtitle": "官方最新动态",
-        "commentPrompt": "这条更新你觉得对你的工作或生活有影响吗？",
+        "oneLiner": "一个 AI 产品发布了新功能，核心变化直接影响现有用户的使用体验。",
+        "hook": "这个功能刚上线，可能你还不知道它能做什么。",
+        "angle": "这是 OpenAI 官方发布的动态，会直接反映在你正在使用的 AI 产品里。",
+        "coverTitle": "OpenAI · 产品发布",
+        "coverSubtitle": "官方第一手",
+        "commentPrompt": "这个功能你会用还是不用？评论区选边站。",
         "cta": "关注我，每天帮你筛出真正值得关注的 AI 动态。"
       }
     },
@@ -511,14 +1450,14 @@
         "noon",
         "evening"
       ],
-      "titleZh": "OpenAI: Top 10 uses for Codex at work",
+      "titleZh": "Top 10 uses for Codex at work",
       "titleEn": "Top 10 uses for Codex at work",
       "summary": "OpenAI 更新：Explore 10 practical Codex use cases to automate tasks, create deliverables, and turn real inputs into outputs across tools, files, and workflows.",
       "whyMatters": "OpenAI 官方发布，直接反映当前 AI 产品方向，影响日常工具使用体验。",
       "takeaways": [
-        "发布于 2026-04-23，来自 OpenAI（Official Blog）。",
-        "Explore 10 practical Codex use cases to automate tasks, create deliverables, and turn real inputs into outputs across to",
-        "点击原文可查看完整内容，结合自身需求做判断。"
+        "功能更新通常先出现在网页版或API，App端会稍后跟进，留意你习惯的入口。",
+        "上手成本低，不需要技术背景，建议结合你最高频的工作场景直接实测。",
+        "判断新功能值不值得用：看它能不能替换你现在某个重复性的操作。"
       ],
       "tags": [
         "OpenAI",
@@ -531,12 +1470,12 @@
       "sourceUrl": "https://openai.com/academy/top-10-use-cases-codex-for-work",
       "creator": {
         "duration": "60 秒",
-        "oneLiner": "Explore 10 practical Codex use cases to automate tasks, crea……",
-        "hook": "Top 10 uses for Co——今天这条 AI 消息，和你有关。",
-        "angle": "这是来自 OpenAI 的官方更新，直接影响你正在使用的 AI 产品或工具。",
-        "coverTitle": "Top 10 uses for Codex at work",
-        "coverSubtitle": "官方最新动态",
-        "commentPrompt": "这条更新你觉得对你的工作或生活有影响吗？",
+        "oneLiner": "一个 AI 产品发布了新功能，核心变化直接影响现有用户的使用体验。",
+        "hook": "这个功能刚上线，可能你还不知道它能做什么。",
+        "angle": "这是 OpenAI 官方发布的动态，会直接反映在你正在使用的 AI 产品里。",
+        "coverTitle": "OpenAI · 产品发布",
+        "coverSubtitle": "官方第一手",
+        "commentPrompt": "这个功能你会用还是不用？评论区选边站。",
         "cta": "关注我，每天帮你筛出真正值得关注的 AI 动态。"
       }
     },
@@ -554,14 +1493,14 @@
         "noon",
         "evening"
       ],
-      "titleZh": "OpenAI: Plugins and skills",
+      "titleZh": "Plugins and skills",
       "titleEn": "Plugins and skills",
       "summary": "OpenAI 更新：Learn how to use Codex plugins and skills to connect tools, access data, and follow repeatable workflows to automate tasks and improve results.",
       "whyMatters": "OpenAI 官方发布，直接反映当前 AI 产品方向，影响日常工具使用体验。",
       "takeaways": [
-        "发布于 2026-04-23，来自 OpenAI（Official Blog）。",
-        "Learn how to use Codex plugins and skills to connect tools, access data, and follow repeatable workflows to automate tas",
-        "点击原文可查看完整内容，结合自身需求做判断。"
+        "功能更新通常先出现在网页版或API，App端会稍后跟进，留意你习惯的入口。",
+        "上手成本低，不需要技术背景，建议结合你最高频的工作场景直接实测。",
+        "判断新功能值不值得用：看它能不能替换你现在某个重复性的操作。"
       ],
       "tags": [
         "OpenAI",
@@ -574,12 +1513,12 @@
       "sourceUrl": "https://openai.com/academy/codex-plugins-and-skills",
       "creator": {
         "duration": "60 秒",
-        "oneLiner": "Learn how to use Codex plugins and skills to connect tools, ……",
-        "hook": "Plugins and skills——今天这条 AI 消息，和你有关。",
-        "angle": "这是来自 OpenAI 的官方更新，直接影响你正在使用的 AI 产品或工具。",
-        "coverTitle": "Plugins and skills",
-        "coverSubtitle": "官方最新动态",
-        "commentPrompt": "这条更新你觉得对你的工作或生活有影响吗？",
+        "oneLiner": "一个 AI 产品发布了新功能，核心变化直接影响现有用户的使用体验。",
+        "hook": "这个功能刚上线，可能你还不知道它能做什么。",
+        "angle": "这是 OpenAI 官方发布的动态，会直接反映在你正在使用的 AI 产品里。",
+        "coverTitle": "OpenAI · 产品发布",
+        "coverSubtitle": "官方第一手",
+        "commentPrompt": "这个功能你会用还是不用？评论区选边站。",
         "cta": "关注我，每天帮你筛出真正值得关注的 AI 动态。"
       }
     },
@@ -597,14 +1536,14 @@
         "noon",
         "evening"
       ],
-      "titleZh": "OpenAI: Working with Codex",
+      "titleZh": "Working with Codex",
       "titleEn": "Working with Codex",
       "summary": "OpenAI 更新：Learn how to set up your Codex workspace, create threads and projects, manage files, and start completing tasks with step-by-step guidance.",
       "whyMatters": "OpenAI 官方发布，直接反映当前 AI 产品方向，影响日常工具使用体验。",
       "takeaways": [
-        "发布于 2026-04-23，来自 OpenAI（Official Blog）。",
-        "Learn how to set up your Codex workspace, create threads and projects, manage files, and start completing tasks with ste",
-        "点击原文可查看完整内容，结合自身需求做判断。"
+        "功能更新通常先出现在网页版或API，App端会稍后跟进，留意你习惯的入口。",
+        "上手成本低，不需要技术背景，建议结合你最高频的工作场景直接实测。",
+        "判断新功能值不值得用：看它能不能替换你现在某个重复性的操作。"
       ],
       "tags": [
         "OpenAI",
@@ -617,12 +1556,12 @@
       "sourceUrl": "https://openai.com/academy/working-with-codex",
       "creator": {
         "duration": "60 秒",
-        "oneLiner": "Learn how to set up your Codex workspace, create threads and……",
-        "hook": "Working with Codex——今天这条 AI 消息，和你有关。",
-        "angle": "这是来自 OpenAI 的官方更新，直接影响你正在使用的 AI 产品或工具。",
-        "coverTitle": "Working with Codex",
-        "coverSubtitle": "官方最新动态",
-        "commentPrompt": "这条更新你觉得对你的工作或生活有影响吗？",
+        "oneLiner": "一个 AI 产品发布了新功能，核心变化直接影响现有用户的使用体验。",
+        "hook": "这个功能刚上线，可能你还不知道它能做什么。",
+        "angle": "这是 OpenAI 官方发布的动态，会直接反映在你正在使用的 AI 产品里。",
+        "coverTitle": "OpenAI · 产品发布",
+        "coverSubtitle": "官方第一手",
+        "commentPrompt": "这个功能你会用还是不用？评论区选边站。",
         "cta": "关注我，每天帮你筛出真正值得关注的 AI 动态。"
       }
     },
@@ -640,14 +1579,14 @@
         "noon",
         "evening"
       ],
-      "titleZh": "OpenAI: Codex settings",
+      "titleZh": "Codex settings",
       "titleEn": "Codex settings",
       "summary": "OpenAI 更新：Learn how to configure Codex settings, including personalization, detail level, and permissions, to run tasks smoothly and customize your workflow.",
       "whyMatters": "OpenAI 官方发布，直接反映当前 AI 产品方向，影响日常工具使用体验。",
       "takeaways": [
-        "发布于 2026-04-23，来自 OpenAI（Official Blog）。",
-        "Learn how to configure Codex settings, including personalization, detail level, and permissions, to run tasks smoothly a",
-        "点击原文可查看完整内容，结合自身需求做判断。"
+        "功能更新通常先出现在网页版或API，App端会稍后跟进，留意你习惯的入口。",
+        "上手成本低，不需要技术背景，建议结合你最高频的工作场景直接实测。",
+        "判断新功能值不值得用：看它能不能替换你现在某个重复性的操作。"
       ],
       "tags": [
         "OpenAI",
@@ -660,12 +1599,12 @@
       "sourceUrl": "https://openai.com/academy/codex-settings",
       "creator": {
         "duration": "60 秒",
-        "oneLiner": "Learn how to configure Codex settings, including personaliza……",
-        "hook": "Codex settings——今天这条 AI 消息，和你有关。",
-        "angle": "这是来自 OpenAI 的官方更新，直接影响你正在使用的 AI 产品或工具。",
-        "coverTitle": "Codex settings",
-        "coverSubtitle": "官方最新动态",
-        "commentPrompt": "这条更新你觉得对你的工作或生活有影响吗？",
+        "oneLiner": "一个 AI 产品发布了新功能，核心变化直接影响现有用户的使用体验。",
+        "hook": "这个功能刚上线，可能你还不知道它能做什么。",
+        "angle": "这是 OpenAI 官方发布的动态，会直接反映在你正在使用的 AI 产品里。",
+        "coverTitle": "OpenAI · 产品发布",
+        "coverSubtitle": "官方第一手",
+        "commentPrompt": "这个功能你会用还是不用？评论区选边站。",
         "cta": "关注我，每天帮你筛出真正值得关注的 AI 动态。"
       }
     },
@@ -683,14 +1622,14 @@
         "noon",
         "evening"
       ],
-      "titleZh": "OpenAI: What is Codex?",
+      "titleZh": "What is Codex?",
       "titleEn": "What is Codex?",
       "summary": "OpenAI 更新：Learn how Codex helps you go beyond chat by automating tasks, connecting tools, and producing real outputs like docs and dashboards.",
       "whyMatters": "OpenAI 官方发布，直接反映当前 AI 产品方向，影响日常工具使用体验。",
       "takeaways": [
-        "发布于 2026-04-23，来自 OpenAI（Official Blog）。",
-        "Learn how Codex helps you go beyond chat by automating tasks, connecting tools, and producing real outputs like docs and",
-        "点击原文可查看完整内容，结合自身需求做判断。"
+        "功能更新通常先出现在网页版或API，App端会稍后跟进，留意你习惯的入口。",
+        "上手成本低，不需要技术背景，建议结合你最高频的工作场景直接实测。",
+        "判断新功能值不值得用：看它能不能替换你现在某个重复性的操作。"
       ],
       "tags": [
         "OpenAI",
@@ -703,12 +1642,12 @@
       "sourceUrl": "https://openai.com/academy/what-is-codex",
       "creator": {
         "duration": "60 秒",
-        "oneLiner": "Learn how Codex helps you go beyond chat by automating tasks……",
-        "hook": "What is Codex?——今天这条 AI 消息，和你有关。",
-        "angle": "这是来自 OpenAI 的官方更新，直接影响你正在使用的 AI 产品或工具。",
-        "coverTitle": "What is Codex?",
-        "coverSubtitle": "官方最新动态",
-        "commentPrompt": "这条更新你觉得对你的工作或生活有影响吗？",
+        "oneLiner": "一个 AI 产品发布了新功能，核心变化直接影响现有用户的使用体验。",
+        "hook": "这个功能刚上线，可能你还不知道它能做什么。",
+        "angle": "这是 OpenAI 官方发布的动态，会直接反映在你正在使用的 AI 产品里。",
+        "coverTitle": "OpenAI · 产品发布",
+        "coverSubtitle": "官方第一手",
+        "commentPrompt": "这个功能你会用还是不用？评论区选边站。",
         "cta": "关注我，每天帮你筛出真正值得关注的 AI 动态。"
       }
     },
@@ -726,14 +1665,14 @@
         "noon",
         "evening"
       ],
-      "titleZh": "OpenAI: How to get started with Codex",
+      "titleZh": "How to get started with Codex",
       "titleEn": "How to get started with Codex",
       "summary": "OpenAI 更新：Learn how to get started with Codex by setting up projects, creating threads, and completing your first tasks with step-by-step guidance.",
       "whyMatters": "OpenAI 官方发布，直接反映当前 AI 产品方向，影响日常工具使用体验。",
       "takeaways": [
-        "发布于 2026-04-23，来自 OpenAI（Official Blog）。",
-        "Learn how to get started with Codex by setting up projects, creating threads, and completing your first tasks with step-",
-        "点击原文可查看完整内容，结合自身需求做判断。"
+        "功能更新通常先出现在网页版或API，App端会稍后跟进，留意你习惯的入口。",
+        "上手成本低，不需要技术背景，建议结合你最高频的工作场景直接实测。",
+        "判断新功能值不值得用：看它能不能替换你现在某个重复性的操作。"
       ],
       "tags": [
         "OpenAI",
@@ -746,12 +1685,12 @@
       "sourceUrl": "https://openai.com/academy/codex-how-to-start",
       "creator": {
         "duration": "60 秒",
-        "oneLiner": "Learn how to get started with Codex by setting up projects, ……",
-        "hook": "How to get started——今天这条 AI 消息，和你有关。",
-        "angle": "这是来自 OpenAI 的官方更新，直接影响你正在使用的 AI 产品或工具。",
-        "coverTitle": "How to get started with Codex",
-        "coverSubtitle": "官方最新动态",
-        "commentPrompt": "这条更新你觉得对你的工作或生活有影响吗？",
+        "oneLiner": "一个 AI 产品发布了新功能，核心变化直接影响现有用户的使用体验。",
+        "hook": "这个功能刚上线，可能你还不知道它能做什么。",
+        "angle": "这是 OpenAI 官方发布的动态，会直接反映在你正在使用的 AI 产品里。",
+        "coverTitle": "OpenAI · 产品发布",
+        "coverSubtitle": "官方第一手",
+        "commentPrompt": "这个功能你会用还是不用？评论区选边站。",
         "cta": "关注我，每天帮你筛出真正值得关注的 AI 动态。"
       }
     },
@@ -769,14 +1708,14 @@
         "noon",
         "evening"
       ],
-      "titleZh": "OpenAI: GPT-5.5 Bio Bug Bounty",
+      "titleZh": "GPT-5.5 Bio Bug Bounty",
       "titleEn": "GPT-5.5 Bio Bug Bounty",
       "summary": "OpenAI 更新：Explore the GPT-5.5 Bio Bug Bounty: a red-teaming challenge to find universal jailbreaks for bio safety risks, with rewards up to $25,000.",
       "whyMatters": "OpenAI 官方发布，直接反映当前 AI 产品方向，影响日常工具使用体验。",
       "takeaways": [
-        "发布于 2026-04-23，来自 OpenAI（Official Blog）。",
-        "a red-teaming challenge to find universal jailbreaks for bio safety risks, with rewards up to $25,000.",
-        "点击原文可查看完整内容，结合自身需求做判断。"
+        "AI 安全最直接影响你输入的数据——不要在 AI 工具里输入身份证号、密码、合同原文。",
+        "企业用户风险高于个人，公司内部敏感数据要用支持私有化部署的方案处理。",
+        "遇到 AI 工具要求过多权限或存储对话记录的，先查清数据政策再决定是否使用。"
       ],
       "tags": [
         "OpenAI",
@@ -789,54 +1728,12 @@
       "sourceUrl": "https://openai.com/index/gpt-5-5-bio-bug-bounty",
       "creator": {
         "duration": "60 秒",
-        "oneLiner": "a red-teaming challenge to find universal jailbreaks for bio……",
-        "hook": "GPT-5.5 Bio Bug Bo——今天这条 AI 消息，和你有关。",
-        "angle": "这是来自 OpenAI 的官方更新，直接影响你正在使用的 AI 产品或工具。",
-        "coverTitle": "GPT-5.5 Bio Bug Bounty",
-        "coverSubtitle": "官方最新动态",
-        "commentPrompt": "这条更新你觉得对你的工作或生活有影响吗？",
-        "cta": "关注我，每天帮你筛出真正值得关注的 AI 动态。"
-      }
-    },
-    {
-      "id": "anthropic-a21eb3bb64",
-      "source": "anthropic",
-      "category": "product",
-      "format": "产品发布",
-      "evidence": "官方一手",
-      "priority": 3,
-      "featured": true,
-      "publishedAt": "2026-04-23",
-      "slots": [
-        "morning",
-        "noon",
-        "evening"
-      ],
-      "titleZh": "Anthropic: Announcements Anthropic and NEC collaborate to build Japan’s largest AI engineering workforce",
-      "titleEn": "Announcements Anthropic and NEC collaborate to build Japan’s largest AI engineering workforce",
-      "summary": "Anthropic 更新：Apr 24, 2026 Announcements Anthropic and NEC collaborate to build Japan’s largest AI engineering workforce",
-      "whyMatters": "Anthropic 官方发布，直接反映当前 AI 产品方向，影响日常工具使用体验。",
-      "takeaways": [
-        "发布于 2026-04-23，来自 Anthropic（Official News）。",
-        "Apr 24, 2026 Announcements Anthropic and NEC collaborate to build Japan’s largest AI engineering workforce",
-        "点击原文可查看完整内容，结合自身需求做判断。"
-      ],
-      "tags": [
-        "Claude",
-        "Anthropic",
-        "产品",
-        "模型",
-        "Agent"
-      ],
-      "sourceUrl": "https://www.anthropic.com/news/anthropic-nec",
-      "creator": {
-        "duration": "60 秒",
-        "oneLiner": "Apr 24, 2026 Announcements Anthropic and NEC collaborate to ……",
-        "hook": "Announcements Anth——今天这条 AI 消息，和你有关。",
-        "angle": "这是来自 Anthropic 的官方更新，直接影响你正在使用的 AI 产品或工具。",
-        "coverTitle": "Announcements Anthropic and NEC ",
-        "coverSubtitle": "官方最新动态",
-        "commentPrompt": "这条更新你觉得对你的工作或生活有影响吗？",
+        "oneLiner": "一条 AI 安全动态，涉及数据权限或使用风险，普通用户需要了解。",
+        "hook": "用 AI 的时候，有一件事你最好现在就知道。",
+        "angle": "这是 OpenAI 官方发布的动态，会直接反映在你正在使用的 AI 产品里。",
+        "coverTitle": "OpenAI · 安全动态",
+        "coverSubtitle": "官方第一手",
+        "commentPrompt": "你平时在 AI 工具里输入过真实个人信息吗？A有 B没有。",
         "cta": "关注我，每天帮你筛出真正值得关注的 AI 动态。"
       }
     },
@@ -854,14 +1751,14 @@
         "noon",
         "evening"
       ],
-      "titleZh": "Google AI: Here’s how our TPUs power increasingly demanding AI workloads.",
+      "titleZh": "Here’s how our TPUs power increasingly demanding AI workloads.",
       "titleEn": "Here’s how our TPUs power increasingly demanding AI workloads.",
       "summary": "Google AI 更新：Learn how Google’s TPUs power increasingly demanding AI workloads with this new video.",
       "whyMatters": "Google AI 官方发布，直接反映当前 AI 产品方向，影响日常工具使用体验。",
       "takeaways": [
-        "发布于 2026-04-23，来自 Google AI（Official Blog）。",
-        "Learn how Google’s TPUs power increasingly demanding AI workloads with this new video.",
-        "点击原文可查看完整内容，结合自身需求做判断。"
+        "功能更新通常先出现在网页版或API，App端会稍后跟进，留意你习惯的入口。",
+        "上手成本低，不需要技术背景，建议结合你最高频的工作场景直接实测。",
+        "判断新功能值不值得用：看它能不能替换你现在某个重复性的操作。"
       ],
       "tags": [
         "Google",
@@ -875,12 +1772,12 @@
       "sourceUrl": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/what-is-a-tpu/",
       "creator": {
         "duration": "60 秒",
-        "oneLiner": "Learn how Google’s TPUs power increasingly demanding AI work……",
-        "hook": "Here’s how our TPU——今天这条 AI 消息，和你有关。",
-        "angle": "这是来自 Google AI 的官方更新，直接影响你正在使用的 AI 产品或工具。",
-        "coverTitle": "Here’s how our TPUs power increa",
-        "coverSubtitle": "官方最新动态",
-        "commentPrompt": "这条更新你觉得对你的工作或生活有影响吗？",
+        "oneLiner": "一个 AI 产品发布了新功能，核心变化直接影响现有用户的使用体验。",
+        "hook": "这个功能刚上线，可能你还不知道它能做什么。",
+        "angle": "这是 Google AI 官方发布的动态，会直接反映在你正在使用的 AI 产品里。",
+        "coverTitle": "Google AI · 产品发布",
+        "coverSubtitle": "官方第一手",
+        "commentPrompt": "这个功能你会用还是不用？评论区选边站。",
         "cta": "关注我，每天帮你筛出真正值得关注的 AI 动态。"
       }
     },
@@ -898,14 +1795,14 @@
         "noon",
         "evening"
       ],
-      "titleZh": "Google AI: Elevating Austria: Google invests in its first data center in the Alps.",
+      "titleZh": "Elevating Austria: Google invests in its first data center in the Alps.",
       "titleEn": "Elevating Austria: Google invests in its first data center in the Alps.",
       "summary": "Google AI 更新：Google has been a proud part of Austria’s landscape for years, and today, we’re announcing our first data center in Kronstorf, generating 100 direct jobs. This facility …",
       "whyMatters": "Google AI 官方发布，直接反映当前 AI 产品方向，影响日常工具使用体验。",
       "takeaways": [
-        "发布于 2026-04-23，来自 Google AI（Official Blog）。",
-        "Google has been a proud part of Austria’s landscape for years, and today, we’re announcing our first data center in Kron",
-        "点击原文可查看完整内容，结合自身需求做判断。"
+        "功能更新通常先出现在网页版或API，App端会稍后跟进，留意你习惯的入口。",
+        "上手成本低，不需要技术背景，建议结合你最高频的工作场景直接实测。",
+        "判断新功能值不值得用：看它能不能替换你现在某个重复性的操作。"
       ],
       "tags": [
         "Google",
@@ -920,21 +1817,21 @@
       "sourceUrl": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/google-data-center-austria/",
       "creator": {
         "duration": "60 秒",
-        "oneLiner": "Google has been a proud part of Austria’s landscape for year……",
-        "hook": "Google invests in——今天这条 AI 消息，和你有关。",
-        "angle": "这是来自 Google AI 的官方更新，直接影响你正在使用的 AI 产品或工具。",
-        "coverTitle": "Google invests in its first data",
-        "coverSubtitle": "官方最新动态",
-        "commentPrompt": "这条更新你觉得对你的工作或生活有影响吗？",
+        "oneLiner": "一个 AI 产品发布了新功能，核心变化直接影响现有用户的使用体验。",
+        "hook": "这个功能刚上线，可能你还不知道它能做什么。",
+        "angle": "这是 Google AI 官方发布的动态，会直接反映在你正在使用的 AI 产品里。",
+        "coverTitle": "Google AI · 产品发布",
+        "coverSubtitle": "官方第一手",
+        "commentPrompt": "这个功能你会用还是不用？评论区选边站。",
         "cta": "关注我，每天帮你筛出真正值得关注的 AI 动态。"
       }
     },
     {
-      "id": "simonwillison-dc064711c8",
-      "source": "simonwillison",
-      "category": "security",
-      "format": "个人解读",
-      "evidence": "个人解读",
+      "id": "qbitai-978f84ca66",
+      "source": "qbitai",
+      "category": "research",
+      "format": "研究发布",
+      "evidence": "官方一手",
       "priority": 3,
       "featured": true,
       "publishedAt": "2026-04-23",
@@ -943,242 +1840,40 @@
         "noon",
         "evening"
       ],
-      "titleZh": "Simon Willison: A pelican for GPT-5.5 via the semi-official Codex backdoor API",
-      "titleEn": "A pelican for GPT-5.5 via the semi-official Codex backdoor API",
-      "summary": "Simon Willison 更新：GPT-5.5 is out . It's available in OpenAI Codex and is rolling out to paid ChatGPT subscribers. I've had some preview access and found it to be a fast, effective and highly cap...",
-      "whyMatters": "Simon Willison 基于实测或研究分享了这条判断，对普通用户了解 AI 工具现状有直接参考价值。",
+      "titleZh": "刚刚，GPT-5.5发布！内测英伟达工程师：失去它像被截肢",
+      "titleEn": "刚刚，GPT-5.5发布！内测英伟达工程师：失去它像被截肢",
+      "summary": "量子位 更新：与上个版本GPT5.4相比，新模型在代码、知识工作、科学研究三个领域全部拉开身位",
+      "whyMatters": "量子位 官方发布，直接反映当前 AI 产品方向，影响日常工具使用体验。",
       "takeaways": [
-        "发布于 2026-04-23，来自 Simon Willison（Blog）。",
-        "GPT-5.5 is out . It's available in OpenAI Codex and is rolling out to paid ChatGPT subscribers. I've had some preview ac",
-        "点击原文可查看完整内容，结合自身需求做判断。"
+        "与上个版本GPT5.4相比，新模型在代码、知识工作、科学研究三个领域全部拉开身位",
+        "关注这类研究的价值：提前了解 AI 能力还卡在哪些地方、哪些方向已经打通了。",
+        "对普通用户来说，研究成果转化成工具功能才有实际影响，可持续跟进这个领域。"
       ],
       "tags": [
-        "LLM",
-        "AI 工具",
-        "开发者",
-        "实测"
-      ],
-      "sourceUrl": "https://simonwillison.net/2026/Apr/23/gpt-5-5/#atom-everything",
-      "creator": {
-        "duration": "60 秒",
-        "oneLiner": "GPT-5.5 is out . It's available in OpenAI Codex and is rolli……",
-        "hook": "A pelican for GPT-——今天这条 AI 消息，和你有关。",
-        "angle": "这位博主长期追踪 AI 工具动态，这条判断对你评估相关工具是否值得关注有直接参考价值。",
-        "coverTitle": "A pelican for GPT-5.5 via the se",
-        "coverSubtitle": "博主深度分析",
-        "commentPrompt": "这条更新你觉得对你的工作或生活有影响吗？",
-        "cta": "关注我，每天帮你筛出真正值得关注的 AI 动态。"
-      }
-    },
-    {
-      "id": "simonwillison-3353ad3d74",
-      "source": "simonwillison",
-      "category": "product",
-      "format": "个人解读",
-      "evidence": "个人解读",
-      "priority": 3,
-      "featured": true,
-      "publishedAt": "2026-04-23",
-      "slots": [
-        "morning",
-        "noon",
-        "evening"
-      ],
-      "titleZh": "Simon Willison: llm-openai-via-codex 0.1a0",
-      "titleEn": "llm-openai-via-codex 0.1a0",
-      "summary": "Simon Willison 更新：Release: llm-openai-via-codex 0.1a0 Hijacks your Codex CLI credentials to make API calls with LLM, as described in my post about GPT-5.5 . Tags: openai , llm , codex-cli",
-      "whyMatters": "Simon Willison 基于实测或研究分享了这条判断，对普通用户了解 AI 工具现状有直接参考价值。",
-      "takeaways": [
-        "发布于 2026-04-23，来自 Simon Willison（Blog）。",
-        "llm-openai-via-codex 0.1a0 Hijacks your Codex CLI credentials to make API calls with LLM, as described in my post about ",
-        "点击原文可查看完整内容，结合自身需求做判断。"
-      ],
-      "tags": [
-        "LLM",
-        "AI 工具",
-        "开发者",
-        "实测"
-      ],
-      "sourceUrl": "https://simonwillison.net/2026/Apr/23/llm-openai-via-codex/#atom-everything",
-      "creator": {
-        "duration": "60 秒",
-        "oneLiner": "llm-openai-via-codex 0.1a0 Hijacks your Codex CLI credential……",
-        "hook": "llm-openai-via-cod——今天这条 AI 消息，和你有关。",
-        "angle": "这位博主长期追踪 AI 工具动态，这条判断对你评估相关工具是否值得关注有直接参考价值。",
-        "coverTitle": "llm-openai-via-codex 0.1a0",
-        "coverSubtitle": "博主深度分析",
-        "commentPrompt": "这条更新你觉得对你的工作或生活有影响吗？",
-        "cta": "关注我，每天帮你筛出真正值得关注的 AI 动态。"
-      }
-    },
-    {
-      "id": "oneusefulthing-8082e0b1b5",
-      "source": "oneusefulthing",
-      "category": "model",
-      "format": "个人解读",
-      "evidence": "个人解读",
-      "priority": 3,
-      "featured": true,
-      "publishedAt": "2026-04-23",
-      "slots": [
-        "morning",
-        "noon",
-        "evening"
-      ],
-      "titleZh": "One Useful Thing: Sign of the future: GPT-5.5",
-      "titleEn": "Sign of the future: GPT-5.5",
-      "summary": "One Useful Thing 更新：One impressive step on the curve",
-      "whyMatters": "One Useful Thing 基于实测或研究分享了这条判断，对普通用户了解 AI 工具现状有直接参考价值。",
-      "takeaways": [
-        "发布于 2026-04-23，来自 One Useful Thing（Substack）。",
-        "One impressive step on the curve",
-        "点击原文可查看完整内容，结合自身需求做判断。"
-      ],
-      "tags": [
-        "AI 影响",
-        "教育",
-        "工作",
-        "大众化观点"
-      ],
-      "sourceUrl": "https://www.oneusefulthing.org/p/sign-of-the-future-gpt-55",
-      "creator": {
-        "duration": "60 秒",
-        "oneLiner": "One impressive step on the curve",
-        "hook": "GPT-5.5——今天这条 AI 消息，和你有关。",
-        "angle": "这位博主长期追踪 AI 工具动态，这条判断对你评估相关工具是否值得关注有直接参考价值。",
-        "coverTitle": "GPT-5.5",
-        "coverSubtitle": "博主深度分析",
-        "commentPrompt": "这条更新你觉得对你的工作或生活有影响吗？",
-        "cta": "关注我，每天帮你筛出真正值得关注的 AI 动态。"
-      }
-    },
-    {
-      "id": "bensbites-43ebe0239e",
-      "source": "bensbites",
-      "category": "product",
-      "format": "个人解读",
-      "evidence": "个人解读",
-      "priority": 3,
-      "featured": true,
-      "publishedAt": "2026-04-23",
-      "slots": [
-        "morning",
-        "noon",
-        "evening"
-      ],
-      "titleZh": "Ben's Bites: ChatGPT's Nano Banana",
-      "titleEn": "ChatGPT's Nano Banana",
-      "summary": "Ben's Bites 更新：testing popular design tools",
-      "whyMatters": "Ben's Bites 基于实测或研究分享了这条判断，对普通用户了解 AI 工具现状有直接参考价值。",
-      "takeaways": [
-        "发布于 2026-04-23，来自 Ben's Bites（Newsletter）。",
-        "testing popular design tools",
-        "点击原文可查看完整内容，结合自身需求做判断。"
-      ],
-      "tags": [
-        "AI 新闻",
-        "工具",
+        "AI新闻",
+        "模型",
+        "产品",
         "创业",
-        "热点"
+        "前沿",
+        "资讯",
+        "OpenAI"
       ],
-      "sourceUrl": "https://www.bensbites.com/p/chatgpts-nano-banana",
+      "sourceUrl": "https://www.qbitai.com/2026/04/406221.html",
       "creator": {
         "duration": "60 秒",
-        "oneLiner": "testing popular design tools",
-        "hook": "ChatGPT's Nano Ban——今天这条 AI 消息，和你有关。",
-        "angle": "这位博主长期追踪 AI 工具动态，这条判断对你评估相关工具是否值得关注有直接参考价值。",
-        "coverTitle": "ChatGPT's Nano Banana",
-        "coverSubtitle": "博主深度分析",
-        "commentPrompt": "这条更新你觉得对你的工作或生活有影响吗？",
+        "oneLiner": "与上个版本GPT5.4相比，新模型在代码、知识工作、科学研究三个领域全部拉开身位",
+        "hook": "刚刚发布内测英伟达工程师失去它像——这条 AI 消息，和你直接有关。",
+        "angle": "这是 量子位 官方发布的动态，会直接反映在你正在使用的 AI 产品里。",
+        "coverTitle": "刚刚，GPT-5.5发布！内测英伟达工程师：失去它像被截肢",
+        "coverSubtitle": "官方第一手",
+        "commentPrompt": "这个研究结论你信吗？评论区聊聊。",
         "cta": "关注我，每天帮你筛出真正值得关注的 AI 动态。"
       }
     },
     {
-      "id": "latentspace-51f366823e",
-      "source": "latentspace",
-      "category": "digest",
-      "format": "博主观察",
-      "evidence": "个人解读",
-      "priority": 3,
-      "featured": true,
-      "publishedAt": "2026-04-23",
-      "slots": [
-        "morning",
-        "noon",
-        "evening"
-      ],
-      "titleZh": "Latent Space: AIE Europe Debrief + Agent Labs Thesis: Unsupervised Learning x Latent Space Crossover Special (2026)",
-      "titleEn": "AIE Europe Debrief + Agent Labs Thesis: Unsupervised Learning x Latent Space Crossover Special (2026)",
-      "summary": "Latent Space 更新：Note: This episode was recorded just after AIE Europe, but before the Cursor-xAI deal.",
-      "whyMatters": "Latent Space 基于实测或研究分享了这条判断，对普通用户了解 AI 工具现状有直接参考价值。",
-      "takeaways": [
-        "发布于 2026-04-23，来自 Latent Space（Substack / Podcast）。",
-        "This episode was recorded just after AIE Europe, but before the Cursor-xAI deal.",
-        "点击原文可查看完整内容，结合自身需求做判断。"
-      ],
-      "tags": [
-        "AI 工程",
-        "Agent",
-        "开发者",
-        "播客"
-      ],
-      "sourceUrl": "https://www.latent.space/p/unsupervised-learning-2026",
-      "creator": {
-        "duration": "60 秒",
-        "oneLiner": "This episode was recorded just after AIE Europe, but before ……",
-        "hook": "Unsupervised Learn——今天这条 AI 消息，和你有关。",
-        "angle": "这位博主长期追踪 AI 工具动态，这条判断对你评估相关工具是否值得关注有直接参考价值。",
-        "coverTitle": "Unsupervised Learning x Latent S",
-        "coverSubtitle": "博主深度分析",
-        "commentPrompt": "这条更新你觉得对你的工作或生活有影响吗？",
-        "cta": "关注我，每天帮你筛出真正值得关注的 AI 动态。"
-      }
-    },
-    {
-      "id": "latentspace-2a8dc0e189",
-      "source": "latentspace",
-      "category": "digest",
-      "format": "博主观察",
-      "evidence": "个人解读",
-      "priority": 3,
-      "featured": true,
-      "publishedAt": "2026-04-23",
-      "slots": [
-        "morning",
-        "noon",
-        "evening"
-      ],
-      "titleZh": "Latent Space: [AINews] Tasteful Tokenmaxxing",
-      "titleEn": "[AINews] Tasteful Tokenmaxxing",
-      "summary": "Latent Space 更新：a quiet day lets us reflect on the top conversation that AI leaders are having everywhere.",
-      "whyMatters": "Latent Space 基于实测或研究分享了这条判断，对普通用户了解 AI 工具现状有直接参考价值。",
-      "takeaways": [
-        "发布于 2026-04-23，来自 Latent Space（Substack / Podcast）。",
-        "a quiet day lets us reflect on the top conversation that AI leaders are having everywhere.",
-        "点击原文可查看完整内容，结合自身需求做判断。"
-      ],
-      "tags": [
-        "AI 工程",
-        "Agent",
-        "开发者",
-        "播客"
-      ],
-      "sourceUrl": "https://www.latent.space/p/ainews-tasteful-tokenmaxxing",
-      "creator": {
-        "duration": "60 秒",
-        "oneLiner": "a quiet day lets us reflect on the top conversation that AI ……",
-        "hook": "[AINews] Tasteful——今天这条 AI 消息，和你有关。",
-        "angle": "这位博主长期追踪 AI 工具动态，这条判断对你评估相关工具是否值得关注有直接参考价值。",
-        "coverTitle": "[AINews] Tasteful Tokenmaxxing",
-        "coverSubtitle": "博主深度分析",
-        "commentPrompt": "这条更新你觉得对你的工作或生活有影响吗？",
-        "cta": "关注我，每天帮你筛出真正值得关注的 AI 动态。"
-      }
-    },
-    {
-      "id": "marktechpost-025fb5b5f7",
-      "source": "marktechpost",
-      "category": "research",
+      "id": "baoyu-6d08cefd10",
+      "source": "baoyu",
+      "category": "product",
       "format": "个人解读",
       "evidence": "个人解读",
       "priority": 3,
@@ -1189,124 +1884,34 @@
         "noon",
         "evening"
       ],
-      "titleZh": "MarkTechPost: OpenAI Releases GPT-5.5, a Fully Retrained Agentic Model That Scores 82.7% on Terminal-Bench 2.0 and 84.9% on GDPval",
-      "titleEn": "OpenAI Releases GPT-5.5, a Fully Retrained Agentic Model That Scores 82.7% on Terminal-Bench 2.0 and 84.9% on GDPval",
-      "summary": "MarkTechPost 更新：The model targets the full stack of computer work — coding, research, data analysis, and software operation — without needing a human to supervise every step The post OpenAI Re...",
-      "whyMatters": "MarkTechPost 基于实测或研究分享了这条判断，对普通用户了解 AI 工具现状有直接参考价值。",
+      "titleZh": "Cat Wu 面试了几百个 PM 候选人，几乎没人答对一个问题：AI 产品经理到底应该干什么？",
+      "titleEn": "Cat Wu 面试了几百个 PM 候选人，几乎没人答对一个问题：AI 产品经理到底应该干什么？",
+      "summary": "宝玉xp 更新：面试几百个 PM 后，Cat Wu 发现大多数人对 AI PM 角色的理解方向不对。",
+      "whyMatters": "宝玉xp 基于实测或研究分享了这条判断，对普通用户了解 AI 工具现状有直接参考价值。",
       "takeaways": [
-        "发布于 2026-04-23，来自 MarkTechPost（AI Media）。",
-        "The model targets the full stack of computer work — coding, research, data analysis, and software operation — without ne",
-        "点击原文可查看完整内容，结合自身需求做判断。"
+        "面试几百个 PM 后，Cat Wu 发现大多数人对 AI PM 角色的理解方向不对。",
+        "上手成本低，不需要技术背景，建议结合你最高频的工作场景直接实测。",
+        "判断新功能值不值得用：看它能不能替换你现在某个重复性的操作。"
       ],
       "tags": [
-        "AI 新闻",
-        "论文",
-        "模型",
-        "工具",
-        "Agentic AI",
-        "AI Shorts",
-        "Applications",
-        "Artificial Intelligence"
+        "AI前沿",
+        "大模型",
+        "产品经理",
+        "深度分析",
+        "观点",
+        "ai",
+        "anthropic",
+        "claude-code"
       ],
-      "sourceUrl": "https://www.marktechpost.com/2026/04/23/openai-releases-gpt-5-5-a-fully-retrained-agentic-model-that-scores-82-7-on-terminal-bench-2-0-and-84-9-on-gdpval/",
+      "sourceUrl": "https://baoyu.io/blog/building-agi-pilled-products-cat-wu-head-of-product-claude-code",
       "creator": {
         "duration": "60 秒",
-        "oneLiner": "The model targets the full stack of computer work — coding, ……",
-        "hook": "OpenAI Releases GP——今天这条 AI 消息，和你有关。",
-        "angle": "这位博主长期追踪 AI 工具动态，这条判断对你评估相关工具是否值得关注有直接参考价值。",
-        "coverTitle": "OpenAI Releases GPT-5.5, a Fully",
-        "coverSubtitle": "博主深度分析",
-        "commentPrompt": "这条更新你觉得对你的工作或生活有影响吗？",
-        "cta": "关注我，每天帮你筛出真正值得关注的 AI 动态。"
-      }
-    },
-    {
-      "id": "marktechpost-84cc0bb088",
-      "source": "marktechpost",
-      "category": "research",
-      "format": "个人解读",
-      "evidence": "个人解读",
-      "priority": 3,
-      "featured": true,
-      "publishedAt": "2026-04-23",
-      "slots": [
-        "morning",
-        "noon",
-        "evening"
-      ],
-      "titleZh": "MarkTechPost: Google Cloud AI Research Introduces ReasoningBank: A Memory Framework that Distills Reasoning Strategies from Agent Successes and Failures",
-      "titleEn": "Google Cloud AI Research Introduces ReasoningBank: A Memory Framework that Distills Reasoning Strategies from Agent Successes and Failures",
-      "summary": "MarkTechPost 更新：A new memory framework from Google Cloud AI Research and UIUC gives LLM agents the ability to distill generalizable reasoning strategies from both successful and failed experie...",
-      "whyMatters": "MarkTechPost 基于实测或研究分享了这条判断，对普通用户了解 AI 工具现状有直接参考价值。",
-      "takeaways": [
-        "发布于 2026-04-23，来自 MarkTechPost（AI Media）。",
-        "A new memory framework from Google Cloud AI Research and UIUC gives LLM agents the ability to distill generalizable reas",
-        "点击原文可查看完整内容，结合自身需求做判断。"
-      ],
-      "tags": [
-        "AI 新闻",
-        "论文",
-        "模型",
-        "工具",
-        "Agentic AI",
-        "AI Agents",
-        "AI Infrastructure",
-        "AI Paper Summary"
-      ],
-      "sourceUrl": "https://www.marktechpost.com/2026/04/23/google-cloud-ai-research-introduces-reasoningbank-a-memory-framework-that-distills-reasoning-strategies-from-agent-successes-and-failures/",
-      "creator": {
-        "duration": "60 秒",
-        "oneLiner": "A new memory framework from Google Cloud AI Research and UIU……",
-        "hook": "A Memory Framework——今天这条 AI 消息，和你有关。",
-        "angle": "这位博主长期追踪 AI 工具动态，这条判断对你评估相关工具是否值得关注有直接参考价值。",
-        "coverTitle": "A Memory Framework that Distills",
-        "coverSubtitle": "博主深度分析",
-        "commentPrompt": "这条更新你觉得对你的工作或生活有影响吗？",
-        "cta": "关注我，每天帮你筛出真正值得关注的 AI 动态。"
-      }
-    },
-    {
-      "id": "marktechpost-d3b2a04d5e",
-      "source": "marktechpost",
-      "category": "open",
-      "format": "个人解读",
-      "evidence": "个人解读",
-      "priority": 3,
-      "featured": true,
-      "publishedAt": "2026-04-23",
-      "slots": [
-        "morning",
-        "noon",
-        "evening"
-      ],
-      "titleZh": "MarkTechPost: Xiaomi Releases MiMo-V2.5-Pro and MiMo-V2.5: Matching Frontier Model Benchmarks at Significantly Lower Token Cost",
-      "titleEn": "Xiaomi Releases MiMo-V2.5-Pro and MiMo-V2.5: Matching Frontier Model Benchmarks at Significantly Lower Token Cost",
-      "summary": "MarkTechPost 更新：Xiaomi's MiMo team just dropped two new models that push open-source agentic AI closer to frontier territory than ever before. The post Xiaomi Releases MiMo-V2.5-Pro and MiMo-V...",
-      "whyMatters": "MarkTechPost 基于实测或研究分享了这条判断，对普通用户了解 AI 工具现状有直接参考价值。",
-      "takeaways": [
-        "发布于 2026-04-23，来自 MarkTechPost（AI Media）。",
-        "Xiaomi's MiMo team just dropped two new models that push open-source agentic AI closer to frontier territory than ever b",
-        "点击原文可查看完整内容，结合自身需求做判断。"
-      ],
-      "tags": [
-        "AI 新闻",
-        "论文",
-        "模型",
-        "工具",
-        "Agentic AI",
-        "AI Shorts",
-        "Applications",
-        "Artificial Intelligence"
-      ],
-      "sourceUrl": "https://www.marktechpost.com/2026/04/22/xiaomi-releases-mimo-v2-5-pro-and-mimo-v2-5-matching-frontier-model-benchmarks-at-significantly-lower-token-cost/",
-      "creator": {
-        "duration": "60 秒",
-        "oneLiner": "Xiaomi's MiMo team just dropped two new models that push ope……",
-        "hook": "Matching Frontier——今天这条 AI 消息，和你有关。",
-        "angle": "这位博主长期追踪 AI 工具动态，这条判断对你评估相关工具是否值得关注有直接参考价值。",
-        "coverTitle": "Matching Frontier Model Benchmar",
-        "coverSubtitle": "博主深度分析",
-        "commentPrompt": "这条更新你觉得对你的工作或生活有影响吗？",
+        "oneLiner": "面试几百个 PM 后，Cat Wu 发现大多数人对 AI PM 角色的理解方向不对。",
+        "hook": "面试了几百个候选人几乎没人答对一——这条 AI 消息，和你直接有关。",
+        "angle": "这位博主长期追踪 AI 工具实际表现，这条判断对你评估工具是否值得用有直接参考价值。",
+        "coverTitle": "Cat Wu 面试了几百个 PM 候选人，几乎没人答对一个问题：",
+        "coverSubtitle": "博主深度解读",
+        "commentPrompt": "这个功能你会用还是不用？评论区选边站。",
         "cta": "关注我，每天帮你筛出真正值得关注的 AI 动态。"
       }
     },
@@ -1324,14 +1929,14 @@
         "noon",
         "evening"
       ],
-      "titleZh": "OpenAI: Making ChatGPT better for clinicians",
+      "titleZh": "Making ChatGPT better for clinicians",
       "titleEn": "Making ChatGPT better for clinicians",
       "summary": "OpenAI 更新：OpenAI makes ChatGPT for Clinicians free for verified U.S. physicians, nurse practitioners, and pharmacists, supporting clinical care, documentation, and research.",
       "whyMatters": "OpenAI 官方发布，直接反映当前 AI 产品方向，影响日常工具使用体验。",
       "takeaways": [
-        "发布于 2026-04-22，来自 OpenAI（Official Blog）。",
-        "OpenAI makes ChatGPT for Clinicians free for verified U.S. physicians, nurse practitioners, and pharmacists, supporting ",
-        "点击原文可查看完整内容，结合自身需求做判断。"
+        "研究结论和产品落地之间通常有6-18个月的滞后，现在看到的是方向信号。",
+        "关注这类研究的价值：提前了解 AI 能力还卡在哪些地方、哪些方向已经打通了。",
+        "对普通用户来说，研究成果转化成工具功能才有实际影响，可持续跟进这个领域。"
       ],
       "tags": [
         "OpenAI",
@@ -1344,12 +1949,12 @@
       "sourceUrl": "https://openai.com/index/making-chatgpt-better-for-clinicians",
       "creator": {
         "duration": "60 秒",
-        "oneLiner": "OpenAI makes ChatGPT for Clinicians free for verified U.S. p……",
-        "hook": "Making ChatGPT bet——今天这条 AI 消息，和你有关。",
-        "angle": "这是来自 OpenAI 的官方更新，直接影响你正在使用的 AI 产品或工具。",
-        "coverTitle": "Making ChatGPT better for clinic",
-        "coverSubtitle": "官方最新动态",
-        "commentPrompt": "这条更新你觉得对你的工作或生活有影响吗？",
+        "oneLiner": "一项 AI 研究出了新结论，代表技术方向的最新信号，几个月后会反映在产品里。",
+        "hook": "一个研究结论让人意外：AI 在这件事上，比我们预期强得多。",
+        "angle": "这是 OpenAI 官方发布的动态，会直接反映在你正在使用的 AI 产品里。",
+        "coverTitle": "OpenAI · 研究发现",
+        "coverSubtitle": "官方第一手",
+        "commentPrompt": "这个研究结论你信吗？评论区聊聊。",
         "cta": "关注我，每天帮你筛出真正值得关注的 AI 动态。"
       }
     },
@@ -1367,14 +1972,14 @@
         "noon",
         "evening"
       ],
-      "titleZh": "OpenAI: Workspace agents",
+      "titleZh": "Workspace agents",
       "titleEn": "Workspace agents",
       "summary": "OpenAI 更新：Learn how to build, use, and scale workspace agents in ChatGPT to automate repeatable workflows, connect tools, and streamline team operations.",
       "whyMatters": "OpenAI 官方发布，直接反映当前 AI 产品方向，影响日常工具使用体验。",
       "takeaways": [
-        "发布于 2026-04-22，来自 OpenAI（Official Blog）。",
-        "Learn how to build, use, and scale workspace agents in ChatGPT to automate repeatable workflows, connect tools, and stre",
-        "点击原文可查看完整内容，结合自身需求做判断。"
+        "功能更新通常先出现在网页版或API，App端会稍后跟进，留意你习惯的入口。",
+        "上手成本低，不需要技术背景，建议结合你最高频的工作场景直接实测。",
+        "判断新功能值不值得用：看它能不能替换你现在某个重复性的操作。"
       ],
       "tags": [
         "OpenAI",
@@ -1387,12 +1992,12 @@
       "sourceUrl": "https://openai.com/academy/workspace-agents",
       "creator": {
         "duration": "60 秒",
-        "oneLiner": "Learn how to build, use, and scale workspace agents in ChatG……",
-        "hook": "Workspace agents——今天这条 AI 消息，和你有关。",
-        "angle": "这是来自 OpenAI 的官方更新，直接影响你正在使用的 AI 产品或工具。",
-        "coverTitle": "Workspace agents",
-        "coverSubtitle": "官方最新动态",
-        "commentPrompt": "这条更新你觉得对你的工作或生活有影响吗？",
+        "oneLiner": "一个 AI 产品发布了新功能，核心变化直接影响现有用户的使用体验。",
+        "hook": "这个功能刚上线，可能你还不知道它能做什么。",
+        "angle": "这是 OpenAI 官方发布的动态，会直接反映在你正在使用的 AI 产品里。",
+        "coverTitle": "OpenAI · 产品发布",
+        "coverSubtitle": "官方第一手",
+        "commentPrompt": "这个功能你会用还是不用？评论区选边站。",
         "cta": "关注我，每天帮你筛出真正值得关注的 AI 动态。"
       }
     },
@@ -1410,14 +2015,14 @@
         "noon",
         "evening"
       ],
-      "titleZh": "Google AI: We're launching two specialized TPUs for the agentic era.",
+      "titleZh": "We're launching two specialized TPUs for the agentic era.",
       "titleEn": "We're launching two specialized TPUs for the agentic era.",
       "summary": "Google AI 更新：The eighth generation of Google’s TPU includes two specialized chips that will power the future of AI.",
       "whyMatters": "Google AI 官方发布，直接反映当前 AI 产品方向，影响日常工具使用体验。",
       "takeaways": [
-        "发布于 2026-04-22，来自 Google AI（Official Blog）。",
-        "The eighth generation of Google’s TPU includes two specialized chips that will power the future of AI.",
-        "点击原文可查看完整内容，结合自身需求做判断。"
+        "功能更新通常先出现在网页版或API，App端会稍后跟进，留意你习惯的入口。",
+        "上手成本低，不需要技术背景，建议结合你最高频的工作场景直接实测。",
+        "判断新功能值不值得用：看它能不能替换你现在某个重复性的操作。"
       ],
       "tags": [
         "Google",
@@ -1431,176 +2036,12 @@
       "sourceUrl": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/tpus-8t-8i-cloud-next/",
       "creator": {
         "duration": "60 秒",
-        "oneLiner": "The eighth generation of Google’s TPU includes two specializ……",
-        "hook": "We're launching tw——今天这条 AI 消息，和你有关。",
-        "angle": "这是来自 Google AI 的官方更新，直接影响你正在使用的 AI 产品或工具。",
-        "coverTitle": "We're launching two specialized ",
-        "coverSubtitle": "官方最新动态",
-        "commentPrompt": "这条更新你觉得对你的工作或生活有影响吗？",
-        "cta": "关注我，每天帮你筛出真正值得关注的 AI 动态。"
-      }
-    },
-    {
-      "id": "simonwillison-d1f8324a5f",
-      "source": "simonwillison",
-      "category": "open",
-      "format": "个人解读",
-      "evidence": "个人解读",
-      "priority": 3,
-      "featured": true,
-      "publishedAt": "2026-04-22",
-      "slots": [
-        "morning",
-        "noon",
-        "evening"
-      ],
-      "titleZh": "Simon Willison: Qwen3.6-27B: Flagship-Level Coding in a 27B Dense Model",
-      "titleEn": "Qwen3.6-27B: Flagship-Level Coding in a 27B Dense Model",
-      "summary": "Simon Willison 更新：Qwen3.6-27B: Flagship-Level Coding in a 27B Dense Model Big claims from Qwen about their latest open weight model: Qwen3.6-27B delivers flagship-level agentic coding performanc...",
-      "whyMatters": "Simon Willison 基于实测或研究分享了这条判断，对普通用户了解 AI 工具现状有直接参考价值。",
-      "takeaways": [
-        "发布于 2026-04-22，来自 Simon Willison（Blog）。",
-        "Flagship-Level Coding in a 27B Dense Model Big claims from Qwen about their latest open weight model: Qwen3.6-27B delive",
-        "点击原文可查看完整内容，结合自身需求做判断。"
-      ],
-      "tags": [
-        "LLM",
-        "AI 工具",
-        "开发者",
-        "实测"
-      ],
-      "sourceUrl": "https://simonwillison.net/2026/Apr/22/qwen36-27b/#atom-everything",
-      "creator": {
-        "duration": "60 秒",
-        "oneLiner": "Flagship-Level Coding in a 27B Dense Model Big claims from Q……",
-        "hook": "Flagship-Level Cod——今天这条 AI 消息，和你有关。",
-        "angle": "这位博主长期追踪 AI 工具动态，这条判断对你评估相关工具是否值得关注有直接参考价值。",
-        "coverTitle": "Flagship-Level Coding in a 27B D",
-        "coverSubtitle": "博主深度分析",
-        "commentPrompt": "这条更新你觉得对你的工作或生活有影响吗？",
-        "cta": "关注我，每天帮你筛出真正值得关注的 AI 动态。"
-      }
-    },
-    {
-      "id": "simonwillison-94c6699073",
-      "source": "simonwillison",
-      "category": "product",
-      "format": "个人解读",
-      "evidence": "个人解读",
-      "priority": 3,
-      "featured": true,
-      "publishedAt": "2026-04-22",
-      "slots": [
-        "morning",
-        "noon",
-        "evening"
-      ],
-      "titleZh": "Simon Willison: Changes to GitHub Copilot Individual plans",
-      "titleEn": "Changes to GitHub Copilot Individual plans",
-      "summary": "Simon Willison 更新：Changes to GitHub Copilot Individual plans On the same day as Claude Code's temporary will-they-won't-they $100/month kerfuffle (for the moment, they won't ), here's the latest...",
-      "whyMatters": "Simon Willison 基于实测或研究分享了这条判断，对普通用户了解 AI 工具现状有直接参考价值。",
-      "takeaways": [
-        "发布于 2026-04-22，来自 Simon Willison（Blog）。",
-        "Changes to GitHub Copilot Individual plans On the same day as Claude Code's temporary will-they-won't-they $100/month ke",
-        "点击原文可查看完整内容，结合自身需求做判断。"
-      ],
-      "tags": [
-        "LLM",
-        "AI 工具",
-        "开发者",
-        "实测"
-      ],
-      "sourceUrl": "https://simonwillison.net/2026/Apr/22/changes-to-github-copilot/#atom-everything",
-      "creator": {
-        "duration": "60 秒",
-        "oneLiner": "Changes to GitHub Copilot Individual plans On the same day a……",
-        "hook": "Changes to GitHub——今天这条 AI 消息，和你有关。",
-        "angle": "这位博主长期追踪 AI 工具动态，这条判断对你评估相关工具是否值得关注有直接参考价值。",
-        "coverTitle": "Changes to GitHub Copilot Indivi",
-        "coverSubtitle": "博主深度分析",
-        "commentPrompt": "这条更新你觉得对你的工作或生活有影响吗？",
-        "cta": "关注我，每天帮你筛出真正值得关注的 AI 动态。"
-      }
-    },
-    {
-      "id": "simonwillison-0ffdd40f30",
-      "source": "simonwillison",
-      "category": "security",
-      "format": "个人解读",
-      "evidence": "个人解读",
-      "priority": 3,
-      "featured": true,
-      "publishedAt": "2026-04-22",
-      "slots": [
-        "morning",
-        "noon",
-        "evening"
-      ],
-      "titleZh": "Simon Willison: Is Claude Code going to cost $100/month? Probably not - it's all very confusing",
-      "titleEn": "Is Claude Code going to cost $100/month? Probably not - it's all very confusing",
-      "summary": "Simon Willison 更新：Anthropic today quietly (as in silently , no announcement anywhere at all) updated their claude.com/pricing page (but not their Choosing a Claude plan page , which shows up fir...",
-      "whyMatters": "Simon Willison 基于实测或研究分享了这条判断，对普通用户了解 AI 工具现状有直接参考价值。",
-      "takeaways": [
-        "发布于 2026-04-22，来自 Simon Willison（Blog）。",
-        "Anthropic today quietly (as in silently , no announcement anywhere at all) updated their claude.com/pricing page (but no",
-        "点击原文可查看完整内容，结合自身需求做判断。"
-      ],
-      "tags": [
-        "LLM",
-        "AI 工具",
-        "开发者",
-        "实测"
-      ],
-      "sourceUrl": "https://simonwillison.net/2026/Apr/22/claude-code-confusion/#atom-everything",
-      "creator": {
-        "duration": "60 秒",
-        "oneLiner": "Anthropic today quietly (as in silently , no announcement an……",
-        "hook": "Is Claude Code goi——今天这条 AI 消息，和你有关。",
-        "angle": "这位博主长期追踪 AI 工具动态，这条判断对你评估相关工具是否值得关注有直接参考价值。",
-        "coverTitle": "Is Claude Code going to cost $10",
-        "coverSubtitle": "博主深度分析",
-        "commentPrompt": "这条更新你觉得对你的工作或生活有影响吗？",
-        "cta": "关注我，每天帮你筛出真正值得关注的 AI 动态。"
-      }
-    },
-    {
-      "id": "latentspace-4ba04ee6a0",
-      "source": "latentspace",
-      "category": "product",
-      "format": "个人解读",
-      "evidence": "个人解读",
-      "priority": 3,
-      "featured": true,
-      "publishedAt": "2026-04-22",
-      "slots": [
-        "morning",
-        "noon",
-        "evening"
-      ],
-      "titleZh": "Latent Space: [AINews] OpenAI launches GPT-Image-2",
-      "titleEn": "[AINews] OpenAI launches GPT-Image-2",
-      "summary": "Latent Space 更新：with Cursor getting a $10B contract with xAI and a right to acquire for $60B.",
-      "whyMatters": "Latent Space 基于实测或研究分享了这条判断，对普通用户了解 AI 工具现状有直接参考价值。",
-      "takeaways": [
-        "发布于 2026-04-22，来自 Latent Space（Substack / Podcast）。",
-        "with Cursor getting a $10B contract with xAI and a right to acquire for $60B.",
-        "点击原文可查看完整内容，结合自身需求做判断。"
-      ],
-      "tags": [
-        "AI 工程",
-        "Agent",
-        "开发者",
-        "播客"
-      ],
-      "sourceUrl": "https://www.latent.space/p/ainews-openai-launches-gpt-image",
-      "creator": {
-        "duration": "60 秒",
-        "oneLiner": "with Cursor getting a $10B contract with xAI and a right to ……",
-        "hook": "[AINews] OpenAI la——今天这条 AI 消息，和你有关。",
-        "angle": "这位博主长期追踪 AI 工具动态，这条判断对你评估相关工具是否值得关注有直接参考价值。",
-        "coverTitle": "[AINews] OpenAI launches GPT-Ima",
-        "coverSubtitle": "博主深度分析",
-        "commentPrompt": "这条更新你觉得对你的工作或生活有影响吗？",
+        "oneLiner": "一个 AI 产品发布了新功能，核心变化直接影响现有用户的使用体验。",
+        "hook": "这个功能刚上线，可能你还不知道它能做什么。",
+        "angle": "这是 Google AI 官方发布的动态，会直接反映在你正在使用的 AI 产品里。",
+        "coverTitle": "Google AI · 产品发布",
+        "coverSubtitle": "官方第一手",
+        "commentPrompt": "这个功能你会用还是不用？评论区选边站。",
         "cta": "关注我，每天帮你筛出真正值得关注的 AI 动态。"
       }
     },
@@ -1618,14 +2059,14 @@
         "noon",
         "evening"
       ],
-      "titleZh": "Google AI: 3 new ways Ads Advisor is making Google Ads safer and faster",
+      "titleZh": "3 new ways Ads Advisor is making Google Ads safer and faster",
       "titleEn": "3 new ways Ads Advisor is making Google Ads safer and faster",
       "summary": "Google AI 更新：Three new agentic safety and policy features integrated into Ads Advisor will help protect and streamline your Google Ads account.",
       "whyMatters": "Google AI 官方发布，直接反映当前 AI 产品方向，影响日常工具使用体验。",
       "takeaways": [
-        "发布于 2026-04-21，来自 Google AI（Official Blog）。",
-        "Three new agentic safety and policy features integrated into Ads Advisor will help protect and streamline your Google Ad",
-        "点击原文可查看完整内容，结合自身需求做判断。"
+        "AI 安全最直接影响你输入的数据——不要在 AI 工具里输入身份证号、密码、合同原文。",
+        "企业用户风险高于个人，公司内部敏感数据要用支持私有化部署的方案处理。",
+        "遇到 AI 工具要求过多权限或存储对话记录的，先查清数据政策再决定是否使用。"
       ],
       "tags": [
         "Google",
@@ -1640,305 +2081,60 @@
       "sourceUrl": "https://blog.google/products/ads-commerce/ads-advisor-google-ads/",
       "creator": {
         "duration": "60 秒",
-        "oneLiner": "Three new agentic safety and policy features integrated into……",
-        "hook": "3 new ways Ads Adv——今天这条 AI 消息，和你有关。",
-        "angle": "这是来自 Google AI 的官方更新，直接影响你正在使用的 AI 产品或工具。",
-        "coverTitle": "3 new ways Ads Advisor is making",
-        "coverSubtitle": "官方最新动态",
-        "commentPrompt": "这条更新你觉得对你的工作或生活有影响吗？",
+        "oneLiner": "一条 AI 安全动态，涉及数据权限或使用风险，普通用户需要了解。",
+        "hook": "用 AI 的时候，有一件事你最好现在就知道。",
+        "angle": "这是 Google AI 官方发布的动态，会直接反映在你正在使用的 AI 产品里。",
+        "coverTitle": "Google AI · 安全动态",
+        "coverSubtitle": "官方第一手",
+        "commentPrompt": "你平时在 AI 工具里输入过真实个人信息吗？A有 B没有。",
         "cta": "关注我，每天帮你筛出真正值得关注的 AI 动态。"
       }
     },
     {
-      "id": "simonwillison-e719285f78",
-      "source": "simonwillison",
-      "category": "security",
-      "format": "个人解读",
-      "evidence": "个人解读",
-      "priority": 3,
-      "featured": true,
-      "publishedAt": "2026-04-21",
-      "slots": [
-        "morning",
-        "noon",
-        "evening"
-      ],
-      "titleZh": "Simon Willison: Where's the raccoon with the ham radio? (ChatGPT Images 2.0)",
-      "titleEn": "Where's the raccoon with the ham radio? (ChatGPT Images 2.0)",
-      "summary": "Simon Willison 更新：OpenAI released ChatGPT Images 2.0 today , their latest image generation model. On the livestream Sam Altman said that the leap from gpt-image-1 to gpt-image-2 was equivalent t...",
-      "whyMatters": "Simon Willison 基于实测或研究分享了这条判断，对普通用户了解 AI 工具现状有直接参考价值。",
-      "takeaways": [
-        "发布于 2026-04-21，来自 Simon Willison（Blog）。",
-        "OpenAI released ChatGPT Images 2.0 today , their latest image generation model. On the livestream Sam Altman said that t",
-        "点击原文可查看完整内容，结合自身需求做判断。"
-      ],
-      "tags": [
-        "LLM",
-        "AI 工具",
-        "开发者",
-        "实测"
-      ],
-      "sourceUrl": "https://simonwillison.net/2026/Apr/21/gpt-image-2/#atom-everything",
-      "creator": {
-        "duration": "60 秒",
-        "oneLiner": "OpenAI released ChatGPT Images 2.0 today , their latest imag……",
-        "hook": "Where's the raccoo——今天这条 AI 消息，和你有关。",
-        "angle": "这位博主长期追踪 AI 工具动态，这条判断对你评估相关工具是否值得关注有直接参考价值。",
-        "coverTitle": "Where's the raccoon with the ham",
-        "coverSubtitle": "博主深度分析",
-        "commentPrompt": "这条更新你觉得对你的工作或生活有影响吗？",
-        "cta": "关注我，每天帮你筛出真正值得关注的 AI 动态。"
-      }
-    },
-    {
-      "id": "bensbites-2819581595",
-      "source": "bensbites",
+      "id": "anthropic-afabafae07",
+      "source": "anthropic",
       "category": "product",
-      "format": "个人解读",
-      "evidence": "个人解读",
+      "format": "产品发布",
+      "evidence": "官方一手",
       "priority": 3,
       "featured": true,
-      "publishedAt": "2026-04-21",
+      "publishedAt": "2026-04-17",
       "slots": [
         "morning",
         "noon",
         "evening"
       ],
-      "titleZh": "Ben's Bites: That's my designer - Claude",
-      "titleEn": "That's my designer - Claude",
-      "summary": "Ben's Bites 更新：and it comes with a new model, Opus 4.7",
-      "whyMatters": "Ben's Bites 基于实测或研究分享了这条判断，对普通用户了解 AI 工具现状有直接参考价值。",
+      "titleZh": "Introducing Claude Design by Anthropic Labs",
+      "titleEn": "Introducing Claude Design by Anthropic Labs",
+      "summary": "Anthropic 更新：Product Apr 17, 2026 Introducing Claude Design by Anthropic Labs Today, we’re launching Claude Design, a new Anthropic Labs product that lets you collaborate with Claude to cre...",
+      "whyMatters": "Anthropic 官方发布，直接反映当前 AI 产品方向，影响日常工具使用体验。",
       "takeaways": [
-        "发布于 2026-04-21，来自 Ben's Bites（Newsletter）。",
-        "and it comes with a new model, Opus 4.7",
-        "点击原文可查看完整内容，结合自身需求做判断。"
+        "功能更新通常先出现在网页版或API，App端会稍后跟进，留意你习惯的入口。",
+        "上手成本低，不需要技术背景，建议结合你最高频的工作场景直接实测。",
+        "判断新功能值不值得用：看它能不能替换你现在某个重复性的操作。"
       ],
       "tags": [
-        "AI 新闻",
-        "工具",
-        "创业",
-        "热点"
+        "Claude",
+        "Anthropic",
+        "产品",
+        "模型",
+        "Agent"
       ],
-      "sourceUrl": "https://www.bensbites.com/p/thats-my-designer-claude",
+      "sourceUrl": "https://www.anthropic.com/news/claude-design-anthropic-labs",
       "creator": {
         "duration": "60 秒",
-        "oneLiner": "and it comes with a new model, Opus 4.7",
-        "hook": "That's my designer——今天这条 AI 消息，和你有关。",
-        "angle": "这位博主长期追踪 AI 工具动态，这条判断对你评估相关工具是否值得关注有直接参考价值。",
-        "coverTitle": "That's my designer - Claude",
-        "coverSubtitle": "博主深度分析",
-        "commentPrompt": "这条更新你觉得对你的工作或生活有影响吗？",
+        "oneLiner": "一个 AI 产品发布了新功能，核心变化直接影响现有用户的使用体验。",
+        "hook": "这个功能刚上线，可能你还不知道它能做什么。",
+        "angle": "这是 Anthropic 官方发布的动态，会直接反映在你正在使用的 AI 产品里。",
+        "coverTitle": "Anthropic · 产品发布",
+        "coverSubtitle": "官方第一手",
+        "commentPrompt": "这个功能你会用还是不用？评论区选边站。",
         "cta": "关注我，每天帮你筛出真正值得关注的 AI 动态。"
       }
     },
     {
-      "id": "simonwillison-7c2ce92887",
-      "source": "simonwillison",
-      "category": "product",
-      "format": "个人解读",
-      "evidence": "个人解读",
-      "priority": 3,
-      "featured": true,
-      "publishedAt": "2026-04-20",
-      "slots": [
-        "morning",
-        "noon",
-        "evening"
-      ],
-      "titleZh": "Simon Willison: llm-openrouter 0.6",
-      "titleEn": "llm-openrouter 0.6",
-      "summary": "Simon Willison 更新：Release: llm-openrouter 0.6 llm openrouter refresh command for refreshing the list of available models without waiting for the cache to expire. I added this feature so I could ...",
-      "whyMatters": "Simon Willison 基于实测或研究分享了这条判断，对普通用户了解 AI 工具现状有直接参考价值。",
-      "takeaways": [
-        "发布于 2026-04-20，来自 Simon Willison（Blog）。",
-        "llm-openrouter 0.6 llm openrouter refresh command for refreshing the list of available models without waiting for the ca",
-        "点击原文可查看完整内容，结合自身需求做判断。"
-      ],
-      "tags": [
-        "LLM",
-        "AI 工具",
-        "开发者",
-        "实测"
-      ],
-      "sourceUrl": "https://simonwillison.net/2026/Apr/20/llm-openrouter/#atom-everything",
-      "creator": {
-        "duration": "60 秒",
-        "oneLiner": "llm-openrouter 0.6 llm openrouter refresh command for refres……",
-        "hook": "llm-openrouter 0.6——今天这条 AI 消息，和你有关。",
-        "angle": "这位博主长期追踪 AI 工具动态，这条判断对你评估相关工具是否值得关注有直接参考价值。",
-        "coverTitle": "llm-openrouter 0.6",
-        "coverSubtitle": "博主深度分析",
-        "commentPrompt": "这条更新你觉得对你的工作或生活有影响吗？",
-        "cta": "关注我，每天帮你筛出真正值得关注的 AI 动态。"
-      }
-    },
-    {
-      "id": "simonwillison-62876d1e30",
-      "source": "simonwillison",
-      "category": "product",
-      "format": "个人解读",
-      "evidence": "个人解读",
-      "priority": 3,
-      "featured": true,
-      "publishedAt": "2026-04-20",
-      "slots": [
-        "morning",
-        "noon",
-        "evening"
-      ],
-      "titleZh": "Simon Willison: Claude Token Counter, now with model comparisons",
-      "titleEn": "Claude Token Counter, now with model comparisons",
-      "summary": "Simon Willison 更新：Claude Token Counter, now with model comparisons I upgraded my Claude Token Counter tool to add the ability to run the same count against different models in order to compare t...",
-      "whyMatters": "Simon Willison 基于实测或研究分享了这条判断，对普通用户了解 AI 工具现状有直接参考价值。",
-      "takeaways": [
-        "发布于 2026-04-20，来自 Simon Willison（Blog）。",
-        "Claude Token Counter, now with model comparisons I upgraded my Claude Token Counter tool to add the ability to run the s",
-        "点击原文可查看完整内容，结合自身需求做判断。"
-      ],
-      "tags": [
-        "LLM",
-        "AI 工具",
-        "开发者",
-        "实测"
-      ],
-      "sourceUrl": "https://simonwillison.net/2026/Apr/20/claude-token-counts/#atom-everything",
-      "creator": {
-        "duration": "60 秒",
-        "oneLiner": "Claude Token Counter, now with model comparisons I upgraded ……",
-        "hook": "Claude Token Count——今天这条 AI 消息，和你有关。",
-        "angle": "这位博主长期追踪 AI 工具动态，这条判断对你评估相关工具是否值得关注有直接参考价值。",
-        "coverTitle": "Claude Token Counter, now with m",
-        "coverSubtitle": "博主深度分析",
-        "commentPrompt": "这条更新你觉得对你的工作或生活有影响吗？",
-        "cta": "关注我，每天帮你筛出真正值得关注的 AI 动态。"
-      }
-    },
-    {
-      "id": "understandingai-598e36e76a",
-      "source": "understandingai",
-      "category": "model",
-      "format": "个人解读",
-      "evidence": "个人解读",
-      "priority": 3,
-      "featured": true,
-      "publishedAt": "2026-04-20",
-      "slots": [
-        "morning",
-        "noon",
-        "evening"
-      ],
-      "titleZh": "Understanding AI: Meta is back in the LLM game after a year-long break",
-      "titleEn": "Meta is back in the LLM game after a year-long break",
-      "summary": "Understanding AI 更新：What Muse Spark tells us about Meta&#8217;s new AI strategy.",
-      "whyMatters": "Understanding AI 基于实测或研究分享了这条判断，对普通用户了解 AI 工具现状有直接参考价值。",
-      "takeaways": [
-        "发布于 2026-04-20，来自 Understanding AI（Newsletter）。",
-        "What Muse Spark tells us about Meta&#8217;s new AI strategy.",
-        "点击原文可查看完整内容，结合自身需求做判断。"
-      ],
-      "tags": [
-        "AI 解释",
-        "产业",
-        "技术趋势",
-        "大众化"
-      ],
-      "sourceUrl": "https://www.understandingai.org/p/meta-is-back-in-the-llm-game-after",
-      "creator": {
-        "duration": "60 秒",
-        "oneLiner": "What Muse Spark tells us about Meta&#8217;s new AI strategy.",
-        "hook": "Meta is back in th——今天这条 AI 消息，和你有关。",
-        "angle": "这位博主长期追踪 AI 工具动态，这条判断对你评估相关工具是否值得关注有直接参考价值。",
-        "coverTitle": "Meta is back in the LLM game aft",
-        "coverSubtitle": "博主深度分析",
-        "commentPrompt": "这条更新你觉得对你的工作或生活有影响吗？",
-        "cta": "关注我，每天帮你筛出真正值得关注的 AI 动态。"
-      }
-    },
-    {
-      "id": "simonwillison-eb2f87f24c",
-      "source": "simonwillison",
-      "category": "product",
-      "format": "个人解读",
-      "evidence": "个人解读",
-      "priority": 3,
-      "featured": true,
-      "publishedAt": "2026-04-19",
-      "slots": [
-        "morning",
-        "noon",
-        "evening"
-      ],
-      "titleZh": "Simon Willison: Headless everything for personal AI",
-      "titleEn": "Headless everything for personal AI",
-      "summary": "Simon Willison 更新：Headless everything for personal AI Matt Webb thinks headless services are about to become much more common: Why? Because using personal AIs is a better experience for users th...",
-      "whyMatters": "Simon Willison 基于实测或研究分享了这条判断，对普通用户了解 AI 工具现状有直接参考价值。",
-      "takeaways": [
-        "发布于 2026-04-19，来自 Simon Willison（Blog）。",
-        "Why? Because using personal AIs is a better experience for users th...",
-        "点击原文可查看完整内容，结合自身需求做判断。"
-      ],
-      "tags": [
-        "LLM",
-        "AI 工具",
-        "开发者",
-        "实测"
-      ],
-      "sourceUrl": "https://simonwillison.net/2026/Apr/19/headless-everything/#atom-everything",
-      "creator": {
-        "duration": "60 秒",
-        "oneLiner": "Why? Because using personal AIs is a better experience for u……",
-        "hook": "Headless everythin——今天这条 AI 消息，和你有关。",
-        "angle": "这位博主长期追踪 AI 工具动态，这条判断对你评估相关工具是否值得关注有直接参考价值。",
-        "coverTitle": "Headless everything for personal",
-        "coverSubtitle": "博主深度分析",
-        "commentPrompt": "这条更新你觉得对你的工作或生活有影响吗？",
-        "cta": "关注我，每天帮你筛出真正值得关注的 AI 动态。"
-      }
-    },
-    {
-      "id": "simonwillison-f48dd2ad8c",
-      "source": "simonwillison",
-      "category": "security",
-      "format": "个人解读",
-      "evidence": "个人解读",
-      "priority": 3,
-      "featured": true,
-      "publishedAt": "2026-04-18",
-      "slots": [
-        "morning",
-        "noon",
-        "evening"
-      ],
-      "titleZh": "Simon Willison: Changes in the system prompt between Claude Opus 4.6 and 4.7",
-      "titleEn": "Changes in the system prompt between Claude Opus 4.6 and 4.7",
-      "summary": "Simon Willison 更新：Anthropic are the only major AI lab to publish the system prompts for their user-facing chat systems. Their system prompt archive now dates all the way back to Claude 3 in July...",
-      "whyMatters": "Simon Willison 基于实测或研究分享了这条判断，对普通用户了解 AI 工具现状有直接参考价值。",
-      "takeaways": [
-        "发布于 2026-04-18，来自 Simon Willison（Blog）。",
-        "Anthropic are the only major AI lab to publish the system prompts for their user-facing chat systems. Their system promp",
-        "点击原文可查看完整内容，结合自身需求做判断。"
-      ],
-      "tags": [
-        "LLM",
-        "AI 工具",
-        "开发者",
-        "实测"
-      ],
-      "sourceUrl": "https://simonwillison.net/2026/Apr/18/opus-system-prompt/#atom-everything",
-      "creator": {
-        "duration": "60 秒",
-        "oneLiner": "Anthropic are the only major AI lab to publish the system pr……",
-        "hook": "Changes in the sys——今天这条 AI 消息，和你有关。",
-        "angle": "这位博主长期追踪 AI 工具动态，这条判断对你评估相关工具是否值得关注有直接参考价值。",
-        "coverTitle": "Changes in the system prompt bet",
-        "coverSubtitle": "博主深度分析",
-        "commentPrompt": "这条更新你觉得对你的工作或生活有影响吗？",
-        "cta": "关注我，每天帮你筛出真正值得关注的 AI 动态。"
-      }
-    },
-    {
-      "id": "latentspace-372778ecf9",
-      "source": "latentspace",
+      "id": "baoyu-9e6d7ff285",
+      "source": "baoyu",
       "category": "product",
       "format": "个人解读",
       "evidence": "个人解读",
@@ -1950,35 +2146,39 @@
         "noon",
         "evening"
       ],
-      "titleZh": "Latent Space: [AINews] Anthropic Claude Opus 4.7 - literally one step better than 4.6 in every dimension",
-      "titleEn": "[AINews] Anthropic Claude Opus 4.7 - literally one step better than 4.6 in every dimension",
-      "summary": "Latent Space 更新：The new SOTA model asserts its dominance.",
-      "whyMatters": "Latent Space 基于实测或研究分享了这条判断，对普通用户了解 AI 工具现状有直接参考价值。",
+      "titleZh": "设计圈的 Claude Code 时刻来了",
+      "titleEn": "设计圈的 Claude Code 时刻来了",
+      "summary": "宝玉xp 更新：Claude Design 实测：3 轮对话产出可交互原型，设计工具的游戏规则正在改写。",
+      "whyMatters": "宝玉xp 基于实测或研究分享了这条判断，对普通用户了解 AI 工具现状有直接参考价值。",
       "takeaways": [
-        "发布于 2026-04-17，来自 Latent Space（Substack / Podcast）。",
-        "The new SOTA model asserts its dominance.",
-        "点击原文可查看完整内容，结合自身需求做判断。"
+        "功能更新通常先出现在网页版或API，App端会稍后跟进，留意你习惯的入口。",
+        "上手成本低，不需要技术背景，建议结合你最高频的工作场景直接实测。",
+        "判断新功能值不值得用：看它能不能替换你现在某个重复性的操作。"
       ],
       "tags": [
-        "AI 工程",
-        "Agent",
-        "开发者",
-        "播客"
+        "AI前沿",
+        "大模型",
+        "产品经理",
+        "深度分析",
+        "观点",
+        "ai",
+        "design",
+        "anthropic"
       ],
-      "sourceUrl": "https://www.latent.space/p/ainews-anthropic-claude-opus-47-literally",
+      "sourceUrl": "https://baoyu.io/blog/2026-04-17/claude-design",
       "creator": {
         "duration": "60 秒",
-        "oneLiner": "The new SOTA model asserts its dominance.",
-        "hook": "[AINews] Anthropic——今天这条 AI 消息，和你有关。",
-        "angle": "这位博主长期追踪 AI 工具动态，这条判断对你评估相关工具是否值得关注有直接参考价值。",
-        "coverTitle": "[AINews] Anthropic Claude Opus 4",
-        "coverSubtitle": "博主深度分析",
-        "commentPrompt": "这条更新你觉得对你的工作或生活有影响吗？",
+        "oneLiner": "一个 AI 产品发布了新功能，核心变化直接影响现有用户的使用体验。",
+        "hook": "这个功能刚上线，可能你还不知道它能做什么。",
+        "angle": "这位博主长期追踪 AI 工具实际表现，这条判断对你评估工具是否值得用有直接参考价值。",
+        "coverTitle": "宝玉xp · 产品发布",
+        "coverSubtitle": "博主深度解读",
+        "commentPrompt": "这个功能你会用还是不用？评论区选边站。",
         "cta": "关注我，每天帮你筛出真正值得关注的 AI 动态。"
       }
     },
     {
-      "id": "anthropic-afabafae07",
+      "id": "anthropic-8ffed25021",
       "source": "anthropic",
       "category": "product",
       "format": "产品发布",
@@ -1991,14 +2191,14 @@
         "noon",
         "evening"
       ],
-      "titleZh": "Anthropic: Introducing Claude Design by Anthropic Labs",
-      "titleEn": "Introducing Claude Design by Anthropic Labs",
-      "summary": "Anthropic 更新：Product Apr 17, 2026 Introducing Claude Design by Anthropic Labs Today, we’re launching Claude Design, a new Anthropic Labs product that lets you collaborate with Claude to cre...",
+      "titleZh": "Introducing Claude Opus 4.7",
+      "titleEn": "Introducing Claude Opus 4.7",
+      "summary": "Anthropic 更新：Introducing Claude Opus 4.7 Product Apr 16, 2026 Our latest Opus model brings stronger performance across coding, agents, vision, and multi-step tasks, with greater thoroughnes...",
       "whyMatters": "Anthropic 官方发布，直接反映当前 AI 产品方向，影响日常工具使用体验。",
       "takeaways": [
-        "发布于 2026-04-16，来自 Anthropic（Official News）。",
-        "Product Apr 17, 2026 Introducing Claude Design by Anthropic Labs Today, we’re launching Claude Design, a new Anthropic L",
-        "点击原文可查看完整内容，结合自身需求做判断。"
+        "功能更新通常先出现在网页版或API，App端会稍后跟进，留意你习惯的入口。",
+        "上手成本低，不需要技术背景，建议结合你最高频的工作场景直接实测。",
+        "判断新功能值不值得用：看它能不能替换你现在某个重复性的操作。"
       ],
       "tags": [
         "Claude",
@@ -2007,15 +2207,15 @@
         "模型",
         "Agent"
       ],
-      "sourceUrl": "https://www.anthropic.com/news/claude-design-anthropic-labs",
+      "sourceUrl": "https://www.anthropic.com/news/claude-opus-4-7",
       "creator": {
         "duration": "60 秒",
-        "oneLiner": "Product Apr 17, 2026 Introducing Claude Design by Anthropic ……",
-        "hook": "Introducing Claude——今天这条 AI 消息，和你有关。",
-        "angle": "这是来自 Anthropic 的官方更新，直接影响你正在使用的 AI 产品或工具。",
-        "coverTitle": "Introducing Claude Design by Ant",
-        "coverSubtitle": "官方最新动态",
-        "commentPrompt": "这条更新你觉得对你的工作或生活有影响吗？",
+        "oneLiner": "一个 AI 产品发布了新功能，核心变化直接影响现有用户的使用体验。",
+        "hook": "这个功能刚上线，可能你还不知道它能做什么。",
+        "angle": "这是 Anthropic 官方发布的动态，会直接反映在你正在使用的 AI 产品里。",
+        "coverTitle": "Anthropic · 产品发布",
+        "coverSubtitle": "官方第一手",
+        "commentPrompt": "这个功能你会用还是不用？评论区选边站。",
         "cta": "关注我，每天帮你筛出真正值得关注的 AI 动态。"
       }
     },
@@ -2033,14 +2233,14 @@
         "noon",
         "evening"
       ],
-      "titleZh": "Google AI: A new way to explore the web with AI Mode in Chrome",
+      "titleZh": "A new way to explore the web with AI Mode in Chrome",
       "titleEn": "A new way to explore the web with AI Mode in Chrome",
       "summary": "Google AI 更新：Today’s upgrades for AI Mode in Chrome transform how you interact with the web",
       "whyMatters": "Google AI 官方发布，直接反映当前 AI 产品方向，影响日常工具使用体验。",
       "takeaways": [
-        "发布于 2026-04-16，来自 Google AI（Official Blog）。",
-        "Today’s upgrades for AI Mode in Chrome transform how you interact with the web",
-        "点击原文可查看完整内容，结合自身需求做判断。"
+        "功能更新通常先出现在网页版或API，App端会稍后跟进，留意你习惯的入口。",
+        "上手成本低，不需要技术背景，建议结合你最高频的工作场景直接实测。",
+        "判断新功能值不值得用：看它能不能替换你现在某个重复性的操作。"
       ],
       "tags": [
         "Google",
@@ -2055,12 +2255,12 @@
       "sourceUrl": "https://blog.google/products-and-platforms/products/search/ai-mode-chrome/",
       "creator": {
         "duration": "60 秒",
-        "oneLiner": "Today’s upgrades for AI Mode in Chrome transform how you int……",
-        "hook": "A new way to explo——今天这条 AI 消息，和你有关。",
-        "angle": "这是来自 Google AI 的官方更新，直接影响你正在使用的 AI 产品或工具。",
-        "coverTitle": "A new way to explore the web wit",
-        "coverSubtitle": "官方最新动态",
-        "commentPrompt": "这条更新你觉得对你的工作或生活有影响吗？",
+        "oneLiner": "一个 AI 产品发布了新功能，核心变化直接影响现有用户的使用体验。",
+        "hook": "这个功能刚上线，可能你还不知道它能做什么。",
+        "angle": "这是 Google AI 官方发布的动态，会直接反映在你正在使用的 AI 产品里。",
+        "coverTitle": "Google AI · 产品发布",
+        "coverSubtitle": "官方第一手",
+        "commentPrompt": "这个功能你会用还是不用？评论区选边站。",
         "cta": "关注我，每天帮你筛出真正值得关注的 AI 动态。"
       }
     },
@@ -2078,14 +2278,14 @@
         "noon",
         "evening"
       ],
-      "titleZh": "Google AI: New ways to create personalized images in the Gemini app",
+      "titleZh": "New ways to create personalized images in the Gemini app",
       "titleEn": "New ways to create personalized images in the Gemini app",
       "summary": "Google AI 更新：Nano Banana 2 now uses your personal context and Google Photos to create images that reflect your unique life.",
       "whyMatters": "Google AI 官方发布，直接反映当前 AI 产品方向，影响日常工具使用体验。",
       "takeaways": [
-        "发布于 2026-04-16，来自 Google AI（Official Blog）。",
-        "Nano Banana 2 now uses your personal context and Google Photos to create images that reflect your unique life.",
-        "点击原文可查看完整内容，结合自身需求做判断。"
+        "功能更新通常先出现在网页版或API，App端会稍后跟进，留意你习惯的入口。",
+        "上手成本低，不需要技术背景，建议结合你最高频的工作场景直接实测。",
+        "判断新功能值不值得用：看它能不能替换你现在某个重复性的操作。"
       ],
       "tags": [
         "Google",
@@ -2100,54 +2300,12 @@
       "sourceUrl": "https://blog.google/innovation-and-ai/products/gemini-app/personal-intelligence-nano-banana/",
       "creator": {
         "duration": "60 秒",
-        "oneLiner": "Nano Banana 2 now uses your personal context and Google Phot……",
-        "hook": "New ways to create——今天这条 AI 消息，和你有关。",
-        "angle": "这是来自 Google AI 的官方更新，直接影响你正在使用的 AI 产品或工具。",
-        "coverTitle": "New ways to create personalized ",
-        "coverSubtitle": "官方最新动态",
-        "commentPrompt": "这条更新你觉得对你的工作或生活有影响吗？",
-        "cta": "关注我，每天帮你筛出真正值得关注的 AI 动态。"
-      }
-    },
-    {
-      "id": "anthropic-8ffed25021",
-      "source": "anthropic",
-      "category": "product",
-      "format": "产品发布",
-      "evidence": "官方一手",
-      "priority": 3,
-      "featured": true,
-      "publishedAt": "2026-04-15",
-      "slots": [
-        "morning",
-        "noon",
-        "evening"
-      ],
-      "titleZh": "Anthropic: Introducing Claude Opus 4.7",
-      "titleEn": "Introducing Claude Opus 4.7",
-      "summary": "Anthropic 更新：Introducing Claude Opus 4.7 Product Apr 16, 2026 Our latest Opus model brings stronger performance across coding, agents, vision, and multi-step tasks, with greater thoroughnes...",
-      "whyMatters": "Anthropic 官方发布，直接反映当前 AI 产品方向，影响日常工具使用体验。",
-      "takeaways": [
-        "发布于 2026-04-15，来自 Anthropic（Official News）。",
-        "Introducing Claude Opus 4.7 Product Apr 16, 2026 Our latest Opus model brings stronger performance across coding, agents",
-        "点击原文可查看完整内容，结合自身需求做判断。"
-      ],
-      "tags": [
-        "Claude",
-        "Anthropic",
-        "产品",
-        "模型",
-        "Agent"
-      ],
-      "sourceUrl": "https://www.anthropic.com/news/claude-opus-4-7",
-      "creator": {
-        "duration": "60 秒",
-        "oneLiner": "Introducing Claude Opus 4.7 Product Apr 16, 2026 Our latest ……",
-        "hook": "Introducing Claude——今天这条 AI 消息，和你有关。",
-        "angle": "这是来自 Anthropic 的官方更新，直接影响你正在使用的 AI 产品或工具。",
-        "coverTitle": "Introducing Claude Opus 4.7",
-        "coverSubtitle": "官方最新动态",
-        "commentPrompt": "这条更新你觉得对你的工作或生活有影响吗？",
+        "oneLiner": "一个 AI 产品发布了新功能，核心变化直接影响现有用户的使用体验。",
+        "hook": "这个功能刚上线，可能你还不知道它能做什么。",
+        "angle": "这是 Google AI 官方发布的动态，会直接反映在你正在使用的 AI 产品里。",
+        "coverTitle": "Google AI · 产品发布",
+        "coverSubtitle": "官方第一手",
+        "commentPrompt": "这个功能你会用还是不用？评论区选边站。",
         "cta": "关注我，每天帮你筛出真正值得关注的 AI 动态。"
       }
     },
@@ -2165,14 +2323,14 @@
         "noon",
         "evening"
       ],
-      "titleZh": "Google AI: Gemini 3.1 Flash TTS: the next generation of expressive AI speech",
+      "titleZh": "Gemini 3.1 Flash TTS: the next generation of expressive AI speech",
       "titleEn": "Gemini 3.1 Flash TTS: the next generation of expressive AI speech",
       "summary": "Google AI 更新：Gemini 3.1 Flash TTS is now available across Google products.",
       "whyMatters": "Google AI 官方发布，直接反映当前 AI 产品方向，影响日常工具使用体验。",
       "takeaways": [
-        "发布于 2026-04-15，来自 Google AI（Official Blog）。",
-        "Gemini 3.1 Flash TTS is now available across Google products.",
-        "点击原文可查看完整内容，结合自身需求做判断。"
+        "功能更新通常先出现在网页版或API，App端会稍后跟进，留意你习惯的入口。",
+        "上手成本低，不需要技术背景，建议结合你最高频的工作场景直接实测。",
+        "判断新功能值不值得用：看它能不能替换你现在某个重复性的操作。"
       ],
       "tags": [
         "Google",
@@ -2186,135 +2344,147 @@
       "sourceUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-tts/",
       "creator": {
         "duration": "60 秒",
-        "oneLiner": "Gemini 3.1 Flash TTS is now available across Google products……",
-        "hook": "the next generatio——今天这条 AI 消息，和你有关。",
-        "angle": "这是来自 Google AI 的官方更新，直接影响你正在使用的 AI 产品或工具。",
-        "coverTitle": "the next generation of expressiv",
-        "coverSubtitle": "官方最新动态",
-        "commentPrompt": "这条更新你觉得对你的工作或生活有影响吗？",
+        "oneLiner": "一个 AI 产品发布了新功能，核心变化直接影响现有用户的使用体验。",
+        "hook": "这个功能刚上线，可能你还不知道它能做什么。",
+        "angle": "这是 Google AI 官方发布的动态，会直接反映在你正在使用的 AI 产品里。",
+        "coverTitle": "Google AI · 产品发布",
+        "coverSubtitle": "官方第一手",
+        "commentPrompt": "这个功能你会用还是不用？评论区选边站。",
         "cta": "关注我，每天帮你筛出真正值得关注的 AI 动态。"
       }
     },
     {
-      "id": "aitidbits-7e2c9a436b",
-      "source": "aitidbits",
+      "id": "baoyu-dd0e53cab4",
+      "source": "baoyu",
       "category": "product",
       "format": "个人解读",
       "evidence": "个人解读",
       "priority": 3,
       "featured": true,
-      "publishedAt": "2026-04-14",
+      "publishedAt": "2026-04-15",
       "slots": [
         "morning",
         "noon",
         "evening"
       ],
-      "titleZh": "AI Tidbits: Automating Workflows With Claude Cowork",
-      "titleEn": "Automating Workflows With Claude Cowork",
-      "summary": "AI Tidbits 更新：How to use Cowork&#8217;s overlooked features to automate the boring work",
-      "whyMatters": "AI Tidbits 基于实测或研究分享了这条判断，对普通用户了解 AI 工具现状有直接参考价值。",
+      "titleZh": "使用 Claude Code：会话管理与 100 万 上下文",
+      "titleEn": "使用 Claude Code：会话管理与 100 万 上下文",
+      "summary": "宝玉xp 更新：Claude Code 核心布道者 Thariq 深度解读上下文窗口管理策略：何时开新会话、回溯 vs 纠正、压缩 vs 清空、子智能体的最佳使用时机，以及如何避免糟糕的上下文压缩。",
+      "whyMatters": "宝玉xp 基于实测或研究分享了这条判断，对普通用户了解 AI 工具现状有直接参考价值。",
       "takeaways": [
-        "发布于 2026-04-14，来自 AI Tidbits（Newsletter）。",
-        "How to use Cowork&#8217;s overlooked features to automate the boring work",
-        "点击原文可查看完整内容，结合自身需求做判断。"
+        "何时开新会话、回溯 vs 纠正、压缩 vs 清空、子智能体的最佳使用时机，以及如何避免糟糕的上下文压缩。",
+        "上手成本低，不需要技术背景，建议结合你最高频的工作场景直接实测。",
+        "判断新功能值不值得用：看它能不能替换你现在某个重复性的操作。"
       ],
       "tags": [
-        "AI 新闻",
-        "产品",
-        "工具",
-        "趋势"
+        "AI前沿",
+        "大模型",
+        "产品经理",
+        "深度分析",
+        "观点",
+        "AI",
+        "Claude",
+        "开发工具"
       ],
-      "sourceUrl": "https://www.aitidbits.ai/p/automating-workflows-with-claude",
+      "sourceUrl": "https://baoyu.io/translations/claude-code-session-management",
       "creator": {
         "duration": "60 秒",
-        "oneLiner": "How to use Cowork&#8217;s overlooked features to automate th……",
-        "hook": "Automating Workflo——今天这条 AI 消息，和你有关。",
-        "angle": "这位博主长期追踪 AI 工具动态，这条判断对你评估相关工具是否值得关注有直接参考价值。",
-        "coverTitle": "Automating Workflows With Claude",
-        "coverSubtitle": "博主深度分析",
-        "commentPrompt": "这条更新你觉得对你的工作或生活有影响吗？",
+        "oneLiner": "一个 AI 产品发布了新功能，核心变化直接影响现有用户的使用体验。",
+        "hook": "这个功能刚上线，可能你还不知道它能做什么。",
+        "angle": "这位博主长期追踪 AI 工具实际表现，这条判断对你评估工具是否值得用有直接参考价值。",
+        "coverTitle": "宝玉xp · 产品发布",
+        "coverSubtitle": "博主深度解读",
+        "commentPrompt": "这个功能你会用还是不用？评论区选边站。",
         "cta": "关注我，每天帮你筛出真正值得关注的 AI 动态。"
       }
     },
     {
-      "id": "bensbites-c6acc7f235",
-      "source": "bensbites",
-      "category": "security",
-      "format": "个人解读",
-      "evidence": "个人解读",
-      "priority": 3,
-      "featured": true,
-      "publishedAt": "2026-04-09",
-      "slots": [
-        "morning",
-        "noon",
-        "evening"
-      ],
-      "titleZh": "Ben's Bites: Anthropic built a model too risky to release",
-      "titleEn": "Anthropic built a model too risky to release",
-      "summary": "Ben's Bites 更新：and Meta makes an unexpected entry",
-      "whyMatters": "Ben's Bites 基于实测或研究分享了这条判断，对普通用户了解 AI 工具现状有直接参考价值。",
-      "takeaways": [
-        "发布于 2026-04-09，来自 Ben's Bites（Newsletter）。",
-        "and Meta makes an unexpected entry",
-        "点击原文可查看完整内容，结合自身需求做判断。"
-      ],
-      "tags": [
-        "AI 新闻",
-        "工具",
-        "创业",
-        "热点"
-      ],
-      "sourceUrl": "https://www.bensbites.com/p/anthropic-built-a-model-too-risky",
-      "creator": {
-        "duration": "60 秒",
-        "oneLiner": "and Meta makes an unexpected entry",
-        "hook": "Anthropic built a——今天这条 AI 消息，和你有关。",
-        "angle": "这位博主长期追踪 AI 工具动态，这条判断对你评估相关工具是否值得关注有直接参考价值。",
-        "coverTitle": "Anthropic built a model too risk",
-        "coverSubtitle": "博主深度分析",
-        "commentPrompt": "这条更新你觉得对你的工作或生活有影响吗？",
-        "cta": "关注我，每天帮你筛出真正值得关注的 AI 动态。"
-      }
-    },
-    {
-      "id": "bensbites-07fb2dd618",
-      "source": "bensbites",
+      "id": "baoyu-41cf8b0751",
+      "source": "baoyu",
       "category": "product",
       "format": "个人解读",
       "evidence": "个人解读",
       "priority": 3,
       "featured": true,
-      "publishedAt": "2026-04-07",
+      "publishedAt": "2026-04-06",
       "slots": [
         "morning",
         "noon",
         "evening"
       ],
-      "titleZh": "Ben's Bites: No Claude for Claws",
-      "titleEn": "No Claude for Claws",
-      "summary": "Ben's Bites 更新：in 3 months, Anthropic added $6B ARR",
-      "whyMatters": "Ben's Bites 基于实测或研究分享了这条判断，对普通用户了解 AI 工具现状有直接参考价值。",
+      "titleZh": "Claude Code 省 Token 指南：慎用 1M 上下文，不开新会话或者总是开新会话都不对",
+      "titleEn": "Claude Code 省 Token 指南：慎用 1M 上下文，不开新会话或者总是开新会话都不对",
+      "summary": "宝玉xp 更新：理解提示缓存机制，才能真正搞清楚 Claude Code 的成本结构——很多时候，继续聊比开新会话更省钱。",
+      "whyMatters": "宝玉xp 基于实测或研究分享了这条判断，对普通用户了解 AI 工具现状有直接参考价值。",
       "takeaways": [
-        "发布于 2026-04-07，来自 Ben's Bites（Newsletter）。",
-        "in 3 months, Anthropic added $6B ARR",
-        "点击原文可查看完整内容，结合自身需求做判断。"
+        "功能更新通常先出现在网页版或API，App端会稍后跟进，留意你习惯的入口。",
+        "上手成本低，不需要技术背景，建议结合你最高频的工作场景直接实测。",
+        "判断新功能值不值得用：看它能不能替换你现在某个重复性的操作。"
       ],
       "tags": [
-        "AI 新闻",
-        "工具",
-        "创业",
-        "热点"
+        "AI前沿",
+        "大模型",
+        "产品经理",
+        "深度分析",
+        "观点",
+        "claude-code",
+        "ai",
+        "token"
       ],
-      "sourceUrl": "https://www.bensbites.com/p/no-claude-for-claws",
+      "sourceUrl": "https://baoyu.io/blog/2026-04-06/claude-code-token-optimization",
       "creator": {
         "duration": "60 秒",
-        "oneLiner": "in 3 months, Anthropic added $6B ARR",
-        "hook": "No Claude for Claw——今天这条 AI 消息，和你有关。",
-        "angle": "这位博主长期追踪 AI 工具动态，这条判断对你评估相关工具是否值得关注有直接参考价值。",
-        "coverTitle": "No Claude for Claws",
-        "coverSubtitle": "博主深度分析",
-        "commentPrompt": "这条更新你觉得对你的工作或生活有影响吗？",
+        "oneLiner": "一个 AI 产品发布了新功能，核心变化直接影响现有用户的使用体验。",
+        "hook": "这个功能刚上线，可能你还不知道它能做什么。",
+        "angle": "这位博主长期追踪 AI 工具实际表现，这条判断对你评估工具是否值得用有直接参考价值。",
+        "coverTitle": "宝玉xp · 产品发布",
+        "coverSubtitle": "博主深度解读",
+        "commentPrompt": "这个功能你会用还是不用？评论区选边站。",
+        "cta": "关注我，每天帮你筛出真正值得关注的 AI 动态。"
+      }
+    },
+    {
+      "id": "baoyu-94fc996f08",
+      "source": "baoyu",
+      "category": "model",
+      "format": "个人解读",
+      "evidence": "个人解读",
+      "priority": 3,
+      "featured": true,
+      "publishedAt": "2026-04-05",
+      "slots": [
+        "morning",
+        "noon",
+        "evening"
+      ],
+      "titleZh": "编程智能体的核心组件【译】",
+      "titleEn": "编程智能体的核心组件【译】",
+      "summary": "宝玉xp 更新：深入拆解编程智能体的六大核心组件——代码仓库上下文、提示词缓存、工具调用、上下文瘦身、会话记忆和子智能体委派，揭示为什么 Coding harness 才是让大模型编程能力飞跃的关键。",
+      "whyMatters": "宝玉xp 基于实测或研究分享了这条判断，对普通用户了解 AI 工具现状有直接参考价值。",
+      "takeaways": [
+        "深入拆解编程智能体的六大核心组件——代码仓库上下文、提示词缓存、工具调用、上下文瘦身、会话记忆和子智能体委派，揭示为什么 Coding harness 才是让大模型编程能力飞跃的关……",
+        "关键看三个提升点：推理更准 / 速度更快 / 输出更长——哪条对你的场景更重要。",
+        "不用急着切换，等产品层接入后看实际表现，再决定要不要调整工作流。"
+      ],
+      "tags": [
+        "AI前沿",
+        "大模型",
+        "产品经理",
+        "深度分析",
+        "观点",
+        "AI",
+        "Agent",
+        "Coding"
+      ],
+      "sourceUrl": "https://baoyu.io/translations/2026-04-04/components-of-a-coding-agent",
+      "creator": {
+        "duration": "60 秒",
+        "oneLiner": "深入拆解编程智能体的六大核心组件——代码仓库上下文、提示词缓存、工具调用、上下文瘦身、会话记忆和子智能体委派，……",
+        "hook": "编程智能体的核心组件译——这条 AI 消息，和你直接有关。",
+        "angle": "这位博主长期追踪 AI 工具实际表现，这条判断对你评估工具是否值得用有直接参考价值。",
+        "coverTitle": "编程智能体的核心组件【译】",
+        "coverSubtitle": "博主深度解读",
+        "commentPrompt": "你觉得这次升级值不值得关注？A值 B不值。",
         "cta": "关注我，每天帮你筛出真正值得关注的 AI 动态。"
       }
     },
@@ -2332,14 +2502,14 @@
         "noon",
         "evening"
       ],
-      "titleZh": "Google AI: New ways to balance cost and reliability in the Gemini API",
+      "titleZh": "New ways to balance cost and reliability in the Gemini API",
       "titleEn": "New ways to balance cost and reliability in the Gemini API",
       "summary": "Google AI 更新：Google is introducing two new inference tiers to the Gemini API, Flex and Priority, to balance cost and latency.",
       "whyMatters": "Google AI 官方发布，直接反映当前 AI 产品方向，影响日常工具使用体验。",
       "takeaways": [
-        "发布于 2026-04-02，来自 Google AI（Official Blog）。",
-        "Google is introducing two new inference tiers to the Gemini API, Flex and Priority, to balance cost and latency.",
-        "点击原文可查看完整内容，结合自身需求做判断。"
+        "功能更新通常先出现在网页版或API，App端会稍后跟进，留意你习惯的入口。",
+        "上手成本低，不需要技术背景，建议结合你最高频的工作场景直接实测。",
+        "判断新功能值不值得用：看它能不能替换你现在某个重复性的操作。"
       ],
       "tags": [
         "Google",
@@ -2353,12 +2523,12 @@
       "sourceUrl": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-flex-and-priority-inference/",
       "creator": {
         "duration": "60 秒",
-        "oneLiner": "Google is introducing two new inference tiers to the Gemini ……",
-        "hook": "New ways to balanc——今天这条 AI 消息，和你有关。",
-        "angle": "这是来自 Google AI 的官方更新，直接影响你正在使用的 AI 产品或工具。",
-        "coverTitle": "New ways to balance cost and rel",
-        "coverSubtitle": "官方最新动态",
-        "commentPrompt": "这条更新你觉得对你的工作或生活有影响吗？",
+        "oneLiner": "一个 AI 产品发布了新功能，核心变化直接影响现有用户的使用体验。",
+        "hook": "这个功能刚上线，可能你还不知道它能做什么。",
+        "angle": "这是 Google AI 官方发布的动态，会直接反映在你正在使用的 AI 产品里。",
+        "coverTitle": "Google AI · 产品发布",
+        "coverSubtitle": "官方第一手",
+        "commentPrompt": "这个功能你会用还是不用？评论区选边站。",
         "cta": "关注我，每天帮你筛出真正值得关注的 AI 动态。"
       }
     },
@@ -2376,14 +2546,14 @@
         "noon",
         "evening"
       ],
-      "titleZh": "Google AI: Create, edit and share videos at no cost in Google Vids",
+      "titleZh": "Create, edit and share videos at no cost in Google Vids",
       "titleEn": "Create, edit and share videos at no cost in Google Vids",
       "summary": "Google AI 更新：New AI capabilities are coming to Google Vids, powered by Lyria 3 and Veo 3.1, like high-quality video generation at no cost and more.",
       "whyMatters": "Google AI 官方发布，直接反映当前 AI 产品方向，影响日常工具使用体验。",
       "takeaways": [
-        "发布于 2026-04-02，来自 Google AI（Official Blog）。",
-        "New AI capabilities are coming to Google Vids, powered by Lyria 3 and Veo 3.1, like high-quality video generation at no ",
-        "点击原文可查看完整内容，结合自身需求做判断。"
+        "功能更新通常先出现在网页版或API，App端会稍后跟进，留意你习惯的入口。",
+        "上手成本低，不需要技术背景，建议结合你最高频的工作场景直接实测。",
+        "判断新功能值不值得用：看它能不能替换你现在某个重复性的操作。"
       ],
       "tags": [
         "Google",
@@ -2398,99 +2568,191 @@
       "sourceUrl": "https://blog.google/products-and-platforms/products/workspace/google-vids-updates-lyria-veo/",
       "creator": {
         "duration": "60 秒",
-        "oneLiner": "New AI capabilities are coming to Google Vids, powered by Ly……",
-        "hook": "Create, edit and s——今天这条 AI 消息，和你有关。",
-        "angle": "这是来自 Google AI 的官方更新，直接影响你正在使用的 AI 产品或工具。",
-        "coverTitle": "Create, edit and share videos at",
-        "coverSubtitle": "官方最新动态",
-        "commentPrompt": "这条更新你觉得对你的工作或生活有影响吗？",
+        "oneLiner": "一个 AI 产品发布了新功能，核心变化直接影响现有用户的使用体验。",
+        "hook": "这个功能刚上线，可能你还不知道它能做什么。",
+        "angle": "这是 Google AI 官方发布的动态，会直接反映在你正在使用的 AI 产品里。",
+        "coverTitle": "Google AI · 产品发布",
+        "coverSubtitle": "官方第一手",
+        "commentPrompt": "这个功能你会用还是不用？评论区选边站。",
         "cta": "关注我，每天帮你筛出真正值得关注的 AI 动态。"
       }
     },
     {
-      "id": "bensbites-2181f3b58a",
-      "source": "bensbites",
+      "id": "baoyu-f99a1d713d",
+      "source": "baoyu",
       "category": "product",
       "format": "个人解读",
       "evidence": "个人解读",
       "priority": 3,
       "featured": true,
-      "publishedAt": "2026-04-02",
+      "publishedAt": "2026-04-01",
       "slots": [
         "morning",
         "noon",
         "evening"
       ],
-      "titleZh": "Ben's Bites: Inside the leaked Claude Code files",
-      "titleEn": "Inside the leaked Claude Code files",
-      "summary": "Ben's Bites 更新：Docs as files, a new markdown editor and April fools",
-      "whyMatters": "Ben's Bites 基于实测或研究分享了这条判断，对普通用户了解 AI 工具现状有直接参考价值。",
+      "titleZh": "OpenAI 总裁 Greg Brockman：AI 自我改进、Super App 豪赌、通往 AGI 之路、算力扩张",
+      "titleEn": "OpenAI 总裁 Greg Brockman：AI 自我改进、Super App 豪赌、通往 AGI 之路、算力扩张",
+      "summary": "宝玉xp 更新：Brockman 用 90 分钟重新包装每一个被动决策，但叙事缝隙里藏着 OpenAI 的三层压力。",
+      "whyMatters": "宝玉xp 基于实测或研究分享了这条判断，对普通用户了解 AI 工具现状有直接参考价值。",
       "takeaways": [
-        "发布于 2026-04-02，来自 Ben's Bites（Newsletter）。",
-        "Docs as files, a new markdown editor and April fools",
-        "点击原文可查看完整内容，结合自身需求做判断。"
+        "功能更新通常先出现在网页版或API，App端会稍后跟进，留意你习惯的入口。",
+        "上手成本低，不需要技术背景，建议结合你最高频的工作场景直接实测。",
+        "判断新功能值不值得用：看它能不能替换你现在某个重复性的操作。"
       ],
       "tags": [
-        "AI 新闻",
-        "工具",
-        "创业",
-        "热点"
+        "AI前沿",
+        "大模型",
+        "产品经理",
+        "深度分析",
+        "观点"
       ],
-      "sourceUrl": "https://www.bensbites.com/p/inside-the-leaked-claude-code-files",
+      "sourceUrl": "https://baoyu.io/blog/openai-president-greg-brockman-ai-self-improvement-the-superapp-bet-path-to-agi-scaling-compute",
       "creator": {
         "duration": "60 秒",
-        "oneLiner": "Docs as files, a new markdown editor and April fools",
-        "hook": "Inside the leaked——今天这条 AI 消息，和你有关。",
-        "angle": "这位博主长期追踪 AI 工具动态，这条判断对你评估相关工具是否值得关注有直接参考价值。",
-        "coverTitle": "Inside the leaked Claude Code fi",
-        "coverSubtitle": "博主深度分析",
-        "commentPrompt": "这条更新你觉得对你的工作或生活有影响吗？",
+        "oneLiner": "一个 AI 产品发布了新功能，核心变化直接影响现有用户的使用体验。",
+        "hook": "这个功能刚上线，可能你还不知道它能做什么。",
+        "angle": "这位博主长期追踪 AI 工具实际表现，这条判断对你评估工具是否值得用有直接参考价值。",
+        "coverTitle": "宝玉xp · 产品发布",
+        "coverSubtitle": "博主深度解读",
+        "commentPrompt": "这个功能你会用还是不用？评论区选边站。",
         "cta": "关注我，每天帮你筛出真正值得关注的 AI 动态。"
       }
     },
     {
-      "id": "oneusefulthing-8f6970f10e",
-      "source": "oneusefulthing",
-      "category": "product",
+      "id": "baoyu-b7d2b8c55e",
+      "source": "baoyu",
+      "category": "open",
       "format": "个人解读",
       "evidence": "个人解读",
       "priority": 3,
       "featured": true,
-      "publishedAt": "2026-03-31",
+      "publishedAt": "2026-04-01",
       "slots": [
         "morning",
         "noon",
         "evening"
       ],
-      "titleZh": "One Useful Thing: Claude Dispatch and the Power of Interfaces",
-      "titleEn": "Claude Dispatch and the Power of Interfaces",
-      "summary": "One Useful Thing 更新：We often lack the tools for the job, even if the AI is capable enough",
-      "whyMatters": "One Useful Thing 基于实测或研究分享了这条判断，对普通用户了解 AI 工具现状有直接参考价值。",
+      "titleZh": "Claude Code 源码泄漏了，但我不打算写源码分析分析文章",
+      "titleEn": "Claude Code 源码泄漏了，但我不打算写源码分析分析文章",
+      "summary": "宝玉xp 更新：Claude Code 源码泄漏后满屏 AI 生成的分析文章，与其再多一篇，不如聊聊怎么真正从开源代码中学到东西。四步递进：跑起来、从功能点切入、二次开发、从零搭建。",
+      "whyMatters": "宝玉xp 基于实测或研究分享了这条判断，对普通用户了解 AI 工具现状有直接参考价值。",
       "takeaways": [
-        "发布于 2026-03-31，来自 One Useful Thing（Substack）。",
-        "We often lack the tools for the job, even if the AI is capable enough",
-        "点击原文可查看完整内容，结合自身需求做判断。"
+        "开源模型的核心优势：可以本地运行，数据不离开你的设备，适合隐私要求高的场景。",
+        "开源和商业 AI 的差距在今年快速缩小，某些任务上开源已经够用甚至更好。",
+        "对普通用户来说，关注以开源模型为底层的封装产品，会比直接用原始模型更方便。"
       ],
       "tags": [
-        "AI 影响",
-        "教育",
-        "工作",
-        "大众化观点"
+        "AI前沿",
+        "大模型",
+        "产品经理",
+        "深度分析",
+        "观点",
+        "ai",
+        "coding",
+        "open-source"
       ],
-      "sourceUrl": "https://www.oneusefulthing.org/p/claude-dispatch-and-the-power-of",
+      "sourceUrl": "https://baoyu.io/blog/2026-04-01/learn-from-open-source",
       "creator": {
         "duration": "60 秒",
-        "oneLiner": "We often lack the tools for the job, even if the AI is capab……",
-        "hook": "Claude Dispatch an——今天这条 AI 消息，和你有关。",
-        "angle": "这位博主长期追踪 AI 工具动态，这条判断对你评估相关工具是否值得关注有直接参考价值。",
-        "coverTitle": "Claude Dispatch and the Power of",
-        "coverSubtitle": "博主深度分析",
-        "commentPrompt": "这条更新你觉得对你的工作或生活有影响吗？",
+        "oneLiner": "开源 AI 生态有新进展，可自由部署，开发者和进阶用户值得关注。",
+        "hook": "开源 AI 和商业 AI 的差距，正在快速缩小——这次缩到了这里。",
+        "angle": "这位博主长期追踪 AI 工具实际表现，这条判断对你评估工具是否值得用有直接参考价值。",
+        "coverTitle": "宝玉xp · 开源进展",
+        "coverSubtitle": "博主深度解读",
+        "commentPrompt": "你用开源还是商业 AI 工具？告诉我你的选择。",
+        "cta": "关注我，每天帮你筛出真正值得关注的 AI 动态。"
+      }
+    },
+    {
+      "id": "baoyu-d112271856",
+      "source": "baoyu",
+      "category": "open",
+      "format": "个人解读",
+      "evidence": "个人解读",
+      "priority": 3,
+      "featured": true,
+      "publishedAt": "2026-03-28",
+      "slots": [
+        "morning",
+        "noon",
+        "evening"
+      ],
+      "titleZh": "飞书 CLI 开源了，为什么 AI Agent 时代，大家都在做命令行工具？",
+      "titleEn": "飞书 CLI 开源了，为什么 AI Agent 时代，大家都在做命令行工具？",
+      "summary": "宝玉xp 更新：飞书开源 lark-cli，CLI 正在成为产品接入 AI Agent 的标准方式",
+      "whyMatters": "宝玉xp 基于实测或研究分享了这条判断，对普通用户了解 AI 工具现状有直接参考价值。",
+      "takeaways": [
+        "开源模型的核心优势：可以本地运行，数据不离开你的设备，适合隐私要求高的场景。",
+        "开源和商业 AI 的差距在今年快速缩小，某些任务上开源已经够用甚至更好。",
+        "对普通用户来说，关注以开源模型为底层的封装产品，会比直接用原始模型更方便。"
+      ],
+      "tags": [
+        "AI前沿",
+        "大模型",
+        "产品经理",
+        "深度分析",
+        "观点",
+        "ai",
+        "agent",
+        "cli"
+      ],
+      "sourceUrl": "https://baoyu.io/blog/2026-03-28/lark-cli-ai-agents",
+      "creator": {
+        "duration": "60 秒",
+        "oneLiner": "开源 AI 生态有新进展，可自由部署，开发者和进阶用户值得关注。",
+        "hook": "开源 AI 和商业 AI 的差距，正在快速缩小——这次缩到了这里。",
+        "angle": "这位博主长期追踪 AI 工具实际表现，这条判断对你评估工具是否值得用有直接参考价值。",
+        "coverTitle": "宝玉xp · 开源进展",
+        "coverSubtitle": "博主深度解读",
+        "commentPrompt": "你用开源还是商业 AI 工具？告诉我你的选择。",
         "cta": "关注我，每天帮你筛出真正值得关注的 AI 动态。"
       }
     },
     {
       "id": "anthropic-3273340234",
+      "source": "anthropic",
+      "category": "product",
+      "format": "产品发布",
+      "evidence": "官方一手",
+      "priority": 3,
+      "featured": true,
+      "publishedAt": "2026-03-12",
+      "slots": [
+        "morning",
+        "noon",
+        "evening"
+      ],
+      "titleZh": "Announcements Anthropic invests $100 million into the Claude Partner Network",
+      "titleEn": "Announcements Anthropic invests $100 million into the Claude Partner Network",
+      "summary": "Anthropic 更新：Mar 12, 2026 Announcements Anthropic invests $100 million into the Claude Partner Network",
+      "whyMatters": "Anthropic 官方发布，直接反映当前 AI 产品方向，影响日常工具使用体验。",
+      "takeaways": [
+        "功能更新通常先出现在网页版或API，App端会稍后跟进，留意你习惯的入口。",
+        "上手成本低，不需要技术背景，建议结合你最高频的工作场景直接实测。",
+        "判断新功能值不值得用：看它能不能替换你现在某个重复性的操作。"
+      ],
+      "tags": [
+        "Claude",
+        "Anthropic",
+        "产品",
+        "模型",
+        "Agent"
+      ],
+      "sourceUrl": "https://www.anthropic.com/news/claude-partner-network",
+      "creator": {
+        "duration": "60 秒",
+        "oneLiner": "一个 AI 产品发布了新功能，核心变化直接影响现有用户的使用体验。",
+        "hook": "这个功能刚上线，可能你还不知道它能做什么。",
+        "angle": "这是 Anthropic 官方发布的动态，会直接反映在你正在使用的 AI 产品里。",
+        "coverTitle": "Anthropic · 产品发布",
+        "coverSubtitle": "官方第一手",
+        "commentPrompt": "这个功能你会用还是不用？评论区选边站。",
+        "cta": "关注我，每天帮你筛出真正值得关注的 AI 动态。"
+      }
+    },
+    {
+      "id": "anthropic-37ba8ec5ac",
       "source": "anthropic",
       "category": "product",
       "format": "产品发布",
@@ -2503,56 +2765,14 @@
         "noon",
         "evening"
       ],
-      "titleZh": "Anthropic: Announcements Anthropic invests $100 million into the Claude Partner Network",
-      "titleEn": "Announcements Anthropic invests $100 million into the Claude Partner Network",
-      "summary": "Anthropic 更新：Mar 12, 2026 Announcements Anthropic invests $100 million into the Claude Partner Network",
-      "whyMatters": "Anthropic 官方发布，直接反映当前 AI 产品方向，影响日常工具使用体验。",
-      "takeaways": [
-        "发布于 2026-03-11，来自 Anthropic（Official News）。",
-        "Mar 12, 2026 Announcements Anthropic invests $100 million into the Claude Partner Network",
-        "点击原文可查看完整内容，结合自身需求做判断。"
-      ],
-      "tags": [
-        "Claude",
-        "Anthropic",
-        "产品",
-        "模型",
-        "Agent"
-      ],
-      "sourceUrl": "https://www.anthropic.com/news/claude-partner-network",
-      "creator": {
-        "duration": "60 秒",
-        "oneLiner": "Mar 12, 2026 Announcements Anthropic invests $100 million in……",
-        "hook": "Announcements Anth——今天这条 AI 消息，和你有关。",
-        "angle": "这是来自 Anthropic 的官方更新，直接影响你正在使用的 AI 产品或工具。",
-        "coverTitle": "Announcements Anthropic invests ",
-        "coverSubtitle": "官方最新动态",
-        "commentPrompt": "这条更新你觉得对你的工作或生活有影响吗？",
-        "cta": "关注我，每天帮你筛出真正值得关注的 AI 动态。"
-      }
-    },
-    {
-      "id": "anthropic-37ba8ec5ac",
-      "source": "anthropic",
-      "category": "product",
-      "format": "产品发布",
-      "evidence": "官方一手",
-      "priority": 3,
-      "featured": true,
-      "publishedAt": "2026-03-10",
-      "slots": [
-        "morning",
-        "noon",
-        "evening"
-      ],
-      "titleZh": "Anthropic: Announcements Introducing The Anthropic Institute",
+      "titleZh": "Announcements Introducing The Anthropic Institute",
       "titleEn": "Announcements Introducing The Anthropic Institute",
       "summary": "Anthropic 更新：Mar 11, 2026 Announcements Introducing The Anthropic Institute",
       "whyMatters": "Anthropic 官方发布，直接反映当前 AI 产品方向，影响日常工具使用体验。",
       "takeaways": [
-        "发布于 2026-03-10，来自 Anthropic（Official News）。",
-        "Mar 11, 2026 Announcements Introducing The Anthropic Institute",
-        "点击原文可查看完整内容，结合自身需求做判断。"
+        "功能更新通常先出现在网页版或API，App端会稍后跟进，留意你习惯的入口。",
+        "上手成本低，不需要技术背景，建议结合你最高频的工作场景直接实测。",
+        "判断新功能值不值得用：看它能不能替换你现在某个重复性的操作。"
       ],
       "tags": [
         "Claude",
@@ -2564,135 +2784,54 @@
       "sourceUrl": "https://www.anthropic.com/news/the-anthropic-institute",
       "creator": {
         "duration": "60 秒",
-        "oneLiner": "Mar 11, 2026 Announcements Introducing The Anthropic Institu……",
-        "hook": "Announcements Intr——今天这条 AI 消息，和你有关。",
-        "angle": "这是来自 Anthropic 的官方更新，直接影响你正在使用的 AI 产品或工具。",
-        "coverTitle": "Announcements Introducing The An",
-        "coverSubtitle": "官方最新动态",
-        "commentPrompt": "这条更新你觉得对你的工作或生活有影响吗？",
+        "oneLiner": "一个 AI 产品发布了新功能，核心变化直接影响现有用户的使用体验。",
+        "hook": "这个功能刚上线，可能你还不知道它能做什么。",
+        "angle": "这是 Anthropic 官方发布的动态，会直接反映在你正在使用的 AI 产品里。",
+        "coverTitle": "Anthropic · 产品发布",
+        "coverSubtitle": "官方第一手",
+        "commentPrompt": "这个功能你会用还是不用？评论区选边站。",
         "cta": "关注我，每天帮你筛出真正值得关注的 AI 动态。"
       }
     },
     {
-      "id": "bensbites-e927566b24",
-      "source": "bensbites",
-      "category": "model",
-      "format": "个人解读",
-      "evidence": "个人解读",
-      "priority": 3,
-      "featured": true,
-      "publishedAt": "2026-03-10",
-      "slots": [
-        "morning",
-        "noon",
-        "evening"
-      ],
-      "titleZh": "Ben's Bites: Just use GPT-5.4 xhigh",
-      "titleEn": "Just use GPT-5.4 xhigh",
-      "summary": "Ben's Bites 更新：workshop recording inside",
-      "whyMatters": "Ben's Bites 基于实测或研究分享了这条判断，对普通用户了解 AI 工具现状有直接参考价值。",
-      "takeaways": [
-        "发布于 2026-03-10，来自 Ben's Bites（Newsletter）。",
-        "workshop recording inside",
-        "点击原文可查看完整内容，结合自身需求做判断。"
-      ],
-      "tags": [
-        "AI 新闻",
-        "工具",
-        "创业",
-        "热点"
-      ],
-      "sourceUrl": "https://www.bensbites.com/p/just-use-gpt-54-xhigh",
-      "creator": {
-        "duration": "60 秒",
-        "oneLiner": "workshop recording inside",
-        "hook": "Just use GPT-5.4 x——今天这条 AI 消息，和你有关。",
-        "angle": "这位博主长期追踪 AI 工具动态，这条判断对你评估相关工具是否值得关注有直接参考价值。",
-        "coverTitle": "Just use GPT-5.4 xhigh",
-        "coverSubtitle": "博主深度分析",
-        "commentPrompt": "这条更新你觉得对你的工作或生活有影响吗？",
-        "cta": "关注我，每天帮你筛出真正值得关注的 AI 动态。"
-      }
-    },
-    {
-      "id": "bensbites-2b54ca94db",
-      "source": "bensbites",
+      "id": "anthropic-26de9866b2",
+      "source": "anthropic",
       "category": "product",
-      "format": "个人解读",
-      "evidence": "个人解读",
+      "format": "产品发布",
+      "evidence": "官方一手",
       "priority": 3,
       "featured": true,
-      "publishedAt": "2026-02-26",
+      "publishedAt": "2026-02-04",
       "slots": [
         "morning",
         "noon",
         "evening"
       ],
-      "titleZh": "Ben's Bites: Claude has some conflicts",
-      "titleEn": "Claude has some conflicts",
-      "summary": "Ben's Bites 更新：Notion, Perplexity and computer using agents",
-      "whyMatters": "Ben's Bites 基于实测或研究分享了这条判断，对普通用户了解 AI 工具现状有直接参考价值。",
+      "titleZh": "Claude is a space to think",
+      "titleEn": "Claude is a space to think",
+      "summary": "Anthropic 更新：Announcements Feb 4, 2026 Claude is a space to think We’ve made a choice: Claude will remain ad-free. We explain why advertising incentives are incompatible with a genuinely he...",
+      "whyMatters": "Anthropic 官方发布，直接反映当前 AI 产品方向，影响日常工具使用体验。",
       "takeaways": [
-        "发布于 2026-02-26，来自 Ben's Bites（Newsletter）。",
-        "Notion, Perplexity and computer using agents",
-        "点击原文可查看完整内容，结合自身需求做判断。"
+        "功能更新通常先出现在网页版或API，App端会稍后跟进，留意你习惯的入口。",
+        "上手成本低，不需要技术背景，建议结合你最高频的工作场景直接实测。",
+        "判断新功能值不值得用：看它能不能替换你现在某个重复性的操作。"
       ],
       "tags": [
-        "AI 新闻",
-        "工具",
-        "创业",
-        "热点"
+        "Claude",
+        "Anthropic",
+        "产品",
+        "模型",
+        "Agent"
       ],
-      "sourceUrl": "https://www.bensbites.com/p/claude-has-some-conflicts",
+      "sourceUrl": "https://www.anthropic.com/news/claude-is-a-space-to-think",
       "creator": {
         "duration": "60 秒",
-        "oneLiner": "Notion, Perplexity and computer using agents",
-        "hook": "Claude has some co——今天这条 AI 消息，和你有关。",
-        "angle": "这位博主长期追踪 AI 工具动态，这条判断对你评估相关工具是否值得关注有直接参考价值。",
-        "coverTitle": "Claude has some conflicts",
-        "coverSubtitle": "博主深度分析",
-        "commentPrompt": "这条更新你觉得对你的工作或生活有影响吗？",
-        "cta": "关注我，每天帮你筛出真正值得关注的 AI 动态。"
-      }
-    },
-    {
-      "id": "oneusefulthing-f0214b6795",
-      "source": "oneusefulthing",
-      "category": "digest",
-      "format": "博主观察",
-      "evidence": "个人解读",
-      "priority": 3,
-      "featured": true,
-      "publishedAt": "2026-02-18",
-      "slots": [
-        "morning",
-        "noon",
-        "evening"
-      ],
-      "titleZh": "One Useful Thing: A Guide to Which AI to Use in the Agentic Era",
-      "titleEn": "A Guide to Which AI to Use in the Agentic Era",
-      "summary": "One Useful Thing 更新：It's not just chatbots anymore",
-      "whyMatters": "One Useful Thing 基于实测或研究分享了这条判断，对普通用户了解 AI 工具现状有直接参考价值。",
-      "takeaways": [
-        "发布于 2026-02-18，来自 One Useful Thing（Substack）。",
-        "It's not just chatbots anymore",
-        "点击原文可查看完整内容，结合自身需求做判断。"
-      ],
-      "tags": [
-        "AI 影响",
-        "教育",
-        "工作",
-        "大众化观点"
-      ],
-      "sourceUrl": "https://www.oneusefulthing.org/p/a-guide-to-which-ai-to-use-in-the",
-      "creator": {
-        "duration": "60 秒",
-        "oneLiner": "It's not just chatbots anymore",
-        "hook": "A Guide to Which A——今天这条 AI 消息，和你有关。",
-        "angle": "这位博主长期追踪 AI 工具动态，这条判断对你评估相关工具是否值得关注有直接参考价值。",
-        "coverTitle": "A Guide to Which AI to Use in th",
-        "coverSubtitle": "博主深度分析",
-        "commentPrompt": "这条更新你觉得对你的工作或生活有影响吗？",
+        "oneLiner": "一个 AI 产品发布了新功能，核心变化直接影响现有用户的使用体验。",
+        "hook": "这个功能刚上线，可能你还不知道它能做什么。",
+        "angle": "这是 Anthropic 官方发布的动态，会直接反映在你正在使用的 AI 产品里。",
+        "coverTitle": "Anthropic · 产品发布",
+        "coverSubtitle": "官方第一手",
+        "commentPrompt": "这个功能你会用还是不用？评论区选边站。",
         "cta": "关注我，每天帮你筛出真正值得关注的 AI 动态。"
       }
     }
