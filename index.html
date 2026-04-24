@@ -420,6 +420,11 @@
                         <option value="priority">按优先级</option>
                         <option value="source">按来源</option>
                     </select>
+                    <select id="tone-select" class="ctrl-select flex-shrink-0" style="width:auto;">
+                        <option value="natural">真人闲聊</option>
+                        <option value="quick">快讯冲击</option>
+                        <option value="opinion">观点深挖</option>
+                    </select>
                 </div>
 
                 <div class="flex gap-2 overflow-x-auto pb-1 mb-2">
@@ -450,7 +455,7 @@
                 <div class="flex items-center gap-2 mb-4">
                     <i class="fa-solid fa-link text-xs" style="color:var(--accent);"></i>
                     <h3 class="text-sm font-bold text-white">信息来源</h3>
-                    <span class="text-xs" style="color:var(--muted);">· 官方 + 个人博主</span>
+                    <span class="text-xs" style="color:var(--muted);">· 官方一手 + 中文权威媒体</span>
                 </div>
                 <div id="source-library" class="grid gap-3 sm:grid-cols-2 lg:grid-cols-3"></div>
             </section>
@@ -460,7 +465,7 @@
                 <p class="text-xs font-bold uppercase tracking-widest mb-2.5" style="color:var(--amber);">抓取逻辑</p>
                 <div class="space-y-1.5 text-xs" style="color:var(--muted);line-height:1.7;">
                     <p>1. GitHub Actions 按北京时间 08:05、12:05、19:05 抓取并生成同源 news-feed.json。</p>
-                    <p>2. 官方渠道只保留适合大众转述的产品 / 新闻源，个人渠道优先选择热门 AI 博主、newsletter 和自媒体型 feed。</p>
+                    <p>2. 官方渠道覆盖 OpenAI、Anthropic、Google DeepMind、Microsoft AI、Meta AI、Hugging Face 六大一级来源；中文渠道以量子位、机器之心、新智元等权威科技媒体为主，辅以阮一峰、少数派等高权重博主。</p>
                     <p>3. 按 sourceUrl 去重，再按发布时间、来源权重、AI 关键词、流量钩子和创作价值分入早报、午报、晚报。</p>
                     <p>4. 规则摘要不接 API Key；正式发布前建议回到原始链接核对细节。</p>
                 </div>
@@ -736,94 +741,86 @@
                 description: "开源生态与社区趋势的重要观察窗口，适合跟进模型生态与开发工具。",
                 gradient: "from-amber-200 via-orange-300 to-yellow-400"
             },
-            bensbites: {
-                label: "Ben's Bites",
-                icon: "fa-solid fa-bolt-lightning",
-                homeUrl: "https://www.bensbites.com/",
-                type: "creator",
-                platform: "Newsletter",
-                description: "偏 AI 工具、创业和热点快讯，适合快速找流量型选题。",
-                gradient: "from-rose-200 via-orange-300 to-amber-300"
+            "microsoft-ai": {
+                label: "Microsoft AI",
+                icon: "fa-solid fa-windows",
+                homeUrl: "https://blogs.microsoft.com/ai/",
+                type: "official",
+                platform: "官方博客",
+                description: "Copilot 与 Azure AI 官方动态，适合追踪微软在企业与消费级 AI 产品的布局。",
+                gradient: "from-sky-200 via-blue-300 to-indigo-400"
             },
-            aitidbits: {
-                label: "AI Tidbits",
-                icon: "fa-solid fa-fire",
-                homeUrl: "https://www.aitidbits.ai/",
-                type: "creator",
-                platform: "Newsletter",
-                description: "跟进 AI 产品、工具和趋势，适合做简洁高频资讯口播。",
-                gradient: "from-pink-200 via-fuchsia-300 to-violet-400"
+            "meta-ai": {
+                label: "Meta AI",
+                icon: "fa-solid fa-share-nodes",
+                homeUrl: "https://ai.meta.com/blog/",
+                type: "official",
+                platform: "官方博客",
+                description: "Llama 系列与开源策略的官方来源，适合关注开源大模型生态演进。",
+                gradient: "from-blue-200 via-indigo-300 to-violet-400"
             },
-            understandingai: {
-                label: "Understanding AI",
-                icon: "fa-solid fa-compass",
-                homeUrl: "https://www.understandingai.org/",
-                type: "creator",
-                platform: "Newsletter",
-                description: "用更大众化的方式解释 AI 产业和技术变化，适合做观点铺垫。",
-                gradient: "from-blue-200 via-cyan-300 to-teal-300"
+            qbitai: {
+                label: "量子位",
+                icon: "fa-solid fa-atom",
+                homeUrl: "https://www.qbitai.com/",
+                type: "official",
+                platform: "科技媒体",
+                description: "国内 AI 领域权威科技媒体，覆盖模型发布、产业动态和深度评测，是中文 AI 信息的核心来源之一。",
+                gradient: "from-emerald-200 via-teal-300 to-cyan-400"
             },
-            marktechpost: {
-                label: "MarkTechPost",
-                icon: "fa-solid fa-rss",
-                homeUrl: "https://www.marktechpost.com/",
-                type: "creator",
-                platform: "AI Media",
-                description: "高频 AI 新闻与论文动态源，适合补充热点池和标题灵感。",
-                gradient: "from-stone-200 via-lime-300 to-emerald-300"
+            jiqizhixin: {
+                label: "机器之心",
+                icon: "fa-solid fa-microchip",
+                homeUrl: "https://www.jiqizhixin.com/",
+                type: "official",
+                platform: "科技媒体",
+                description: "专注 AI 研究与技术进展，适合跟踪前沿论文、模型架构和学术动态。",
+                gradient: "from-violet-200 via-purple-300 to-fuchsia-400"
             },
-            simonwillison: {
-                label: "Simon Willison",
-                icon: "fa-solid fa-user-pen",
-                homeUrl: "https://simonwillison.net/",
-                type: "creator",
-                platform: "Blog",
-                description: "开发者视角的 LLM 实测、工具观察和技术判断，适合补充个人观点。",
-                gradient: "from-lime-200 via-emerald-300 to-teal-400"
+            xinzhiyuan: {
+                label: "新智元",
+                icon: "fa-solid fa-brain",
+                homeUrl: "https://www.xinzhiyuan.net/",
+                type: "official",
+                platform: "科技媒体",
+                description: "AI 产业观察与大模型评论，适合做观点向内容和产业趋势分析。",
+                gradient: "from-orange-200 via-amber-300 to-yellow-400"
             },
-            oneusefulthing: {
-                label: "One Useful Thing",
-                icon: "fa-solid fa-lightbulb",
-                homeUrl: "https://www.oneusefulthing.org/",
-                type: "creator",
-                platform: "Substack",
-                description: "关注 AI 对工作、教育和知识生产的影响，适合做观点型口播。",
-                gradient: "from-violet-200 via-fuchsia-300 to-rose-300"
+            aibase: {
+                label: "AIbase",
+                icon: "fa-solid fa-toolbox",
+                homeUrl: "https://www.aibase.com/",
+                type: "official",
+                platform: "AI工具媒体",
+                description: "专注 AI 工具评测与应用场景，适合做效率型内容和工具推荐口播。",
+                gradient: "from-rose-200 via-pink-300 to-fuchsia-300"
             },
-            importai: {
-                label: "Import AI",
-                icon: "fa-solid fa-newspaper",
-                homeUrl: "https://jack-clark.net/",
-                type: "creator",
-                platform: "Blog",
-                description: "偏研究、政策和产业周报，适合晚报里做趋势收束。",
+            "36kr-ai": {
+                label: "36氪AI",
+                icon: "fa-solid fa-chart-line",
+                homeUrl: "https://36kr.com/information/technology",
+                type: "official",
+                platform: "商业科技媒体",
+                description: "AI 融资、创业和商业化动态，适合做产业商业角度的内容。",
                 gradient: "from-cyan-200 via-sky-300 to-blue-400"
             },
-            interconnects: {
-                label: "Interconnects",
-                icon: "fa-solid fa-diagram-project",
-                homeUrl: "https://www.interconnects.ai/",
+            ruanyifeng: {
+                label: "阮一峰",
+                icon: "fa-solid fa-user-pen",
+                homeUrl: "https://www.ruanyifeng.com/blog/",
                 type: "creator",
-                platform: "Substack",
-                description: "聚焦开源模型、训练生态和产业判断，适合做深度拆解。",
-                gradient: "from-teal-200 via-green-300 to-emerald-400"
+                platform: "个人博客",
+                description: "国内顶级技术博主，每周技术与人文选题角度独特，适合做开发者视角的 AI 内容。",
+                gradient: "from-teal-200 via-cyan-300 to-sky-400"
             },
-            latentspace: {
-                label: "Latent Space",
-                icon: "fa-solid fa-podcast",
-                homeUrl: "https://www.latent.space/",
+            sspai: {
+                label: "少数派",
+                icon: "fa-solid fa-compass",
+                homeUrl: "https://sspai.com/",
                 type: "creator",
-                platform: "Substack / Podcast",
-                description: "AI 工程、Agent、开发者生态和访谈内容，适合找选题角度。",
-                gradient: "from-slate-200 via-sky-300 to-indigo-300"
-            },
-            aheadofai: {
-                label: "Ahead of AI",
-                icon: "fa-solid fa-graduation-cap",
-                homeUrl: "https://magazine.sebastianraschka.com/",
-                type: "creator",
-                description: "机器学习与模型研究教程向内容，适合技术博主做解释型选题。",
-                gradient: "from-amber-200 via-yellow-300 to-lime-300"
+                platform: "优质内容社区",
+                description: "AI 工具实测与效率应用，受众偏向有品质要求的用户，适合做应用向口播内容。",
+                gradient: "from-indigo-200 via-violet-300 to-purple-400"
             }
         };
 
@@ -1886,7 +1883,7 @@
 
             const lines = [
                 buildFiveSecondHook(lead),
-                `${slotInfo.shortLabel}快讯，来自${lead.source ? lead.source.toUpperCase() : "AI圈"}，${lead.format}：${coverTitle}。`,
+                `${slotInfo.shortLabel}快讯，来自 ${getSourceMeta(lead.source).label}，${lead.format}：${coverTitle}。`,
                 summary.length > 10 ? `核心是什么？${stripTrailingPunctuation(summary)}。` : "",
                 `说人话就是：${stripTrailingPunctuation(lead.creator.oneLiner)}。`,
                 `直接影响你的地方：${stripTrailingPunctuation(lead.creator.angle)}。`,
@@ -1928,7 +1925,7 @@
                 summary.length > 10 ? `具体怎么回事呢：${stripTrailingPunctuation(summary)}。` : "",
                 takeawayLines,
                 supportPart,
-                `说实话我的感受是：${stripTrailingPunctuation(lead.creator.angle)}。这不是在夸它，是真的有这个感受。`,
+                `我的判断是：${stripTrailingPunctuation(lead.creator.angle)}。`,
                 `${lead.creator.commentPrompt} 留言告诉我。\n\n${lead.creator.cta}`
             ].filter(Boolean).join("\n\n");
 
@@ -2013,103 +2010,8 @@
             const lead = safeItems[0];
             const supports = safeItems.slice(1);
             const tone = state.tone;
-            const quickSupport = supports.map((item) => `再补一条，${stripTrailingPunctuation(item.creator.oneLiner)}。`).join("");
-            const naturalSupport = supports.map((item) => `另外还有一条要说，${item.titleZh}，核心就是${stripTrailingPunctuation(item.creator.oneLiner)}。`).join("\n\n");
-            const quickToneSupport = supports.map((item) => `还有 ${item.titleZh}，一句话就是${stripTrailingPunctuation(item.creator.oneLiner)}。`).join(" ");
-            const opinionSupport = supports.map((item) => `再看 ${item.titleZh} 这条，你会发现它和主线是连着的，因为${stripTrailingPunctuation(item.creator.angle)}。`).join("\n\n");
 
-            let quickScript = "";
-            let fullScript = "";
-            let angleText = "";
-            let headlines = [];
-
-            if (tone === "quick") {
-                quickScript = [
-                    `${lead.creator.hook}`,
-                    `先说人话，${stripTrailingPunctuation(lead.creator.oneLiner)}。`,
-                    `今天${slotInfo.shortLabel}最值得先盯的是 ${lead.titleZh}，它真正重要的地方在于${stripTrailingPunctuation(lead.creator.angle)}。`,
-                    quickToneSupport,
-                    `这条来自 ${getSourceMeta(lead.source).label}，是今天${slotInfo.shortLabel}最值得记住的一条。`
-                ].join("");
-
-                fullScript = [
-                    `${lead.creator.hook}`,
-                    `今天这条我不绕弯子，核心就一句: ${stripTrailingPunctuation(lead.creator.oneLiner)}。`,
-                    `主角是 ${lead.titleZh}。${lead.summary}`,
-                    `这条为什么值得讲？因为${stripTrailingPunctuation(lead.creator.angle)}。`,
-                    `你可以直接抓三个点。第一，${stripTrailingPunctuation(lead.takeaways[0])}。第二，${stripTrailingPunctuation(lead.takeaways[1])}。第三，${stripTrailingPunctuation(lead.takeaways[2])}。`,
-                    supports.length ? `另外补两条相关动态。${quickToneSupport}` : "",
-                    `所以今天这一档如果要发，我会直接把封面打成“${lead.creator.coverTitle}”。评论区就问一句: ${lead.creator.commentPrompt}`,
-                    lead.creator.cta
-                ].filter(Boolean).join("\n\n");
-
-                angleText = `快讯口播模式，重点是开头 3 秒就把结论甩出来。当前主线是: ${lead.creator.angle}`;
-                headlines = [
-                    `${slotInfo.shortLabel}AI快讯｜${lead.creator.coverTitle}`,
-                    `${lead.creator.coverTitle}，这次真的不一样`,
-                    `AI 圈今天最值得说的一条`
-                ];
-            } else if (tone === "opinion") {
-                quickScript = [
-                    `${lead.creator.hook}`,
-                    `我先说我的判断，${stripTrailingPunctuation(lead.creator.angle)}。`,
-                    `今天最值得聊的是 ${lead.titleZh}，因为这不是一条单点功能新闻，它更像一个方向信号。`,
-                    quickSupport,
-                    `所以如果你问我这条值不值得讲，我会说值，而且最好讲成观点。`
-                ].join("");
-
-                fullScript = [
-                    `${lead.creator.hook}`,
-                    `今天我想聊的，不只是 ${lead.titleZh} 这条新闻本身，而是它后面代表的方向。`,
-                    `${lead.summary}`,
-                    `我自己的判断是，${stripTrailingPunctuation(lead.creator.angle)}。这也是为什么我会把它放到今天这一档的主讲位。`,
-                    `如果拆开看，有三个点最值得记。第一，${stripTrailingPunctuation(lead.takeaways[0])}。第二，${stripTrailingPunctuation(lead.takeaways[1])}。第三，${stripTrailingPunctuation(lead.takeaways[2])}。`,
-                    opinionSupport,
-                    `所以今天这条内容我不会只念新闻，我会直接下判断。封面我会写“${lead.creator.coverTitle}”。评论区我会抛这个问题: ${lead.creator.commentPrompt}`,
-                    lead.creator.cta
-                ].filter(Boolean).join("\n\n");
-
-                angleText = `观点输出模式，适合晚报和午报深讲。核心观点是: ${lead.creator.angle}`;
-                headlines = [
-                    `我的判断：${lead.creator.coverTitle}`,
-                    `${lead.creator.coverTitle}，背后是更大的方向变化`,
-                    `别只看新闻本身，这条更值得聊的是趋势`
-                ];
-            } else {
-                quickScript = [
-                    `${lead.creator.hook}`,
-                    `今天这波消息里，我先挑最值得你注意的一条说。`,
-                    `${lead.titleZh}，说白了就是${stripTrailingPunctuation(lead.creator.oneLiner)}。`,
-                    `它为什么重要？因为${stripTrailingPunctuation(lead.creator.angle)}。`,
-                    quickSupport,
-                    `来源是 ${getSourceMeta(lead.source).label}，是今天我最想推给你的一条。`
-                ].join("");
-
-                fullScript = [
-                    `${lead.creator.hook}`,
-                    `今天这条我想用最直白的方式聊。主角是 ${lead.titleZh}。`,
-                    `${lead.summary}`,
-                    `如果我把这条新闻翻译成一句更像真人会说的话，那就是${stripTrailingPunctuation(lead.creator.oneLiner)}。`,
-                    `它真正值得你关注的地方在于${stripTrailingPunctuation(lead.creator.angle)}。`,
-                    `我给你抓三个重点。第一，${stripTrailingPunctuation(lead.takeaways[0])}。第二，${stripTrailingPunctuation(lead.takeaways[1])}。第三，${stripTrailingPunctuation(lead.takeaways[2])}。`,
-                    naturalSupport,
-                    `所以今天如果要录这条，我建议封面直接写“${lead.creator.coverTitle}”，评论区就用这句: ${lead.creator.commentPrompt}`,
-                    lead.creator.cta
-                ].filter(Boolean).join("\n\n");
-
-                angleText = `真人口语模式，尽量像你在跟观众直接聊天。当前主讲判断是: ${lead.creator.angle}`;
-                headlines = [
-                    `${lead.creator.coverTitle}`,
-                    `${lead.creator.coverTitle}，这事比你想的更重要`,
-                    `今天 AI 圈里，我最想聊这条`
-                ];
-            }
-
-            const sixtySecondPack = buildSixtySecondScripts(slotInfo, lead, supports, tone);
-            quickScript = sixtySecondPack.quickScript;
-            fullScript = sixtySecondPack.fullScript;
-            angleText = sixtySecondPack.angleText;
-            headlines = sixtySecondPack.headlines;
+            const { quickScript, fullScript, angleText, headlines } = buildSixtySecondScripts(slotInfo, lead, supports, tone);
 
             return {
                 topic: lead.creator.coverTitle,
