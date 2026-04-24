@@ -1876,42 +1876,43 @@
         }
 
         // ── 风格 A：快讯冲击型（early · quick）
-        // 结论前置，每句都在推进，无废话
-        // 结构：数字/反转钩子 → 核心事件 → 直接影响 → 快速判断 → 二选一互动
+        // 参考：量子位/机器之心 — 结论前置，每句都有信息量，禁止废话
+        // 结构：张力钩子 → 直接说发生了什么 → 核心意思翻译 → 对你的影响 → 判断 → 二选一互动
         function buildQuickScript(slotInfo, lead, supports) {
             const summary = cleanSummary(lead.summary);
             const supportLine = buildSupportLine(supports, "另外，");
             const isProductOrModel = lead.category === "product" || lead.category === "model";
+            const coverTitle = lead.creator.coverTitle;
 
             const lines = [
                 buildFiveSecondHook(lead),
-                `今天${slotInfo.shortLabel}最值得先看的一条——${lead.titleZh}。`,
+                `${slotInfo.shortLabel}快讯，来自${lead.source ? lead.source.toUpperCase() : "AI圈"}，${lead.format}：${coverTitle}。`,
                 summary.length > 10 ? `核心是什么？${stripTrailingPunctuation(summary)}。` : "",
-                `换句人话就是：${stripTrailingPunctuation(lead.creator.oneLiner)}。`,
-                `直接影响你的地方在这：${stripTrailingPunctuation(lead.creator.angle)}。`,
+                `说人话就是：${stripTrailingPunctuation(lead.creator.oneLiner)}。`,
+                `直接影响你的地方：${stripTrailingPunctuation(lead.creator.angle)}。`,
                 supportLine,
-                `我的快速判断：这条是${isProductOrModel ? "值得跟的信号" : "需要持续观察的动向"}，别只收藏，先用起来。`,
+                `我的快速判断：这条是${isProductOrModel ? "值得立刻关注的信号，建议你今天就去试一下" : "需要持续跟踪的方向，先收藏再深研究"}。`,
                 `${lead.creator.commentPrompt} 评论区快聊。\n\n${lead.creator.cta}`
             ].filter(Boolean).join("\n\n");
 
             return {
                 script: lines,
-                angleText: `【快讯冲击型】结论前置 → 核心事件 → 直接影响 → 快速判断 → 二选一互动。适合早报快节奏发布。`,
+                angleText: `【快讯冲击型】张力钩子 → 事件定位 → 核心翻译 → 影响 → 判断 → 二选一互动。适合早报快节奏发布。`,
                 headlines: [
-                    `${slotInfo.shortLabel}快讯｜${lead.creator.coverTitle}`,
-                    `${lead.creator.coverTitle}，已经开始影响了`,
-                    `AI 圈今天最快的一条`
+                    `${slotInfo.shortLabel}快讯｜${coverTitle}`,
+                    `${coverTitle}，影响已经开始了`,
+                    `今天 AI 圈最值得你知道的一条`
                 ]
             };
         }
 
         // ── 风格 B：真人闲聊型（noon · natural）
-        // 像朋友聊，从熟悉场景切入，有转折，有作者感受
-        // 结构：场景钩子 → 转折引入 → 事件翻译 → 要点拆解 → 真实判断 → 具体互动
+        // 参考：差评/B站中腰部博主 — 场景切入，有转折，有明确感受，不端不装
+        // 结构：场景/场景外钩子 → 引入事件 → 说清楚是什么 → 要点拆解 → 真实感受 → 具体互动
         function buildNaturalScript(slotInfo, lead, supports) {
             const summary = cleanSummary(lead.summary);
             const audienceTakeaways = Array.isArray(lead.takeaways)
-                ? lead.takeaways.filter((t) => !t.startsWith("来源属性") && !t.startsWith("内容信号") && !t.startsWith("发布前建议"))
+                ? lead.takeaways.filter((t) => !t.startsWith("来源属性") && !t.startsWith("内容信号"))
                 : [];
 
             const takeawayLines = audienceTakeaways.length >= 2
@@ -1923,53 +1924,52 @@
 
             const lines = [
                 buildFiveSecondHook(lead),
-                `不过最近有件事，值得认真说一说——${lead.titleZh}。`,
-                summary.length > 10 ? `简单说就是：${stripTrailingPunctuation(summary)}。` : "",
-                `换成我们能听懂的话：${stripTrailingPunctuation(lead.creator.oneLiner)}。`,
+                `你知道吗，${lead.creator.oneLiner}`,
+                summary.length > 10 ? `具体怎么回事呢：${stripTrailingPunctuation(summary)}。` : "",
                 takeawayLines,
                 supportPart,
-                `说实话我的感受是：${stripTrailingPunctuation(lead.creator.angle)}，这不是在夸它，是真的有这个感受。`,
+                `说实话我的感受是：${stripTrailingPunctuation(lead.creator.angle)}。这不是在夸它，是真的有这个感受。`,
                 `${lead.creator.commentPrompt} 留言告诉我。\n\n${lead.creator.cta}`
             ].filter(Boolean).join("\n\n");
 
             return {
                 script: lines,
-                angleText: `【真人闲聊型】场景切入 → 事件翻译 → 要点拆解 → 真实判断 → 具体互动。适合午报建立亲近感。`,
+                angleText: `【真人闲聊型】场景钩子 → 直接引出内容 → 具体说明 → 要点拆解 → 真实感受 → 具体互动。适合午报建立亲近感。`,
                 headlines: [
                     `${lead.creator.coverTitle}`,
-                    `${lead.creator.coverTitle}，我自己整理了一下`,
+                    `${lead.creator.coverTitle}，我整理了几个你必须知道的点`,
                     `今天这条 AI 消息，比你想的更接地气`
                 ]
             };
         }
 
         // ── 风格 C：观点深挖型（evening · opinion）
-        // 先亮出有争议的判断，用事件做论据，引发讨论
-        // 结构：反直觉判断 → 事件论据 → 表面vs深层解读 → 趋势预判 → 挑战性问题
+        // 参考：新智元/老石谈芯 — 先亮出有争议的判断，用事件佐证，引发讨论
+        // 结构：反直觉判断 → 事件佐证 → 表层vs深层解读 → 支线关联 → 趋势预判 → 挑战性问题
         function buildOpinionScript(slotInfo, lead, supports) {
             const summary = cleanSummary(lead.summary);
             const opinionSupport = supports.slice(0, 2).map((item) => {
                 const src = getSourceMeta(item.source);
-                return `再看 ${src.label} 那边：${stripTrailingPunctuation(item.creator.angle)}。这两条加在一起，方向就很清楚了。`;
+                return `再看 ${src.label} 那边：${stripTrailingPunctuation(item.creator.angle)}。这两条放在一起，方向就很清楚了。`;
             }).join("\n\n");
 
             const lines = [
                 buildFiveSecondHook(lead),
-                `今天要聊的这条，正好可以说明这一点——${lead.titleZh}。`,
-                summary.length > 10 ? `事件本身是这样的：${stripTrailingPunctuation(summary)}。` : "",
-                `表面上看，这是一次${lead.format}。但如果往深一层想：${stripTrailingPunctuation(lead.creator.angle)}。`,
+                `今天这条，可以帮我们看清一件事——${stripTrailingPunctuation(lead.creator.oneLiner)}。`,
+                summary.length > 10 ? `事件是这样的：${stripTrailingPunctuation(summary)}。` : "",
+                `表面上这是一次${lead.format}。但往深一层看：${stripTrailingPunctuation(lead.creator.angle)}。`,
                 opinionSupport,
-                `所以我的预判是：这个方向不是在实验，是已经在部署了。如果你还在等"成熟再用"，可能等到的是被替代。`,
+                `我的预判：这个方向已经不是在测试了，是在实际部署。如果你现在还在等"成熟了再用"，可能等来的是被别人用会了的竞争对手。`,
                 `${lead.creator.commentPrompt} 评论区聊，我都会回。\n\n${lead.creator.cta}`
             ].filter(Boolean).join("\n\n");
 
             return {
                 script: lines,
-                angleText: `【观点深挖型】反直觉判断 → 事件论据 → 表面vs深层解读 → 趋势预判 → 挑战性互动。适合晚报建立权威感。`,
+                angleText: `【观点深挖型】反直觉判断 → 事件佐证 → 表层vs深层 → 支线关联 → 趋势预判 → 挑战性互动。适合晚报建立权威感。`,
                 headlines: [
                     `我的判断：${lead.creator.coverTitle}`,
-                    `${lead.creator.coverTitle}，背后是更大的变化`,
-                    `别只看发布本身，这条更值得聊的是方向`
+                    `${lead.creator.coverTitle}，背后是一个更大的变化`,
+                    `别只看发布本身，这条最值得聊的是方向`
                 ]
             };
         }

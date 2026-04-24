@@ -3,7 +3,7 @@
     "id": "openai",
     "label": "OpenAI",
     "type": "official",
-    "platform": "Official Blog",
+    "platform": "官方博客",
     "url": "https://openai.com/news/",
     "feedUrl": "https://openai.com/news/rss.xml",
     "parser": "rss",
@@ -16,7 +16,7 @@
     "id": "anthropic",
     "label": "Anthropic",
     "type": "official",
-    "platform": "Official News",
+    "platform": "官方新闻",
     "url": "https://www.anthropic.com/news",
     "feedUrl": "https://www.anthropic.com/news",
     "parser": "anthropic-html",
@@ -29,13 +29,169 @@
     "id": "google",
     "label": "Google AI",
     "type": "official",
-    "platform": "Official Blog",
+    "platform": "官方博客",
     "url": "https://blog.google/innovation-and-ai/technology/ai/",
     "feedUrl": "https://blog.google/innovation-and-ai/technology/ai/rss/",
     "parser": "rss",
     "weight": 3,
     "tags": ["Google", "Gemini", "产品", "搜索", "Workspace"],
     "language": "en",
+    "enabled": true
+  },
+  {
+    "id": "microsoft-ai",
+    "label": "Microsoft AI",
+    "type": "official",
+    "platform": "官方博客",
+    "url": "https://blogs.microsoft.com/ai/",
+    "feedUrl": "https://blogs.microsoft.com/ai/feed/",
+    "parser": "rss",
+    "weight": 3,
+    "tags": ["Microsoft", "Copilot", "Azure", "产品", "模型"],
+    "language": "en",
+    "enabled": true
+  },
+  {
+    "id": "meta-ai",
+    "label": "Meta AI",
+    "type": "official",
+    "platform": "官方博客",
+    "url": "https://ai.meta.com/blog/",
+    "feedUrl": "https://ai.meta.com/blog/rss/",
+    "parser": "rss",
+    "weight": 3,
+    "tags": ["Meta", "Llama", "开源", "模型", "产品"],
+    "language": "en",
+    "enabled": true
+  },
+  {
+    "id": "qbitai",
+    "label": "量子位",
+    "type": "official",
+    "platform": "科技媒体",
+    "url": "https://www.qbitai.com/",
+    "feedUrl": "https://www.qbitai.com/feed",
+    "parser": "rss",
+    "weight": 3,
+    "tags": ["AI新闻", "模型", "产品", "创业", "前沿"],
+    "language": "zh",
+    "enabled": true
+  },
+  {
+    "id": "jiqizhixin",
+    "label": "机器之心",
+    "type": "official",
+    "platform": "科技媒体",
+    "url": "https://www.jiqizhixin.com/",
+    "feedUrl": "https://www.jiqizhixin.com/rss",
+    "parser": "rss",
+    "weight": 3,
+    "tags": ["AI研究", "论文", "模型", "技术", "前沿"],
+    "language": "zh",
+    "enabled": true
+  },
+  {
+    "id": "xinzhiyuan",
+    "label": "新智元",
+    "type": "official",
+    "platform": "科技媒体",
+    "url": "https://www.xinzhiyuan.net/",
+    "feedUrl": "https://www.xinzhiyuan.net/feed",
+    "parser": "rss",
+    "weight": 2,
+    "tags": ["AI新闻", "产业", "大模型", "观点", "前沿"],
+    "language": "zh",
+    "enabled": true
+  },
+  {
+    "id": "aibase",
+    "label": "AIbase",
+    "type": "official",
+    "platform": "AI工具媒体",
+    "url": "https://www.aibase.com/",
+    "feedUrl": "https://www.aibase.com/rss",
+    "parser": "rss",
+    "weight": 2,
+    "tags": ["AI工具", "产品", "评测", "效率", "应用"],
+    "language": "zh",
+    "enabled": true
+  },
+  {
+    "id": "36kr-ai",
+    "label": "36氪AI",
+    "type": "official",
+    "platform": "商业科技媒体",
+    "url": "https://36kr.com/information/technology",
+    "feedUrl": "https://36kr.com/feed",
+    "parser": "rss",
+    "weight": 2,
+    "tags": ["AI创业", "融资", "商业", "产品", "前沿"],
+    "language": "zh",
+    "enabled": true
+  },
+  {
+    "id": "ruanyifeng",
+    "label": "阮一峰的网络日志",
+    "type": "creator",
+    "platform": "个人博客",
+    "url": "https://www.ruanyifeng.com/blog/",
+    "feedUrl": "https://www.ruanyifeng.com/blog/atom.xml",
+    "parser": "atom",
+    "weight": 2,
+    "tags": ["技术", "AI工具", "每周精选", "开发者", "观点"],
+    "language": "zh",
+    "enabled": true
+  },
+  {
+    "id": "sspai",
+    "label": "少数派",
+    "type": "creator",
+    "platform": "优质内容社区",
+    "url": "https://sspai.com/",
+    "feedUrl": "https://sspai.com/feed",
+    "parser": "rss",
+    "weight": 2,
+    "tags": ["AI工具", "效率", "应用", "实测", "教程"],
+    "language": "zh",
+    "enabled": true
+  },
+  {
+    "id": "baoyu",
+    "label": "宝玉xp",
+    "type": "creator",
+    "platform": "个人博客",
+    "url": "https://baoyu.io/",
+    "feedUrl": "https://baoyu.io/feed.xml",
+    "parser": "rss",
+    "weight": 3,
+    "tags": ["AI前沿", "大模型", "产品经理", "深度分析", "观点"],
+    "language": "zh",
+    "enabled": true
+  },
+  {
+    "id": "infoq-zh",
+    "label": "InfoQ中文",
+    "type": "creator",
+    "platform": "开发者社区",
+    "url": "https://www.infoq.cn/",
+    "feedUrl": "https://www.infoq.cn/feed",
+    "parser": "rss",
+    "weight": 2,
+    "tags": ["AI技术", "大模型", "开发者", "架构", "工程"],
+    "language": "zh",
+    "enabled": true
+  },
+  {
+    "id": "ithome",
+    "label": "IT之家",
+    "type": "creator",
+    "platform": "科技资讯",
+    "url": "https://www.ithome.com/",
+    "feedUrl": "https://www.ithome.com/rss/",
+    "parser": "rss",
+    "weight": 2,
+    "tags": ["AI新闻", "产品", "科技", "前沿", "热点"],
+    "language": "zh",
     "enabled": true
   },
   {
@@ -46,10 +202,10 @@
     "url": "https://simonwillison.net/",
     "feedUrl": "https://simonwillison.net/atom/everything/",
     "parser": "atom",
-    "weight": 3,
-    "tags": ["LLM", "AI 工具", "开发者", "实测"],
+    "weight": 2,
+    "tags": ["LLM", "AI工具", "开发者", "实测"],
     "language": "en",
-    "enabled": true
+    "enabled": false
   },
   {
     "id": "oneusefulthing",
@@ -59,10 +215,10 @@
     "url": "https://www.oneusefulthing.org/",
     "feedUrl": "https://www.oneusefulthing.org/feed",
     "parser": "rss",
-    "weight": 3,
-    "tags": ["AI 影响", "教育", "工作", "大众化观点"],
+    "weight": 2,
+    "tags": ["AI影响", "教育", "工作", "大众化观点"],
     "language": "en",
-    "enabled": true
+    "enabled": false
   },
   {
     "id": "bensbites",
@@ -72,10 +228,10 @@
     "url": "https://www.bensbites.com/",
     "feedUrl": "https://www.bensbites.com/feed",
     "parser": "rss",
-    "weight": 3,
-    "tags": ["AI 新闻", "工具", "创业", "热点"],
+    "weight": 2,
+    "tags": ["AI新闻", "工具", "创业", "热点"],
     "language": "en",
-    "enabled": true
+    "enabled": false
   },
   {
     "id": "aitidbits",
@@ -85,10 +241,10 @@
     "url": "https://www.aitidbits.ai/",
     "feedUrl": "https://www.aitidbits.ai/feed",
     "parser": "rss",
-    "weight": 2,
-    "tags": ["AI 新闻", "产品", "工具", "趋势"],
+    "weight": 1,
+    "tags": ["AI新闻", "产品", "工具", "趋势"],
     "language": "en",
-    "enabled": true
+    "enabled": false
   },
   {
     "id": "latentspace",
@@ -98,10 +254,10 @@
     "url": "https://www.latent.space/",
     "feedUrl": "https://www.latent.space/feed",
     "parser": "rss",
-    "weight": 2,
-    "tags": ["AI 工程", "Agent", "开发者", "播客"],
+    "weight": 1,
+    "tags": ["AI工程", "Agent", "开发者", "播客"],
     "language": "en",
-    "enabled": true
+    "enabled": false
   },
   {
     "id": "interconnects",
@@ -111,10 +267,10 @@
     "url": "https://www.interconnects.ai/",
     "feedUrl": "https://www.interconnects.ai/feed",
     "parser": "rss",
-    "weight": 2,
+    "weight": 1,
     "tags": ["开源模型", "产业判断", "模型生态", "观点"],
     "language": "en",
-    "enabled": true
+    "enabled": false
   },
   {
     "id": "understandingai",
@@ -124,10 +280,10 @@
     "url": "https://www.understandingai.org/",
     "feedUrl": "https://www.understandingai.org/feed",
     "parser": "rss",
-    "weight": 2,
-    "tags": ["AI 解释", "产业", "技术趋势", "大众化"],
+    "weight": 1,
+    "tags": ["AI解释", "产业", "技术趋势", "大众化"],
     "language": "en",
-    "enabled": true
+    "enabled": false
   },
   {
     "id": "marktechpost",
@@ -137,9 +293,9 @@
     "url": "https://www.marktechpost.com/",
     "feedUrl": "https://www.marktechpost.com/feed/",
     "parser": "rss",
-    "weight": 2,
-    "tags": ["AI 新闻", "论文", "模型", "工具"],
+    "weight": 1,
+    "tags": ["AI新闻", "论文", "模型", "工具"],
     "language": "en",
-    "enabled": true
+    "enabled": false
   }
 ]

@@ -269,7 +269,9 @@ function compactText(text, fallback) {
 
 function titleForDisplay(title, source) {
   const clean = stripHtml(title).replace(/\s+/g, " ").trim();
-  return clean.startsWith(source.label) ? clean : `${source.label}: ${clean}`;
+  // 只返回文章标题，不加来源前缀
+  const escaped = source.label.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  return clean.replace(new RegExp(`^${escaped}[：:\\s]+`, "i"), "").trim() || clean;
 }
 
 function sourceEvidence(source) {
@@ -285,48 +287,150 @@ function formatKind(source, category) {
   return "产品发布";
 }
 
+// 基于量子位/机器之心/差评等头部中文AI账号文案规律设计的分类钩子模板
+// 核心：数字/反转/场景/冲突四类 × 6个分类
+const CATEGORY_HOOKS = {
+  product: [
+    "这个功能刚上线，可能你还不知道它能做什么。",
+    "又有 AI 工具更新了，这次改的这个地方，直接影响你每天的用法。",
+    "同一件事，用 AI 新版本和旧版本做，差距已经不是一点点了。"
+  ],
+  model: [
+    "新模型出来了，先别急着换——先看它在你用的场景里强在哪。",
+    "AI 能力又往前跳了一步，这次最明显的变化是这一点。",
+    "你现在用的 AI，可能3个月后就要被这个替代了。"
+  ],
+  research: [
+    "一个研究结论让人意外：AI 在这件事上，比我们预期强得多。",
+    "有篇研究被低估了，它说的这件事，半年内会影响你用的产品。",
+    "AI 的能力边界，又往外移了一点——这次是在这个方向。"
+  ],
+  security: [
+    "用 AI 的时候，有一件事你最好现在就知道。",
+    "这个 AI 安全问题不是技术圈的事，和你输入的每一条信息都有关。",
+    "AI 数据权限这件事，搞清楚之前最好先暂停这个操作。"
+  ],
+  open: [
+    "开源 AI 和商业 AI 的差距，正在快速缩小——这次缩到了这里。",
+    "免费、开源、本地跑，这件事变得比你想象的简单多了。",
+    "如果你在用付费 AI 工具，这个开源替代品值得先试试。"
+  ],
+  default: [
+    "今天有条 AI 动态，和你用工具的方式直接有关。",
+    "AI 圈这周最值得关注的变化，就是这件事。",
+    "不是所有 AI 新闻都值得看，但这条今天你必须知道。"
+  ]
+};
+
+const CATEGORY_ONELINERS = {
+  product: "一个 AI 产品发布了新功能，核心变化直接影响现有用户的使用体验。",
+  model: "一个新 AI 模型更新了，能力边界有明显变化，下游应用很快会跟进。",
+  research: "一项 AI 研究出了新结论，代表技术方向的最新信号，几个月后会反映在产品里。",
+  security: "一条 AI 安全动态，涉及数据权限或使用风险，普通用户需要了解。",
+  open: "开源 AI 生态有新进展，可自由部署，开发者和进阶用户值得关注。",
+  default: "AI 领域有最新动态，影响日常工具使用，建议了解一下。"
+};
+
+const COMMENT_PROMPTS = {
+  product: "这个功能你会用还是不用？评论区选边站。",
+  model: "你觉得这次升级值不值得关注？A值 B不值。",
+  research: "这个研究结论你信吗？评论区聊聊。",
+  security: "你平时在 AI 工具里输入过真实个人信息吗？A有 B没有。",
+  open: "你用开源还是商业 AI 工具？告诉我你的选择。",
+  default: "这条对你有影响吗？有的话告诉我你做哪行。"
+};
+
 function makeCreator(item, source, category) {
   const cleanTitle = stripHtml(item.title).replace(/\s+/g, " ").trim().replace(/^[^:]+:\s*/, "");
   const rawSummary = compactText(item.summary, item.title).replace(/^[^:]+:\s*/, "").trim();
+  const isEnglish = source.language === "en" || /[a-zA-Z]{5,}/.test(cleanTitle);
 
-  // 前5秒钩子：面向观众的注意力抓取，而非告诉创作者"这条适合讲"
-  const shortTitle = cleanTitle.slice(0, 18).trim();
-  const hook = shortTitle.length >= 5
-    ? `${shortTitle}——今天这条 AI 消息，和你有关。`
-    : `今天有条 AI 消息，可能改变你用工具的方式。`;
+  // 钩子：英文内容用分类模板，中文内容用标题提炼
+  const hookTemplates = CATEGORY_HOOKS[category] || CATEGORY_HOOKS.default;
+  const zhTitle = cleanTitle.replace(/[^\u4e00-\u9fa5]/g, "").slice(0, 16).trim();
+  const hook = isEnglish
+    ? hookTemplates[0]
+    : (zhTitle.length >= 6 ? `${zhTitle}——这条 AI 消息，和你直接有关。` : hookTemplates[0]);
 
-  // 一句话：面向观众的内容摘要，而非告诉创作者"适合做60秒"
-  const oneLiner = rawSummary.length > 15
-    ? rawSummary.slice(0, 60) + (rawSummary.length > 60 ? "……" : "")
-    : `${source.label} 发布了关于「${cleanTitle.slice(0, 20)}」的最新动态。`;
+  // 一句话摘要：英文内容用分类模板，中文内容用实际摘要
+  const oneLiner = isEnglish
+    ? CATEGORY_ONELINERS[category] || CATEGORY_ONELINERS.default
+    : (rawSummary.length > 15
+        ? rawSummary.slice(0, 55) + (rawSummary.length > 55 ? "……" : "")
+        : CATEGORY_ONELINERS[category] || CATEGORY_ONELINERS.default);
 
-  // 为什么和观众有关：面向观众，而非告诉创作者"适合做哪类选题"
+  // 角度说明：面向观众，说清楚和自己的关系
   const angle = source.type === "creator"
-    ? `这位博主长期追踪 AI 工具动态，这条判断对你评估相关工具是否值得关注有直接参考价值。`
-    : `这是来自 ${source.label} 的官方更新，直接影响你正在使用的 AI 产品或工具。`;
+    ? `这位博主长期追踪 AI 工具实际表现，这条判断对你评估工具是否值得用有直接参考价值。`
+    : `这是 ${source.label} 官方发布的动态，会直接反映在你正在使用的 AI 产品里。`;
+
+  // 封面标题：英文内容用来源+分类，中文内容用实际标题
+  const categoryLabels = { product: "产品发布", model: "模型更新", research: "研究发现", security: "安全动态", open: "开源进展" };
+  const coverTitle = isEnglish
+    ? `${source.label} · ${categoryLabels[category] || "AI动态"}`
+    : cleanTitle.slice(0, 32);
 
   return {
     duration: "60 秒",
     oneLiner,
     hook,
     angle,
-    coverTitle: cleanTitle.slice(0, 32),
-    coverSubtitle: source.type === "creator" ? "博主深度分析" : "官方最新动态",
-    commentPrompt: "这条更新你觉得对你的工作或生活有影响吗？",
+    coverTitle,
+    coverSubtitle: source.type === "creator" ? "博主深度解读" : "官方第一手",
+    commentPrompt: COMMENT_PROMPTS[category] || COMMENT_PROMPTS.default,
     cta: "关注我，每天帮你筛出真正值得关注的 AI 动态。"
   };
 }
 
+// 基于内容和分类生成三条有实质价值的要点（不再输出元数据）
+const CATEGORY_TAKEAWAYS = {
+  product: [
+    "功能更新通常先出现在网页版或API，App端会稍后跟进，留意你习惯的入口。",
+    "上手成本低，不需要技术背景，建议结合你最高频的工作场景直接实测。",
+    "判断新功能值不值得用：看它能不能替换你现在某个重复性的操作。"
+  ],
+  model: [
+    "模型升级会传导到下游产品，你在用的 AI 工具通常1-2周内就会接入新能力。",
+    "关键看三个提升点：推理更准 / 速度更快 / 输出更长——哪条对你的场景更重要。",
+    "不用急着切换，等产品层接入后看实际表现，再决定要不要调整工作流。"
+  ],
+  research: [
+    "研究结论和产品落地之间通常有6-18个月的滞后，现在看到的是方向信号。",
+    "关注这类研究的价值：提前了解 AI 能力还卡在哪些地方、哪些方向已经打通了。",
+    "对普通用户来说，研究成果转化成工具功能才有实际影响，可持续跟进这个领域。"
+  ],
+  security: [
+    "AI 安全最直接影响你输入的数据——不要在 AI 工具里输入身份证号、密码、合同原文。",
+    "企业用户风险高于个人，公司内部敏感数据要用支持私有化部署的方案处理。",
+    "遇到 AI 工具要求过多权限或存储对话记录的，先查清数据政策再决定是否使用。"
+  ],
+  open: [
+    "开源模型的核心优势：可以本地运行，数据不离开你的设备，适合隐私要求高的场景。",
+    "开源和商业 AI 的差距在今年快速缩小，某些任务上开源已经够用甚至更好。",
+    "对普通用户来说，关注以开源模型为底层的封装产品，会比直接用原始模型更方便。"
+  ],
+  default: [
+    "这条动态代表 AI 领域正在发生的一个方向性变化，值得持续关注。",
+    "对你最直接的影响会出现在你日常用的工具里，留意未来几周的产品更新通知。",
+    "判断一条 AI 新闻重不重要：看它有没有影响你正在用的工具，或者会不会改变你的工作流。"
+  ]
+};
+
 function makeTakeaways(item, source, category) {
-  const cleanTitle = stripHtml(item.title).replace(/\s+/g, " ").trim().replace(/^[^:]+:\s*/, "");
-  const rawText = compactText(item.summary, item.title).replace(/^[^:]+:\s*/, "").trim();
-  const dateStr = normalizeDate(item.publishedAt);
-  const platform = source.platform || (source.type === "official" ? "官方渠道" : "个人博主");
-  return [
-    `发布于 ${dateStr}，来自 ${source.label}（${platform}）。`,
-    rawText.length > 15 ? rawText.slice(0, 120) : cleanTitle,
-    `点击原文可查看完整内容，结合自身需求做判断。`
-  ];
+  const rawText = compactText(item.summary, item.title).replace(/^[^:]+[：:]\s*/, "").trim();
+  const isEnglish = source.language === "en" || /[a-zA-Z]{5,}/.test(rawText.slice(0, 50));
+  const templates = CATEGORY_TAKEAWAYS[category] || CATEGORY_TAKEAWAYS.default;
+
+  // 中文内容：用实际摘要作为第一条，后面补两条分类要点
+  if (!isEnglish && rawText.length > 30) {
+    return [
+      rawText.slice(0, 90) + (rawText.length > 90 ? "……" : ""),
+      templates[1],
+      templates[2]
+    ];
+  }
+  // 英文内容或短内容：全用分类模板
+  return templates;
 }
 
 function hashId(value) {
