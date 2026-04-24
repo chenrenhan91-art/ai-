@@ -1,0 +1,11 @@
+# 环境变量 / API Keys（绝不推送到 GitHub）
+.env
+.env.local
+.env.*.local
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 编辑器
+.vscode/settings.json
