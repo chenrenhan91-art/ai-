@@ -1,0 +1,2701 @@
+{
+  "generatedAt": "2026-04-24T04:25:58.346Z",
+  "timezone": "Asia/Shanghai",
+  "runSlot": "noon",
+  "runSlotLabel": "午报",
+  "sourceStats": {
+    "official": 3,
+    "creator": 8,
+    "failed": 0
+  },
+  "sources": [
+    {
+      "id": "openai",
+      "label": "OpenAI",
+      "type": "official",
+      "platform": "Official Blog",
+      "url": "https://openai.com/news/",
+      "tags": [
+        "OpenAI",
+        "ChatGPT",
+        "产品",
+        "模型",
+        "工具"
+      ]
+    },
+    {
+      "id": "anthropic",
+      "label": "Anthropic",
+      "type": "official",
+      "platform": "Official News",
+      "url": "https://www.anthropic.com/news",
+      "tags": [
+        "Claude",
+        "Anthropic",
+        "产品",
+        "模型",
+        "Agent"
+      ]
+    },
+    {
+      "id": "google",
+      "label": "Google AI",
+      "type": "official",
+      "platform": "Official Blog",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/",
+      "tags": [
+        "Google",
+        "Gemini",
+        "产品",
+        "搜索",
+        "Workspace"
+      ]
+    },
+    {
+      "id": "simonwillison",
+      "label": "Simon Willison",
+      "type": "creator",
+      "platform": "Blog",
+      "url": "https://simonwillison.net/",
+      "tags": [
+        "LLM",
+        "AI 工具",
+        "开发者",
+        "实测"
+      ]
+    },
+    {
+      "id": "oneusefulthing",
+      "label": "One Useful Thing",
+      "type": "creator",
+      "platform": "Substack",
+      "url": "https://www.oneusefulthing.org/",
+      "tags": [
+        "AI 影响",
+        "教育",
+        "工作",
+        "大众化观点"
+      ]
+    },
+    {
+      "id": "bensbites",
+      "label": "Ben's Bites",
+      "type": "creator",
+      "platform": "Newsletter",
+      "url": "https://www.bensbites.com/",
+      "tags": [
+        "AI 新闻",
+        "工具",
+        "创业",
+        "热点"
+      ]
+    },
+    {
+      "id": "aitidbits",
+      "label": "AI Tidbits",
+      "type": "creator",
+      "platform": "Newsletter",
+      "url": "https://www.aitidbits.ai/",
+      "tags": [
+        "AI 新闻",
+        "产品",
+        "工具",
+        "趋势"
+      ]
+    },
+    {
+      "id": "latentspace",
+      "label": "Latent Space",
+      "type": "creator",
+      "platform": "Substack / Podcast",
+      "url": "https://www.latent.space/",
+      "tags": [
+        "AI 工程",
+        "Agent",
+        "开发者",
+        "播客"
+      ]
+    },
+    {
+      "id": "interconnects",
+      "label": "Interconnects",
+      "type": "creator",
+      "platform": "Substack",
+      "url": "https://www.interconnects.ai/",
+      "tags": [
+        "开源模型",
+        "产业判断",
+        "模型生态",
+        "观点"
+      ]
+    },
+    {
+      "id": "understandingai",
+      "label": "Understanding AI",
+      "type": "creator",
+      "platform": "Newsletter",
+      "url": "https://www.understandingai.org/",
+      "tags": [
+        "AI 解释",
+        "产业",
+        "技术趋势",
+        "大众化"
+      ]
+    },
+    {
+      "id": "marktechpost",
+      "label": "MarkTechPost",
+      "type": "creator",
+      "platform": "AI Media",
+      "url": "https://www.marktechpost.com/",
+      "tags": [
+        "AI 新闻",
+        "论文",
+        "模型",
+        "工具"
+      ]
+    }
+  ],
+  "errors": [],
+  "items": [
+    {
+      "id": "anthropic-3a0b457242",
+      "source": "anthropic",
+      "category": "security",
+      "format": "安全治理",
+      "evidence": "官方一手",
+      "priority": 3,
+      "featured": true,
+      "publishedAt": "2026-04-24",
+      "slots": [
+        "morning",
+        "noon",
+        "evening"
+      ],
+      "titleZh": "Anthropic: Responsible Scaling Policy",
+      "titleEn": "Responsible Scaling Policy",
+      "summary": "Anthropic 更新：Responsible Scaling Policy",
+      "whyMatters": "这类官方来源适合作为可信事实锚点，口播时要转译成普通用户关心的场景价值。",
+      "takeaways": [
+        "来源属性：官方一手来源，适合作为快讯主来源。",
+        "内容信号：Responsible Scaling Policy",
+        "发布前建议打开原文核对具体表述，再加入自己的使用场景或行业判断。"
+      ],
+      "tags": [
+        "Claude",
+        "Anthropic",
+        "产品",
+        "模型",
+        "Agent"
+      ],
+      "sourceUrl": "https://www.anthropic.com/news/announcing-our-updated-responsible-scaling-policy",
+      "creator": {
+        "duration": "60 秒",
+        "oneLiner": "Anthropic 这条动态适合做 60 秒 AI 热点，核心看点是 Responsible Scaling Policy。",
+        "hook": "先给你 5 秒结论：Anthropic 这条 安全治理 值得讲，因为它能转成“工具变化、效率提升或行业信号”三类流量钩子。",
+        "angle": "这类官方来源适合做事实锚点，但口播时要翻译成普通用户能听懂的效率、工具或趋势变化。",
+        "coverTitle": "Responsible Scaling Policy",
+        "coverSubtitle": "官方消息，翻译成普通人看点",
+        "commentPrompt": "这条 AI 动态你会马上试用，还是先观望？",
+        "cta": "关注我，每天早中晚帮你筛出真正适合做内容的 AI 热点。"
+      }
+    },
+    {
+      "id": "simonwillison-f51e5938d1",
+      "source": "simonwillison",
+      "category": "product",
+      "format": "个人解读",
+      "evidence": "个人解读",
+      "priority": 3,
+      "featured": true,
+      "publishedAt": "2026-04-24",
+      "slots": [
+        "morning",
+        "noon",
+        "evening"
+      ],
+      "titleZh": "Simon Willison: An update on recent Claude Code quality reports",
+      "titleEn": "An update on recent Claude Code quality reports",
+      "summary": "Simon Willison 更新：An update on recent Claude Code quality reports It turns out the high volume of complaints that Claude Code was providing worse quality results over the past two months was gro...",
+      "whyMatters": "这类个人来源适合补充实测、判断和语境，能帮 AI 博主快速形成自己的观点。",
+      "takeaways": [
+        "来源属性：个人博主/研究者视角，适合做观点补充和趋势判断。",
+        "内容信号：An update on recent Claude Code quality reports It turns out the high volume of complaints that Claude Code was providing worse quality results over the past two months was gro...",
+        "发布前建议打开原文核对具体表述，再加入自己的使用场景或行业判断。"
+      ],
+      "tags": [
+        "LLM",
+        "AI 工具",
+        "开发者",
+        "实测"
+      ],
+      "sourceUrl": "https://simonwillison.net/2026/Apr/24/recent-claude-code-quality-reports/#atom-everything",
+      "creator": {
+        "duration": "60 秒",
+        "oneLiner": "Simon Willison 这条动态适合做 60 秒 AI 热点，核心看点是 An update on recent Claude Code quality reports。",
+        "hook": "先给你 5 秒结论：Simon Willison 这条 个人解读 值得讲，因为它能转成“工具变化、效率提升或行业信号”三类流量钩子。",
+        "angle": "这类个人博主来源适合做“我替你试过/我替你看懂了”的选题，容易形成信任感和评论讨论。",
+        "coverTitle": "An update on recent Claude Code ",
+        "coverSubtitle": "个人博主视角，帮你抓热点",
+        "commentPrompt": "这条 AI 动态你会马上试用，还是先观望？",
+        "cta": "关注我，每天早中晚帮你筛出真正适合做内容的 AI 热点。"
+      }
+    },
+    {
+      "id": "marktechpost-9ca2bb49ab",
+      "source": "marktechpost",
+      "category": "security",
+      "format": "个人解读",
+      "evidence": "个人解读",
+      "priority": 3,
+      "featured": true,
+      "publishedAt": "2026-04-24",
+      "slots": [
+        "morning",
+        "noon",
+        "evening"
+      ],
+      "titleZh": "MarkTechPost: Mend Releases AI Security Governance Framework: Covering Asset Inventory, Risk Tiering, AI Supply Chain Security, and Maturity Model",
+      "titleEn": "Mend Releases AI Security Governance Framework: Covering Asset Inventory, Risk Tiering, AI Supply Chain Security, and Maturity Model",
+      "summary": "MarkTechPost 更新：Mend.io's new framework gives engineering and security teams a practical playbook for governing AI systems before the next incident forces the conversation. The post Mend Relea...",
+      "whyMatters": "这类个人来源适合补充实测、判断和语境，能帮 AI 博主快速形成自己的观点。",
+      "takeaways": [
+        "来源属性：个人博主/研究者视角，适合做观点补充和趋势判断。",
+        "内容信号：Mend.io's new framework gives engineering and security teams a practical playbook for governing AI systems before the next incident forces the conversation. The post Mend Relea...",
+        "发布前建议打开原文核对具体表述，再加入自己的使用场景或行业判断。"
+      ],
+      "tags": [
+        "AI 新闻",
+        "论文",
+        "模型",
+        "工具",
+        "Agentic AI",
+        "AI Infrastructure",
+        "AI Shorts",
+        "Applications"
+      ],
+      "sourceUrl": "https://www.marktechpost.com/2026/04/23/mend-releases-ai-security-governance-framework/",
+      "creator": {
+        "duration": "60 秒",
+        "oneLiner": "MarkTechPost 这条动态适合做 60 秒 AI 热点，核心看点是 Mend Releases AI Security Governance Framework: Covering Asset Inventory, Risk Tiering, AI Supply Chain Security, and Maturity Model。",
+        "hook": "先给你 5 秒结论：MarkTechPost 这条 个人解读 值得讲，因为它能转成“工具变化、效率提升或行业信号”三类流量钩子。",
+        "angle": "这类个人博主来源适合做“我替你试过/我替你看懂了”的选题，容易形成信任感和评论讨论。",
+        "coverTitle": "Covering Asset Inventory, Risk T",
+        "coverSubtitle": "个人博主视角，帮你抓热点",
+        "commentPrompt": "这条 AI 动态你会马上试用，还是先观望？",
+        "cta": "关注我，每天早中晚帮你筛出真正适合做内容的 AI 热点。"
+      }
+    },
+    {
+      "id": "openai-6e6cdaf0d6",
+      "source": "openai",
+      "category": "research",
+      "format": "研究发布",
+      "evidence": "官方一手",
+      "priority": 3,
+      "featured": true,
+      "publishedAt": "2026-04-23",
+      "slots": [
+        "morning",
+        "noon",
+        "evening"
+      ],
+      "titleZh": "OpenAI: Introducing GPT-5.5",
+      "titleEn": "Introducing GPT-5.5",
+      "summary": "OpenAI 更新：Introducing GPT-5.5, our smartest model yet—faster, more capable, and built for complex tasks like coding, research, and data analysis across tools.",
+      "whyMatters": "这类官方来源适合作为可信事实锚点，口播时要转译成普通用户关心的场景价值。",
+      "takeaways": [
+        "来源属性：官方一手来源，适合作为快讯主来源。",
+        "内容信号：Introducing GPT-5.5, our smartest model yet—faster, more capable, and built for complex tasks like coding, research, and data analysis across tools.",
+        "发布前建议打开原文核对具体表述，再加入自己的使用场景或行业判断。"
+      ],
+      "tags": [
+        "OpenAI",
+        "ChatGPT",
+        "产品",
+        "模型",
+        "工具",
+        "Product"
+      ],
+      "sourceUrl": "https://openai.com/index/introducing-gpt-5-5",
+      "creator": {
+        "duration": "60 秒",
+        "oneLiner": "OpenAI 这条动态适合做 60 秒 AI 热点，核心看点是 Introducing GPT-5.5。",
+        "hook": "先给你 5 秒结论：OpenAI 这条 研究发布 值得讲，因为它能转成“工具变化、效率提升或行业信号”三类流量钩子。",
+        "angle": "这类官方来源适合做事实锚点，但口播时要翻译成普通用户能听懂的效率、工具或趋势变化。",
+        "coverTitle": "Introducing GPT-5.5",
+        "coverSubtitle": "官方消息，翻译成普通人看点",
+        "commentPrompt": "这条 AI 动态你会马上试用，还是先观望？",
+        "cta": "关注我，每天早中晚帮你筛出真正适合做内容的 AI 热点。"
+      }
+    },
+    {
+      "id": "openai-cfbb97f4e1",
+      "source": "openai",
+      "category": "security",
+      "format": "安全治理",
+      "evidence": "官方一手",
+      "priority": 3,
+      "featured": true,
+      "publishedAt": "2026-04-23",
+      "slots": [
+        "morning",
+        "noon",
+        "evening"
+      ],
+      "titleZh": "OpenAI: GPT-5.5 System Card",
+      "titleEn": "GPT-5.5 System Card",
+      "summary": "OpenAI 更新：GPT-5.5 System Card",
+      "whyMatters": "这类官方来源适合作为可信事实锚点，口播时要转译成普通用户关心的场景价值。",
+      "takeaways": [
+        "来源属性：官方一手来源，适合作为快讯主来源。",
+        "内容信号：GPT-5.5 System Card",
+        "发布前建议打开原文核对具体表述，再加入自己的使用场景或行业判断。"
+      ],
+      "tags": [
+        "OpenAI",
+        "ChatGPT",
+        "产品",
+        "模型",
+        "工具",
+        "Safety"
+      ],
+      "sourceUrl": "https://openai.com/index/gpt-5-5-system-card",
+      "creator": {
+        "duration": "60 秒",
+        "oneLiner": "OpenAI 这条动态适合做 60 秒 AI 热点，核心看点是 GPT-5.5 System Card。",
+        "hook": "先给你 5 秒结论：OpenAI 这条 安全治理 值得讲，因为它能转成“工具变化、效率提升或行业信号”三类流量钩子。",
+        "angle": "这类官方来源适合做事实锚点，但口播时要翻译成普通用户能听懂的效率、工具或趋势变化。",
+        "coverTitle": "GPT-5.5 System Card",
+        "coverSubtitle": "官方消息，翻译成普通人看点",
+        "commentPrompt": "这条 AI 动态你会马上试用，还是先观望？",
+        "cta": "关注我，每天早中晚帮你筛出真正适合做内容的 AI 热点。"
+      }
+    },
+    {
+      "id": "openai-b2acc3c294",
+      "source": "openai",
+      "category": "product",
+      "format": "产品发布",
+      "evidence": "官方一手",
+      "priority": 3,
+      "featured": true,
+      "publishedAt": "2026-04-23",
+      "slots": [
+        "morning",
+        "noon",
+        "evening"
+      ],
+      "titleZh": "OpenAI: Automations",
+      "titleEn": "Automations",
+      "summary": "OpenAI 更新：Learn how to automate tasks in Codex using schedules and triggers to create reports, summaries, and recurring workflows without manual effort.",
+      "whyMatters": "这类官方来源适合作为可信事实锚点，口播时要转译成普通用户关心的场景价值。",
+      "takeaways": [
+        "来源属性：官方一手来源，适合作为快讯主来源。",
+        "内容信号：Learn how to automate tasks in Codex using schedules and triggers to create reports, summaries, and recurring workflows without manual effort.",
+        "发布前建议打开原文核对具体表述，再加入自己的使用场景或行业判断。"
+      ],
+      "tags": [
+        "OpenAI",
+        "ChatGPT",
+        "产品",
+        "模型",
+        "工具",
+        "OpenAI Academy"
+      ],
+      "sourceUrl": "https://openai.com/academy/codex-automations",
+      "creator": {
+        "duration": "60 秒",
+        "oneLiner": "OpenAI 这条动态适合做 60 秒 AI 热点，核心看点是 Automations。",
+        "hook": "先给你 5 秒结论：OpenAI 这条 产品发布 值得讲，因为它能转成“工具变化、效率提升或行业信号”三类流量钩子。",
+        "angle": "这类官方来源适合做事实锚点，但口播时要翻译成普通用户能听懂的效率、工具或趋势变化。",
+        "coverTitle": "Automations",
+        "coverSubtitle": "官方消息，翻译成普通人看点",
+        "commentPrompt": "这条 AI 动态你会马上试用，还是先观望？",
+        "cta": "关注我，每天早中晚帮你筛出真正适合做内容的 AI 热点。"
+      }
+    },
+    {
+      "id": "openai-3533fea541",
+      "source": "openai",
+      "category": "product",
+      "format": "产品发布",
+      "evidence": "官方一手",
+      "priority": 3,
+      "featured": true,
+      "publishedAt": "2026-04-23",
+      "slots": [
+        "morning",
+        "noon",
+        "evening"
+      ],
+      "titleZh": "OpenAI: Top 10 uses for Codex at work",
+      "titleEn": "Top 10 uses for Codex at work",
+      "summary": "OpenAI 更新：Explore 10 practical Codex use cases to automate tasks, create deliverables, and turn real inputs into outputs across tools, files, and workflows.",
+      "whyMatters": "这类官方来源适合作为可信事实锚点，口播时要转译成普通用户关心的场景价值。",
+      "takeaways": [
+        "来源属性：官方一手来源，适合作为快讯主来源。",
+        "内容信号：Explore 10 practical Codex use cases to automate tasks, create deliverables, and turn real inputs into outputs across tools, files, and workflows.",
+        "发布前建议打开原文核对具体表述，再加入自己的使用场景或行业判断。"
+      ],
+      "tags": [
+        "OpenAI",
+        "ChatGPT",
+        "产品",
+        "模型",
+        "工具",
+        "OpenAI Academy"
+      ],
+      "sourceUrl": "https://openai.com/academy/top-10-use-cases-codex-for-work",
+      "creator": {
+        "duration": "60 秒",
+        "oneLiner": "OpenAI 这条动态适合做 60 秒 AI 热点，核心看点是 Top 10 uses for Codex at work。",
+        "hook": "先给你 5 秒结论：OpenAI 这条 产品发布 值得讲，因为它能转成“工具变化、效率提升或行业信号”三类流量钩子。",
+        "angle": "这类官方来源适合做事实锚点，但口播时要翻译成普通用户能听懂的效率、工具或趋势变化。",
+        "coverTitle": "Top 10 uses for Codex at work",
+        "coverSubtitle": "官方消息，翻译成普通人看点",
+        "commentPrompt": "这条 AI 动态你会马上试用，还是先观望？",
+        "cta": "关注我，每天早中晚帮你筛出真正适合做内容的 AI 热点。"
+      }
+    },
+    {
+      "id": "openai-bb94101d86",
+      "source": "openai",
+      "category": "product",
+      "format": "产品发布",
+      "evidence": "官方一手",
+      "priority": 3,
+      "featured": true,
+      "publishedAt": "2026-04-23",
+      "slots": [
+        "morning",
+        "noon",
+        "evening"
+      ],
+      "titleZh": "OpenAI: Plugins and skills",
+      "titleEn": "Plugins and skills",
+      "summary": "OpenAI 更新：Learn how to use Codex plugins and skills to connect tools, access data, and follow repeatable workflows to automate tasks and improve results.",
+      "whyMatters": "这类官方来源适合作为可信事实锚点，口播时要转译成普通用户关心的场景价值。",
+      "takeaways": [
+        "来源属性：官方一手来源，适合作为快讯主来源。",
+        "内容信号：Learn how to use Codex plugins and skills to connect tools, access data, and follow repeatable workflows to automate tasks and improve results.",
+        "发布前建议打开原文核对具体表述，再加入自己的使用场景或行业判断。"
+      ],
+      "tags": [
+        "OpenAI",
+        "ChatGPT",
+        "产品",
+        "模型",
+        "工具",
+        "OpenAI Academy"
+      ],
+      "sourceUrl": "https://openai.com/academy/codex-plugins-and-skills",
+      "creator": {
+        "duration": "60 秒",
+        "oneLiner": "OpenAI 这条动态适合做 60 秒 AI 热点，核心看点是 Plugins and skills。",
+        "hook": "先给你 5 秒结论：OpenAI 这条 产品发布 值得讲，因为它能转成“工具变化、效率提升或行业信号”三类流量钩子。",
+        "angle": "这类官方来源适合做事实锚点，但口播时要翻译成普通用户能听懂的效率、工具或趋势变化。",
+        "coverTitle": "Plugins and skills",
+        "coverSubtitle": "官方消息，翻译成普通人看点",
+        "commentPrompt": "这条 AI 动态你会马上试用，还是先观望？",
+        "cta": "关注我，每天早中晚帮你筛出真正适合做内容的 AI 热点。"
+      }
+    },
+    {
+      "id": "openai-7fbf7b2c45",
+      "source": "openai",
+      "category": "product",
+      "format": "产品发布",
+      "evidence": "官方一手",
+      "priority": 3,
+      "featured": true,
+      "publishedAt": "2026-04-23",
+      "slots": [
+        "morning",
+        "noon",
+        "evening"
+      ],
+      "titleZh": "OpenAI: Working with Codex",
+      "titleEn": "Working with Codex",
+      "summary": "OpenAI 更新：Learn how to set up your Codex workspace, create threads and projects, manage files, and start completing tasks with step-by-step guidance.",
+      "whyMatters": "这类官方来源适合作为可信事实锚点，口播时要转译成普通用户关心的场景价值。",
+      "takeaways": [
+        "来源属性：官方一手来源，适合作为快讯主来源。",
+        "内容信号：Learn how to set up your Codex workspace, create threads and projects, manage files, and start completing tasks with step-by-step guidance.",
+        "发布前建议打开原文核对具体表述，再加入自己的使用场景或行业判断。"
+      ],
+      "tags": [
+        "OpenAI",
+        "ChatGPT",
+        "产品",
+        "模型",
+        "工具",
+        "OpenAI Academy"
+      ],
+      "sourceUrl": "https://openai.com/academy/working-with-codex",
+      "creator": {
+        "duration": "60 秒",
+        "oneLiner": "OpenAI 这条动态适合做 60 秒 AI 热点，核心看点是 Working with Codex。",
+        "hook": "先给你 5 秒结论：OpenAI 这条 产品发布 值得讲，因为它能转成“工具变化、效率提升或行业信号”三类流量钩子。",
+        "angle": "这类官方来源适合做事实锚点，但口播时要翻译成普通用户能听懂的效率、工具或趋势变化。",
+        "coverTitle": "Working with Codex",
+        "coverSubtitle": "官方消息，翻译成普通人看点",
+        "commentPrompt": "这条 AI 动态你会马上试用，还是先观望？",
+        "cta": "关注我，每天早中晚帮你筛出真正适合做内容的 AI 热点。"
+      }
+    },
+    {
+      "id": "openai-99a0fa5d4a",
+      "source": "openai",
+      "category": "product",
+      "format": "产品发布",
+      "evidence": "官方一手",
+      "priority": 3,
+      "featured": true,
+      "publishedAt": "2026-04-23",
+      "slots": [
+        "morning",
+        "noon",
+        "evening"
+      ],
+      "titleZh": "OpenAI: Codex settings",
+      "titleEn": "Codex settings",
+      "summary": "OpenAI 更新：Learn how to configure Codex settings, including personalization, detail level, and permissions, to run tasks smoothly and customize your workflow.",
+      "whyMatters": "这类官方来源适合作为可信事实锚点，口播时要转译成普通用户关心的场景价值。",
+      "takeaways": [
+        "来源属性：官方一手来源，适合作为快讯主来源。",
+        "内容信号：Learn how to configure Codex settings, including personalization, detail level, and permissions, to run tasks smoothly and customize your workflow.",
+        "发布前建议打开原文核对具体表述，再加入自己的使用场景或行业判断。"
+      ],
+      "tags": [
+        "OpenAI",
+        "ChatGPT",
+        "产品",
+        "模型",
+        "工具",
+        "OpenAI Academy"
+      ],
+      "sourceUrl": "https://openai.com/academy/codex-settings",
+      "creator": {
+        "duration": "60 秒",
+        "oneLiner": "OpenAI 这条动态适合做 60 秒 AI 热点，核心看点是 Codex settings。",
+        "hook": "先给你 5 秒结论：OpenAI 这条 产品发布 值得讲，因为它能转成“工具变化、效率提升或行业信号”三类流量钩子。",
+        "angle": "这类官方来源适合做事实锚点，但口播时要翻译成普通用户能听懂的效率、工具或趋势变化。",
+        "coverTitle": "Codex settings",
+        "coverSubtitle": "官方消息，翻译成普通人看点",
+        "commentPrompt": "这条 AI 动态你会马上试用，还是先观望？",
+        "cta": "关注我，每天早中晚帮你筛出真正适合做内容的 AI 热点。"
+      }
+    },
+    {
+      "id": "openai-8a79aaeb63",
+      "source": "openai",
+      "category": "product",
+      "format": "产品发布",
+      "evidence": "官方一手",
+      "priority": 3,
+      "featured": true,
+      "publishedAt": "2026-04-23",
+      "slots": [
+        "morning",
+        "noon",
+        "evening"
+      ],
+      "titleZh": "OpenAI: What is Codex?",
+      "titleEn": "What is Codex?",
+      "summary": "OpenAI 更新：Learn how Codex helps you go beyond chat by automating tasks, connecting tools, and producing real outputs like docs and dashboards.",
+      "whyMatters": "这类官方来源适合作为可信事实锚点，口播时要转译成普通用户关心的场景价值。",
+      "takeaways": [
+        "来源属性：官方一手来源，适合作为快讯主来源。",
+        "内容信号：Learn how Codex helps you go beyond chat by automating tasks, connecting tools, and producing real outputs like docs and dashboards.",
+        "发布前建议打开原文核对具体表述，再加入自己的使用场景或行业判断。"
+      ],
+      "tags": [
+        "OpenAI",
+        "ChatGPT",
+        "产品",
+        "模型",
+        "工具",
+        "OpenAI Academy"
+      ],
+      "sourceUrl": "https://openai.com/academy/what-is-codex",
+      "creator": {
+        "duration": "60 秒",
+        "oneLiner": "OpenAI 这条动态适合做 60 秒 AI 热点，核心看点是 What is Codex?。",
+        "hook": "先给你 5 秒结论：OpenAI 这条 产品发布 值得讲，因为它能转成“工具变化、效率提升或行业信号”三类流量钩子。",
+        "angle": "这类官方来源适合做事实锚点，但口播时要翻译成普通用户能听懂的效率、工具或趋势变化。",
+        "coverTitle": "What is Codex?",
+        "coverSubtitle": "官方消息，翻译成普通人看点",
+        "commentPrompt": "这条 AI 动态你会马上试用，还是先观望？",
+        "cta": "关注我，每天早中晚帮你筛出真正适合做内容的 AI 热点。"
+      }
+    },
+    {
+      "id": "openai-eff960ba78",
+      "source": "openai",
+      "category": "product",
+      "format": "产品发布",
+      "evidence": "官方一手",
+      "priority": 3,
+      "featured": true,
+      "publishedAt": "2026-04-23",
+      "slots": [
+        "morning",
+        "noon",
+        "evening"
+      ],
+      "titleZh": "OpenAI: How to get started with Codex",
+      "titleEn": "How to get started with Codex",
+      "summary": "OpenAI 更新：Learn how to get started with Codex by setting up projects, creating threads, and completing your first tasks with step-by-step guidance.",
+      "whyMatters": "这类官方来源适合作为可信事实锚点，口播时要转译成普通用户关心的场景价值。",
+      "takeaways": [
+        "来源属性：官方一手来源，适合作为快讯主来源。",
+        "内容信号：Learn how to get started with Codex by setting up projects, creating threads, and completing your first tasks with step-by-step guidance.",
+        "发布前建议打开原文核对具体表述，再加入自己的使用场景或行业判断。"
+      ],
+      "tags": [
+        "OpenAI",
+        "ChatGPT",
+        "产品",
+        "模型",
+        "工具",
+        "OpenAI Academy"
+      ],
+      "sourceUrl": "https://openai.com/academy/codex-how-to-start",
+      "creator": {
+        "duration": "60 秒",
+        "oneLiner": "OpenAI 这条动态适合做 60 秒 AI 热点，核心看点是 How to get started with Codex。",
+        "hook": "先给你 5 秒结论：OpenAI 这条 产品发布 值得讲，因为它能转成“工具变化、效率提升或行业信号”三类流量钩子。",
+        "angle": "这类官方来源适合做事实锚点，但口播时要翻译成普通用户能听懂的效率、工具或趋势变化。",
+        "coverTitle": "How to get started with Codex",
+        "coverSubtitle": "官方消息，翻译成普通人看点",
+        "commentPrompt": "这条 AI 动态你会马上试用，还是先观望？",
+        "cta": "关注我，每天早中晚帮你筛出真正适合做内容的 AI 热点。"
+      }
+    },
+    {
+      "id": "openai-c366c2c39b",
+      "source": "openai",
+      "category": "security",
+      "format": "安全治理",
+      "evidence": "官方一手",
+      "priority": 3,
+      "featured": true,
+      "publishedAt": "2026-04-23",
+      "slots": [
+        "morning",
+        "noon",
+        "evening"
+      ],
+      "titleZh": "OpenAI: GPT-5.5 Bio Bug Bounty",
+      "titleEn": "GPT-5.5 Bio Bug Bounty",
+      "summary": "OpenAI 更新：Explore the GPT-5.5 Bio Bug Bounty: a red-teaming challenge to find universal jailbreaks for bio safety risks, with rewards up to $25,000.",
+      "whyMatters": "这类官方来源适合作为可信事实锚点，口播时要转译成普通用户关心的场景价值。",
+      "takeaways": [
+        "来源属性：官方一手来源，适合作为快讯主来源。",
+        "内容信号：Explore the GPT-5.5 Bio Bug Bounty: a red-teaming challenge to find universal jailbreaks for bio safety risks, with rewards up to $25,000.",
+        "发布前建议打开原文核对具体表述，再加入自己的使用场景或行业判断。"
+      ],
+      "tags": [
+        "OpenAI",
+        "ChatGPT",
+        "产品",
+        "模型",
+        "工具",
+        "Safety"
+      ],
+      "sourceUrl": "https://openai.com/index/gpt-5-5-bio-bug-bounty",
+      "creator": {
+        "duration": "60 秒",
+        "oneLiner": "OpenAI 这条动态适合做 60 秒 AI 热点，核心看点是 GPT-5.5 Bio Bug Bounty。",
+        "hook": "先给你 5 秒结论：OpenAI 这条 安全治理 值得讲，因为它能转成“工具变化、效率提升或行业信号”三类流量钩子。",
+        "angle": "这类官方来源适合做事实锚点，但口播时要翻译成普通用户能听懂的效率、工具或趋势变化。",
+        "coverTitle": "GPT-5.5 Bio Bug Bounty",
+        "coverSubtitle": "官方消息，翻译成普通人看点",
+        "commentPrompt": "这条 AI 动态你会马上试用，还是先观望？",
+        "cta": "关注我，每天早中晚帮你筛出真正适合做内容的 AI 热点。"
+      }
+    },
+    {
+      "id": "anthropic-a21eb3bb64",
+      "source": "anthropic",
+      "category": "product",
+      "format": "产品发布",
+      "evidence": "官方一手",
+      "priority": 3,
+      "featured": true,
+      "publishedAt": "2026-04-23",
+      "slots": [
+        "morning",
+        "noon",
+        "evening"
+      ],
+      "titleZh": "Anthropic: Announcements Anthropic and NEC collaborate to build Japan’s largest AI engineering workforce",
+      "titleEn": "Announcements Anthropic and NEC collaborate to build Japan’s largest AI engineering workforce",
+      "summary": "Anthropic 更新：Apr 24, 2026 Announcements Anthropic and NEC collaborate to build Japan’s largest AI engineering workforce",
+      "whyMatters": "这类官方来源适合作为可信事实锚点，口播时要转译成普通用户关心的场景价值。",
+      "takeaways": [
+        "来源属性：官方一手来源，适合作为快讯主来源。",
+        "内容信号：Apr 24, 2026 Announcements Anthropic and NEC collaborate to build Japan’s largest AI engineering workforce",
+        "发布前建议打开原文核对具体表述，再加入自己的使用场景或行业判断。"
+      ],
+      "tags": [
+        "Claude",
+        "Anthropic",
+        "产品",
+        "模型",
+        "Agent"
+      ],
+      "sourceUrl": "https://www.anthropic.com/news/anthropic-nec",
+      "creator": {
+        "duration": "60 秒",
+        "oneLiner": "Anthropic 这条动态适合做 60 秒 AI 热点，核心看点是 Announcements Anthropic and NEC collaborate to build Japan’s largest AI engineering workforce。",
+        "hook": "先给你 5 秒结论：Anthropic 这条 产品发布 值得讲，因为它能转成“工具变化、效率提升或行业信号”三类流量钩子。",
+        "angle": "这类官方来源适合做事实锚点，但口播时要翻译成普通用户能听懂的效率、工具或趋势变化。",
+        "coverTitle": "Announcements Anthropic and NEC ",
+        "coverSubtitle": "官方消息，翻译成普通人看点",
+        "commentPrompt": "这条 AI 动态你会马上试用，还是先观望？",
+        "cta": "关注我，每天早中晚帮你筛出真正适合做内容的 AI 热点。"
+      }
+    },
+    {
+      "id": "google-ea9543e1b1",
+      "source": "google",
+      "category": "product",
+      "format": "产品发布",
+      "evidence": "官方一手",
+      "priority": 3,
+      "featured": true,
+      "publishedAt": "2026-04-23",
+      "slots": [
+        "morning",
+        "noon",
+        "evening"
+      ],
+      "titleZh": "Google AI: Here’s how our TPUs power increasingly demanding AI workloads.",
+      "titleEn": "Here’s how our TPUs power increasingly demanding AI workloads.",
+      "summary": "Google AI 更新：Learn how Google’s TPUs power increasingly demanding AI workloads with this new video.",
+      "whyMatters": "这类官方来源适合作为可信事实锚点，口播时要转译成普通用户关心的场景价值。",
+      "takeaways": [
+        "来源属性：官方一手来源，适合作为快讯主来源。",
+        "内容信号：Learn how Google’s TPUs power increasingly demanding AI workloads with this new video.",
+        "发布前建议打开原文核对具体表述，再加入自己的使用场景或行业判断。"
+      ],
+      "tags": [
+        "Google",
+        "Gemini",
+        "产品",
+        "搜索",
+        "Workspace",
+        "Google Cloud",
+        "AI"
+      ],
+      "sourceUrl": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/what-is-a-tpu/",
+      "creator": {
+        "duration": "60 秒",
+        "oneLiner": "Google AI 这条动态适合做 60 秒 AI 热点，核心看点是 Here’s how our TPUs power increasingly demanding AI workloads.。",
+        "hook": "先给你 5 秒结论：Google AI 这条 产品发布 值得讲，因为它能转成“工具变化、效率提升或行业信号”三类流量钩子。",
+        "angle": "这类官方来源适合做事实锚点，但口播时要翻译成普通用户能听懂的效率、工具或趋势变化。",
+        "coverTitle": "Here’s how our TPUs power increa",
+        "coverSubtitle": "官方消息，翻译成普通人看点",
+        "commentPrompt": "这条 AI 动态你会马上试用，还是先观望？",
+        "cta": "关注我，每天早中晚帮你筛出真正适合做内容的 AI 热点。"
+      }
+    },
+    {
+      "id": "google-1539442f8f",
+      "source": "google",
+      "category": "product",
+      "format": "产品发布",
+      "evidence": "官方一手",
+      "priority": 3,
+      "featured": true,
+      "publishedAt": "2026-04-23",
+      "slots": [
+        "morning",
+        "noon",
+        "evening"
+      ],
+      "titleZh": "Google AI: Elevating Austria: Google invests in its first data center in the Alps.",
+      "titleEn": "Elevating Austria: Google invests in its first data center in the Alps.",
+      "summary": "Google AI 更新：Google has been a proud part of Austria’s landscape for years, and today, we’re announcing our first data center in Kronstorf, generating 100 direct jobs. This facility …",
+      "whyMatters": "这类官方来源适合作为可信事实锚点，口播时要转译成普通用户关心的场景价值。",
+      "takeaways": [
+        "来源属性：官方一手来源，适合作为快讯主来源。",
+        "内容信号：Google has been a proud part of Austria’s landscape for years, and today, we’re announcing our first data center in Kronstorf, generating 100 direct jobs. This facility …",
+        "发布前建议打开原文核对具体表述，再加入自己的使用场景或行业判断。"
+      ],
+      "tags": [
+        "Google",
+        "Gemini",
+        "产品",
+        "搜索",
+        "Workspace",
+        "Global Network",
+        "Sustainability",
+        "Grow with Google"
+      ],
+      "sourceUrl": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/google-data-center-austria/",
+      "creator": {
+        "duration": "60 秒",
+        "oneLiner": "Google AI 这条动态适合做 60 秒 AI 热点，核心看点是 Elevating Austria: Google invests in its first data center in the Alps.。",
+        "hook": "先给你 5 秒结论：Google AI 这条 产品发布 值得讲，因为它能转成“工具变化、效率提升或行业信号”三类流量钩子。",
+        "angle": "这类官方来源适合做事实锚点，但口播时要翻译成普通用户能听懂的效率、工具或趋势变化。",
+        "coverTitle": "Google invests in its first data",
+        "coverSubtitle": "官方消息，翻译成普通人看点",
+        "commentPrompt": "这条 AI 动态你会马上试用，还是先观望？",
+        "cta": "关注我，每天早中晚帮你筛出真正适合做内容的 AI 热点。"
+      }
+    },
+    {
+      "id": "simonwillison-dc064711c8",
+      "source": "simonwillison",
+      "category": "security",
+      "format": "个人解读",
+      "evidence": "个人解读",
+      "priority": 3,
+      "featured": true,
+      "publishedAt": "2026-04-23",
+      "slots": [
+        "morning",
+        "noon",
+        "evening"
+      ],
+      "titleZh": "Simon Willison: A pelican for GPT-5.5 via the semi-official Codex backdoor API",
+      "titleEn": "A pelican for GPT-5.5 via the semi-official Codex backdoor API",
+      "summary": "Simon Willison 更新：GPT-5.5 is out . It's available in OpenAI Codex and is rolling out to paid ChatGPT subscribers. I've had some preview access and found it to be a fast, effective and highly cap...",
+      "whyMatters": "这类个人来源适合补充实测、判断和语境，能帮 AI 博主快速形成自己的观点。",
+      "takeaways": [
+        "来源属性：个人博主/研究者视角，适合做观点补充和趋势判断。",
+        "内容信号：GPT-5.5 is out . It's available in OpenAI Codex and is rolling out to paid ChatGPT subscribers. I've had some preview access and found it to be a fast, effective and highly cap...",
+        "发布前建议打开原文核对具体表述，再加入自己的使用场景或行业判断。"
+      ],
+      "tags": [
+        "LLM",
+        "AI 工具",
+        "开发者",
+        "实测"
+      ],
+      "sourceUrl": "https://simonwillison.net/2026/Apr/23/gpt-5-5/#atom-everything",
+      "creator": {
+        "duration": "60 秒",
+        "oneLiner": "Simon Willison 这条动态适合做 60 秒 AI 热点，核心看点是 A pelican for GPT-5.5 via the semi-official Codex backdoor API。",
+        "hook": "先给你 5 秒结论：Simon Willison 这条 个人解读 值得讲，因为它能转成“工具变化、效率提升或行业信号”三类流量钩子。",
+        "angle": "这类个人博主来源适合做“我替你试过/我替你看懂了”的选题，容易形成信任感和评论讨论。",
+        "coverTitle": "A pelican for GPT-5.5 via the se",
+        "coverSubtitle": "个人博主视角，帮你抓热点",
+        "commentPrompt": "这条 AI 动态你会马上试用，还是先观望？",
+        "cta": "关注我，每天早中晚帮你筛出真正适合做内容的 AI 热点。"
+      }
+    },
+    {
+      "id": "oneusefulthing-8082e0b1b5",
+      "source": "oneusefulthing",
+      "category": "model",
+      "format": "个人解读",
+      "evidence": "个人解读",
+      "priority": 3,
+      "featured": true,
+      "publishedAt": "2026-04-23",
+      "slots": [
+        "morning",
+        "noon",
+        "evening"
+      ],
+      "titleZh": "One Useful Thing: Sign of the future: GPT-5.5",
+      "titleEn": "Sign of the future: GPT-5.5",
+      "summary": "One Useful Thing 更新：One impressive step on the curve",
+      "whyMatters": "这类个人来源适合补充实测、判断和语境，能帮 AI 博主快速形成自己的观点。",
+      "takeaways": [
+        "来源属性：个人博主/研究者视角，适合做观点补充和趋势判断。",
+        "内容信号：One impressive step on the curve",
+        "发布前建议打开原文核对具体表述，再加入自己的使用场景或行业判断。"
+      ],
+      "tags": [
+        "AI 影响",
+        "教育",
+        "工作",
+        "大众化观点"
+      ],
+      "sourceUrl": "https://www.oneusefulthing.org/p/sign-of-the-future-gpt-55",
+      "creator": {
+        "duration": "60 秒",
+        "oneLiner": "One Useful Thing 这条动态适合做 60 秒 AI 热点，核心看点是 Sign of the future: GPT-5.5。",
+        "hook": "先给你 5 秒结论：One Useful Thing 这条 个人解读 值得讲，因为它能转成“工具变化、效率提升或行业信号”三类流量钩子。",
+        "angle": "这类个人博主来源适合做“我替你试过/我替你看懂了”的选题，容易形成信任感和评论讨论。",
+        "coverTitle": "GPT-5.5",
+        "coverSubtitle": "个人博主视角，帮你抓热点",
+        "commentPrompt": "这条 AI 动态你会马上试用，还是先观望？",
+        "cta": "关注我，每天早中晚帮你筛出真正适合做内容的 AI 热点。"
+      }
+    },
+    {
+      "id": "bensbites-43ebe0239e",
+      "source": "bensbites",
+      "category": "product",
+      "format": "个人解读",
+      "evidence": "个人解读",
+      "priority": 3,
+      "featured": true,
+      "publishedAt": "2026-04-23",
+      "slots": [
+        "morning",
+        "noon",
+        "evening"
+      ],
+      "titleZh": "Ben's Bites: ChatGPT's Nano Banana",
+      "titleEn": "ChatGPT's Nano Banana",
+      "summary": "Ben's Bites 更新：testing popular design tools",
+      "whyMatters": "这类个人来源适合补充实测、判断和语境，能帮 AI 博主快速形成自己的观点。",
+      "takeaways": [
+        "来源属性：个人博主/研究者视角，适合做观点补充和趋势判断。",
+        "内容信号：testing popular design tools",
+        "发布前建议打开原文核对具体表述，再加入自己的使用场景或行业判断。"
+      ],
+      "tags": [
+        "AI 新闻",
+        "工具",
+        "创业",
+        "热点"
+      ],
+      "sourceUrl": "https://www.bensbites.com/p/chatgpts-nano-banana",
+      "creator": {
+        "duration": "60 秒",
+        "oneLiner": "Ben's Bites 这条动态适合做 60 秒 AI 热点，核心看点是 ChatGPT's Nano Banana。",
+        "hook": "先给你 5 秒结论：Ben's Bites 这条 个人解读 值得讲，因为它能转成“工具变化、效率提升或行业信号”三类流量钩子。",
+        "angle": "这类个人博主来源适合做“我替你试过/我替你看懂了”的选题，容易形成信任感和评论讨论。",
+        "coverTitle": "ChatGPT's Nano Banana",
+        "coverSubtitle": "个人博主视角，帮你抓热点",
+        "commentPrompt": "这条 AI 动态你会马上试用，还是先观望？",
+        "cta": "关注我，每天早中晚帮你筛出真正适合做内容的 AI 热点。"
+      }
+    },
+    {
+      "id": "latentspace-51f366823e",
+      "source": "latentspace",
+      "category": "digest",
+      "format": "博主观察",
+      "evidence": "个人解读",
+      "priority": 3,
+      "featured": true,
+      "publishedAt": "2026-04-23",
+      "slots": [
+        "morning",
+        "noon",
+        "evening"
+      ],
+      "titleZh": "Latent Space: AIE Europe Debrief + Agent Labs Thesis: Unsupervised Learning x Latent Space Crossover Special (2026)",
+      "titleEn": "AIE Europe Debrief + Agent Labs Thesis: Unsupervised Learning x Latent Space Crossover Special (2026)",
+      "summary": "Latent Space 更新：Note: This episode was recorded just after AIE Europe, but before the Cursor-xAI deal.",
+      "whyMatters": "这类个人来源适合补充实测、判断和语境，能帮 AI 博主快速形成自己的观点。",
+      "takeaways": [
+        "来源属性：个人博主/研究者视角，适合做观点补充和趋势判断。",
+        "内容信号：Note: This episode was recorded just after AIE Europe, but before the Cursor-xAI deal.",
+        "发布前建议打开原文核对具体表述，再加入自己的使用场景或行业判断。"
+      ],
+      "tags": [
+        "AI 工程",
+        "Agent",
+        "开发者",
+        "播客"
+      ],
+      "sourceUrl": "https://www.latent.space/p/unsupervised-learning-2026",
+      "creator": {
+        "duration": "60 秒",
+        "oneLiner": "Latent Space 这条动态适合做 60 秒 AI 热点，核心看点是 AIE Europe Debrief + Agent Labs Thesis: Unsupervised Learning x Latent Space Crossover Special (2026)。",
+        "hook": "先给你 5 秒结论：Latent Space 这条 博主观察 值得讲，因为它能转成“工具变化、效率提升或行业信号”三类流量钩子。",
+        "angle": "这类个人博主来源适合做“我替你试过/我替你看懂了”的选题，容易形成信任感和评论讨论。",
+        "coverTitle": "Unsupervised Learning x Latent S",
+        "coverSubtitle": "个人博主视角，帮你抓热点",
+        "commentPrompt": "这条 AI 动态你会马上试用，还是先观望？",
+        "cta": "关注我，每天早中晚帮你筛出真正适合做内容的 AI 热点。"
+      }
+    },
+    {
+      "id": "latentspace-2a8dc0e189",
+      "source": "latentspace",
+      "category": "digest",
+      "format": "博主观察",
+      "evidence": "个人解读",
+      "priority": 3,
+      "featured": true,
+      "publishedAt": "2026-04-23",
+      "slots": [
+        "morning",
+        "noon",
+        "evening"
+      ],
+      "titleZh": "Latent Space: [AINews] Tasteful Tokenmaxxing",
+      "titleEn": "[AINews] Tasteful Tokenmaxxing",
+      "summary": "Latent Space 更新：a quiet day lets us reflect on the top conversation that AI leaders are having everywhere.",
+      "whyMatters": "这类个人来源适合补充实测、判断和语境，能帮 AI 博主快速形成自己的观点。",
+      "takeaways": [
+        "来源属性：个人博主/研究者视角，适合做观点补充和趋势判断。",
+        "内容信号：a quiet day lets us reflect on the top conversation that AI leaders are having everywhere.",
+        "发布前建议打开原文核对具体表述，再加入自己的使用场景或行业判断。"
+      ],
+      "tags": [
+        "AI 工程",
+        "Agent",
+        "开发者",
+        "播客"
+      ],
+      "sourceUrl": "https://www.latent.space/p/ainews-tasteful-tokenmaxxing",
+      "creator": {
+        "duration": "60 秒",
+        "oneLiner": "Latent Space 这条动态适合做 60 秒 AI 热点，核心看点是 [AINews] Tasteful Tokenmaxxing。",
+        "hook": "先给你 5 秒结论：Latent Space 这条 博主观察 值得讲，因为它能转成“工具变化、效率提升或行业信号”三类流量钩子。",
+        "angle": "这类个人博主来源适合做“我替你试过/我替你看懂了”的选题，容易形成信任感和评论讨论。",
+        "coverTitle": "[AINews] Tasteful Tokenmaxxing",
+        "coverSubtitle": "个人博主视角，帮你抓热点",
+        "commentPrompt": "这条 AI 动态你会马上试用，还是先观望？",
+        "cta": "关注我，每天早中晚帮你筛出真正适合做内容的 AI 热点。"
+      }
+    },
+    {
+      "id": "marktechpost-025fb5b5f7",
+      "source": "marktechpost",
+      "category": "research",
+      "format": "个人解读",
+      "evidence": "个人解读",
+      "priority": 3,
+      "featured": true,
+      "publishedAt": "2026-04-23",
+      "slots": [
+        "morning",
+        "noon",
+        "evening"
+      ],
+      "titleZh": "MarkTechPost: OpenAI Releases GPT-5.5, a Fully Retrained Agentic Model That Scores 82.7% on Terminal-Bench 2.0 and 84.9% on GDPval",
+      "titleEn": "OpenAI Releases GPT-5.5, a Fully Retrained Agentic Model That Scores 82.7% on Terminal-Bench 2.0 and 84.9% on GDPval",
+      "summary": "MarkTechPost 更新：The model targets the full stack of computer work — coding, research, data analysis, and software operation — without needing a human to supervise every step The post OpenAI Re...",
+      "whyMatters": "这类个人来源适合补充实测、判断和语境，能帮 AI 博主快速形成自己的观点。",
+      "takeaways": [
+        "来源属性：个人博主/研究者视角，适合做观点补充和趋势判断。",
+        "内容信号：The model targets the full stack of computer work — coding, research, data analysis, and software operation — without needing a human to supervise every step The post OpenAI Re...",
+        "发布前建议打开原文核对具体表述，再加入自己的使用场景或行业判断。"
+      ],
+      "tags": [
+        "AI 新闻",
+        "论文",
+        "模型",
+        "工具",
+        "Agentic AI",
+        "AI Shorts",
+        "Applications",
+        "Artificial Intelligence"
+      ],
+      "sourceUrl": "https://www.marktechpost.com/2026/04/23/openai-releases-gpt-5-5-a-fully-retrained-agentic-model-that-scores-82-7-on-terminal-bench-2-0-and-84-9-on-gdpval/",
+      "creator": {
+        "duration": "60 秒",
+        "oneLiner": "MarkTechPost 这条动态适合做 60 秒 AI 热点，核心看点是 OpenAI Releases GPT-5.5, a Fully Retrained Agentic Model That Scores 82.7% on Terminal-Bench 2.0 and 84.9% on GDPval。",
+        "hook": "先给你 5 秒结论：MarkTechPost 这条 个人解读 值得讲，因为它能转成“工具变化、效率提升或行业信号”三类流量钩子。",
+        "angle": "这类个人博主来源适合做“我替你试过/我替你看懂了”的选题，容易形成信任感和评论讨论。",
+        "coverTitle": "OpenAI Releases GPT-5.5, a Fully",
+        "coverSubtitle": "个人博主视角，帮你抓热点",
+        "commentPrompt": "这条 AI 动态你会马上试用，还是先观望？",
+        "cta": "关注我，每天早中晚帮你筛出真正适合做内容的 AI 热点。"
+      }
+    },
+    {
+      "id": "marktechpost-84cc0bb088",
+      "source": "marktechpost",
+      "category": "research",
+      "format": "个人解读",
+      "evidence": "个人解读",
+      "priority": 3,
+      "featured": true,
+      "publishedAt": "2026-04-23",
+      "slots": [
+        "morning",
+        "noon",
+        "evening"
+      ],
+      "titleZh": "MarkTechPost: Google Cloud AI Research Introduces ReasoningBank: A Memory Framework that Distills Reasoning Strategies from Agent Successes and Failures",
+      "titleEn": "Google Cloud AI Research Introduces ReasoningBank: A Memory Framework that Distills Reasoning Strategies from Agent Successes and Failures",
+      "summary": "MarkTechPost 更新：A new memory framework from Google Cloud AI Research and UIUC gives LLM agents the ability to distill generalizable reasoning strategies from both successful and failed experie...",
+      "whyMatters": "这类个人来源适合补充实测、判断和语境，能帮 AI 博主快速形成自己的观点。",
+      "takeaways": [
+        "来源属性：个人博主/研究者视角，适合做观点补充和趋势判断。",
+        "内容信号：A new memory framework from Google Cloud AI Research and UIUC gives LLM agents the ability to distill generalizable reasoning strategies from both successful and failed experie...",
+        "发布前建议打开原文核对具体表述，再加入自己的使用场景或行业判断。"
+      ],
+      "tags": [
+        "AI 新闻",
+        "论文",
+        "模型",
+        "工具",
+        "Agentic AI",
+        "AI Agents",
+        "AI Infrastructure",
+        "AI Paper Summary"
+      ],
+      "sourceUrl": "https://www.marktechpost.com/2026/04/23/google-cloud-ai-research-introduces-reasoningbank-a-memory-framework-that-distills-reasoning-strategies-from-agent-successes-and-failures/",
+      "creator": {
+        "duration": "60 秒",
+        "oneLiner": "MarkTechPost 这条动态适合做 60 秒 AI 热点，核心看点是 Google Cloud AI Research Introduces ReasoningBank: A Memory Framework that Distills Reasoning Strategies from Agent Successes and Failures。",
+        "hook": "先给你 5 秒结论：MarkTechPost 这条 个人解读 值得讲，因为它能转成“工具变化、效率提升或行业信号”三类流量钩子。",
+        "angle": "这类个人博主来源适合做“我替你试过/我替你看懂了”的选题，容易形成信任感和评论讨论。",
+        "coverTitle": "A Memory Framework that Distills",
+        "coverSubtitle": "个人博主视角，帮你抓热点",
+        "commentPrompt": "这条 AI 动态你会马上试用，还是先观望？",
+        "cta": "关注我，每天早中晚帮你筛出真正适合做内容的 AI 热点。"
+      }
+    },
+    {
+      "id": "marktechpost-d3b2a04d5e",
+      "source": "marktechpost",
+      "category": "open",
+      "format": "个人解读",
+      "evidence": "个人解读",
+      "priority": 3,
+      "featured": true,
+      "publishedAt": "2026-04-23",
+      "slots": [
+        "morning",
+        "noon",
+        "evening"
+      ],
+      "titleZh": "MarkTechPost: Xiaomi Releases MiMo-V2.5-Pro and MiMo-V2.5: Matching Frontier Model Benchmarks at Significantly Lower Token Cost",
+      "titleEn": "Xiaomi Releases MiMo-V2.5-Pro and MiMo-V2.5: Matching Frontier Model Benchmarks at Significantly Lower Token Cost",
+      "summary": "MarkTechPost 更新：Xiaomi's MiMo team just dropped two new models that push open-source agentic AI closer to frontier territory than ever before. The post Xiaomi Releases MiMo-V2.5-Pro and MiMo-V...",
+      "whyMatters": "这类个人来源适合补充实测、判断和语境，能帮 AI 博主快速形成自己的观点。",
+      "takeaways": [
+        "来源属性：个人博主/研究者视角，适合做观点补充和趋势判断。",
+        "内容信号：Xiaomi's MiMo team just dropped two new models that push open-source agentic AI closer to frontier territory than ever before. The post Xiaomi Releases MiMo-V2.5-Pro and MiMo-V...",
+        "发布前建议打开原文核对具体表述，再加入自己的使用场景或行业判断。"
+      ],
+      "tags": [
+        "AI 新闻",
+        "论文",
+        "模型",
+        "工具",
+        "Agentic AI",
+        "AI Shorts",
+        "Applications",
+        "Artificial Intelligence"
+      ],
+      "sourceUrl": "https://www.marktechpost.com/2026/04/22/xiaomi-releases-mimo-v2-5-pro-and-mimo-v2-5-matching-frontier-model-benchmarks-at-significantly-lower-token-cost/",
+      "creator": {
+        "duration": "60 秒",
+        "oneLiner": "MarkTechPost 这条动态适合做 60 秒 AI 热点，核心看点是 Xiaomi Releases MiMo-V2.5-Pro and MiMo-V2.5: Matching Frontier Model Benchmarks at Significantly Lower Token Cost。",
+        "hook": "先给你 5 秒结论：MarkTechPost 这条 个人解读 值得讲，因为它能转成“工具变化、效率提升或行业信号”三类流量钩子。",
+        "angle": "这类个人博主来源适合做“我替你试过/我替你看懂了”的选题，容易形成信任感和评论讨论。",
+        "coverTitle": "Matching Frontier Model Benchmar",
+        "coverSubtitle": "个人博主视角，帮你抓热点",
+        "commentPrompt": "这条 AI 动态你会马上试用，还是先观望？",
+        "cta": "关注我，每天早中晚帮你筛出真正适合做内容的 AI 热点。"
+      }
+    },
+    {
+      "id": "openai-b9cfd90c44",
+      "source": "openai",
+      "category": "research",
+      "format": "研究发布",
+      "evidence": "官方一手",
+      "priority": 3,
+      "featured": true,
+      "publishedAt": "2026-04-22",
+      "slots": [
+        "morning",
+        "noon",
+        "evening"
+      ],
+      "titleZh": "OpenAI: Making ChatGPT better for clinicians",
+      "titleEn": "Making ChatGPT better for clinicians",
+      "summary": "OpenAI 更新：OpenAI makes ChatGPT for Clinicians free for verified U.S. physicians, nurse practitioners, and pharmacists, supporting clinical care, documentation, and research.",
+      "whyMatters": "这类官方来源适合作为可信事实锚点，口播时要转译成普通用户关心的场景价值。",
+      "takeaways": [
+        "来源属性：官方一手来源，适合作为快讯主来源。",
+        "内容信号：OpenAI makes ChatGPT for Clinicians free for verified U.S. physicians, nurse practitioners, and pharmacists, supporting clinical care, documentation, and research.",
+        "发布前建议打开原文核对具体表述，再加入自己的使用场景或行业判断。"
+      ],
+      "tags": [
+        "OpenAI",
+        "ChatGPT",
+        "产品",
+        "模型",
+        "工具",
+        "Product"
+      ],
+      "sourceUrl": "https://openai.com/index/making-chatgpt-better-for-clinicians",
+      "creator": {
+        "duration": "60 秒",
+        "oneLiner": "OpenAI 这条动态适合做 60 秒 AI 热点，核心看点是 Making ChatGPT better for clinicians。",
+        "hook": "先给你 5 秒结论：OpenAI 这条 研究发布 值得讲，因为它能转成“工具变化、效率提升或行业信号”三类流量钩子。",
+        "angle": "这类官方来源适合做事实锚点，但口播时要翻译成普通用户能听懂的效率、工具或趋势变化。",
+        "coverTitle": "Making ChatGPT better for clinic",
+        "coverSubtitle": "官方消息，翻译成普通人看点",
+        "commentPrompt": "这条 AI 动态你会马上试用，还是先观望？",
+        "cta": "关注我，每天早中晚帮你筛出真正适合做内容的 AI 热点。"
+      }
+    },
+    {
+      "id": "openai-1b162ea8d4",
+      "source": "openai",
+      "category": "product",
+      "format": "产品发布",
+      "evidence": "官方一手",
+      "priority": 3,
+      "featured": true,
+      "publishedAt": "2026-04-22",
+      "slots": [
+        "morning",
+        "noon",
+        "evening"
+      ],
+      "titleZh": "OpenAI: Workspace agents",
+      "titleEn": "Workspace agents",
+      "summary": "OpenAI 更新：Learn how to build, use, and scale workspace agents in ChatGPT to automate repeatable workflows, connect tools, and streamline team operations.",
+      "whyMatters": "这类官方来源适合作为可信事实锚点，口播时要转译成普通用户关心的场景价值。",
+      "takeaways": [
+        "来源属性：官方一手来源，适合作为快讯主来源。",
+        "内容信号：Learn how to build, use, and scale workspace agents in ChatGPT to automate repeatable workflows, connect tools, and streamline team operations.",
+        "发布前建议打开原文核对具体表述，再加入自己的使用场景或行业判断。"
+      ],
+      "tags": [
+        "OpenAI",
+        "ChatGPT",
+        "产品",
+        "模型",
+        "工具",
+        "OpenAI Academy"
+      ],
+      "sourceUrl": "https://openai.com/academy/workspace-agents",
+      "creator": {
+        "duration": "60 秒",
+        "oneLiner": "OpenAI 这条动态适合做 60 秒 AI 热点，核心看点是 Workspace agents。",
+        "hook": "先给你 5 秒结论：OpenAI 这条 产品发布 值得讲，因为它能转成“工具变化、效率提升或行业信号”三类流量钩子。",
+        "angle": "这类官方来源适合做事实锚点，但口播时要翻译成普通用户能听懂的效率、工具或趋势变化。",
+        "coverTitle": "Workspace agents",
+        "coverSubtitle": "官方消息，翻译成普通人看点",
+        "commentPrompt": "这条 AI 动态你会马上试用，还是先观望？",
+        "cta": "关注我，每天早中晚帮你筛出真正适合做内容的 AI 热点。"
+      }
+    },
+    {
+      "id": "google-93a049d060",
+      "source": "google",
+      "category": "product",
+      "format": "产品发布",
+      "evidence": "官方一手",
+      "priority": 3,
+      "featured": true,
+      "publishedAt": "2026-04-22",
+      "slots": [
+        "morning",
+        "noon",
+        "evening"
+      ],
+      "titleZh": "Google AI: We're launching two specialized TPUs for the agentic era.",
+      "titleEn": "We're launching two specialized TPUs for the agentic era.",
+      "summary": "Google AI 更新：The eighth generation of Google’s TPU includes two specialized chips that will power the future of AI.",
+      "whyMatters": "这类官方来源适合作为可信事实锚点，口播时要转译成普通用户关心的场景价值。",
+      "takeaways": [
+        "来源属性：官方一手来源，适合作为快讯主来源。",
+        "内容信号：The eighth generation of Google’s TPU includes two specialized chips that will power the future of AI.",
+        "发布前建议打开原文核对具体表述，再加入自己的使用场景或行业判断。"
+      ],
+      "tags": [
+        "Google",
+        "Gemini",
+        "产品",
+        "搜索",
+        "Workspace",
+        "Google Cloud",
+        "AI"
+      ],
+      "sourceUrl": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/tpus-8t-8i-cloud-next/",
+      "creator": {
+        "duration": "60 秒",
+        "oneLiner": "Google AI 这条动态适合做 60 秒 AI 热点，核心看点是 We're launching two specialized TPUs for the agentic era.。",
+        "hook": "先给你 5 秒结论：Google AI 这条 产品发布 值得讲，因为它能转成“工具变化、效率提升或行业信号”三类流量钩子。",
+        "angle": "这类官方来源适合做事实锚点，但口播时要翻译成普通用户能听懂的效率、工具或趋势变化。",
+        "coverTitle": "We're launching two specialized ",
+        "coverSubtitle": "官方消息，翻译成普通人看点",
+        "commentPrompt": "这条 AI 动态你会马上试用，还是先观望？",
+        "cta": "关注我，每天早中晚帮你筛出真正适合做内容的 AI 热点。"
+      }
+    },
+    {
+      "id": "simonwillison-d1f8324a5f",
+      "source": "simonwillison",
+      "category": "open",
+      "format": "个人解读",
+      "evidence": "个人解读",
+      "priority": 3,
+      "featured": true,
+      "publishedAt": "2026-04-22",
+      "slots": [
+        "morning",
+        "noon",
+        "evening"
+      ],
+      "titleZh": "Simon Willison: Qwen3.6-27B: Flagship-Level Coding in a 27B Dense Model",
+      "titleEn": "Qwen3.6-27B: Flagship-Level Coding in a 27B Dense Model",
+      "summary": "Simon Willison 更新：Qwen3.6-27B: Flagship-Level Coding in a 27B Dense Model Big claims from Qwen about their latest open weight model: Qwen3.6-27B delivers flagship-level agentic coding performanc...",
+      "whyMatters": "这类个人来源适合补充实测、判断和语境，能帮 AI 博主快速形成自己的观点。",
+      "takeaways": [
+        "来源属性：个人博主/研究者视角，适合做观点补充和趋势判断。",
+        "内容信号：Qwen3.6-27B: Flagship-Level Coding in a 27B Dense Model Big claims from Qwen about their latest open weight model: Qwen3.6-27B delivers flagship-level agentic coding performanc...",
+        "发布前建议打开原文核对具体表述，再加入自己的使用场景或行业判断。"
+      ],
+      "tags": [
+        "LLM",
+        "AI 工具",
+        "开发者",
+        "实测"
+      ],
+      "sourceUrl": "https://simonwillison.net/2026/Apr/22/qwen36-27b/#atom-everything",
+      "creator": {
+        "duration": "60 秒",
+        "oneLiner": "Simon Willison 这条动态适合做 60 秒 AI 热点，核心看点是 Qwen3.6-27B: Flagship-Level Coding in a 27B Dense Model。",
+        "hook": "先给你 5 秒结论：Simon Willison 这条 个人解读 值得讲，因为它能转成“工具变化、效率提升或行业信号”三类流量钩子。",
+        "angle": "这类个人博主来源适合做“我替你试过/我替你看懂了”的选题，容易形成信任感和评论讨论。",
+        "coverTitle": "Flagship-Level Coding in a 27B D",
+        "coverSubtitle": "个人博主视角，帮你抓热点",
+        "commentPrompt": "这条 AI 动态你会马上试用，还是先观望？",
+        "cta": "关注我，每天早中晚帮你筛出真正适合做内容的 AI 热点。"
+      }
+    },
+    {
+      "id": "simonwillison-94c6699073",
+      "source": "simonwillison",
+      "category": "product",
+      "format": "个人解读",
+      "evidence": "个人解读",
+      "priority": 3,
+      "featured": true,
+      "publishedAt": "2026-04-22",
+      "slots": [
+        "morning",
+        "noon",
+        "evening"
+      ],
+      "titleZh": "Simon Willison: Changes to GitHub Copilot Individual plans",
+      "titleEn": "Changes to GitHub Copilot Individual plans",
+      "summary": "Simon Willison 更新：Changes to GitHub Copilot Individual plans On the same day as Claude Code's temporary will-they-won't-they $100/month kerfuffle (for the moment, they won't ), here's the latest...",
+      "whyMatters": "这类个人来源适合补充实测、判断和语境，能帮 AI 博主快速形成自己的观点。",
+      "takeaways": [
+        "来源属性：个人博主/研究者视角，适合做观点补充和趋势判断。",
+        "内容信号：Changes to GitHub Copilot Individual plans On the same day as Claude Code's temporary will-they-won't-they $100/month kerfuffle (for the moment, they won't ), here's the latest...",
+        "发布前建议打开原文核对具体表述，再加入自己的使用场景或行业判断。"
+      ],
+      "tags": [
+        "LLM",
+        "AI 工具",
+        "开发者",
+        "实测"
+      ],
+      "sourceUrl": "https://simonwillison.net/2026/Apr/22/changes-to-github-copilot/#atom-everything",
+      "creator": {
+        "duration": "60 秒",
+        "oneLiner": "Simon Willison 这条动态适合做 60 秒 AI 热点，核心看点是 Changes to GitHub Copilot Individual plans。",
+        "hook": "先给你 5 秒结论：Simon Willison 这条 个人解读 值得讲，因为它能转成“工具变化、效率提升或行业信号”三类流量钩子。",
+        "angle": "这类个人博主来源适合做“我替你试过/我替你看懂了”的选题，容易形成信任感和评论讨论。",
+        "coverTitle": "Changes to GitHub Copilot Indivi",
+        "coverSubtitle": "个人博主视角，帮你抓热点",
+        "commentPrompt": "这条 AI 动态你会马上试用，还是先观望？",
+        "cta": "关注我，每天早中晚帮你筛出真正适合做内容的 AI 热点。"
+      }
+    },
+    {
+      "id": "simonwillison-0ffdd40f30",
+      "source": "simonwillison",
+      "category": "security",
+      "format": "个人解读",
+      "evidence": "个人解读",
+      "priority": 3,
+      "featured": true,
+      "publishedAt": "2026-04-22",
+      "slots": [
+        "morning",
+        "noon",
+        "evening"
+      ],
+      "titleZh": "Simon Willison: Is Claude Code going to cost $100/month? Probably not - it's all very confusing",
+      "titleEn": "Is Claude Code going to cost $100/month? Probably not - it's all very confusing",
+      "summary": "Simon Willison 更新：Anthropic today quietly (as in silently , no announcement anywhere at all) updated their claude.com/pricing page (but not their Choosing a Claude plan page , which shows up fir...",
+      "whyMatters": "这类个人来源适合补充实测、判断和语境，能帮 AI 博主快速形成自己的观点。",
+      "takeaways": [
+        "来源属性：个人博主/研究者视角，适合做观点补充和趋势判断。",
+        "内容信号：Anthropic today quietly (as in silently , no announcement anywhere at all) updated their claude.com/pricing page (but not their Choosing a Claude plan page , which shows up fir...",
+        "发布前建议打开原文核对具体表述，再加入自己的使用场景或行业判断。"
+      ],
+      "tags": [
+        "LLM",
+        "AI 工具",
+        "开发者",
+        "实测"
+      ],
+      "sourceUrl": "https://simonwillison.net/2026/Apr/22/claude-code-confusion/#atom-everything",
+      "creator": {
+        "duration": "60 秒",
+        "oneLiner": "Simon Willison 这条动态适合做 60 秒 AI 热点，核心看点是 Is Claude Code going to cost $100/month? Probably not - it's all very confusing。",
+        "hook": "先给你 5 秒结论：Simon Willison 这条 个人解读 值得讲，因为它能转成“工具变化、效率提升或行业信号”三类流量钩子。",
+        "angle": "这类个人博主来源适合做“我替你试过/我替你看懂了”的选题，容易形成信任感和评论讨论。",
+        "coverTitle": "Is Claude Code going to cost $10",
+        "coverSubtitle": "个人博主视角，帮你抓热点",
+        "commentPrompt": "这条 AI 动态你会马上试用，还是先观望？",
+        "cta": "关注我，每天早中晚帮你筛出真正适合做内容的 AI 热点。"
+      }
+    },
+    {
+      "id": "latentspace-4ba04ee6a0",
+      "source": "latentspace",
+      "category": "product",
+      "format": "个人解读",
+      "evidence": "个人解读",
+      "priority": 3,
+      "featured": true,
+      "publishedAt": "2026-04-22",
+      "slots": [
+        "morning",
+        "noon",
+        "evening"
+      ],
+      "titleZh": "Latent Space: [AINews] OpenAI launches GPT-Image-2",
+      "titleEn": "[AINews] OpenAI launches GPT-Image-2",
+      "summary": "Latent Space 更新：with Cursor getting a $10B contract with xAI and a right to acquire for $60B.",
+      "whyMatters": "这类个人来源适合补充实测、判断和语境，能帮 AI 博主快速形成自己的观点。",
+      "takeaways": [
+        "来源属性：个人博主/研究者视角，适合做观点补充和趋势判断。",
+        "内容信号：with Cursor getting a $10B contract with xAI and a right to acquire for $60B.",
+        "发布前建议打开原文核对具体表述，再加入自己的使用场景或行业判断。"
+      ],
+      "tags": [
+        "AI 工程",
+        "Agent",
+        "开发者",
+        "播客"
+      ],
+      "sourceUrl": "https://www.latent.space/p/ainews-openai-launches-gpt-image",
+      "creator": {
+        "duration": "60 秒",
+        "oneLiner": "Latent Space 这条动态适合做 60 秒 AI 热点，核心看点是 [AINews] OpenAI launches GPT-Image-2。",
+        "hook": "先给你 5 秒结论：Latent Space 这条 个人解读 值得讲，因为它能转成“工具变化、效率提升或行业信号”三类流量钩子。",
+        "angle": "这类个人博主来源适合做“我替你试过/我替你看懂了”的选题，容易形成信任感和评论讨论。",
+        "coverTitle": "[AINews] OpenAI launches GPT-Ima",
+        "coverSubtitle": "个人博主视角，帮你抓热点",
+        "commentPrompt": "这条 AI 动态你会马上试用，还是先观望？",
+        "cta": "关注我，每天早中晚帮你筛出真正适合做内容的 AI 热点。"
+      }
+    },
+    {
+      "id": "google-97921ff38a",
+      "source": "google",
+      "category": "security",
+      "format": "安全治理",
+      "evidence": "官方一手",
+      "priority": 3,
+      "featured": true,
+      "publishedAt": "2026-04-21",
+      "slots": [
+        "morning",
+        "noon",
+        "evening"
+      ],
+      "titleZh": "Google AI: 3 new ways Ads Advisor is making Google Ads safer and faster",
+      "titleEn": "3 new ways Ads Advisor is making Google Ads safer and faster",
+      "summary": "Google AI 更新：Three new agentic safety and policy features integrated into Ads Advisor will help protect and streamline your Google Ads account.",
+      "whyMatters": "这类官方来源适合作为可信事实锚点，口播时要转译成普通用户关心的场景价值。",
+      "takeaways": [
+        "来源属性：官方一手来源，适合作为快讯主来源。",
+        "内容信号：Three new agentic safety and policy features integrated into Ads Advisor will help protect and streamline your Google Ads account.",
+        "发布前建议打开原文核对具体表述，再加入自己的使用场景或行业判断。"
+      ],
+      "tags": [
+        "Google",
+        "Gemini",
+        "产品",
+        "搜索",
+        "Workspace",
+        "Google Ads",
+        "Safety & Security",
+        "AI"
+      ],
+      "sourceUrl": "https://blog.google/products/ads-commerce/ads-advisor-google-ads/",
+      "creator": {
+        "duration": "60 秒",
+        "oneLiner": "Google AI 这条动态适合做 60 秒 AI 热点，核心看点是 3 new ways Ads Advisor is making Google Ads safer and faster。",
+        "hook": "先给你 5 秒结论：Google AI 这条 安全治理 值得讲，因为它能转成“工具变化、效率提升或行业信号”三类流量钩子。",
+        "angle": "这类官方来源适合做事实锚点，但口播时要翻译成普通用户能听懂的效率、工具或趋势变化。",
+        "coverTitle": "3 new ways Ads Advisor is making",
+        "coverSubtitle": "官方消息，翻译成普通人看点",
+        "commentPrompt": "这条 AI 动态你会马上试用，还是先观望？",
+        "cta": "关注我，每天早中晚帮你筛出真正适合做内容的 AI 热点。"
+      }
+    },
+    {
+      "id": "simonwillison-e719285f78",
+      "source": "simonwillison",
+      "category": "security",
+      "format": "个人解读",
+      "evidence": "个人解读",
+      "priority": 3,
+      "featured": true,
+      "publishedAt": "2026-04-21",
+      "slots": [
+        "morning",
+        "noon",
+        "evening"
+      ],
+      "titleZh": "Simon Willison: Where's the raccoon with the ham radio? (ChatGPT Images 2.0)",
+      "titleEn": "Where's the raccoon with the ham radio? (ChatGPT Images 2.0)",
+      "summary": "Simon Willison 更新：OpenAI released ChatGPT Images 2.0 today , their latest image generation model. On the livestream Sam Altman said that the leap from gpt-image-1 to gpt-image-2 was equivalent t...",
+      "whyMatters": "这类个人来源适合补充实测、判断和语境，能帮 AI 博主快速形成自己的观点。",
+      "takeaways": [
+        "来源属性：个人博主/研究者视角，适合做观点补充和趋势判断。",
+        "内容信号：OpenAI released ChatGPT Images 2.0 today , their latest image generation model. On the livestream Sam Altman said that the leap from gpt-image-1 to gpt-image-2 was equivalent t...",
+        "发布前建议打开原文核对具体表述，再加入自己的使用场景或行业判断。"
+      ],
+      "tags": [
+        "LLM",
+        "AI 工具",
+        "开发者",
+        "实测"
+      ],
+      "sourceUrl": "https://simonwillison.net/2026/Apr/21/gpt-image-2/#atom-everything",
+      "creator": {
+        "duration": "60 秒",
+        "oneLiner": "Simon Willison 这条动态适合做 60 秒 AI 热点，核心看点是 Where's the raccoon with the ham radio? (ChatGPT Images 2.0)。",
+        "hook": "先给你 5 秒结论：Simon Willison 这条 个人解读 值得讲，因为它能转成“工具变化、效率提升或行业信号”三类流量钩子。",
+        "angle": "这类个人博主来源适合做“我替你试过/我替你看懂了”的选题，容易形成信任感和评论讨论。",
+        "coverTitle": "Where's the raccoon with the ham",
+        "coverSubtitle": "个人博主视角，帮你抓热点",
+        "commentPrompt": "这条 AI 动态你会马上试用，还是先观望？",
+        "cta": "关注我，每天早中晚帮你筛出真正适合做内容的 AI 热点。"
+      }
+    },
+    {
+      "id": "bensbites-2819581595",
+      "source": "bensbites",
+      "category": "product",
+      "format": "个人解读",
+      "evidence": "个人解读",
+      "priority": 3,
+      "featured": true,
+      "publishedAt": "2026-04-21",
+      "slots": [
+        "morning",
+        "noon",
+        "evening"
+      ],
+      "titleZh": "Ben's Bites: That's my designer - Claude",
+      "titleEn": "That's my designer - Claude",
+      "summary": "Ben's Bites 更新：and it comes with a new model, Opus 4.7",
+      "whyMatters": "这类个人来源适合补充实测、判断和语境，能帮 AI 博主快速形成自己的观点。",
+      "takeaways": [
+        "来源属性：个人博主/研究者视角，适合做观点补充和趋势判断。",
+        "内容信号：and it comes with a new model, Opus 4.7",
+        "发布前建议打开原文核对具体表述，再加入自己的使用场景或行业判断。"
+      ],
+      "tags": [
+        "AI 新闻",
+        "工具",
+        "创业",
+        "热点"
+      ],
+      "sourceUrl": "https://www.bensbites.com/p/thats-my-designer-claude",
+      "creator": {
+        "duration": "60 秒",
+        "oneLiner": "Ben's Bites 这条动态适合做 60 秒 AI 热点，核心看点是 That's my designer - Claude。",
+        "hook": "先给你 5 秒结论：Ben's Bites 这条 个人解读 值得讲，因为它能转成“工具变化、效率提升或行业信号”三类流量钩子。",
+        "angle": "这类个人博主来源适合做“我替你试过/我替你看懂了”的选题，容易形成信任感和评论讨论。",
+        "coverTitle": "That's my designer - Claude",
+        "coverSubtitle": "个人博主视角，帮你抓热点",
+        "commentPrompt": "这条 AI 动态你会马上试用，还是先观望？",
+        "cta": "关注我，每天早中晚帮你筛出真正适合做内容的 AI 热点。"
+      }
+    },
+    {
+      "id": "simonwillison-7c2ce92887",
+      "source": "simonwillison",
+      "category": "product",
+      "format": "个人解读",
+      "evidence": "个人解读",
+      "priority": 3,
+      "featured": true,
+      "publishedAt": "2026-04-20",
+      "slots": [
+        "morning",
+        "noon",
+        "evening"
+      ],
+      "titleZh": "Simon Willison: llm-openrouter 0.6",
+      "titleEn": "llm-openrouter 0.6",
+      "summary": "Simon Willison 更新：Release: llm-openrouter 0.6 llm openrouter refresh command for refreshing the list of available models without waiting for the cache to expire. I added this feature so I could ...",
+      "whyMatters": "这类个人来源适合补充实测、判断和语境，能帮 AI 博主快速形成自己的观点。",
+      "takeaways": [
+        "来源属性：个人博主/研究者视角，适合做观点补充和趋势判断。",
+        "内容信号：Release: llm-openrouter 0.6 llm openrouter refresh command for refreshing the list of available models without waiting for the cache to expire. I added this feature so I could ...",
+        "发布前建议打开原文核对具体表述，再加入自己的使用场景或行业判断。"
+      ],
+      "tags": [
+        "LLM",
+        "AI 工具",
+        "开发者",
+        "实测"
+      ],
+      "sourceUrl": "https://simonwillison.net/2026/Apr/20/llm-openrouter/#atom-everything",
+      "creator": {
+        "duration": "60 秒",
+        "oneLiner": "Simon Willison 这条动态适合做 60 秒 AI 热点，核心看点是 llm-openrouter 0.6。",
+        "hook": "先给你 5 秒结论：Simon Willison 这条 个人解读 值得讲，因为它能转成“工具变化、效率提升或行业信号”三类流量钩子。",
+        "angle": "这类个人博主来源适合做“我替你试过/我替你看懂了”的选题，容易形成信任感和评论讨论。",
+        "coverTitle": "llm-openrouter 0.6",
+        "coverSubtitle": "个人博主视角，帮你抓热点",
+        "commentPrompt": "这条 AI 动态你会马上试用，还是先观望？",
+        "cta": "关注我，每天早中晚帮你筛出真正适合做内容的 AI 热点。"
+      }
+    },
+    {
+      "id": "simonwillison-62876d1e30",
+      "source": "simonwillison",
+      "category": "product",
+      "format": "个人解读",
+      "evidence": "个人解读",
+      "priority": 3,
+      "featured": true,
+      "publishedAt": "2026-04-20",
+      "slots": [
+        "morning",
+        "noon",
+        "evening"
+      ],
+      "titleZh": "Simon Willison: Claude Token Counter, now with model comparisons",
+      "titleEn": "Claude Token Counter, now with model comparisons",
+      "summary": "Simon Willison 更新：Claude Token Counter, now with model comparisons I upgraded my Claude Token Counter tool to add the ability to run the same count against different models in order to compare t...",
+      "whyMatters": "这类个人来源适合补充实测、判断和语境，能帮 AI 博主快速形成自己的观点。",
+      "takeaways": [
+        "来源属性：个人博主/研究者视角，适合做观点补充和趋势判断。",
+        "内容信号：Claude Token Counter, now with model comparisons I upgraded my Claude Token Counter tool to add the ability to run the same count against different models in order to compare t...",
+        "发布前建议打开原文核对具体表述，再加入自己的使用场景或行业判断。"
+      ],
+      "tags": [
+        "LLM",
+        "AI 工具",
+        "开发者",
+        "实测"
+      ],
+      "sourceUrl": "https://simonwillison.net/2026/Apr/20/claude-token-counts/#atom-everything",
+      "creator": {
+        "duration": "60 秒",
+        "oneLiner": "Simon Willison 这条动态适合做 60 秒 AI 热点，核心看点是 Claude Token Counter, now with model comparisons。",
+        "hook": "先给你 5 秒结论：Simon Willison 这条 个人解读 值得讲，因为它能转成“工具变化、效率提升或行业信号”三类流量钩子。",
+        "angle": "这类个人博主来源适合做“我替你试过/我替你看懂了”的选题，容易形成信任感和评论讨论。",
+        "coverTitle": "Claude Token Counter, now with m",
+        "coverSubtitle": "个人博主视角，帮你抓热点",
+        "commentPrompt": "这条 AI 动态你会马上试用，还是先观望？",
+        "cta": "关注我，每天早中晚帮你筛出真正适合做内容的 AI 热点。"
+      }
+    },
+    {
+      "id": "understandingai-598e36e76a",
+      "source": "understandingai",
+      "category": "model",
+      "format": "个人解读",
+      "evidence": "个人解读",
+      "priority": 3,
+      "featured": true,
+      "publishedAt": "2026-04-20",
+      "slots": [
+        "morning",
+        "noon",
+        "evening"
+      ],
+      "titleZh": "Understanding AI: Meta is back in the LLM game after a year-long break",
+      "titleEn": "Meta is back in the LLM game after a year-long break",
+      "summary": "Understanding AI 更新：What Muse Spark tells us about Meta&#8217;s new AI strategy.",
+      "whyMatters": "这类个人来源适合补充实测、判断和语境，能帮 AI 博主快速形成自己的观点。",
+      "takeaways": [
+        "来源属性：个人博主/研究者视角，适合做观点补充和趋势判断。",
+        "内容信号：What Muse Spark tells us about Meta&#8217;s new AI strategy.",
+        "发布前建议打开原文核对具体表述，再加入自己的使用场景或行业判断。"
+      ],
+      "tags": [
+        "AI 解释",
+        "产业",
+        "技术趋势",
+        "大众化"
+      ],
+      "sourceUrl": "https://www.understandingai.org/p/meta-is-back-in-the-llm-game-after",
+      "creator": {
+        "duration": "60 秒",
+        "oneLiner": "Understanding AI 这条动态适合做 60 秒 AI 热点，核心看点是 Meta is back in the LLM game after a year-long break。",
+        "hook": "先给你 5 秒结论：Understanding AI 这条 个人解读 值得讲，因为它能转成“工具变化、效率提升或行业信号”三类流量钩子。",
+        "angle": "这类个人博主来源适合做“我替你试过/我替你看懂了”的选题，容易形成信任感和评论讨论。",
+        "coverTitle": "Meta is back in the LLM game aft",
+        "coverSubtitle": "个人博主视角，帮你抓热点",
+        "commentPrompt": "这条 AI 动态你会马上试用，还是先观望？",
+        "cta": "关注我，每天早中晚帮你筛出真正适合做内容的 AI 热点。"
+      }
+    },
+    {
+      "id": "simonwillison-eb2f87f24c",
+      "source": "simonwillison",
+      "category": "product",
+      "format": "个人解读",
+      "evidence": "个人解读",
+      "priority": 3,
+      "featured": true,
+      "publishedAt": "2026-04-19",
+      "slots": [
+        "morning",
+        "noon",
+        "evening"
+      ],
+      "titleZh": "Simon Willison: Headless everything for personal AI",
+      "titleEn": "Headless everything for personal AI",
+      "summary": "Simon Willison 更新：Headless everything for personal AI Matt Webb thinks headless services are about to become much more common: Why? Because using personal AIs is a better experience for users th...",
+      "whyMatters": "这类个人来源适合补充实测、判断和语境，能帮 AI 博主快速形成自己的观点。",
+      "takeaways": [
+        "来源属性：个人博主/研究者视角，适合做观点补充和趋势判断。",
+        "内容信号：Headless everything for personal AI Matt Webb thinks headless services are about to become much more common: Why? Because using personal AIs is a better experience for users th...",
+        "发布前建议打开原文核对具体表述，再加入自己的使用场景或行业判断。"
+      ],
+      "tags": [
+        "LLM",
+        "AI 工具",
+        "开发者",
+        "实测"
+      ],
+      "sourceUrl": "https://simonwillison.net/2026/Apr/19/headless-everything/#atom-everything",
+      "creator": {
+        "duration": "60 秒",
+        "oneLiner": "Simon Willison 这条动态适合做 60 秒 AI 热点，核心看点是 Headless everything for personal AI。",
+        "hook": "先给你 5 秒结论：Simon Willison 这条 个人解读 值得讲，因为它能转成“工具变化、效率提升或行业信号”三类流量钩子。",
+        "angle": "这类个人博主来源适合做“我替你试过/我替你看懂了”的选题，容易形成信任感和评论讨论。",
+        "coverTitle": "Headless everything for personal",
+        "coverSubtitle": "个人博主视角，帮你抓热点",
+        "commentPrompt": "这条 AI 动态你会马上试用，还是先观望？",
+        "cta": "关注我，每天早中晚帮你筛出真正适合做内容的 AI 热点。"
+      }
+    },
+    {
+      "id": "simonwillison-f48dd2ad8c",
+      "source": "simonwillison",
+      "category": "security",
+      "format": "个人解读",
+      "evidence": "个人解读",
+      "priority": 3,
+      "featured": true,
+      "publishedAt": "2026-04-18",
+      "slots": [
+        "morning",
+        "noon",
+        "evening"
+      ],
+      "titleZh": "Simon Willison: Changes in the system prompt between Claude Opus 4.6 and 4.7",
+      "titleEn": "Changes in the system prompt between Claude Opus 4.6 and 4.7",
+      "summary": "Simon Willison 更新：Anthropic are the only major AI lab to publish the system prompts for their user-facing chat systems. Their system prompt archive now dates all the way back to Claude 3 in July...",
+      "whyMatters": "这类个人来源适合补充实测、判断和语境，能帮 AI 博主快速形成自己的观点。",
+      "takeaways": [
+        "来源属性：个人博主/研究者视角，适合做观点补充和趋势判断。",
+        "内容信号：Anthropic are the only major AI lab to publish the system prompts for their user-facing chat systems. Their system prompt archive now dates all the way back to Claude 3 in July...",
+        "发布前建议打开原文核对具体表述，再加入自己的使用场景或行业判断。"
+      ],
+      "tags": [
+        "LLM",
+        "AI 工具",
+        "开发者",
+        "实测"
+      ],
+      "sourceUrl": "https://simonwillison.net/2026/Apr/18/opus-system-prompt/#atom-everything",
+      "creator": {
+        "duration": "60 秒",
+        "oneLiner": "Simon Willison 这条动态适合做 60 秒 AI 热点，核心看点是 Changes in the system prompt between Claude Opus 4.6 and 4.7。",
+        "hook": "先给你 5 秒结论：Simon Willison 这条 个人解读 值得讲，因为它能转成“工具变化、效率提升或行业信号”三类流量钩子。",
+        "angle": "这类个人博主来源适合做“我替你试过/我替你看懂了”的选题，容易形成信任感和评论讨论。",
+        "coverTitle": "Changes in the system prompt bet",
+        "coverSubtitle": "个人博主视角，帮你抓热点",
+        "commentPrompt": "这条 AI 动态你会马上试用，还是先观望？",
+        "cta": "关注我，每天早中晚帮你筛出真正适合做内容的 AI 热点。"
+      }
+    },
+    {
+      "id": "simonwillison-721162279d",
+      "source": "simonwillison",
+      "category": "research",
+      "format": "个人解读",
+      "evidence": "个人解读",
+      "priority": 3,
+      "featured": true,
+      "publishedAt": "2026-04-18",
+      "slots": [
+        "morning",
+        "noon",
+        "evening"
+      ],
+      "titleZh": "Simon Willison: Claude system prompts as a git timeline",
+      "titleEn": "Claude system prompts as a git timeline",
+      "summary": "Simon Willison 更新：Research: Claude system prompts as a git timeline Anthropic publish the system prompts for Claude chat and make that page available as Markdown . I had Claude Code turn that pa...",
+      "whyMatters": "这类个人来源适合补充实测、判断和语境，能帮 AI 博主快速形成自己的观点。",
+      "takeaways": [
+        "来源属性：个人博主/研究者视角，适合做观点补充和趋势判断。",
+        "内容信号：Research: Claude system prompts as a git timeline Anthropic publish the system prompts for Claude chat and make that page available as Markdown . I had Claude Code turn that pa...",
+        "发布前建议打开原文核对具体表述，再加入自己的使用场景或行业判断。"
+      ],
+      "tags": [
+        "LLM",
+        "AI 工具",
+        "开发者",
+        "实测"
+      ],
+      "sourceUrl": "https://simonwillison.net/2026/Apr/18/extract-system-prompts/#atom-everything",
+      "creator": {
+        "duration": "60 秒",
+        "oneLiner": "Simon Willison 这条动态适合做 60 秒 AI 热点，核心看点是 Claude system prompts as a git timeline。",
+        "hook": "先给你 5 秒结论：Simon Willison 这条 个人解读 值得讲，因为它能转成“工具变化、效率提升或行业信号”三类流量钩子。",
+        "angle": "这类个人博主来源适合做“我替你试过/我替你看懂了”的选题，容易形成信任感和评论讨论。",
+        "coverTitle": "Claude system prompts as a git t",
+        "coverSubtitle": "个人博主视角，帮你抓热点",
+        "commentPrompt": "这条 AI 动态你会马上试用，还是先观望？",
+        "cta": "关注我，每天早中晚帮你筛出真正适合做内容的 AI 热点。"
+      }
+    },
+    {
+      "id": "simonwillison-18bed157f9",
+      "source": "simonwillison",
+      "category": "security",
+      "format": "个人解读",
+      "evidence": "个人解读",
+      "priority": 3,
+      "featured": true,
+      "publishedAt": "2026-04-17",
+      "slots": [
+        "morning",
+        "noon",
+        "evening"
+      ],
+      "titleZh": "Simon Willison: Join us at PyCon US 2026 in Long Beach - we have new AI and security tracks this year",
+      "titleEn": "Join us at PyCon US 2026 in Long Beach - we have new AI and security tracks this year",
+      "summary": "Simon Willison 更新：This year's PyCon US is coming up next month from May 13th to May 19th, with the core conference talks from Friday 15th to Sunday 17th and tutorial and sprint days either side....",
+      "whyMatters": "这类个人来源适合补充实测、判断和语境，能帮 AI 博主快速形成自己的观点。",
+      "takeaways": [
+        "来源属性：个人博主/研究者视角，适合做观点补充和趋势判断。",
+        "内容信号：This year's PyCon US is coming up next month from May 13th to May 19th, with the core conference talks from Friday 15th to Sunday 17th and tutorial and sprint days either side....",
+        "发布前建议打开原文核对具体表述，再加入自己的使用场景或行业判断。"
+      ],
+      "tags": [
+        "LLM",
+        "AI 工具",
+        "开发者",
+        "实测"
+      ],
+      "sourceUrl": "https://simonwillison.net/2026/Apr/17/pycon-us-2026/#atom-everything",
+      "creator": {
+        "duration": "60 秒",
+        "oneLiner": "Simon Willison 这条动态适合做 60 秒 AI 热点，核心看点是 Join us at PyCon US 2026 in Long Beach - we have new AI and security tracks this year。",
+        "hook": "先给你 5 秒结论：Simon Willison 这条 个人解读 值得讲，因为它能转成“工具变化、效率提升或行业信号”三类流量钩子。",
+        "angle": "这类个人博主来源适合做“我替你试过/我替你看懂了”的选题，容易形成信任感和评论讨论。",
+        "coverTitle": "Join us at PyCon US 2026 in Long",
+        "coverSubtitle": "个人博主视角，帮你抓热点",
+        "commentPrompt": "这条 AI 动态你会马上试用，还是先观望？",
+        "cta": "关注我，每天早中晚帮你筛出真正适合做内容的 AI 热点。"
+      }
+    },
+    {
+      "id": "latentspace-372778ecf9",
+      "source": "latentspace",
+      "category": "product",
+      "format": "个人解读",
+      "evidence": "个人解读",
+      "priority": 3,
+      "featured": true,
+      "publishedAt": "2026-04-17",
+      "slots": [
+        "morning",
+        "noon",
+        "evening"
+      ],
+      "titleZh": "Latent Space: [AINews] Anthropic Claude Opus 4.7 - literally one step better than 4.6 in every dimension",
+      "titleEn": "[AINews] Anthropic Claude Opus 4.7 - literally one step better than 4.6 in every dimension",
+      "summary": "Latent Space 更新：The new SOTA model asserts its dominance.",
+      "whyMatters": "这类个人来源适合补充实测、判断和语境，能帮 AI 博主快速形成自己的观点。",
+      "takeaways": [
+        "来源属性：个人博主/研究者视角，适合做观点补充和趋势判断。",
+        "内容信号：The new SOTA model asserts its dominance.",
+        "发布前建议打开原文核对具体表述，再加入自己的使用场景或行业判断。"
+      ],
+      "tags": [
+        "AI 工程",
+        "Agent",
+        "开发者",
+        "播客"
+      ],
+      "sourceUrl": "https://www.latent.space/p/ainews-anthropic-claude-opus-47-literally",
+      "creator": {
+        "duration": "60 秒",
+        "oneLiner": "Latent Space 这条动态适合做 60 秒 AI 热点，核心看点是 [AINews] Anthropic Claude Opus 4.7 - literally one step better than 4.6 in every dimension。",
+        "hook": "先给你 5 秒结论：Latent Space 这条 个人解读 值得讲，因为它能转成“工具变化、效率提升或行业信号”三类流量钩子。",
+        "angle": "这类个人博主来源适合做“我替你试过/我替你看懂了”的选题，容易形成信任感和评论讨论。",
+        "coverTitle": "[AINews] Anthropic Claude Opus 4",
+        "coverSubtitle": "个人博主视角，帮你抓热点",
+        "commentPrompt": "这条 AI 动态你会马上试用，还是先观望？",
+        "cta": "关注我，每天早中晚帮你筛出真正适合做内容的 AI 热点。"
+      }
+    },
+    {
+      "id": "anthropic-afabafae07",
+      "source": "anthropic",
+      "category": "product",
+      "format": "产品发布",
+      "evidence": "官方一手",
+      "priority": 3,
+      "featured": true,
+      "publishedAt": "2026-04-16",
+      "slots": [
+        "morning",
+        "noon",
+        "evening"
+      ],
+      "titleZh": "Anthropic: Introducing Claude Design by Anthropic Labs",
+      "titleEn": "Introducing Claude Design by Anthropic Labs",
+      "summary": "Anthropic 更新：Product Apr 17, 2026 Introducing Claude Design by Anthropic Labs Today, we’re launching Claude Design, a new Anthropic Labs product that lets you collaborate with Claude to cre...",
+      "whyMatters": "这类官方来源适合作为可信事实锚点，口播时要转译成普通用户关心的场景价值。",
+      "takeaways": [
+        "来源属性：官方一手来源，适合作为快讯主来源。",
+        "内容信号：Product Apr 17, 2026 Introducing Claude Design by Anthropic Labs Today, we’re launching Claude Design, a new Anthropic Labs product that lets you collaborate with Claude to cre...",
+        "发布前建议打开原文核对具体表述，再加入自己的使用场景或行业判断。"
+      ],
+      "tags": [
+        "Claude",
+        "Anthropic",
+        "产品",
+        "模型",
+        "Agent"
+      ],
+      "sourceUrl": "https://www.anthropic.com/news/claude-design-anthropic-labs",
+      "creator": {
+        "duration": "60 秒",
+        "oneLiner": "Anthropic 这条动态适合做 60 秒 AI 热点，核心看点是 Introducing Claude Design by Anthropic Labs。",
+        "hook": "先给你 5 秒结论：Anthropic 这条 产品发布 值得讲，因为它能转成“工具变化、效率提升或行业信号”三类流量钩子。",
+        "angle": "这类官方来源适合做事实锚点，但口播时要翻译成普通用户能听懂的效率、工具或趋势变化。",
+        "coverTitle": "Introducing Claude Design by Ant",
+        "coverSubtitle": "官方消息，翻译成普通人看点",
+        "commentPrompt": "这条 AI 动态你会马上试用，还是先观望？",
+        "cta": "关注我，每天早中晚帮你筛出真正适合做内容的 AI 热点。"
+      }
+    },
+    {
+      "id": "google-7982e6a980",
+      "source": "google",
+      "category": "product",
+      "format": "产品发布",
+      "evidence": "官方一手",
+      "priority": 3,
+      "featured": true,
+      "publishedAt": "2026-04-16",
+      "slots": [
+        "morning",
+        "noon",
+        "evening"
+      ],
+      "titleZh": "Google AI: A new way to explore the web with AI Mode in Chrome",
+      "titleEn": "A new way to explore the web with AI Mode in Chrome",
+      "summary": "Google AI 更新：Today’s upgrades for AI Mode in Chrome transform how you interact with the web",
+      "whyMatters": "这类官方来源适合作为可信事实锚点，口播时要转译成普通用户关心的场景价值。",
+      "takeaways": [
+        "来源属性：官方一手来源，适合作为快讯主来源。",
+        "内容信号：Today’s upgrades for AI Mode in Chrome transform how you interact with the web",
+        "发布前建议打开原文核对具体表述，再加入自己的使用场景或行业判断。"
+      ],
+      "tags": [
+        "Google",
+        "Gemini",
+        "产品",
+        "搜索",
+        "Workspace",
+        "Search",
+        "AI",
+        "Chrome"
+      ],
+      "sourceUrl": "https://blog.google/products-and-platforms/products/search/ai-mode-chrome/",
+      "creator": {
+        "duration": "60 秒",
+        "oneLiner": "Google AI 这条动态适合做 60 秒 AI 热点，核心看点是 A new way to explore the web with AI Mode in Chrome。",
+        "hook": "先给你 5 秒结论：Google AI 这条 产品发布 值得讲，因为它能转成“工具变化、效率提升或行业信号”三类流量钩子。",
+        "angle": "这类官方来源适合做事实锚点，但口播时要翻译成普通用户能听懂的效率、工具或趋势变化。",
+        "coverTitle": "A new way to explore the web wit",
+        "coverSubtitle": "官方消息，翻译成普通人看点",
+        "commentPrompt": "这条 AI 动态你会马上试用，还是先观望？",
+        "cta": "关注我，每天早中晚帮你筛出真正适合做内容的 AI 热点。"
+      }
+    },
+    {
+      "id": "google-6e7bff1b86",
+      "source": "google",
+      "category": "product",
+      "format": "产品发布",
+      "evidence": "官方一手",
+      "priority": 3,
+      "featured": true,
+      "publishedAt": "2026-04-16",
+      "slots": [
+        "morning",
+        "noon",
+        "evening"
+      ],
+      "titleZh": "Google AI: New ways to create personalized images in the Gemini app",
+      "titleEn": "New ways to create personalized images in the Gemini app",
+      "summary": "Google AI 更新：Nano Banana 2 now uses your personal context and Google Photos to create images that reflect your unique life.",
+      "whyMatters": "这类官方来源适合作为可信事实锚点，口播时要转译成普通用户关心的场景价值。",
+      "takeaways": [
+        "来源属性：官方一手来源，适合作为快讯主来源。",
+        "内容信号：Nano Banana 2 now uses your personal context and Google Photos to create images that reflect your unique life.",
+        "发布前建议打开原文核对具体表述，再加入自己的使用场景或行业判断。"
+      ],
+      "tags": [
+        "Google",
+        "Gemini",
+        "产品",
+        "搜索",
+        "Workspace",
+        "Gemini App",
+        "Google One",
+        "Photos"
+      ],
+      "sourceUrl": "https://blog.google/innovation-and-ai/products/gemini-app/personal-intelligence-nano-banana/",
+      "creator": {
+        "duration": "60 秒",
+        "oneLiner": "Google AI 这条动态适合做 60 秒 AI 热点，核心看点是 New ways to create personalized images in the Gemini app。",
+        "hook": "先给你 5 秒结论：Google AI 这条 产品发布 值得讲，因为它能转成“工具变化、效率提升或行业信号”三类流量钩子。",
+        "angle": "这类官方来源适合做事实锚点，但口播时要翻译成普通用户能听懂的效率、工具或趋势变化。",
+        "coverTitle": "New ways to create personalized ",
+        "coverSubtitle": "官方消息，翻译成普通人看点",
+        "commentPrompt": "这条 AI 动态你会马上试用，还是先观望？",
+        "cta": "关注我，每天早中晚帮你筛出真正适合做内容的 AI 热点。"
+      }
+    },
+    {
+      "id": "anthropic-8ffed25021",
+      "source": "anthropic",
+      "category": "product",
+      "format": "产品发布",
+      "evidence": "官方一手",
+      "priority": 3,
+      "featured": true,
+      "publishedAt": "2026-04-15",
+      "slots": [
+        "morning",
+        "noon",
+        "evening"
+      ],
+      "titleZh": "Anthropic: Introducing Claude Opus 4.7",
+      "titleEn": "Introducing Claude Opus 4.7",
+      "summary": "Anthropic 更新：Introducing Claude Opus 4.7 Product Apr 16, 2026 Our latest Opus model brings stronger performance across coding, agents, vision, and multi-step tasks, with greater thoroughnes...",
+      "whyMatters": "这类官方来源适合作为可信事实锚点，口播时要转译成普通用户关心的场景价值。",
+      "takeaways": [
+        "来源属性：官方一手来源，适合作为快讯主来源。",
+        "内容信号：Introducing Claude Opus 4.7 Product Apr 16, 2026 Our latest Opus model brings stronger performance across coding, agents, vision, and multi-step tasks, with greater thoroughnes...",
+        "发布前建议打开原文核对具体表述，再加入自己的使用场景或行业判断。"
+      ],
+      "tags": [
+        "Claude",
+        "Anthropic",
+        "产品",
+        "模型",
+        "Agent"
+      ],
+      "sourceUrl": "https://www.anthropic.com/news/claude-opus-4-7",
+      "creator": {
+        "duration": "60 秒",
+        "oneLiner": "Anthropic 这条动态适合做 60 秒 AI 热点，核心看点是 Introducing Claude Opus 4.7。",
+        "hook": "先给你 5 秒结论：Anthropic 这条 产品发布 值得讲，因为它能转成“工具变化、效率提升或行业信号”三类流量钩子。",
+        "angle": "这类官方来源适合做事实锚点，但口播时要翻译成普通用户能听懂的效率、工具或趋势变化。",
+        "coverTitle": "Introducing Claude Opus 4.7",
+        "coverSubtitle": "官方消息，翻译成普通人看点",
+        "commentPrompt": "这条 AI 动态你会马上试用，还是先观望？",
+        "cta": "关注我，每天早中晚帮你筛出真正适合做内容的 AI 热点。"
+      }
+    },
+    {
+      "id": "google-a797ae4cd6",
+      "source": "google",
+      "category": "product",
+      "format": "产品发布",
+      "evidence": "官方一手",
+      "priority": 3,
+      "featured": true,
+      "publishedAt": "2026-04-15",
+      "slots": [
+        "morning",
+        "noon",
+        "evening"
+      ],
+      "titleZh": "Google AI: Gemini 3.1 Flash TTS: the next generation of expressive AI speech",
+      "titleEn": "Gemini 3.1 Flash TTS: the next generation of expressive AI speech",
+      "summary": "Google AI 更新：Gemini 3.1 Flash TTS is now available across Google products.",
+      "whyMatters": "这类官方来源适合作为可信事实锚点，口播时要转译成普通用户关心的场景价值。",
+      "takeaways": [
+        "来源属性：官方一手来源，适合作为快讯主来源。",
+        "内容信号：Gemini 3.1 Flash TTS is now available across Google products.",
+        "发布前建议打开原文核对具体表述，再加入自己的使用场景或行业判断。"
+      ],
+      "tags": [
+        "Google",
+        "Gemini",
+        "产品",
+        "搜索",
+        "Workspace",
+        "Gemini models",
+        "AI"
+      ],
+      "sourceUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-tts/",
+      "creator": {
+        "duration": "60 秒",
+        "oneLiner": "Google AI 这条动态适合做 60 秒 AI 热点，核心看点是 Gemini 3.1 Flash TTS: the next generation of expressive AI speech。",
+        "hook": "先给你 5 秒结论：Google AI 这条 产品发布 值得讲，因为它能转成“工具变化、效率提升或行业信号”三类流量钩子。",
+        "angle": "这类官方来源适合做事实锚点，但口播时要翻译成普通用户能听懂的效率、工具或趋势变化。",
+        "coverTitle": "the next generation of expressiv",
+        "coverSubtitle": "官方消息，翻译成普通人看点",
+        "commentPrompt": "这条 AI 动态你会马上试用，还是先观望？",
+        "cta": "关注我，每天早中晚帮你筛出真正适合做内容的 AI 热点。"
+      }
+    },
+    {
+      "id": "aitidbits-7e2c9a436b",
+      "source": "aitidbits",
+      "category": "product",
+      "format": "个人解读",
+      "evidence": "个人解读",
+      "priority": 3,
+      "featured": true,
+      "publishedAt": "2026-04-14",
+      "slots": [
+        "morning",
+        "noon",
+        "evening"
+      ],
+      "titleZh": "AI Tidbits: Automating Workflows With Claude Cowork",
+      "titleEn": "Automating Workflows With Claude Cowork",
+      "summary": "AI Tidbits 更新：How to use Cowork&#8217;s overlooked features to automate the boring work",
+      "whyMatters": "这类个人来源适合补充实测、判断和语境，能帮 AI 博主快速形成自己的观点。",
+      "takeaways": [
+        "来源属性：个人博主/研究者视角，适合做观点补充和趋势判断。",
+        "内容信号：How to use Cowork&#8217;s overlooked features to automate the boring work",
+        "发布前建议打开原文核对具体表述，再加入自己的使用场景或行业判断。"
+      ],
+      "tags": [
+        "AI 新闻",
+        "产品",
+        "工具",
+        "趋势"
+      ],
+      "sourceUrl": "https://www.aitidbits.ai/p/automating-workflows-with-claude",
+      "creator": {
+        "duration": "60 秒",
+        "oneLiner": "AI Tidbits 这条动态适合做 60 秒 AI 热点，核心看点是 Automating Workflows With Claude Cowork。",
+        "hook": "先给你 5 秒结论：AI Tidbits 这条 个人解读 值得讲，因为它能转成“工具变化、效率提升或行业信号”三类流量钩子。",
+        "angle": "这类个人博主来源适合做“我替你试过/我替你看懂了”的选题，容易形成信任感和评论讨论。",
+        "coverTitle": "Automating Workflows With Claude",
+        "coverSubtitle": "个人博主视角，帮你抓热点",
+        "commentPrompt": "这条 AI 动态你会马上试用，还是先观望？",
+        "cta": "关注我，每天早中晚帮你筛出真正适合做内容的 AI 热点。"
+      }
+    },
+    {
+      "id": "bensbites-c6acc7f235",
+      "source": "bensbites",
+      "category": "security",
+      "format": "个人解读",
+      "evidence": "个人解读",
+      "priority": 3,
+      "featured": true,
+      "publishedAt": "2026-04-09",
+      "slots": [
+        "morning",
+        "noon",
+        "evening"
+      ],
+      "titleZh": "Ben's Bites: Anthropic built a model too risky to release",
+      "titleEn": "Anthropic built a model too risky to release",
+      "summary": "Ben's Bites 更新：and Meta makes an unexpected entry",
+      "whyMatters": "这类个人来源适合补充实测、判断和语境，能帮 AI 博主快速形成自己的观点。",
+      "takeaways": [
+        "来源属性：个人博主/研究者视角，适合做观点补充和趋势判断。",
+        "内容信号：and Meta makes an unexpected entry",
+        "发布前建议打开原文核对具体表述，再加入自己的使用场景或行业判断。"
+      ],
+      "tags": [
+        "AI 新闻",
+        "工具",
+        "创业",
+        "热点"
+      ],
+      "sourceUrl": "https://www.bensbites.com/p/anthropic-built-a-model-too-risky",
+      "creator": {
+        "duration": "60 秒",
+        "oneLiner": "Ben's Bites 这条动态适合做 60 秒 AI 热点，核心看点是 Anthropic built a model too risky to release。",
+        "hook": "先给你 5 秒结论：Ben's Bites 这条 个人解读 值得讲，因为它能转成“工具变化、效率提升或行业信号”三类流量钩子。",
+        "angle": "这类个人博主来源适合做“我替你试过/我替你看懂了”的选题，容易形成信任感和评论讨论。",
+        "coverTitle": "Anthropic built a model too risk",
+        "coverSubtitle": "个人博主视角，帮你抓热点",
+        "commentPrompt": "这条 AI 动态你会马上试用，还是先观望？",
+        "cta": "关注我，每天早中晚帮你筛出真正适合做内容的 AI 热点。"
+      }
+    },
+    {
+      "id": "bensbites-07fb2dd618",
+      "source": "bensbites",
+      "category": "product",
+      "format": "个人解读",
+      "evidence": "个人解读",
+      "priority": 3,
+      "featured": true,
+      "publishedAt": "2026-04-07",
+      "slots": [
+        "morning",
+        "noon",
+        "evening"
+      ],
+      "titleZh": "Ben's Bites: No Claude for Claws",
+      "titleEn": "No Claude for Claws",
+      "summary": "Ben's Bites 更新：in 3 months, Anthropic added $6B ARR",
+      "whyMatters": "这类个人来源适合补充实测、判断和语境，能帮 AI 博主快速形成自己的观点。",
+      "takeaways": [
+        "来源属性：个人博主/研究者视角，适合做观点补充和趋势判断。",
+        "内容信号：in 3 months, Anthropic added $6B ARR",
+        "发布前建议打开原文核对具体表述，再加入自己的使用场景或行业判断。"
+      ],
+      "tags": [
+        "AI 新闻",
+        "工具",
+        "创业",
+        "热点"
+      ],
+      "sourceUrl": "https://www.bensbites.com/p/no-claude-for-claws",
+      "creator": {
+        "duration": "60 秒",
+        "oneLiner": "Ben's Bites 这条动态适合做 60 秒 AI 热点，核心看点是 No Claude for Claws。",
+        "hook": "先给你 5 秒结论：Ben's Bites 这条 个人解读 值得讲，因为它能转成“工具变化、效率提升或行业信号”三类流量钩子。",
+        "angle": "这类个人博主来源适合做“我替你试过/我替你看懂了”的选题，容易形成信任感和评论讨论。",
+        "coverTitle": "No Claude for Claws",
+        "coverSubtitle": "个人博主视角，帮你抓热点",
+        "commentPrompt": "这条 AI 动态你会马上试用，还是先观望？",
+        "cta": "关注我，每天早中晚帮你筛出真正适合做内容的 AI 热点。"
+      }
+    },
+    {
+      "id": "google-f2b31c55fc",
+      "source": "google",
+      "category": "product",
+      "format": "产品发布",
+      "evidence": "官方一手",
+      "priority": 3,
+      "featured": true,
+      "publishedAt": "2026-04-02",
+      "slots": [
+        "morning",
+        "noon",
+        "evening"
+      ],
+      "titleZh": "Google AI: New ways to balance cost and reliability in the Gemini API",
+      "titleEn": "New ways to balance cost and reliability in the Gemini API",
+      "summary": "Google AI 更新：Google is introducing two new inference tiers to the Gemini API, Flex and Priority, to balance cost and latency.",
+      "whyMatters": "这类官方来源适合作为可信事实锚点，口播时要转译成普通用户关心的场景价值。",
+      "takeaways": [
+        "来源属性：官方一手来源，适合作为快讯主来源。",
+        "内容信号：Google is introducing two new inference tiers to the Gemini API, Flex and Priority, to balance cost and latency.",
+        "发布前建议打开原文核对具体表述，再加入自己的使用场景或行业判断。"
+      ],
+      "tags": [
+        "Google",
+        "Gemini",
+        "产品",
+        "搜索",
+        "Workspace",
+        "Developer tools",
+        "AI"
+      ],
+      "sourceUrl": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-flex-and-priority-inference/",
+      "creator": {
+        "duration": "60 秒",
+        "oneLiner": "Google AI 这条动态适合做 60 秒 AI 热点，核心看点是 New ways to balance cost and reliability in the Gemini API。",
+        "hook": "先给你 5 秒结论：Google AI 这条 产品发布 值得讲，因为它能转成“工具变化、效率提升或行业信号”三类流量钩子。",
+        "angle": "这类官方来源适合做事实锚点，但口播时要翻译成普通用户能听懂的效率、工具或趋势变化。",
+        "coverTitle": "New ways to balance cost and rel",
+        "coverSubtitle": "官方消息，翻译成普通人看点",
+        "commentPrompt": "这条 AI 动态你会马上试用，还是先观望？",
+        "cta": "关注我，每天早中晚帮你筛出真正适合做内容的 AI 热点。"
+      }
+    },
+    {
+      "id": "google-ab324ca76a",
+      "source": "google",
+      "category": "product",
+      "format": "产品发布",
+      "evidence": "官方一手",
+      "priority": 3,
+      "featured": true,
+      "publishedAt": "2026-04-02",
+      "slots": [
+        "morning",
+        "noon",
+        "evening"
+      ],
+      "titleZh": "Google AI: Create, edit and share videos at no cost in Google Vids",
+      "titleEn": "Create, edit and share videos at no cost in Google Vids",
+      "summary": "Google AI 更新：New AI capabilities are coming to Google Vids, powered by Lyria 3 and Veo 3.1, like high-quality video generation at no cost and more.",
+      "whyMatters": "这类官方来源适合作为可信事实锚点，口播时要转译成普通用户关心的场景价值。",
+      "takeaways": [
+        "来源属性：官方一手来源，适合作为快讯主来源。",
+        "内容信号：New AI capabilities are coming to Google Vids, powered by Lyria 3 and Veo 3.1, like high-quality video generation at no cost and more.",
+        "发布前建议打开原文核对具体表述，再加入自己的使用场景或行业判断。"
+      ],
+      "tags": [
+        "Google",
+        "Gemini",
+        "产品",
+        "搜索",
+        "Workspace",
+        "Google Workspace",
+        "Google One",
+        "AI"
+      ],
+      "sourceUrl": "https://blog.google/products-and-platforms/products/workspace/google-vids-updates-lyria-veo/",
+      "creator": {
+        "duration": "60 秒",
+        "oneLiner": "Google AI 这条动态适合做 60 秒 AI 热点，核心看点是 Create, edit and share videos at no cost in Google Vids。",
+        "hook": "先给你 5 秒结论：Google AI 这条 产品发布 值得讲，因为它能转成“工具变化、效率提升或行业信号”三类流量钩子。",
+        "angle": "这类官方来源适合做事实锚点，但口播时要翻译成普通用户能听懂的效率、工具或趋势变化。",
+        "coverTitle": "Create, edit and share videos at",
+        "coverSubtitle": "官方消息，翻译成普通人看点",
+        "commentPrompt": "这条 AI 动态你会马上试用，还是先观望？",
+        "cta": "关注我，每天早中晚帮你筛出真正适合做内容的 AI 热点。"
+      }
+    },
+    {
+      "id": "bensbites-2181f3b58a",
+      "source": "bensbites",
+      "category": "product",
+      "format": "个人解读",
+      "evidence": "个人解读",
+      "priority": 3,
+      "featured": true,
+      "publishedAt": "2026-04-02",
+      "slots": [
+        "morning",
+        "noon",
+        "evening"
+      ],
+      "titleZh": "Ben's Bites: Inside the leaked Claude Code files",
+      "titleEn": "Inside the leaked Claude Code files",
+      "summary": "Ben's Bites 更新：Docs as files, a new markdown editor and April fools",
+      "whyMatters": "这类个人来源适合补充实测、判断和语境，能帮 AI 博主快速形成自己的观点。",
+      "takeaways": [
+        "来源属性：个人博主/研究者视角，适合做观点补充和趋势判断。",
+        "内容信号：Docs as files, a new markdown editor and April fools",
+        "发布前建议打开原文核对具体表述，再加入自己的使用场景或行业判断。"
+      ],
+      "tags": [
+        "AI 新闻",
+        "工具",
+        "创业",
+        "热点"
+      ],
+      "sourceUrl": "https://www.bensbites.com/p/inside-the-leaked-claude-code-files",
+      "creator": {
+        "duration": "60 秒",
+        "oneLiner": "Ben's Bites 这条动态适合做 60 秒 AI 热点，核心看点是 Inside the leaked Claude Code files。",
+        "hook": "先给你 5 秒结论：Ben's Bites 这条 个人解读 值得讲，因为它能转成“工具变化、效率提升或行业信号”三类流量钩子。",
+        "angle": "这类个人博主来源适合做“我替你试过/我替你看懂了”的选题，容易形成信任感和评论讨论。",
+        "coverTitle": "Inside the leaked Claude Code fi",
+        "coverSubtitle": "个人博主视角，帮你抓热点",
+        "commentPrompt": "这条 AI 动态你会马上试用，还是先观望？",
+        "cta": "关注我，每天早中晚帮你筛出真正适合做内容的 AI 热点。"
+      }
+    },
+    {
+      "id": "oneusefulthing-8f6970f10e",
+      "source": "oneusefulthing",
+      "category": "product",
+      "format": "个人解读",
+      "evidence": "个人解读",
+      "priority": 3,
+      "featured": true,
+      "publishedAt": "2026-03-31",
+      "slots": [
+        "morning",
+        "noon",
+        "evening"
+      ],
+      "titleZh": "One Useful Thing: Claude Dispatch and the Power of Interfaces",
+      "titleEn": "Claude Dispatch and the Power of Interfaces",
+      "summary": "One Useful Thing 更新：We often lack the tools for the job, even if the AI is capable enough",
+      "whyMatters": "这类个人来源适合补充实测、判断和语境，能帮 AI 博主快速形成自己的观点。",
+      "takeaways": [
+        "来源属性：个人博主/研究者视角，适合做观点补充和趋势判断。",
+        "内容信号：We often lack the tools for the job, even if the AI is capable enough",
+        "发布前建议打开原文核对具体表述，再加入自己的使用场景或行业判断。"
+      ],
+      "tags": [
+        "AI 影响",
+        "教育",
+        "工作",
+        "大众化观点"
+      ],
+      "sourceUrl": "https://www.oneusefulthing.org/p/claude-dispatch-and-the-power-of",
+      "creator": {
+        "duration": "60 秒",
+        "oneLiner": "One Useful Thing 这条动态适合做 60 秒 AI 热点，核心看点是 Claude Dispatch and the Power of Interfaces。",
+        "hook": "先给你 5 秒结论：One Useful Thing 这条 个人解读 值得讲，因为它能转成“工具变化、效率提升或行业信号”三类流量钩子。",
+        "angle": "这类个人博主来源适合做“我替你试过/我替你看懂了”的选题，容易形成信任感和评论讨论。",
+        "coverTitle": "Claude Dispatch and the Power of",
+        "coverSubtitle": "个人博主视角，帮你抓热点",
+        "commentPrompt": "这条 AI 动态你会马上试用，还是先观望？",
+        "cta": "关注我，每天早中晚帮你筛出真正适合做内容的 AI 热点。"
+      }
+    },
+    {
+      "id": "anthropic-3273340234",
+      "source": "anthropic",
+      "category": "product",
+      "format": "产品发布",
+      "evidence": "官方一手",
+      "priority": 3,
+      "featured": true,
+      "publishedAt": "2026-03-11",
+      "slots": [
+        "morning",
+        "noon",
+        "evening"
+      ],
+      "titleZh": "Anthropic: Announcements Anthropic invests $100 million into the Claude Partner Network",
+      "titleEn": "Announcements Anthropic invests $100 million into the Claude Partner Network",
+      "summary": "Anthropic 更新：Mar 12, 2026 Announcements Anthropic invests $100 million into the Claude Partner Network",
+      "whyMatters": "这类官方来源适合作为可信事实锚点，口播时要转译成普通用户关心的场景价值。",
+      "takeaways": [
+        "来源属性：官方一手来源，适合作为快讯主来源。",
+        "内容信号：Mar 12, 2026 Announcements Anthropic invests $100 million into the Claude Partner Network",
+        "发布前建议打开原文核对具体表述，再加入自己的使用场景或行业判断。"
+      ],
+      "tags": [
+        "Claude",
+        "Anthropic",
+        "产品",
+        "模型",
+        "Agent"
+      ],
+      "sourceUrl": "https://www.anthropic.com/news/claude-partner-network",
+      "creator": {
+        "duration": "60 秒",
+        "oneLiner": "Anthropic 这条动态适合做 60 秒 AI 热点，核心看点是 Announcements Anthropic invests $100 million into the Claude Partner Network。",
+        "hook": "先给你 5 秒结论：Anthropic 这条 产品发布 值得讲，因为它能转成“工具变化、效率提升或行业信号”三类流量钩子。",
+        "angle": "这类官方来源适合做事实锚点，但口播时要翻译成普通用户能听懂的效率、工具或趋势变化。",
+        "coverTitle": "Announcements Anthropic invests ",
+        "coverSubtitle": "官方消息，翻译成普通人看点",
+        "commentPrompt": "这条 AI 动态你会马上试用，还是先观望？",
+        "cta": "关注我，每天早中晚帮你筛出真正适合做内容的 AI 热点。"
+      }
+    },
+    {
+      "id": "anthropic-37ba8ec5ac",
+      "source": "anthropic",
+      "category": "product",
+      "format": "产品发布",
+      "evidence": "官方一手",
+      "priority": 3,
+      "featured": true,
+      "publishedAt": "2026-03-10",
+      "slots": [
+        "morning",
+        "noon",
+        "evening"
+      ],
+      "titleZh": "Anthropic: Announcements Introducing The Anthropic Institute",
+      "titleEn": "Announcements Introducing The Anthropic Institute",
+      "summary": "Anthropic 更新：Mar 11, 2026 Announcements Introducing The Anthropic Institute",
+      "whyMatters": "这类官方来源适合作为可信事实锚点，口播时要转译成普通用户关心的场景价值。",
+      "takeaways": [
+        "来源属性：官方一手来源，适合作为快讯主来源。",
+        "内容信号：Mar 11, 2026 Announcements Introducing The Anthropic Institute",
+        "发布前建议打开原文核对具体表述，再加入自己的使用场景或行业判断。"
+      ],
+      "tags": [
+        "Claude",
+        "Anthropic",
+        "产品",
+        "模型",
+        "Agent"
+      ],
+      "sourceUrl": "https://www.anthropic.com/news/the-anthropic-institute",
+      "creator": {
+        "duration": "60 秒",
+        "oneLiner": "Anthropic 这条动态适合做 60 秒 AI 热点，核心看点是 Announcements Introducing The Anthropic Institute。",
+        "hook": "先给你 5 秒结论：Anthropic 这条 产品发布 值得讲，因为它能转成“工具变化、效率提升或行业信号”三类流量钩子。",
+        "angle": "这类官方来源适合做事实锚点，但口播时要翻译成普通用户能听懂的效率、工具或趋势变化。",
+        "coverTitle": "Announcements Introducing The An",
+        "coverSubtitle": "官方消息，翻译成普通人看点",
+        "commentPrompt": "这条 AI 动态你会马上试用，还是先观望？",
+        "cta": "关注我，每天早中晚帮你筛出真正适合做内容的 AI 热点。"
+      }
+    },
+    {
+      "id": "bensbites-e927566b24",
+      "source": "bensbites",
+      "category": "model",
+      "format": "个人解读",
+      "evidence": "个人解读",
+      "priority": 3,
+      "featured": true,
+      "publishedAt": "2026-03-10",
+      "slots": [
+        "morning",
+        "noon",
+        "evening"
+      ],
+      "titleZh": "Ben's Bites: Just use GPT-5.4 xhigh",
+      "titleEn": "Just use GPT-5.4 xhigh",
+      "summary": "Ben's Bites 更新：workshop recording inside",
+      "whyMatters": "这类个人来源适合补充实测、判断和语境，能帮 AI 博主快速形成自己的观点。",
+      "takeaways": [
+        "来源属性：个人博主/研究者视角，适合做观点补充和趋势判断。",
+        "内容信号：workshop recording inside",
+        "发布前建议打开原文核对具体表述，再加入自己的使用场景或行业判断。"
+      ],
+      "tags": [
+        "AI 新闻",
+        "工具",
+        "创业",
+        "热点"
+      ],
+      "sourceUrl": "https://www.bensbites.com/p/just-use-gpt-54-xhigh",
+      "creator": {
+        "duration": "60 秒",
+        "oneLiner": "Ben's Bites 这条动态适合做 60 秒 AI 热点，核心看点是 Just use GPT-5.4 xhigh。",
+        "hook": "先给你 5 秒结论：Ben's Bites 这条 个人解读 值得讲，因为它能转成“工具变化、效率提升或行业信号”三类流量钩子。",
+        "angle": "这类个人博主来源适合做“我替你试过/我替你看懂了”的选题，容易形成信任感和评论讨论。",
+        "coverTitle": "Just use GPT-5.4 xhigh",
+        "coverSubtitle": "个人博主视角，帮你抓热点",
+        "commentPrompt": "这条 AI 动态你会马上试用，还是先观望？",
+        "cta": "关注我，每天早中晚帮你筛出真正适合做内容的 AI 热点。"
+      }
+    },
+    {
+      "id": "bensbites-2b54ca94db",
+      "source": "bensbites",
+      "category": "product",
+      "format": "个人解读",
+      "evidence": "个人解读",
+      "priority": 3,
+      "featured": true,
+      "publishedAt": "2026-02-26",
+      "slots": [
+        "morning",
+        "noon",
+        "evening"
+      ],
+      "titleZh": "Ben's Bites: Claude has some conflicts",
+      "titleEn": "Claude has some conflicts",
+      "summary": "Ben's Bites 更新：Notion, Perplexity and computer using agents",
+      "whyMatters": "这类个人来源适合补充实测、判断和语境，能帮 AI 博主快速形成自己的观点。",
+      "takeaways": [
+        "来源属性：个人博主/研究者视角，适合做观点补充和趋势判断。",
+        "内容信号：Notion, Perplexity and computer using agents",
+        "发布前建议打开原文核对具体表述，再加入自己的使用场景或行业判断。"
+      ],
+      "tags": [
+        "AI 新闻",
+        "工具",
+        "创业",
+        "热点"
+      ],
+      "sourceUrl": "https://www.bensbites.com/p/claude-has-some-conflicts",
+      "creator": {
+        "duration": "60 秒",
+        "oneLiner": "Ben's Bites 这条动态适合做 60 秒 AI 热点，核心看点是 Claude has some conflicts。",
+        "hook": "先给你 5 秒结论：Ben's Bites 这条 个人解读 值得讲，因为它能转成“工具变化、效率提升或行业信号”三类流量钩子。",
+        "angle": "这类个人博主来源适合做“我替你试过/我替你看懂了”的选题，容易形成信任感和评论讨论。",
+        "coverTitle": "Claude has some conflicts",
+        "coverSubtitle": "个人博主视角，帮你抓热点",
+        "commentPrompt": "这条 AI 动态你会马上试用，还是先观望？",
+        "cta": "关注我，每天早中晚帮你筛出真正适合做内容的 AI 热点。"
+      }
+    },
+    {
+      "id": "oneusefulthing-f0214b6795",
+      "source": "oneusefulthing",
+      "category": "digest",
+      "format": "博主观察",
+      "evidence": "个人解读",
+      "priority": 3,
+      "featured": true,
+      "publishedAt": "2026-02-18",
+      "slots": [
+        "morning",
+        "noon",
+        "evening"
+      ],
+      "titleZh": "One Useful Thing: A Guide to Which AI to Use in the Agentic Era",
+      "titleEn": "A Guide to Which AI to Use in the Agentic Era",
+      "summary": "One Useful Thing 更新：It's not just chatbots anymore",
+      "whyMatters": "这类个人来源适合补充实测、判断和语境，能帮 AI 博主快速形成自己的观点。",
+      "takeaways": [
+        "来源属性：个人博主/研究者视角，适合做观点补充和趋势判断。",
+        "内容信号：It's not just chatbots anymore",
+        "发布前建议打开原文核对具体表述，再加入自己的使用场景或行业判断。"
+      ],
+      "tags": [
+        "AI 影响",
+        "教育",
+        "工作",
+        "大众化观点"
+      ],
+      "sourceUrl": "https://www.oneusefulthing.org/p/a-guide-to-which-ai-to-use-in-the",
+      "creator": {
+        "duration": "60 秒",
+        "oneLiner": "One Useful Thing 这条动态适合做 60 秒 AI 热点，核心看点是 A Guide to Which AI to Use in the Agentic Era。",
+        "hook": "先给你 5 秒结论：One Useful Thing 这条 博主观察 值得讲，因为它能转成“工具变化、效率提升或行业信号”三类流量钩子。",
+        "angle": "这类个人博主来源适合做“我替你试过/我替你看懂了”的选题，容易形成信任感和评论讨论。",
+        "coverTitle": "A Guide to Which AI to Use in th",
+        "coverSubtitle": "个人博主视角，帮你抓热点",
+        "commentPrompt": "这条 AI 动态你会马上试用，还是先观望？",
+        "cta": "关注我，每天早中晚帮你筛出真正适合做内容的 AI 热点。"
+      }
+    },
+    {
+      "id": "anthropic-26de9866b2",
+      "source": "anthropic",
+      "category": "product",
+      "format": "产品发布",
+      "evidence": "官方一手",
+      "priority": 3,
+      "featured": true,
+      "publishedAt": "2026-02-03",
+      "slots": [
+        "morning",
+        "noon",
+        "evening"
+      ],
+      "titleZh": "Anthropic: Claude is a space to think",
+      "titleEn": "Claude is a space to think",
+      "summary": "Anthropic 更新：Announcements Feb 4, 2026 Claude is a space to think We’ve made a choice: Claude will remain ad-free. We explain why advertising incentives are incompatible with a genuinely he...",
+      "whyMatters": "这类官方来源适合作为可信事实锚点，口播时要转译成普通用户关心的场景价值。",
+      "takeaways": [
+        "来源属性：官方一手来源，适合作为快讯主来源。",
+        "内容信号：Announcements Feb 4, 2026 Claude is a space to think We’ve made a choice: Claude will remain ad-free. We explain why advertising incentives are incompatible with a genuinely he...",
+        "发布前建议打开原文核对具体表述，再加入自己的使用场景或行业判断。"
+      ],
+      "tags": [
+        "Claude",
+        "Anthropic",
+        "产品",
+        "模型",
+        "Agent"
+      ],
+      "sourceUrl": "https://www.anthropic.com/news/claude-is-a-space-to-think",
+      "creator": {
+        "duration": "60 秒",
+        "oneLiner": "Anthropic 这条动态适合做 60 秒 AI 热点，核心看点是 Claude is a space to think。",
+        "hook": "先给你 5 秒结论：Anthropic 这条 产品发布 值得讲，因为它能转成“工具变化、效率提升或行业信号”三类流量钩子。",
+        "angle": "这类官方来源适合做事实锚点，但口播时要翻译成普通用户能听懂的效率、工具或趋势变化。",
+        "coverTitle": "Claude is a space to think",
+        "coverSubtitle": "官方消息，翻译成普通人看点",
+        "commentPrompt": "这条 AI 动态你会马上试用，还是先观望？",
+        "cta": "关注我，每天早中晚帮你筛出真正适合做内容的 AI 热点。"
+      }
+    }
+  ]
+}
