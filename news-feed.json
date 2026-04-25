@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-04-25T05:54:17.243Z",
+  "generatedAt": "2026-04-25T11:48:48.411Z",
   "timezone": "Asia/Shanghai",
-  "runSlot": "noon",
-  "runSlotLabel": "午报",
+  "runSlot": "evening",
+  "runSlotLabel": "晚报",
   "sourceStats": {
     "official": 10,
     "creator": 5,
@@ -278,7 +278,51 @@
       }
     },
     {
-      "id": "qbitai-da69d070b4",
+      "id": "qbitai-684fcddac9",
+      "source": "qbitai",
+      "category": "open",
+      "format": "开源生态",
+      "evidence": "官方一手",
+      "priority": 3,
+      "featured": true,
+      "publishedAt": "2026-04-25",
+      "slots": [
+        "morning",
+        "noon",
+        "evening"
+      ],
+      "titleZh": "自动驾驶赛道DeepSeek，轻舟智航率先进军物理AI",
+      "titleEn": "自动驾驶赛道DeepSeek，轻舟智航率先进军物理AI",
+      "summary": "量子位 更新：500TOPS上车世界模型",
+      "whyMatters": "量子位 官方发布，直接反映当前 AI 产品方向，影响日常工具使用体验。",
+      "takeaways": [
+        "开源模型的核心优势：可以本地运行，数据不离开你的设备，适合隐私要求高的场景。",
+        "开源和商业 AI 的差距在今年快速缩小，某些任务上开源已经够用甚至更好。",
+        "对普通用户来说，关注以开源模型为底层的封装产品，会比直接用原始模型更方便。"
+      ],
+      "tags": [
+        "AI新闻",
+        "模型",
+        "产品",
+        "创业",
+        "前沿",
+        "资讯",
+        "轻舟智航"
+      ],
+      "sourceUrl": "https://www.qbitai.com/2026/04/407026.html",
+      "creator": {
+        "duration": "60 秒",
+        "oneLiner": "开源 AI 生态有新进展，可自由部署，开发者和进阶用户值得关注。",
+        "hook": "开源 AI 和商业 AI 的差距，正在快速缩小——这次缩到了这里。",
+        "angle": "这是 量子位 官方发布的动态，会直接反映在你正在使用的 AI 产品里。",
+        "coverTitle": "量子位 · 开源进展",
+        "coverSubtitle": "官方第一手",
+        "commentPrompt": "你用开源还是商业 AI 工具？告诉我你的选择。",
+        "cta": "关注我，每天帮你筛出真正值得关注的 AI 动态。"
+      }
+    },
+    {
+      "id": "qbitai-3a908e4748",
       "source": "qbitai",
       "category": "model",
       "format": "模型更新",
@@ -291,9 +335,9 @@
         "noon",
         "evening"
       ],
-      "titleZh": "华人再破硅谷天花板！AI黑马新任CTO，中科大80后",
-      "titleEn": "华人再破硅谷天花板！AI黑马新任CTO，中科大80后",
-      "summary": "量子位 更新：属于所有华人的AI新篇章",
+      "titleZh": "硬刚GPT-Image-2！国产AI生图“天花板”又被捅破了？",
+      "titleEn": "硬刚GPT-Image-2！国产AI生图“天花板”又被捅破了？",
+      "summary": "量子位 更新：一家低调的视觉大模型公司，浮出水面",
       "whyMatters": "量子位 官方发布，直接反映当前 AI 产品方向，影响日常工具使用体验。",
       "takeaways": [
         "模型升级会传导到下游产品，你在用的 AI 工具通常1-2周内就会接入新能力。",
@@ -307,15 +351,105 @@
         "创业",
         "前沿",
         "资讯",
-        "首页轮播"
+        "GPT-Image-2",
+        "UniWorld-V2.5"
       ],
-      "sourceUrl": "https://www.qbitai.com/2026/04/406934.html",
+      "sourceUrl": "https://www.qbitai.com/2026/04/406994.html",
       "creator": {
         "duration": "60 秒",
         "oneLiner": "一个新 AI 模型更新了，能力边界有明显变化，下游应用很快会跟进。",
-        "hook": "华人再破硅谷天花板黑马新任中科大——这条 AI 消息，和你直接有关。",
+        "hook": "新模型出来了，先别急着换——先看它在你用的场景里强在哪。",
         "angle": "这是 量子位 官方发布的动态，会直接反映在你正在使用的 AI 产品里。",
-        "coverTitle": "华人再破硅谷天花板！AI黑马新任CTO，中科大80后",
+        "coverTitle": "量子位 · 模型更新",
+        "coverSubtitle": "官方第一手",
+        "commentPrompt": "你觉得这次升级值不值得关注？A值 B不值。",
+        "cta": "关注我，每天帮你筛出真正值得关注的 AI 动态。"
+      }
+    },
+    {
+      "id": "qbitai-4cbc4d0a4b",
+      "source": "qbitai",
+      "category": "model",
+      "format": "模型更新",
+      "evidence": "官方一手",
+      "priority": 3,
+      "featured": true,
+      "publishedAt": "2026-04-25",
+      "slots": [
+        "morning",
+        "noon",
+        "evening"
+      ],
+      "titleZh": "AI自主监测宠物健康，陪狗都不用自己来了！涂鸦Hey Tuya打造全屋智能“超级入口”",
+      "titleEn": "AI自主监测宠物健康，陪狗都不用自己来了！涂鸦Hey Tuya打造全屋智能“超级入口”",
+      "summary": "量子位 更新：首次公开三大AI应用生态",
+      "whyMatters": "量子位 官方发布，直接反映当前 AI 产品方向，影响日常工具使用体验。",
+      "takeaways": [
+        "模型升级会传导到下游产品，你在用的 AI 工具通常1-2周内就会接入新能力。",
+        "关键看三个提升点：推理更准 / 速度更快 / 输出更长——哪条对你的场景更重要。",
+        "不用急着切换，等产品层接入后看实际表现，再决定要不要调整工作流。"
+      ],
+      "tags": [
+        "AI新闻",
+        "模型",
+        "产品",
+        "创业",
+        "前沿",
+        "资讯",
+        "Tuya"
+      ],
+      "sourceUrl": "https://www.qbitai.com/2026/04/406973.html",
+      "creator": {
+        "duration": "60 秒",
+        "oneLiner": "一个新 AI 模型更新了，能力边界有明显变化，下游应用很快会跟进。",
+        "hook": "自主监测宠物健康陪狗都不用自己来——这条 AI 消息，和你直接有关。",
+        "angle": "这是 量子位 官方发布的动态，会直接反映在你正在使用的 AI 产品里。",
+        "coverTitle": "AI自主监测宠物健康，陪狗都不用自己来了！涂鸦Hey Tuya打",
+        "coverSubtitle": "官方第一手",
+        "commentPrompt": "你觉得这次升级值不值得关注？A值 B不值。",
+        "cta": "关注我，每天帮你筛出真正值得关注的 AI 动态。"
+      }
+    },
+    {
+      "id": "qbitai-503cb72055",
+      "source": "qbitai",
+      "category": "model",
+      "format": "模型更新",
+      "evidence": "官方一手",
+      "priority": 3,
+      "featured": true,
+      "publishedAt": "2026-04-25",
+      "slots": [
+        "morning",
+        "noon",
+        "evening"
+      ],
+      "titleZh": "燃油SUV车主熬出头了！华为乾崑智驾加持，全新奥迪Q5L率先实现智能化",
+      "titleEn": "燃油SUV车主熬出头了！华为乾崑智驾加持，全新奥迪Q5L率先实现智能化",
+      "summary": "量子位 更新：六年磨一剑",
+      "whyMatters": "量子位 官方发布，直接反映当前 AI 产品方向，影响日常工具使用体验。",
+      "takeaways": [
+        "模型升级会传导到下游产品，你在用的 AI 工具通常1-2周内就会接入新能力。",
+        "关键看三个提升点：推理更准 / 速度更快 / 输出更长——哪条对你的场景更重要。",
+        "不用急着切换，等产品层接入后看实际表现，再决定要不要调整工作流。"
+      ],
+      "tags": [
+        "AI新闻",
+        "模型",
+        "产品",
+        "创业",
+        "前沿",
+        "资讯",
+        "首页轮播",
+        "华为乾崑"
+      ],
+      "sourceUrl": "https://www.qbitai.com/2026/04/406960.html",
+      "creator": {
+        "duration": "60 秒",
+        "oneLiner": "一个新 AI 模型更新了，能力边界有明显变化，下游应用很快会跟进。",
+        "hook": "燃油车主熬出头了华为乾崑智驾加持——这条 AI 消息，和你直接有关。",
+        "angle": "这是 量子位 官方发布的动态，会直接反映在你正在使用的 AI 产品里。",
+        "coverTitle": "燃油SUV车主熬出头了！华为乾崑智驾加持，全新奥迪Q5L率先实现",
         "coverSubtitle": "官方第一手",
         "commentPrompt": "你觉得这次升级值不值得关注？A值 B不值。",
         "cta": "关注我，每天帮你筛出真正值得关注的 AI 动态。"
@@ -411,6 +545,48 @@
       }
     },
     {
+      "id": "36kr-ai-488cbce1ae",
+      "source": "36kr-ai",
+      "category": "research",
+      "format": "研究发布",
+      "evidence": "官方一手",
+      "priority": 3,
+      "featured": true,
+      "publishedAt": "2026-04-25",
+      "slots": [
+        "morning",
+        "noon",
+        "evening"
+      ],
+      "titleZh": "最前线｜2025年全年营收超64亿，海康机器人表示将继续推进AI融合与具身智能布局",
+      "titleEn": "最前线｜2025年全年营收超64亿，海康机器人表示将继续推进AI融合与具身智能布局",
+      "summary": "36氪AI 更新：作者&nbsp;|&nbsp;乔钰杰 编辑&nbsp;|&nbsp;袁斯来 当前，制造业正站在从“自动化”向“智能化”跨越的关键节点。 2026年是海康机器人成立十周年。作为工业智能化领域的创新者与实践者，海康机器人近年持续推进机器视觉、移动机器人与柔性制造技术的深度融合，构建起“眼、脚、手”一体化的全栈技术能力，形成了以机器视觉、关节机器人和移动机...",
+      "whyMatters": "36氪AI 官方发布，直接反映当前 AI 产品方向，影响日常工具使用体验。",
+      "takeaways": [
+        "作者&nbsp;|&nbsp;乔钰杰 编辑&nbsp;|&nbsp;袁斯来 当前，制造业正站在从“自动化”向“智能化”跨越的关键节点。 2026年是海康机器人成立十周年。作为工业智……",
+        "关注这类研究的价值：提前了解 AI 能力还卡在哪些地方、哪些方向已经打通了。",
+        "对普通用户来说，研究成果转化成工具功能才有实际影响，可持续跟进这个领域。"
+      ],
+      "tags": [
+        "AI创业",
+        "融资",
+        "商业",
+        "产品",
+        "前沿"
+      ],
+      "sourceUrl": "https://36kr.com/p/3782137908403457?f=rss",
+      "creator": {
+        "duration": "60 秒",
+        "oneLiner": "作者&nbsp;|&nbsp;乔钰杰 编辑&nbsp;|&nbsp;袁斯来 当前，制造业正站在从“自动化”向“……",
+        "hook": "最前线年全年营收超亿海康机器人表——这条 AI 消息，和你直接有关。",
+        "angle": "这是 36氪AI 官方发布的动态，会直接反映在你正在使用的 AI 产品里。",
+        "coverTitle": "最前线｜2025年全年营收超64亿，海康机器人表示将继续推进AI",
+        "coverSubtitle": "官方第一手",
+        "commentPrompt": "这个研究结论你信吗？评论区聊聊。",
+        "cta": "关注我，每天帮你筛出真正值得关注的 AI 动态。"
+      }
+    },
+    {
       "id": "36kr-ai-df6987c608",
       "source": "36kr-ai",
       "category": "security",
@@ -495,9 +671,9 @@
       }
     },
     {
-      "id": "ithome-a512f37052",
+      "id": "ithome-bb66685502",
       "source": "ithome",
-      "category": "research",
+      "category": "security",
       "format": "个人解读",
       "evidence": "个人解读",
       "priority": 3,
@@ -508,14 +684,14 @@
         "noon",
         "evening"
       ],
-      "titleZh": "英特尔“库存”CPU 因 AI 推理需求意外售罄，带动股价创历史新高",
-      "titleEn": "英特尔“库存”CPU 因 AI 推理需求意外售罄，带动股价创历史新高",
-      "summary": "IT之家 更新：IT之家 4 月 25 日消息，据路透社 4 月 24 日报道，今年第一季度，AI 服务企业对英特尔 CPU 的需求异常强劲，甚至连英特尔把原本已经减记的芯片也卖掉了。这一反转相当罕见，也直接推高了英特尔周五的股价。 英特尔早盘 一度大涨超过 24% ，股价升至 83 美元（IT之家注：现汇率约合 568.3 元人民币），不仅突破 2000 年互联网...",
+      "titleZh": "安卓首发：荣耀 YOYO 率先接入 DeepSeek-V4 大模型",
+      "titleEn": "安卓首发：荣耀 YOYO 率先接入 DeepSeek-V4 大模型",
+      "summary": "IT之家 更新：IT之家 4 月 25 日消息，荣耀官方今日宣布，荣耀 YOYO 成为安卓阵营中首家接入 DeepSeek-V4 大模型的 AI 智能体。 得益于此，荣耀 YOYO 实现三大核心升级：更强性能、更长上下文、更高推理效率。 IT之家提醒：YOYO 智能体版本 90.10.28.041 及以上，MagicOS 8.0 及以上可抢先体验。 相关阅读： 《 ...",
       "whyMatters": "IT之家 基于实测或研究分享了这条判断，对普通用户了解 AI 工具现状有直接参考价值。",
       "takeaways": [
-        "现汇率约合 568.3 元人民币），不仅突破 2000 年互联网...",
-        "关注这类研究的价值：提前了解 AI 能力还卡在哪些地方、哪些方向已经打通了。",
-        "对普通用户来说，研究成果转化成工具功能才有实际影响，可持续跟进这个领域。"
+        "AI 安全最直接影响你输入的数据——不要在 AI 工具里输入身份证号、密码、合同原文。",
+        "企业用户风险高于个人，公司内部敏感数据要用支持私有化部署的方案处理。",
+        "遇到 AI 工具要求过多权限或存储对话记录的，先查清数据政策再决定是否使用。"
       ],
       "tags": [
         "AI新闻",
@@ -524,22 +700,22 @@
         "前沿",
         "热点"
       ],
-      "sourceUrl": "https://www.ithome.com/0/943/410.htm",
+      "sourceUrl": "https://www.ithome.com/0/943/480.htm",
       "creator": {
         "duration": "60 秒",
-        "oneLiner": "IT之家 4 月 25 日消息，据路透社 4 月 24 日报道，今年第一季度，AI 服务企业对英特尔 CPU ……",
-        "hook": "英特尔库存因推理需求意外售罄带动——这条 AI 消息，和你直接有关。",
+        "oneLiner": "一条 AI 安全动态，涉及数据权限或使用风险，普通用户需要了解。",
+        "hook": "用 AI 的时候，有一件事你最好现在就知道。",
         "angle": "这位博主长期追踪 AI 工具实际表现，这条判断对你评估工具是否值得用有直接参考价值。",
-        "coverTitle": "英特尔“库存”CPU 因 AI 推理需求意外售罄，带动股价创历史",
+        "coverTitle": "IT之家 · 安全动态",
         "coverSubtitle": "博主深度解读",
-        "commentPrompt": "这个研究结论你信吗？评论区聊聊。",
+        "commentPrompt": "你平时在 AI 工具里输入过真实个人信息吗？A有 B没有。",
         "cta": "关注我，每天帮你筛出真正值得关注的 AI 动态。"
       }
     },
     {
-      "id": "ithome-22491412ee",
+      "id": "ithome-dc74de5e3b",
       "source": "ithome",
-      "category": "open",
+      "category": "model",
       "format": "个人解读",
       "evidence": "个人解读",
       "priority": 3,
@@ -550,14 +726,14 @@
         "noon",
         "evening"
       ],
-      "titleZh": "全国首例，一科技公司仿冒 DeepSeek 被北京市场监管部门处罚",
-      "titleEn": "全国首例，一科技公司仿冒 DeepSeek 被北京市场监管部门处罚",
-      "summary": "IT之家 更新：IT之家 4 月 25 日消息，4 月 24 日，北京市人民政府新闻办公室举行 2025 年北京知识产权保护状况新闻发布会。 北京市市场监管综合执法总队党委委员、副总队长、督办、新闻发言人宋晔在会上透露，针对仿冒科技公司名称的行为，北京市场监管查办了全国首例仿冒 DeepSeek 混淆案，对某科技公司在其网站上推广名为“DeepSeek 本地部署工具...",
+      "titleZh": "阿联酋未来两年 50% 政府事务将由 Agentic AI 驱动",
+      "titleEn": "阿联酋未来两年 50% 政府事务将由 Agentic AI 驱动",
+      "summary": "IT之家 更新：IT之家 4 月 25 日消息，阿联酋总统穆罕默德 · 本 · 扎耶德前天（本周四）宣布，该国未来两年内将把 50% 政府部门、服务和运营转变为 Agentic AI 驱动。 据穆罕默德 · 本 · 扎耶德介绍，阿联酋将成为全球首个使用 Agentic AI 大规模处理政府事务的国家，这种 AI 模型可以独立执行任务、管理流程和支持决策。 未来两年，...",
       "whyMatters": "IT之家 基于实测或研究分享了这条判断，对普通用户了解 AI 工具现状有直接参考价值。",
       "takeaways": [
-        "IT之家 4 月 25 日消息，4 月 24 日，北京市人民政府新闻办公室举行 2025 年北京知识产权保护状况新闻发布会。 北京市市场监管综合执法总队党委委员、副总队长、督办、新……",
-        "开源和商业 AI 的差距在今年快速缩小，某些任务上开源已经够用甚至更好。",
-        "对普通用户来说，关注以开源模型为底层的封装产品，会比直接用原始模型更方便。"
+        "IT之家 4 月 25 日消息，阿联酋总统穆罕默德 · 本 · 扎耶德前天（本周四）宣布，该国未来两年内将把 50% 政府部门、服务和运营转变为 Agentic AI 驱动。 据穆……",
+        "关键看三个提升点：推理更准 / 速度更快 / 输出更长——哪条对你的场景更重要。",
+        "不用急着切换，等产品层接入后看实际表现，再决定要不要调整工作流。"
       ],
       "tags": [
         "AI新闻",
@@ -566,20 +742,20 @@
         "前沿",
         "热点"
       ],
-      "sourceUrl": "https://www.ithome.com/0/943/406.htm",
+      "sourceUrl": "https://www.ithome.com/0/943/475.htm",
       "creator": {
         "duration": "60 秒",
-        "oneLiner": "开源 AI 生态有新进展，可自由部署，开发者和进阶用户值得关注。",
-        "hook": "开源 AI 和商业 AI 的差距，正在快速缩小——这次缩到了这里。",
+        "oneLiner": "一个新 AI 模型更新了，能力边界有明显变化，下游应用很快会跟进。",
+        "hook": "新模型出来了，先别急着换——先看它在你用的场景里强在哪。",
         "angle": "这位博主长期追踪 AI 工具实际表现，这条判断对你评估工具是否值得用有直接参考价值。",
-        "coverTitle": "IT之家 · 开源进展",
+        "coverTitle": "IT之家 · 模型更新",
         "coverSubtitle": "博主深度解读",
-        "commentPrompt": "你用开源还是商业 AI 工具？告诉我你的选择。",
+        "commentPrompt": "你觉得这次升级值不值得关注？A值 B不值。",
         "cta": "关注我，每天帮你筛出真正值得关注的 AI 动态。"
       }
     },
     {
-      "id": "ithome-93d3cadc6d",
+      "id": "ithome-adf9f56ab4",
       "source": "ithome",
       "category": "product",
       "format": "个人解读",
@@ -592,51 +768,9 @@
         "noon",
         "evening"
       ],
-      "titleZh": "华为 AI 眼镜今日开售：支持 AI 快捷键一键唤醒、支付宝看一下支付等，2499 元起",
-      "titleEn": "华为 AI 眼镜今日开售：支持 AI 快捷键一键唤醒、支付宝看一下支付等，2499 元起",
-      "summary": "IT之家 更新：IT之家 4 月 25 日消息，华为 AI 眼镜今日 10:08 正式开售，提供钛银灰、流光银、摩登黑三款配色，圆形、方形两种镜框样式，其中钛银灰及摩登黑售价为 2499 元，流光银售价 2899 元。 据IT之家了解，华为 AI 眼镜采用了全新的轻量化新型材料和精密堆叠技术，镜腿薄至 6.25 毫米， 镜架轻至 35.5 克 ，接近一副普通眼镜的重...",
-      "whyMatters": "IT之家 基于实测或研究分享了这条判断，对普通用户了解 AI 工具现状有直接参考价值。",
-      "takeaways": [
-        "08 正式开售，提供钛银灰、流光银、摩登黑三款配色，圆形、方形两种镜框样式，其中钛银灰及摩登黑售价为 2499 元，流光银售价 2899 元。 据IT之家了解，华为 AI 眼镜采用……",
-        "上手成本低，不需要技术背景，建议结合你最高频的工作场景直接实测。",
-        "判断新功能值不值得用：看它能不能替换你现在某个重复性的操作。"
-      ],
-      "tags": [
-        "AI新闻",
-        "产品",
-        "科技",
-        "前沿",
-        "热点"
-      ],
-      "sourceUrl": "https://www.ithome.com/0/943/402.htm",
-      "creator": {
-        "duration": "60 秒",
-        "oneLiner": "08 正式开售，提供钛银灰、流光银、摩登黑三款配色，圆形、方形两种镜框样式，其中钛银灰及摩登黑售价为 2499……",
-        "hook": "华为眼镜今日开售支持快捷键一键唤——这条 AI 消息，和你直接有关。",
-        "angle": "这位博主长期追踪 AI 工具实际表现，这条判断对你评估工具是否值得用有直接参考价值。",
-        "coverTitle": "华为 AI 眼镜今日开售：支持 AI 快捷键一键唤醒、支付宝看一",
-        "coverSubtitle": "博主深度解读",
-        "commentPrompt": "这个功能你会用还是不用？评论区选边站。",
-        "cta": "关注我，每天帮你筛出真正值得关注的 AI 动态。"
-      }
-    },
-    {
-      "id": "ithome-2ed9160b74",
-      "source": "ithome",
-      "category": "product",
-      "format": "个人解读",
-      "evidence": "个人解读",
-      "priority": 3,
-      "featured": true,
-      "publishedAt": "2026-04-25",
-      "slots": [
-        "morning",
-        "noon",
-        "evening"
-      ],
-      "titleZh": "微软调整 AI 战略，企业 Win11 设备可卸载 Copilot",
-      "titleEn": "微软调整 AI 战略，企业 Win11 设备可卸载 Copilot",
-      "summary": "IT之家 更新：IT之家 4 月 25 日消息，科技媒体 bleepingcomputer 昨日（4 月 24 日）发布博文，报道称 IT 管理员可以通过配置系统策略 RemoveMicrosoftCopilotApp， 可以在企业环境下，卸载 Copilot AI 数字助手。 在 4 月补丁星期二活动日中，微软面向企业用户推出 RemoveMicrosoftCop...",
+      "titleZh": "大量 AI 音乐涌入 Apple Music 平台，但播放量几乎为零",
+      "titleEn": "大量 AI 音乐涌入 Apple Music 平台，但播放量几乎为零",
+      "summary": "IT之家 更新：IT之家 4 月 25 日消息，据科技媒体 Appleinsider 前天报道，苹果 Apple Music 副总裁 Oliver Schusser 最近表示，尽管 AI 生成的音乐占据提交曲目的很大比例， 但实际播放量却几乎为零 。 ▲ Oliver Schusser，图源：苹果 Oliver Schusser 指出，Apple Music 目前新...",
       "whyMatters": "IT之家 基于实测或研究分享了这条判断，对普通用户了解 AI 工具现状有直接参考价值。",
       "takeaways": [
         "功能更新通常先出现在网页版或API，App端会稍后跟进，留意你习惯的入口。",
@@ -650,7 +784,7 @@
         "前沿",
         "热点"
       ],
-      "sourceUrl": "https://www.ithome.com/0/943/396.htm",
+      "sourceUrl": "https://www.ithome.com/0/943/467.htm",
       "creator": {
         "duration": "60 秒",
         "oneLiner": "一个 AI 产品发布了新功能，核心变化直接影响现有用户的使用体验。",
@@ -659,6 +793,90 @@
         "coverTitle": "IT之家 · 产品发布",
         "coverSubtitle": "博主深度解读",
         "commentPrompt": "这个功能你会用还是不用？评论区选边站。",
+        "cta": "关注我，每天帮你筛出真正值得关注的 AI 动态。"
+      }
+    },
+    {
+      "id": "ithome-60b2d0d578",
+      "source": "ithome",
+      "category": "open",
+      "format": "个人解读",
+      "evidence": "个人解读",
+      "priority": 3,
+      "featured": true,
+      "publishedAt": "2026-04-25",
+      "slots": [
+        "morning",
+        "noon",
+        "evening"
+      ],
+      "titleZh": "英伟达已适配 DeepSeek-V4 AI 模型，GB200 NVL72 开箱性能超 150 tokens / sec / user",
+      "titleEn": "英伟达已适配 DeepSeek-V4 AI 模型，GB200 NVL72 开箱性能超 150 tokens / sec / user",
+      "summary": "IT之家 更新：IT之家 4 月 25 日消息，英伟达今天（4 月 25 日）发布博文， 宣布其 NVIDIA Blackwell 平台已适配 DeepSeek-V4-Pro 与 DeepSeek-V4-Flash 两款模型 ，开发者可通过 NVIDIA NIM 微服务下载部署，或利用 SGLang 与 vLLM 框架进行定制化推理。 英伟达在博文指出，DeepSe...",
+      "whyMatters": "IT之家 基于实测或研究分享了这条判断，对普通用户了解 AI 工具现状有直接参考价值。",
+      "takeaways": [
+        "开源模型的核心优势：可以本地运行，数据不离开你的设备，适合隐私要求高的场景。",
+        "开源和商业 AI 的差距在今年快速缩小，某些任务上开源已经够用甚至更好。",
+        "对普通用户来说，关注以开源模型为底层的封装产品，会比直接用原始模型更方便。"
+      ],
+      "tags": [
+        "AI新闻",
+        "产品",
+        "科技",
+        "前沿",
+        "热点"
+      ],
+      "sourceUrl": "https://www.ithome.com/0/943/462.htm",
+      "creator": {
+        "duration": "60 秒",
+        "oneLiner": "开源 AI 生态有新进展，可自由部署，开发者和进阶用户值得关注。",
+        "hook": "开源 AI 和商业 AI 的差距，正在快速缩小——这次缩到了这里。",
+        "angle": "这位博主长期追踪 AI 工具实际表现，这条判断对你评估工具是否值得用有直接参考价值。",
+        "coverTitle": "IT之家 · 开源进展",
+        "coverSubtitle": "博主深度解读",
+        "commentPrompt": "你用开源还是商业 AI 工具？告诉我你的选择。",
+        "cta": "关注我，每天帮你筛出真正值得关注的 AI 动态。"
+      }
+    },
+    {
+      "id": "ithome-52894fdd60",
+      "source": "ithome",
+      "category": "security",
+      "format": "个人解读",
+      "evidence": "个人解读",
+      "priority": 3,
+      "featured": true,
+      "publishedAt": "2026-04-25",
+      "slots": [
+        "morning",
+        "noon",
+        "evening"
+      ],
+      "titleZh": "OpenAI 奥尔特曼就未通报枪击案嫌疑人道歉，承认安全流程存在漏洞",
+      "titleEn": "OpenAI 奥尔特曼就未通报枪击案嫌疑人道歉，承认安全流程存在漏洞",
+      "summary": "IT之家 更新：IT之家 4 月 25 日消息，华尔街日报昨日（4 月 24 日）发布博文，报道称 OpenAI 首席执行官山姆 · 奥尔特曼（Sam Altman）致信加拿大坦布勒里奇镇（Tumbler Ridge）， 就未及时向警方通报大规模枪击案嫌疑人的活动记录正式道歉。 IT之家援引博文介绍，这起悲剧发生于今年 2 月，共造成 8 人死亡，嫌疑人为 18 岁...",
+      "whyMatters": "IT之家 基于实测或研究分享了这条判断，对普通用户了解 AI 工具现状有直接参考价值。",
+      "takeaways": [
+        "AI 安全最直接影响你输入的数据——不要在 AI 工具里输入身份证号、密码、合同原文。",
+        "企业用户风险高于个人，公司内部敏感数据要用支持私有化部署的方案处理。",
+        "遇到 AI 工具要求过多权限或存储对话记录的，先查清数据政策再决定是否使用。"
+      ],
+      "tags": [
+        "AI新闻",
+        "产品",
+        "科技",
+        "前沿",
+        "热点"
+      ],
+      "sourceUrl": "https://www.ithome.com/0/943/456.htm",
+      "creator": {
+        "duration": "60 秒",
+        "oneLiner": "一条 AI 安全动态，涉及数据权限或使用风险，普通用户需要了解。",
+        "hook": "用 AI 的时候，有一件事你最好现在就知道。",
+        "angle": "这位博主长期追踪 AI 工具实际表现，这条判断对你评估工具是否值得用有直接参考价值。",
+        "coverTitle": "IT之家 · 安全动态",
+        "coverSubtitle": "博主深度解读",
+        "commentPrompt": "你平时在 AI 工具里输入过真实个人信息吗？A有 B没有。",
         "cta": "关注我，每天帮你筛出真正值得关注的 AI 动态。"
       }
     },
@@ -964,141 +1182,6 @@
       }
     },
     {
-      "id": "qbitai-ab685dbad7",
-      "source": "qbitai",
-      "category": "model",
-      "format": "模型更新",
-      "evidence": "官方一手",
-      "priority": 3,
-      "featured": true,
-      "publishedAt": "2026-04-24",
-      "slots": [
-        "morning",
-        "noon",
-        "evening"
-      ],
-      "titleZh": "100%主流车企的共同选择：一个AI“通用底座”正在汽车行业成型",
-      "titleEn": "100%主流车企的共同选择：一个AI“通用底座”正在汽车行业成型",
-      "summary": "量子位 更新：从被动响应到主动服务",
-      "whyMatters": "量子位 官方发布，直接反映当前 AI 产品方向，影响日常工具使用体验。",
-      "takeaways": [
-        "模型升级会传导到下游产品，你在用的 AI 工具通常1-2周内就会接入新能力。",
-        "关键看三个提升点：推理更准 / 速度更快 / 输出更长——哪条对你的场景更重要。",
-        "不用急着切换，等产品层接入后看实际表现，再决定要不要调整工作流。"
-      ],
-      "tags": [
-        "AI新闻",
-        "模型",
-        "产品",
-        "创业",
-        "前沿",
-        "智能车参考",
-        "火山引擎",
-        "车圈最新认知"
-      ],
-      "sourceUrl": "https://www.qbitai.com/2026/04/406767.html",
-      "creator": {
-        "duration": "60 秒",
-        "oneLiner": "一个新 AI 模型更新了，能力边界有明显变化，下游应用很快会跟进。",
-        "hook": "主流车企的共同选择一个通用底座正——这条 AI 消息，和你直接有关。",
-        "angle": "这是 量子位 官方发布的动态，会直接反映在你正在使用的 AI 产品里。",
-        "coverTitle": "100%主流车企的共同选择：一个AI“通用底座”正在汽车行业成型",
-        "coverSubtitle": "官方第一手",
-        "commentPrompt": "你觉得这次升级值不值得关注？A值 B不值。",
-        "cta": "关注我，每天帮你筛出真正值得关注的 AI 动态。"
-      }
-    },
-    {
-      "id": "qbitai-7402497a23",
-      "source": "qbitai",
-      "category": "open",
-      "format": "开源生态",
-      "evidence": "官方一手",
-      "priority": 3,
-      "featured": true,
-      "publishedAt": "2026-04-24",
-      "slots": [
-        "morning",
-        "noon",
-        "evening"
-      ],
-      "titleZh": "PPIO首批上线DeepSeek-V4预览版，1M超长上下文能力开箱即用",
-      "titleEn": "PPIO首批上线DeepSeek-V4预览版，1M超长上下文能力开箱即用",
-      "summary": "量子位 更新：开源SOTA大模型能力一键直达",
-      "whyMatters": "量子位 官方发布，直接反映当前 AI 产品方向，影响日常工具使用体验。",
-      "takeaways": [
-        "开源模型的核心优势：可以本地运行，数据不离开你的设备，适合隐私要求高的场景。",
-        "开源和商业 AI 的差距在今年快速缩小，某些任务上开源已经够用甚至更好。",
-        "对普通用户来说，关注以开源模型为底层的封装产品，会比直接用原始模型更方便。"
-      ],
-      "tags": [
-        "AI新闻",
-        "模型",
-        "产品",
-        "创业",
-        "前沿",
-        "资讯",
-        "DeepSeek V4",
-        "PPIO"
-      ],
-      "sourceUrl": "https://www.qbitai.com/2026/04/406760.html",
-      "creator": {
-        "duration": "60 秒",
-        "oneLiner": "开源 AI 生态有新进展，可自由部署，开发者和进阶用户值得关注。",
-        "hook": "开源 AI 和商业 AI 的差距，正在快速缩小——这次缩到了这里。",
-        "angle": "这是 量子位 官方发布的动态，会直接反映在你正在使用的 AI 产品里。",
-        "coverTitle": "量子位 · 开源进展",
-        "coverSubtitle": "官方第一手",
-        "commentPrompt": "你用开源还是商业 AI 工具？告诉我你的选择。",
-        "cta": "关注我，每天帮你筛出真正值得关注的 AI 动态。"
-      }
-    },
-    {
-      "id": "qbitai-e5b44c3929",
-      "source": "qbitai",
-      "category": "model",
-      "format": "模型更新",
-      "evidence": "官方一手",
-      "priority": 3,
-      "featured": true,
-      "publishedAt": "2026-04-24",
-      "slots": [
-        "morning",
-        "noon",
-        "evening"
-      ],
-      "titleZh": "真有人做AI小猫啊？！生产力和情绪价值都拉满了",
-      "titleEn": "真有人做AI小猫啊？！生产力和情绪价值都拉满了",
-      "summary": "量子位 更新：做PPT、写报告、做攻略，全包圆了",
-      "whyMatters": "量子位 官方发布，直接反映当前 AI 产品方向，影响日常工具使用体验。",
-      "takeaways": [
-        "模型升级会传导到下游产品，你在用的 AI 工具通常1-2周内就会接入新能力。",
-        "关键看三个提升点：推理更准 / 速度更快 / 输出更长——哪条对你的场景更重要。",
-        "不用急着切换，等产品层接入后看实际表现，再决定要不要调整工作流。"
-      ],
-      "tags": [
-        "AI新闻",
-        "模型",
-        "产品",
-        "创业",
-        "前沿",
-        "资讯",
-        "首页轮播",
-        "AI"
-      ],
-      "sourceUrl": "https://www.qbitai.com/2026/04/406560.html",
-      "creator": {
-        "duration": "60 秒",
-        "oneLiner": "做PPT、写报告、做攻略，全包圆了",
-        "hook": "真有人做小猫啊生产力和情绪价值都——这条 AI 消息，和你直接有关。",
-        "angle": "这是 量子位 官方发布的动态，会直接反映在你正在使用的 AI 产品里。",
-        "coverTitle": "真有人做AI小猫啊？！生产力和情绪价值都拉满了",
-        "coverSubtitle": "官方第一手",
-        "commentPrompt": "你觉得这次升级值不值得关注？A值 B不值。",
-        "cta": "关注我，每天帮你筛出真正值得关注的 AI 动态。"
-      }
-    },
-    {
       "id": "36kr-ai-62b7df41ae",
       "source": "36kr-ai",
       "category": "research",
@@ -1393,48 +1476,6 @@
       }
     },
     {
-      "id": "36kr-ai-e62d8be7bf",
-      "source": "36kr-ai",
-      "category": "product",
-      "format": "产品发布",
-      "evidence": "官方一手",
-      "priority": 3,
-      "featured": true,
-      "publishedAt": "2026-04-24",
-      "slots": [
-        "morning",
-        "noon",
-        "evening"
-      ],
-      "titleZh": "茅台向经销商「要利润」",
-      "titleEn": "茅台向经销商「要利润」",
-      "summary": "36氪AI 更新：作者 | &nbsp;谢芸子 编辑 |&nbsp; 张帆&nbsp; 蹲守在A股市场的投资人们可能被“吓了一跳”。 4月16日晚间，贵州茅台发布了2025年财报数据，营收达到1720.54亿元，同比下降1.2%；归母净利润为823.2亿元，同比下降4.53%。这是茅台自2001年上市以来的首次“双降”，至此终结了此前二十余年持续的正增长纪录。 受此影...",
-      "whyMatters": "36氪AI 官方发布，直接反映当前 AI 产品方向，影响日常工具使用体验。",
-      "takeaways": [
-        "作者 | &nbsp;谢芸子 编辑 |&nbsp; 张帆&nbsp; 蹲守在A股市场的投资人们可能被“吓了一跳”。 4月16日晚间，贵州茅台发布了2025年财报数据，营收达到172……",
-        "上手成本低，不需要技术背景，建议结合你最高频的工作场景直接实测。",
-        "判断新功能值不值得用：看它能不能替换你现在某个重复性的操作。"
-      ],
-      "tags": [
-        "AI创业",
-        "融资",
-        "商业",
-        "产品",
-        "前沿"
-      ],
-      "sourceUrl": "https://36kr.com/p/3780191213229314?f=rss",
-      "creator": {
-        "duration": "60 秒",
-        "oneLiner": "作者 | &nbsp;谢芸子 编辑 |&nbsp; 张帆&nbsp; 蹲守在A股市场的投资人们可能被“吓了一跳……",
-        "hook": "茅台向经销商要利润——这条 AI 消息，和你直接有关。",
-        "angle": "这是 36氪AI 官方发布的动态，会直接反映在你正在使用的 AI 产品里。",
-        "coverTitle": "茅台向经销商「要利润」",
-        "coverSubtitle": "官方第一手",
-        "commentPrompt": "这个功能你会用还是不用？评论区选边站。",
-        "cta": "关注我，每天帮你筛出真正值得关注的 AI 动态。"
-      }
-    },
-    {
       "id": "sspai-7ad9fe9d59",
       "source": "sspai",
       "category": "product",
@@ -1471,132 +1512,6 @@
         "hook": "这个功能刚上线，可能你还不知道它能做什么。",
         "angle": "这位博主长期追踪 AI 工具实际表现，这条判断对你评估工具是否值得用有直接参考价值。",
         "coverTitle": "少数派 · 产品发布",
-        "coverSubtitle": "博主深度解读",
-        "commentPrompt": "这个功能你会用还是不用？评论区选边站。",
-        "cta": "关注我，每天帮你筛出真正值得关注的 AI 动态。"
-      }
-    },
-    {
-      "id": "ithome-2291559ff0",
-      "source": "ithome",
-      "category": "research",
-      "format": "个人解读",
-      "evidence": "个人解读",
-      "priority": 3,
-      "featured": true,
-      "publishedAt": "2026-04-24",
-      "slots": [
-        "morning",
-        "noon",
-        "evening"
-      ],
-      "titleZh": "既合作又竞争，谷歌拟向 Anthropic 投资至高 400 亿美元",
-      "titleEn": "既合作又竞争，谷歌拟向 Anthropic 投资至高 400 亿美元",
-      "summary": "IT之家 更新：IT之家 4 月 25 日消息，据彭博社报道，当地时间 4 月 24 日，谷歌决定向 Anthropic PBC 投资 100 亿美元，未来还可能再追加 300 亿美元。这笔交易会进一步加深双方关系，但两家公司在 AI 竞赛中也处于一种微妙状态， 既合作又竞争 。 Anthropic 周五披露，谷歌这次先 以现金投入 100 亿美元，对应估值为 35...",
-      "whyMatters": "IT之家 基于实测或研究分享了这条判断，对普通用户了解 AI 工具现状有直接参考价值。",
-      "takeaways": [
-        "研究结论和产品落地之间通常有6-18个月的滞后，现在看到的是方向信号。",
-        "关注这类研究的价值：提前了解 AI 能力还卡在哪些地方、哪些方向已经打通了。",
-        "对普通用户来说，研究成果转化成工具功能才有实际影响，可持续跟进这个领域。"
-      ],
-      "tags": [
-        "AI新闻",
-        "产品",
-        "科技",
-        "前沿",
-        "热点"
-      ],
-      "sourceUrl": "https://www.ithome.com/0/943/379.htm",
-      "creator": {
-        "duration": "60 秒",
-        "oneLiner": "一项 AI 研究出了新结论，代表技术方向的最新信号，几个月后会反映在产品里。",
-        "hook": "一个研究结论让人意外：AI 在这件事上，比我们预期强得多。",
-        "angle": "这位博主长期追踪 AI 工具实际表现，这条判断对你评估工具是否值得用有直接参考价值。",
-        "coverTitle": "IT之家 · 研究发现",
-        "coverSubtitle": "博主深度解读",
-        "commentPrompt": "这个研究结论你信吗？评论区聊聊。",
-        "cta": "关注我，每天帮你筛出真正值得关注的 AI 动态。"
-      }
-    },
-    {
-      "id": "ithome-c90656a807",
-      "source": "ithome",
-      "category": "open",
-      "format": "个人解读",
-      "evidence": "个人解读",
-      "priority": 3,
-      "featured": true,
-      "publishedAt": "2026-04-24",
-      "slots": [
-        "morning",
-        "noon",
-        "evening"
-      ],
-      "titleZh": "IT早报 0425：曝苹果 iPhone 18 标准版配 12GB 内存；2026 北京车展开幕；DeepSeek-V4 预览版正式发布；OpenAI 发布 GPT5.5...",
-      "titleEn": "IT早报 0425：曝苹果 iPhone 18 标准版配 12GB 内存；2026 北京车展开幕；DeepSeek-V4 预览版正式发布；OpenAI 发布 GPT5.5...",
-      "summary": "IT之家 更新：“IT早报”时间，大家好，现在是 2026 年 4 月 25 日星期六，今天的重要科技资讯有： 1、提升 50%，消息称苹果 iPhone 18 标准版配 12GB 内存 半导体产业分析师 Dan Nystedt 4 月 24 日在 X 平台发布推文，指出苹果 iPhone 18 标准版（预估延后至 2027 年发布）将配备 12GB 内存，较当前机...",
-      "whyMatters": "IT之家 基于实测或研究分享了这条判断，对普通用户了解 AI 工具现状有直接参考价值。",
-      "takeaways": [
-        "开源模型的核心优势：可以本地运行，数据不离开你的设备，适合隐私要求高的场景。",
-        "开源和商业 AI 的差距在今年快速缩小，某些任务上开源已经够用甚至更好。",
-        "对普通用户来说，关注以开源模型为底层的封装产品，会比直接用原始模型更方便。"
-      ],
-      "tags": [
-        "AI新闻",
-        "产品",
-        "科技",
-        "前沿",
-        "热点"
-      ],
-      "sourceUrl": "https://www.ithome.com/0/943/378.htm",
-      "creator": {
-        "duration": "60 秒",
-        "oneLiner": "开源 AI 生态有新进展，可自由部署，开发者和进阶用户值得关注。",
-        "hook": "开源 AI 和商业 AI 的差距，正在快速缩小——这次缩到了这里。",
-        "angle": "这位博主长期追踪 AI 工具实际表现，这条判断对你评估工具是否值得用有直接参考价值。",
-        "coverTitle": "IT之家 · 开源进展",
-        "coverSubtitle": "博主深度解读",
-        "commentPrompt": "你用开源还是商业 AI 工具？告诉我你的选择。",
-        "cta": "关注我，每天帮你筛出真正值得关注的 AI 动态。"
-      }
-    },
-    {
-      "id": "ithome-b73518f261",
-      "source": "ithome",
-      "category": "product",
-      "format": "个人解读",
-      "evidence": "个人解读",
-      "priority": 3,
-      "featured": true,
-      "publishedAt": "2026-04-24",
-      "slots": [
-        "morning",
-        "noon",
-        "evening"
-      ],
-      "titleZh": "美国法院批准初步禁令：前苹果首席设计官伊夫和 OpenAI 奥尔特曼的 AI 硬件项目禁止使用 io 品牌",
-      "titleEn": "美国法院批准初步禁令：前苹果首席设计官伊夫和 OpenAI 奥尔特曼的 AI 硬件项目禁止使用 io 品牌",
-      "summary": "IT之家 更新：IT之家 4 月 25 日消息，科技媒体 9to5Mac 昨日（4 月 24 日）发布博文，报道称美国加州北区地方法院批准了 iyO 公司的初步禁令请求， 禁止 OpenAI 与前苹果首席设计官乔纳森 · 伊夫（Jony Ive）的硬件合资企业使用 io 品牌。 IT之家注：这起商标纠纷源于 2025 年 5 月，OpenAI 首席执行官山姆 · 奥...",
-      "whyMatters": "IT之家 基于实测或研究分享了这条判断，对普通用户了解 AI 工具现状有直接参考价值。",
-      "takeaways": [
-        "功能更新通常先出现在网页版或API，App端会稍后跟进，留意你习惯的入口。",
-        "上手成本低，不需要技术背景，建议结合你最高频的工作场景直接实测。",
-        "判断新功能值不值得用：看它能不能替换你现在某个重复性的操作。"
-      ],
-      "tags": [
-        "AI新闻",
-        "产品",
-        "科技",
-        "前沿",
-        "热点"
-      ],
-      "sourceUrl": "https://www.ithome.com/0/943/376.htm",
-      "creator": {
-        "duration": "60 秒",
-        "oneLiner": "一个 AI 产品发布了新功能，核心变化直接影响现有用户的使用体验。",
-        "hook": "这个功能刚上线，可能你还不知道它能做什么。",
-        "angle": "这位博主长期追踪 AI 工具实际表现，这条判断对你评估工具是否值得用有直接参考价值。",
-        "coverTitle": "IT之家 · 产品发布",
         "coverSubtitle": "博主深度解读",
         "commentPrompt": "这个功能你会用还是不用？评论区选边站。",
         "cta": "关注我，每天帮你筛出真正值得关注的 AI 动态。"
@@ -2812,6 +2727,90 @@
         "Agent"
       ],
       "sourceUrl": "https://www.anthropic.com/news/claude-partner-network",
+      "creator": {
+        "duration": "60 秒",
+        "oneLiner": "一个 AI 产品发布了新功能，核心变化直接影响现有用户的使用体验。",
+        "hook": "这个功能刚上线，可能你还不知道它能做什么。",
+        "angle": "这是 Anthropic 官方发布的动态，会直接反映在你正在使用的 AI 产品里。",
+        "coverTitle": "Anthropic · 产品发布",
+        "coverSubtitle": "官方第一手",
+        "commentPrompt": "这个功能你会用还是不用？评论区选边站。",
+        "cta": "关注我，每天帮你筛出真正值得关注的 AI 动态。"
+      }
+    },
+    {
+      "id": "anthropic-37ba8ec5ac",
+      "source": "anthropic",
+      "category": "product",
+      "format": "产品发布",
+      "evidence": "官方一手",
+      "priority": 3,
+      "featured": true,
+      "publishedAt": "2026-03-11",
+      "slots": [
+        "morning",
+        "noon",
+        "evening"
+      ],
+      "titleZh": "Announcements Introducing The Anthropic Institute",
+      "titleEn": "Announcements Introducing The Anthropic Institute",
+      "summary": "Anthropic 更新：Mar 11, 2026 Announcements Introducing The Anthropic Institute",
+      "whyMatters": "Anthropic 官方发布，直接反映当前 AI 产品方向，影响日常工具使用体验。",
+      "takeaways": [
+        "功能更新通常先出现在网页版或API，App端会稍后跟进，留意你习惯的入口。",
+        "上手成本低，不需要技术背景，建议结合你最高频的工作场景直接实测。",
+        "判断新功能值不值得用：看它能不能替换你现在某个重复性的操作。"
+      ],
+      "tags": [
+        "Claude",
+        "Anthropic",
+        "产品",
+        "模型",
+        "Agent"
+      ],
+      "sourceUrl": "https://www.anthropic.com/news/the-anthropic-institute",
+      "creator": {
+        "duration": "60 秒",
+        "oneLiner": "一个 AI 产品发布了新功能，核心变化直接影响现有用户的使用体验。",
+        "hook": "这个功能刚上线，可能你还不知道它能做什么。",
+        "angle": "这是 Anthropic 官方发布的动态，会直接反映在你正在使用的 AI 产品里。",
+        "coverTitle": "Anthropic · 产品发布",
+        "coverSubtitle": "官方第一手",
+        "commentPrompt": "这个功能你会用还是不用？评论区选边站。",
+        "cta": "关注我，每天帮你筛出真正值得关注的 AI 动态。"
+      }
+    },
+    {
+      "id": "anthropic-26de9866b2",
+      "source": "anthropic",
+      "category": "product",
+      "format": "产品发布",
+      "evidence": "官方一手",
+      "priority": 3,
+      "featured": true,
+      "publishedAt": "2026-02-04",
+      "slots": [
+        "morning",
+        "noon",
+        "evening"
+      ],
+      "titleZh": "Claude is a space to think",
+      "titleEn": "Claude is a space to think",
+      "summary": "Anthropic 更新：Announcements Feb 4, 2026 Claude is a space to think We’ve made a choice: Claude will remain ad-free. We explain why advertising incentives are incompatible with a genuinely he...",
+      "whyMatters": "Anthropic 官方发布，直接反映当前 AI 产品方向，影响日常工具使用体验。",
+      "takeaways": [
+        "功能更新通常先出现在网页版或API，App端会稍后跟进，留意你习惯的入口。",
+        "上手成本低，不需要技术背景，建议结合你最高频的工作场景直接实测。",
+        "判断新功能值不值得用：看它能不能替换你现在某个重复性的操作。"
+      ],
+      "tags": [
+        "Claude",
+        "Anthropic",
+        "产品",
+        "模型",
+        "Agent"
+      ],
+      "sourceUrl": "https://www.anthropic.com/news/claude-is-a-space-to-think",
       "creator": {
         "duration": "60 秒",
         "oneLiner": "一个 AI 产品发布了新功能，核心变化直接影响现有用户的使用体验。",
