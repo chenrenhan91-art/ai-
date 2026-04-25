@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-04-25T02:48:32.313Z",
+  "generatedAt": "2026-04-25T05:54:17.243Z",
   "timezone": "Asia/Shanghai",
-  "runSlot": "morning",
-  "runSlotLabel": "早报",
+  "runSlot": "noon",
+  "runSlotLabel": "午报",
   "sourceStats": {
     "official": 10,
     "creator": 5,
@@ -278,6 +278,139 @@
       }
     },
     {
+      "id": "qbitai-da69d070b4",
+      "source": "qbitai",
+      "category": "model",
+      "format": "模型更新",
+      "evidence": "官方一手",
+      "priority": 3,
+      "featured": true,
+      "publishedAt": "2026-04-25",
+      "slots": [
+        "morning",
+        "noon",
+        "evening"
+      ],
+      "titleZh": "华人再破硅谷天花板！AI黑马新任CTO，中科大80后",
+      "titleEn": "华人再破硅谷天花板！AI黑马新任CTO，中科大80后",
+      "summary": "量子位 更新：属于所有华人的AI新篇章",
+      "whyMatters": "量子位 官方发布，直接反映当前 AI 产品方向，影响日常工具使用体验。",
+      "takeaways": [
+        "模型升级会传导到下游产品，你在用的 AI 工具通常1-2周内就会接入新能力。",
+        "关键看三个提升点：推理更准 / 速度更快 / 输出更长——哪条对你的场景更重要。",
+        "不用急着切换，等产品层接入后看实际表现，再决定要不要调整工作流。"
+      ],
+      "tags": [
+        "AI新闻",
+        "模型",
+        "产品",
+        "创业",
+        "前沿",
+        "资讯",
+        "首页轮播"
+      ],
+      "sourceUrl": "https://www.qbitai.com/2026/04/406934.html",
+      "creator": {
+        "duration": "60 秒",
+        "oneLiner": "一个新 AI 模型更新了，能力边界有明显变化，下游应用很快会跟进。",
+        "hook": "华人再破硅谷天花板黑马新任中科大——这条 AI 消息，和你直接有关。",
+        "angle": "这是 量子位 官方发布的动态，会直接反映在你正在使用的 AI 产品里。",
+        "coverTitle": "华人再破硅谷天花板！AI黑马新任CTO，中科大80后",
+        "coverSubtitle": "官方第一手",
+        "commentPrompt": "你觉得这次升级值不值得关注？A值 B不值。",
+        "cta": "关注我，每天帮你筛出真正值得关注的 AI 动态。"
+      }
+    },
+    {
+      "id": "qbitai-068c6680cf",
+      "source": "qbitai",
+      "category": "research",
+      "format": "研究发布",
+      "evidence": "官方一手",
+      "priority": 3,
+      "featured": true,
+      "publishedAt": "2026-04-25",
+      "slots": [
+        "morning",
+        "noon",
+        "evening"
+      ],
+      "titleZh": "0博士组合拿下ICLR时间检验奖！两个GPT天才本科生+二本逆袭LeCun弟子，十年论文终封神",
+      "titleEn": "0博士组合拿下ICLR时间检验奖！两个GPT天才本科生+二本逆袭LeCun弟子，十年论文终封神",
+      "summary": "量子位 更新：三作者如今齐聚Mira初创",
+      "whyMatters": "量子位 官方发布，直接反映当前 AI 产品方向，影响日常工具使用体验。",
+      "takeaways": [
+        "研究结论和产品落地之间通常有6-18个月的滞后，现在看到的是方向信号。",
+        "关注这类研究的价值：提前了解 AI 能力还卡在哪些地方、哪些方向已经打通了。",
+        "对普通用户来说，研究成果转化成工具功能才有实际影响，可持续跟进这个领域。"
+      ],
+      "tags": [
+        "AI新闻",
+        "模型",
+        "产品",
+        "创业",
+        "前沿",
+        "资讯",
+        "ICLR"
+      ],
+      "sourceUrl": "https://www.qbitai.com/2026/04/406892.html",
+      "creator": {
+        "duration": "60 秒",
+        "oneLiner": "一项 AI 研究出了新结论，代表技术方向的最新信号，几个月后会反映在产品里。",
+        "hook": "一个研究结论让人意外：AI 在这件事上，比我们预期强得多。",
+        "angle": "这是 量子位 官方发布的动态，会直接反映在你正在使用的 AI 产品里。",
+        "coverTitle": "量子位 · 研究发现",
+        "coverSubtitle": "官方第一手",
+        "commentPrompt": "这个研究结论你信吗？评论区聊聊。",
+        "cta": "关注我，每天帮你筛出真正值得关注的 AI 动态。"
+      }
+    },
+    {
+      "id": "qbitai-1d8db0f8b0",
+      "source": "qbitai",
+      "category": "open",
+      "format": "开源生态",
+      "evidence": "官方一手",
+      "priority": 3,
+      "featured": true,
+      "publishedAt": "2026-04-25",
+      "slots": [
+        "morning",
+        "noon",
+        "evening"
+      ],
+      "titleZh": "DeepSeek V4报告太详尽了！484天换代之路全公开",
+      "titleEn": "DeepSeek V4报告太详尽了！484天换代之路全公开",
+      "summary": "量子位 更新：mHC用了，Engram留给v5",
+      "whyMatters": "量子位 官方发布，直接反映当前 AI 产品方向，影响日常工具使用体验。",
+      "takeaways": [
+        "开源模型的核心优势：可以本地运行，数据不离开你的设备，适合隐私要求高的场景。",
+        "开源和商业 AI 的差距在今年快速缩小，某些任务上开源已经够用甚至更好。",
+        "对普通用户来说，关注以开源模型为底层的封装产品，会比直接用原始模型更方便。"
+      ],
+      "tags": [
+        "AI新闻",
+        "模型",
+        "产品",
+        "创业",
+        "前沿",
+        "资讯",
+        "首页轮播",
+        "Deepseek"
+      ],
+      "sourceUrl": "https://www.qbitai.com/2026/04/406809.html",
+      "creator": {
+        "duration": "60 秒",
+        "oneLiner": "开源 AI 生态有新进展，可自由部署，开发者和进阶用户值得关注。",
+        "hook": "开源 AI 和商业 AI 的差距，正在快速缩小——这次缩到了这里。",
+        "angle": "这是 量子位 官方发布的动态，会直接反映在你正在使用的 AI 产品里。",
+        "coverTitle": "量子位 · 开源进展",
+        "coverSubtitle": "官方第一手",
+        "commentPrompt": "你用开源还是商业 AI 工具？告诉我你的选择。",
+        "cta": "关注我，每天帮你筛出真正值得关注的 AI 动态。"
+      }
+    },
+    {
       "id": "36kr-ai-df6987c608",
       "source": "36kr-ai",
       "category": "security",
@@ -322,8 +455,8 @@
     {
       "id": "36kr-ai-7772c2d7b8",
       "source": "36kr-ai",
-      "category": "security",
-      "format": "安全治理",
+      "category": "open",
+      "format": "开源生态",
       "evidence": "官方一手",
       "priority": 3,
       "featured": true,
@@ -333,14 +466,14 @@
         "noon",
         "evening"
       ],
-      "titleZh": "9点1氪丨Kimi被曝泄露用户真实简历；马斯克花4000多亿买下00后公司；世界杯决赛门票转手价近230万美元",
-      "titleEn": "9点1氪丨Kimi被曝泄露用户真实简历；马斯克花4000多亿买下00后公司；世界杯决赛门票转手价近230万美元",
-      "summary": "36氪AI 更新：整理 ｜孟孟&nbsp; 今日热点导览 铁路部门将实行老年旅客购票优惠 哈啰因未按规定备案、投放运营或者回收车辆再被罚款10万元 网友称用豆包提前查到事业编成绩，官方回应&nbsp; 耐克将裁减1400个公司职位，主要集中在技术部门 中国再发现两种月球新矿物，嫦娥五号样品研究获新突破 TOP3大新闻 Kimi被曝泄露用户真实简历，用户翻译时收到陌生人...",
+      "titleZh": "9点1氪丨马斯克花4000多亿买下00后公司；世界杯决赛门票转手价近230万美元",
+      "titleEn": "9点1氪丨马斯克花4000多亿买下00后公司；世界杯决赛门票转手价近230万美元",
+      "summary": "36氪AI 更新：整理 ｜孟孟&nbsp; 今日热点导览 铁路部门将实行老年旅客购票优惠 哈啰因未按规定备案、投放运营或者回收车辆再被罚款10万元 网友称用豆包提前查到事业编成绩，官方回应&nbsp; 耐克将裁减1400个公司职位，主要集中在技术部门 中国再发现两种月球新矿物，嫦娥五号样品研究获新突破 TOP3大新闻 马斯克花4000多亿买下00后公司，SpaceX锁...",
       "whyMatters": "36氪AI 官方发布，直接反映当前 AI 产品方向，影响日常工具使用体验。",
       "takeaways": [
         "整理 ｜孟孟&nbsp; 今日热点导览 铁路部门将实行老年旅客购票优惠 哈啰因未按规定备案、投放运营或者回收车辆再被罚款10万元 网友称用豆包提前查到事业编成绩，官方回应&nbsp……",
-        "企业用户风险高于个人，公司内部敏感数据要用支持私有化部署的方案处理。",
-        "遇到 AI 工具要求过多权限或存储对话记录的，先查清数据政策再决定是否使用。"
+        "开源和商业 AI 的差距在今年快速缩小，某些任务上开源已经够用甚至更好。",
+        "对普通用户来说，关注以开源模型为底层的封装产品，会比直接用原始模型更方便。"
       ],
       "tags": [
         "AI创业",
@@ -353,53 +486,11 @@
       "creator": {
         "duration": "60 秒",
         "oneLiner": "整理 ｜孟孟&nbsp; 今日热点导览 铁路部门将实行老年旅客购票优惠 哈啰因未按规定备案、投放运营或者回收车……",
-        "hook": "点氪丨被曝泄露用户真实简历马斯克——这条 AI 消息，和你直接有关。",
+        "hook": "点氪丨马斯克花多亿买下后公司世界——这条 AI 消息，和你直接有关。",
         "angle": "这是 36氪AI 官方发布的动态，会直接反映在你正在使用的 AI 产品里。",
-        "coverTitle": "9点1氪丨Kimi被曝泄露用户真实简历；马斯克花4000多亿买下",
+        "coverTitle": "9点1氪丨马斯克花4000多亿买下00后公司；世界杯决赛门票转手",
         "coverSubtitle": "官方第一手",
-        "commentPrompt": "你平时在 AI 工具里输入过真实个人信息吗？A有 B没有。",
-        "cta": "关注我，每天帮你筛出真正值得关注的 AI 动态。"
-      }
-    },
-    {
-      "id": "36kr-ai-d326317d89",
-      "source": "36kr-ai",
-      "category": "product",
-      "format": "产品发布",
-      "evidence": "官方一手",
-      "priority": 3,
-      "featured": true,
-      "publishedAt": "2026-04-25",
-      "slots": [
-        "morning",
-        "noon",
-        "evening"
-      ],
-      "titleZh": "本周多只市场热门股接受超百家机构调研",
-      "titleEn": "本周多只市场热门股接受超百家机构调研",
-      "summary": "36氪AI 更新：本周（4月20日—4月24日）年报继续集中披露，业绩说明会也进入密集举办期。热门调研标的方面，本周多只市场热门股接受了超百家机构调研，芯源微接受超200家机构调研，水晶光电、华测检测、珀莱雅、温氏股份等10家公司接受百家以上机构的调研。芯源微方面介绍，公司近几年推出新产品临时键合和解键合设备，在收入端的贡献持续提升。随着客户端2.5D、HBM、3DI...",
-      "whyMatters": "36氪AI 官方发布，直接反映当前 AI 产品方向，影响日常工具使用体验。",
-      "takeaways": [
-        "本周（4月20日—4月24日）年报继续集中披露，业绩说明会也进入密集举办期。热门调研标的方面，本周多只市场热门股接受了超百家机构调研，芯源微接受超200家机构调研，水晶光电、华测检……",
-        "上手成本低，不需要技术背景，建议结合你最高频的工作场景直接实测。",
-        "判断新功能值不值得用：看它能不能替换你现在某个重复性的操作。"
-      ],
-      "tags": [
-        "AI创业",
-        "融资",
-        "商业",
-        "产品",
-        "前沿"
-      ],
-      "sourceUrl": "https://36kr.com/newsflashes/3781599264480520?f=rss",
-      "creator": {
-        "duration": "60 秒",
-        "oneLiner": "本周（4月20日—4月24日）年报继续集中披露，业绩说明会也进入密集举办期。热门调研标的方面，本周多只市场热门……",
-        "hook": "本周多只市场热门股接受超百家机构——这条 AI 消息，和你直接有关。",
-        "angle": "这是 36氪AI 官方发布的动态，会直接反映在你正在使用的 AI 产品里。",
-        "coverTitle": "本周多只市场热门股接受超百家机构调研",
-        "coverSubtitle": "官方第一手",
-        "commentPrompt": "这个功能你会用还是不用？评论区选边站。",
+        "commentPrompt": "你用开源还是商业 AI 工具？告诉我你的选择。",
         "cta": "关注我，每天帮你筛出真正值得关注的 AI 动态。"
       }
     },
@@ -1008,140 +1099,6 @@
       }
     },
     {
-      "id": "qbitai-32627deef8",
-      "source": "qbitai",
-      "category": "product",
-      "format": "产品发布",
-      "evidence": "官方一手",
-      "priority": 3,
-      "featured": true,
-      "publishedAt": "2026-04-24",
-      "slots": [
-        "morning",
-        "noon",
-        "evening"
-      ],
-      "titleZh": "Coordination Engineering关键一环，JiuwenClaw再发布Team Skills技能新范式",
-      "titleEn": "Coordination Engineering关键一环，JiuwenClaw再发布Team Skills技能新范式",
-      "summary": "量子位 更新：业界首个面向多Agent协作的标准化能力包规范",
-      "whyMatters": "量子位 官方发布，直接反映当前 AI 产品方向，影响日常工具使用体验。",
-      "takeaways": [
-        "功能更新通常先出现在网页版或API，App端会稍后跟进，留意你习惯的入口。",
-        "上手成本低，不需要技术背景，建议结合你最高频的工作场景直接实测。",
-        "判断新功能值不值得用：看它能不能替换你现在某个重复性的操作。"
-      ],
-      "tags": [
-        "AI新闻",
-        "模型",
-        "产品",
-        "创业",
-        "前沿",
-        "资讯",
-        "JiuwenClaw",
-        "openJiuwen社区"
-      ],
-      "sourceUrl": "https://www.qbitai.com/2026/04/406393.html",
-      "creator": {
-        "duration": "60 秒",
-        "oneLiner": "一个 AI 产品发布了新功能，核心变化直接影响现有用户的使用体验。",
-        "hook": "这个功能刚上线，可能你还不知道它能做什么。",
-        "angle": "这是 量子位 官方发布的动态，会直接反映在你正在使用的 AI 产品里。",
-        "coverTitle": "量子位 · 产品发布",
-        "coverSubtitle": "官方第一手",
-        "commentPrompt": "这个功能你会用还是不用？评论区选边站。",
-        "cta": "关注我，每天帮你筛出真正值得关注的 AI 动态。"
-      }
-    },
-    {
-      "id": "qbitai-bc04b36580",
-      "source": "qbitai",
-      "category": "open",
-      "format": "开源生态",
-      "evidence": "官方一手",
-      "priority": 3,
-      "featured": true,
-      "publishedAt": "2026-04-24",
-      "slots": [
-        "morning",
-        "noon",
-        "evening"
-      ],
-      "titleZh": "DeepSeek V4终于发布！打破最强闭源垄断，明确携手华为芯片",
-      "titleEn": "DeepSeek V4终于发布！打破最强闭源垄断，明确携手华为芯片",
-      "summary": "量子位 更新：在Agent能力、世界知识和推理性能上均实现国内与开源领域的领先。",
-      "whyMatters": "量子位 官方发布，直接反映当前 AI 产品方向，影响日常工具使用体验。",
-      "takeaways": [
-        "开源模型的核心优势：可以本地运行，数据不离开你的设备，适合隐私要求高的场景。",
-        "开源和商业 AI 的差距在今年快速缩小，某些任务上开源已经够用甚至更好。",
-        "对普通用户来说，关注以开源模型为底层的封装产品，会比直接用原始模型更方便。"
-      ],
-      "tags": [
-        "AI新闻",
-        "模型",
-        "产品",
-        "创业",
-        "前沿",
-        "资讯",
-        "首页轮播",
-        "DeepSeek V4"
-      ],
-      "sourceUrl": "https://www.qbitai.com/2026/04/406359.html",
-      "creator": {
-        "duration": "60 秒",
-        "oneLiner": "开源 AI 生态有新进展，可自由部署，开发者和进阶用户值得关注。",
-        "hook": "开源 AI 和商业 AI 的差距，正在快速缩小——这次缩到了这里。",
-        "angle": "这是 量子位 官方发布的动态，会直接反映在你正在使用的 AI 产品里。",
-        "coverTitle": "量子位 · 开源进展",
-        "coverSubtitle": "官方第一手",
-        "commentPrompt": "你用开源还是商业 AI 工具？告诉我你的选择。",
-        "cta": "关注我，每天帮你筛出真正值得关注的 AI 动态。"
-      }
-    },
-    {
-      "id": "qbitai-853162a2bb",
-      "source": "qbitai",
-      "category": "research",
-      "format": "研究发布",
-      "evidence": "官方一手",
-      "priority": 3,
-      "featured": true,
-      "publishedAt": "2026-04-24",
-      "slots": [
-        "morning",
-        "noon",
-        "evening"
-      ],
-      "titleZh": "荣耀WIN游戏本等多款新品正式发布，荣耀PC家族全面爆发",
-      "titleEn": "荣耀WIN游戏本等多款新品正式发布，荣耀PC家族全面爆发",
-      "summary": "量子位 更新：半马冠军荣耀机器人“闪电”惊喜亮相",
-      "whyMatters": "量子位 官方发布，直接反映当前 AI 产品方向，影响日常工具使用体验。",
-      "takeaways": [
-        "研究结论和产品落地之间通常有6-18个月的滞后，现在看到的是方向信号。",
-        "关注这类研究的价值：提前了解 AI 能力还卡在哪些地方、哪些方向已经打通了。",
-        "对普通用户来说，研究成果转化成工具功能才有实际影响，可持续跟进这个领域。"
-      ],
-      "tags": [
-        "AI新闻",
-        "模型",
-        "产品",
-        "创业",
-        "前沿",
-        "资讯",
-        "荣耀WIN游戏本"
-      ],
-      "sourceUrl": "https://www.qbitai.com/2026/04/406402.html",
-      "creator": {
-        "duration": "60 秒",
-        "oneLiner": "半马冠军荣耀机器人“闪电”惊喜亮相",
-        "hook": "荣耀游戏本等多款新品正式发布荣耀——这条 AI 消息，和你直接有关。",
-        "angle": "这是 量子位 官方发布的动态，会直接反映在你正在使用的 AI 产品里。",
-        "coverTitle": "荣耀WIN游戏本等多款新品正式发布，荣耀PC家族全面爆发",
-        "coverSubtitle": "官方第一手",
-        "commentPrompt": "这个研究结论你信吗？评论区聊聊。",
-        "cta": "关注我，每天帮你筛出真正值得关注的 AI 动态。"
-      }
-    },
-    {
       "id": "36kr-ai-62b7df41ae",
       "source": "36kr-ai",
       "category": "research",
@@ -1642,48 +1599,6 @@
         "coverTitle": "IT之家 · 产品发布",
         "coverSubtitle": "博主深度解读",
         "commentPrompt": "这个功能你会用还是不用？评论区选边站。",
-        "cta": "关注我，每天帮你筛出真正值得关注的 AI 动态。"
-      }
-    },
-    {
-      "id": "ithome-b50b4b95c4",
-      "source": "ithome",
-      "category": "model",
-      "format": "个人解读",
-      "evidence": "个人解读",
-      "priority": 3,
-      "featured": true,
-      "publishedAt": "2026-04-24",
-      "slots": [
-        "morning",
-        "noon",
-        "evening"
-      ],
-      "titleZh": "Meta 与亚马逊 AWS 达成合作，部署数千万 Graviton 核心构建 AI 基础设施",
-      "titleEn": "Meta 与亚马逊 AWS 达成合作，部署数千万 Graviton 核心构建 AI 基础设施",
-      "summary": "IT之家 更新：IT之家 4 月 24 日消息，Meta 今天与亚马逊 AWS 达成合作协议，大规模部署 AWS Graviton 处理器，为下一代 AI 打下基础。 据介绍，Meta 将首先部署数千万个 Graviton 核心，随后根据 AI 能力增长进度灵活扩展。虽然两家公司暂未披露具体合作条款，但亚马逊副总裁 Nafea Bshara 表示， 本次协议合作期间...",
-      "whyMatters": "IT之家 基于实测或研究分享了这条判断，对普通用户了解 AI 工具现状有直接参考价值。",
-      "takeaways": [
-        "IT之家 4 月 24 日消息，Meta 今天与亚马逊 AWS 达成合作协议，大规模部署 AWS Graviton 处理器，为下一代 AI 打下基础。 据介绍，Meta 将首先部署……",
-        "关键看三个提升点：推理更准 / 速度更快 / 输出更长——哪条对你的场景更重要。",
-        "不用急着切换，等产品层接入后看实际表现，再决定要不要调整工作流。"
-      ],
-      "tags": [
-        "AI新闻",
-        "产品",
-        "科技",
-        "前沿",
-        "热点"
-      ],
-      "sourceUrl": "https://www.ithome.com/0/943/360.htm",
-      "creator": {
-        "duration": "60 秒",
-        "oneLiner": "一个新 AI 模型更新了，能力边界有明显变化，下游应用很快会跟进。",
-        "hook": "新模型出来了，先别急着换——先看它在你用的场景里强在哪。",
-        "angle": "这位博主长期追踪 AI 工具实际表现，这条判断对你评估工具是否值得用有直接参考价值。",
-        "coverTitle": "IT之家 · 模型更新",
-        "coverSubtitle": "博主深度解读",
-        "commentPrompt": "你觉得这次升级值不值得关注？A值 B不值。",
         "cta": "关注我，每天帮你筛出真正值得关注的 AI 动态。"
       }
     },
@@ -2818,6 +2733,93 @@
         "coverTitle": "宝玉xp · 开源进展",
         "coverSubtitle": "博主深度解读",
         "commentPrompt": "你用开源还是商业 AI 工具？告诉我你的选择。",
+        "cta": "关注我，每天帮你筛出真正值得关注的 AI 动态。"
+      }
+    },
+    {
+      "id": "baoyu-d112271856",
+      "source": "baoyu",
+      "category": "open",
+      "format": "个人解读",
+      "evidence": "个人解读",
+      "priority": 3,
+      "featured": true,
+      "publishedAt": "2026-03-28",
+      "slots": [
+        "morning",
+        "noon",
+        "evening"
+      ],
+      "titleZh": "飞书 CLI 开源了，为什么 AI Agent 时代，大家都在做命令行工具？",
+      "titleEn": "飞书 CLI 开源了，为什么 AI Agent 时代，大家都在做命令行工具？",
+      "summary": "宝玉xp 更新：飞书开源 lark-cli，CLI 正在成为产品接入 AI Agent 的标准方式",
+      "whyMatters": "宝玉xp 基于实测或研究分享了这条判断，对普通用户了解 AI 工具现状有直接参考价值。",
+      "takeaways": [
+        "开源模型的核心优势：可以本地运行，数据不离开你的设备，适合隐私要求高的场景。",
+        "开源和商业 AI 的差距在今年快速缩小，某些任务上开源已经够用甚至更好。",
+        "对普通用户来说，关注以开源模型为底层的封装产品，会比直接用原始模型更方便。"
+      ],
+      "tags": [
+        "AI前沿",
+        "大模型",
+        "产品经理",
+        "深度分析",
+        "观点",
+        "ai",
+        "agent",
+        "cli"
+      ],
+      "sourceUrl": "https://baoyu.io/blog/2026-03-28/lark-cli-ai-agents",
+      "creator": {
+        "duration": "60 秒",
+        "oneLiner": "开源 AI 生态有新进展，可自由部署，开发者和进阶用户值得关注。",
+        "hook": "开源 AI 和商业 AI 的差距，正在快速缩小——这次缩到了这里。",
+        "angle": "这位博主长期追踪 AI 工具实际表现，这条判断对你评估工具是否值得用有直接参考价值。",
+        "coverTitle": "宝玉xp · 开源进展",
+        "coverSubtitle": "博主深度解读",
+        "commentPrompt": "你用开源还是商业 AI 工具？告诉我你的选择。",
+        "cta": "关注我，每天帮你筛出真正值得关注的 AI 动态。"
+      }
+    },
+    {
+      "id": "anthropic-3273340234",
+      "source": "anthropic",
+      "category": "product",
+      "format": "产品发布",
+      "evidence": "官方一手",
+      "priority": 3,
+      "featured": true,
+      "publishedAt": "2026-03-12",
+      "slots": [
+        "morning",
+        "noon",
+        "evening"
+      ],
+      "titleZh": "Announcements Anthropic invests $100 million into the Claude Partner Network",
+      "titleEn": "Announcements Anthropic invests $100 million into the Claude Partner Network",
+      "summary": "Anthropic 更新：Mar 12, 2026 Announcements Anthropic invests $100 million into the Claude Partner Network",
+      "whyMatters": "Anthropic 官方发布，直接反映当前 AI 产品方向，影响日常工具使用体验。",
+      "takeaways": [
+        "功能更新通常先出现在网页版或API，App端会稍后跟进，留意你习惯的入口。",
+        "上手成本低，不需要技术背景，建议结合你最高频的工作场景直接实测。",
+        "判断新功能值不值得用：看它能不能替换你现在某个重复性的操作。"
+      ],
+      "tags": [
+        "Claude",
+        "Anthropic",
+        "产品",
+        "模型",
+        "Agent"
+      ],
+      "sourceUrl": "https://www.anthropic.com/news/claude-partner-network",
+      "creator": {
+        "duration": "60 秒",
+        "oneLiner": "一个 AI 产品发布了新功能，核心变化直接影响现有用户的使用体验。",
+        "hook": "这个功能刚上线，可能你还不知道它能做什么。",
+        "angle": "这是 Anthropic 官方发布的动态，会直接反映在你正在使用的 AI 产品里。",
+        "coverTitle": "Anthropic · 产品发布",
+        "coverSubtitle": "官方第一手",
+        "commentPrompt": "这个功能你会用还是不用？评论区选边站。",
         "cta": "关注我，每天帮你筛出真正值得关注的 AI 动态。"
       }
     }
