@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-04-26T03:25:51.741Z",
+  "generatedAt": "2026-04-26T06:17:16.559Z",
   "timezone": "Asia/Shanghai",
-  "runSlot": "morning",
-  "runSlotLabel": "早报",
+  "runSlot": "noon",
+  "runSlotLabel": "午报",
   "sourceStats": {
     "official": 10,
     "creator": 5,
@@ -278,6 +278,92 @@
       }
     },
     {
+      "id": "qbitai-6b92075a7d",
+      "source": "qbitai",
+      "category": "open",
+      "format": "开源生态",
+      "evidence": "官方一手",
+      "priority": 3,
+      "featured": true,
+      "publishedAt": "2026-04-26",
+      "slots": [
+        "morning",
+        "noon",
+        "evening"
+      ],
+      "titleZh": "DeepSeek阮翀加盟元戎首秀，详解基座VLA，研发提效10倍",
+      "titleEn": "DeepSeek阮翀加盟元戎首秀，详解基座VLA，研发提效10倍",
+      "summary": "量子位 更新：V4作者之一",
+      "whyMatters": "量子位 官方发布，直接反映当前 AI 产品方向，影响日常工具使用体验。",
+      "takeaways": [
+        "开源模型的核心优势：可以本地运行，数据不离开你的设备，适合隐私要求高的场景。",
+        "开源和商业 AI 的差距在今年快速缩小，某些任务上开源已经够用甚至更好。",
+        "对普通用户来说，关注以开源模型为底层的封装产品，会比直接用原始模型更方便。"
+      ],
+      "tags": [
+        "AI新闻",
+        "模型",
+        "产品",
+        "创业",
+        "前沿",
+        "智能车参考",
+        "元戎启行"
+      ],
+      "sourceUrl": "https://www.qbitai.com/2026/04/407465.html",
+      "creator": {
+        "duration": "60 秒",
+        "oneLiner": "开源 AI 生态有新进展，可自由部署，开发者和进阶用户值得关注。",
+        "hook": "开源 AI 和商业 AI 的差距，正在快速缩小——这次缩到了这里。",
+        "angle": "这是 量子位 官方发布的动态，会直接反映在你正在使用的 AI 产品里。",
+        "coverTitle": "量子位 · 开源进展",
+        "coverSubtitle": "官方第一手",
+        "commentPrompt": "你用开源还是商业 AI 工具？告诉我你的选择。",
+        "cta": "关注我，每天帮你筛出真正值得关注的 AI 动态。"
+      }
+    },
+    {
+      "id": "36kr-ai-bc3bb9c46e",
+      "source": "36kr-ai",
+      "category": "model",
+      "format": "模型更新",
+      "evidence": "官方一手",
+      "priority": 3,
+      "featured": true,
+      "publishedAt": "2026-04-26",
+      "slots": [
+        "morning",
+        "noon",
+        "evening"
+      ],
+      "titleZh": "欧莱雅BRANDSTORM 2026中国总决赛落幕，AI成美妆创新核心议题｜最前线",
+      "titleEn": "欧莱雅BRANDSTORM 2026中国总决赛落幕，AI成美妆创新核心议题｜最前线",
+      "summary": "36氪AI 更新：欧莱雅全球青年创新策划大赛BRANDSTORM 2026中国总决赛于4月24日在上海收官。本届赛事聚焦奢华香氛领域，中国赛区吸引超72000人报名，经多轮选拔后六支队伍进入总决赛。最终，UNIBLOCK、SOS和Move with Scent三支队伍分获冠亚季军，将代表中国赛区赴巴黎参加全球总决赛。 BRANDSTORM大赛已举办34年，覆盖全球40...",
+      "whyMatters": "36氪AI 官方发布，直接反映当前 AI 产品方向，影响日常工具使用体验。",
+      "takeaways": [
+        "模型升级会传导到下游产品，你在用的 AI 工具通常1-2周内就会接入新能力。",
+        "关键看三个提升点：推理更准 / 速度更快 / 输出更长——哪条对你的场景更重要。",
+        "不用急着切换，等产品层接入后看实际表现，再决定要不要调整工作流。"
+      ],
+      "tags": [
+        "AI创业",
+        "融资",
+        "商业",
+        "产品",
+        "前沿"
+      ],
+      "sourceUrl": "https://36kr.com/p/3783249100397570?f=rss",
+      "creator": {
+        "duration": "60 秒",
+        "oneLiner": "一个新 AI 模型更新了，能力边界有明显变化，下游应用很快会跟进。",
+        "hook": "新模型出来了，先别急着换——先看它在你用的场景里强在哪。",
+        "angle": "这是 36氪AI 官方发布的动态，会直接反映在你正在使用的 AI 产品里。",
+        "coverTitle": "36氪AI · 模型更新",
+        "coverSubtitle": "官方第一手",
+        "commentPrompt": "你觉得这次升级值不值得关注？A值 B不值。",
+        "cta": "关注我，每天帮你筛出真正值得关注的 AI 动态。"
+      }
+    },
+    {
       "id": "36kr-ai-af6ccde4bb",
       "source": "36kr-ai",
       "category": "product",
@@ -362,7 +448,7 @@
       }
     },
     {
-      "id": "36kr-ai-fea78517d8",
+      "id": "36kr-ai-acfe697715",
       "source": "36kr-ai",
       "category": "product",
       "format": "产品发布",
@@ -375,12 +461,12 @@
         "noon",
         "evening"
       ],
-      "titleZh": "芯擎科技发布新一代AI座舱芯片“龍鹰二号”，将于2027年Q1启动适配",
-      "titleEn": "芯擎科技发布新一代AI座舱芯片“龍鹰二号”，将于2027年Q1启动适配",
-      "summary": "36氪AI 更新：在2026北京车展上，高性能车规和工业数字平台供应商芯擎科技发布全新AI座舱芯片“龍鹰二号”，在中央计算平台领域实现了前瞻布局，将于2027年第一季度启动适配。该芯片覆盖AI座舱、舱驾融合全场景需求，采用柔性架构，灵活适配主机厂从入门级到旗舰级的中央计算平台演进。芯片AI算力高达200 TOPS，原生支持7B+多模态大模型，内置多核CPU 360KD...",
+      "titleZh": "申万宏源：市场超跌反弹后震荡休整或将延续，二季度关注5月关键事件验证",
+      "titleEn": "申万宏源：市场超跌反弹后震荡休整或将延续，二季度关注5月关键事件验证",
+      "summary": "36氪AI 更新：36氪获悉，申万宏源发布研报称，重申回归“两阶段上涨行情”的中期判断。短期市场超跌反弹，后续还有震荡休整阶段，26H2可能还有新一轮创新高行情。二季度需关注5月关键事件验证；新增景气来源等。该行认为，下阶段，新能源、新能源汽车和出口链，可能是景气验证增加的方向，后续同样可能演绎独立行情。短期可能演绎主题扩散行情的方向，关注商业航天和半导体。",
       "whyMatters": "36氪AI 官方发布，直接反映当前 AI 产品方向，影响日常工具使用体验。",
       "takeaways": [
-        "在2026北京车展上，高性能车规和工业数字平台供应商芯擎科技发布全新AI座舱芯片“龍鹰二号”，在中央计算平台领域实现了前瞻布局，将于2027年第一季度启动适配。该芯片覆盖AI座舱、……",
+        "36氪获悉，申万宏源发布研报称，重申回归“两阶段上涨行情”的中期判断。短期市场超跌反弹，后续还有震荡休整阶段，26H2可能还有新一轮创新高行情。二季度需关注5月关键事件验证；新增景……",
         "上手成本低，不需要技术背景，建议结合你最高频的工作场景直接实测。",
         "判断新功能值不值得用：看它能不能替换你现在某个重复性的操作。"
       ],
@@ -391,15 +477,141 @@
         "产品",
         "前沿"
       ],
-      "sourceUrl": "https://36kr.com/newsflashes/3783080587926793?f=rss",
+      "sourceUrl": "https://36kr.com/newsflashes/3783182326062085?f=rss",
       "creator": {
         "duration": "60 秒",
-        "oneLiner": "在2026北京车展上，高性能车规和工业数字平台供应商芯擎科技发布全新AI座舱芯片“龍鹰二号”，在中央计算平台领……",
-        "hook": "芯擎科技发布新一代座舱芯片龍鹰二——这条 AI 消息，和你直接有关。",
+        "oneLiner": "36氪获悉，申万宏源发布研报称，重申回归“两阶段上涨行情”的中期判断。短期市场超跌反弹，后续还有震荡休整阶段，……",
+        "hook": "申万宏源市场超跌反弹后震荡休整或——这条 AI 消息，和你直接有关。",
         "angle": "这是 36氪AI 官方发布的动态，会直接反映在你正在使用的 AI 产品里。",
-        "coverTitle": "芯擎科技发布新一代AI座舱芯片“龍鹰二号”，将于2027年Q1启",
+        "coverTitle": "申万宏源：市场超跌反弹后震荡休整或将延续，二季度关注5月关键事件",
         "coverSubtitle": "官方第一手",
         "commentPrompt": "这个功能你会用还是不用？评论区选边站。",
+        "cta": "关注我，每天帮你筛出真正值得关注的 AI 动态。"
+      }
+    },
+    {
+      "id": "ithome-a5b035d7e0",
+      "source": "ithome",
+      "category": "open",
+      "format": "个人解读",
+      "evidence": "个人解读",
+      "priority": 3,
+      "featured": true,
+      "publishedAt": "2026-04-26",
+      "slots": [
+        "morning",
+        "noon",
+        "evening"
+      ],
+      "titleZh": "今天起，DeepSeek V4 成 OpenClaw 默认模型",
+      "titleEn": "今天起，DeepSeek V4 成 OpenClaw 默认模型",
+      "summary": "IT之家 更新：今天，OpenClaw 重磅接入 DeepSeek V4！新版本 OpenClaw 2026.4.24 一发布，随即接入了最新的 DeepSeek V4 双版本 —— V4 Flash 成为默认大模型，V4 Pro 也已上线模型库。 从今天起，全球每一个更新 OpenClaw 的人，打开的第一秒钟，跟自己对话的大脑就是 DeepSeek V4 Fla...",
+      "whyMatters": "IT之家 基于实测或研究分享了这条判断，对普通用户了解 AI 工具现状有直接参考价值。",
+      "takeaways": [
+        "开源模型的核心优势：可以本地运行，数据不离开你的设备，适合隐私要求高的场景。",
+        "开源和商业 AI 的差距在今年快速缩小，某些任务上开源已经够用甚至更好。",
+        "对普通用户来说，关注以开源模型为底层的封装产品，会比直接用原始模型更方便。"
+      ],
+      "tags": [
+        "AI新闻",
+        "产品",
+        "科技",
+        "前沿",
+        "热点"
+      ],
+      "sourceUrl": "https://www.ithome.com/0/943/615.htm",
+      "creator": {
+        "duration": "60 秒",
+        "oneLiner": "开源 AI 生态有新进展，可自由部署，开发者和进阶用户值得关注。",
+        "hook": "开源 AI 和商业 AI 的差距，正在快速缩小——这次缩到了这里。",
+        "angle": "这位博主长期追踪 AI 工具实际表现，这条判断对你评估工具是否值得用有直接参考价值。",
+        "coverTitle": "IT之家 · 开源进展",
+        "coverSubtitle": "博主深度解读",
+        "commentPrompt": "你用开源还是商业 AI 工具？告诉我你的选择。",
+        "cta": "关注我，每天帮你筛出真正值得关注的 AI 动态。"
+      }
+    },
+    {
+      "id": "ithome-537eb65075",
+      "source": "ithome",
+      "category": "digest",
+      "format": "博主观察",
+      "evidence": "个人解读",
+      "priority": 3,
+      "featured": true,
+      "publishedAt": "2026-04-26",
+      "slots": [
+        "morning",
+        "noon",
+        "evening"
+      ],
+      "titleZh": "斑马智能联合东风首发淘宝闪购 Agent 上车，支持一句话点餐",
+      "titleEn": "斑马智能联合东风首发淘宝闪购 Agent 上车，支持一句话点餐",
+      "summary": "IT之家 更新：IT之家 4 月 26 日消息，今日，2026 北京国际车展期间， 斑马智能 与东风研发总院联合宣布，基于元神 AI 打造的淘宝闪购 Agent 首发上车，将落地 东风天元智舱 。 据官方介绍，在天元智舱中，用户无需动手、无需跳转， 仅通过自然语音即可完成点餐全流程 。当用户说“给我点杯奶茶送到公司”，淘宝闪购 Agent 能精准识别模糊意图，自动匹...",
+      "whyMatters": "IT之家 基于实测或研究分享了这条判断，对普通用户了解 AI 工具现状有直接参考价值。",
+      "takeaways": [
+        "IT之家 4 月 26 日消息，今日，2026 北京国际车展期间， 斑马智能 与东风研发总院联合宣布，基于元神 AI 打造的淘宝闪购 Agent 首发上车，将落地 东风天元智舱 。……",
+        "对你最直接的影响会出现在你日常用的工具里，留意未来几周的产品更新通知。",
+        "判断一条 AI 新闻重不重要：看它有没有影响你正在用的工具，或者会不会改变你的工作流。"
+      ],
+      "tags": [
+        "AI新闻",
+        "产品",
+        "科技",
+        "前沿",
+        "热点"
+      ],
+      "sourceUrl": "https://www.ithome.com/0/943/613.htm",
+      "creator": {
+        "duration": "60 秒",
+        "oneLiner": "AI 领域有最新动态，影响日常工具使用，建议了解一下。",
+        "hook": "今天有条 AI 动态，和你用工具的方式直接有关。",
+        "angle": "这位博主长期追踪 AI 工具实际表现，这条判断对你评估工具是否值得用有直接参考价值。",
+        "coverTitle": "IT之家 · AI动态",
+        "coverSubtitle": "博主深度解读",
+        "commentPrompt": "这条对你有影响吗？有的话告诉我你做哪行。",
+        "cta": "关注我，每天帮你筛出真正值得关注的 AI 动态。"
+      }
+    },
+    {
+      "id": "ithome-693f03265b",
+      "source": "ithome",
+      "category": "open",
+      "format": "个人解读",
+      "evidence": "个人解读",
+      "priority": 3,
+      "featured": true,
+      "publishedAt": "2026-04-26",
+      "slots": [
+        "morning",
+        "noon",
+        "evening"
+      ],
+      "titleZh": "国家超算互联网推出 DeepSeek-V4 限时免费对话服务",
+      "titleEn": "国家超算互联网推出 DeepSeek-V4 限时免费对话服务",
+      "summary": "IT之家 更新：IT之家 4 月 26 日消息，今日，国家超算互联网推出 DeepSeek-V4 限时免费对话服务。企业、科研机构及个人开发者只需登录超算互联网（ www.scnet.cn ）进入 Chat 页面，即可免费体验 DeepSeek-V4 的百万 Token 超长上下文实时、流畅对话。 IT之家附官方原文如下： 随着 DeepSeek-V4 的发布，百万...",
+      "whyMatters": "IT之家 基于实测或研究分享了这条判断，对普通用户了解 AI 工具现状有直接参考价值。",
+      "takeaways": [
+        "开源模型的核心优势：可以本地运行，数据不离开你的设备，适合隐私要求高的场景。",
+        "开源和商业 AI 的差距在今年快速缩小，某些任务上开源已经够用甚至更好。",
+        "对普通用户来说，关注以开源模型为底层的封装产品，会比直接用原始模型更方便。"
+      ],
+      "tags": [
+        "AI新闻",
+        "产品",
+        "科技",
+        "前沿",
+        "热点"
+      ],
+      "sourceUrl": "https://www.ithome.com/0/943/599.htm",
+      "creator": {
+        "duration": "60 秒",
+        "oneLiner": "开源 AI 生态有新进展，可自由部署，开发者和进阶用户值得关注。",
+        "hook": "开源 AI 和商业 AI 的差距，正在快速缩小——这次缩到了这里。",
+        "angle": "这位博主长期追踪 AI 工具实际表现，这条判断对你评估工具是否值得用有直接参考价值。",
+        "coverTitle": "IT之家 · 开源进展",
+        "coverSubtitle": "博主深度解读",
+        "commentPrompt": "你用开源还是商业 AI 工具？告诉我你的选择。",
         "cta": "关注我，每天帮你筛出真正值得关注的 AI 动态。"
       }
     },
@@ -1009,48 +1221,6 @@
       }
     },
     {
-      "id": "ithome-fdd814ddb2",
-      "source": "ithome",
-      "category": "open",
-      "format": "个人解读",
-      "evidence": "个人解读",
-      "priority": 3,
-      "featured": true,
-      "publishedAt": "2026-04-25",
-      "slots": [
-        "morning",
-        "noon",
-        "evening"
-      ],
-      "titleZh": "DeepSeek-V4-Pro 开启 API 限时 2.5 折优惠，活动持续至 5 月 6 日前",
-      "titleEn": "DeepSeek-V4-Pro 开启 API 限时 2.5 折优惠，活动持续至 5 月 6 日前",
-      "summary": "IT之家 更新：IT之家 4 月 25 日消息，DeepSeek 官网刚刚更新了 API 文档。页面宣布旗下新发布的旗舰级大模型 DeepSeek-V4-Pro 开启限时 2.5 折优惠活动。 此次调价后，DeepSeek-V4-Pro 的输入价格（缓存命中）低至 0.25 元（每百万 tokens），输入价格（缓存未命中）为 3 元，输出价格为 6 元。此次优惠活...",
-      "whyMatters": "IT之家 基于实测或研究分享了这条判断，对普通用户了解 AI 工具现状有直接参考价值。",
-      "takeaways": [
-        "开源模型的核心优势：可以本地运行，数据不离开你的设备，适合隐私要求高的场景。",
-        "开源和商业 AI 的差距在今年快速缩小，某些任务上开源已经够用甚至更好。",
-        "对普通用户来说，关注以开源模型为底层的封装产品，会比直接用原始模型更方便。"
-      ],
-      "tags": [
-        "AI新闻",
-        "产品",
-        "科技",
-        "前沿",
-        "热点"
-      ],
-      "sourceUrl": "https://www.ithome.com/0/943/528.htm",
-      "creator": {
-        "duration": "60 秒",
-        "oneLiner": "开源 AI 生态有新进展，可自由部署，开发者和进阶用户值得关注。",
-        "hook": "开源 AI 和商业 AI 的差距，正在快速缩小——这次缩到了这里。",
-        "angle": "这位博主长期追踪 AI 工具实际表现，这条判断对你评估工具是否值得用有直接参考价值。",
-        "coverTitle": "IT之家 · 开源进展",
-        "coverSubtitle": "博主深度解读",
-        "commentPrompt": "你用开源还是商业 AI 工具？告诉我你的选择。",
-        "cta": "关注我，每天帮你筛出真正值得关注的 AI 动态。"
-      }
-    },
-    {
       "id": "google-ebab479a84",
       "source": "google",
       "category": "product",
@@ -1137,49 +1307,6 @@
       }
     },
     {
-      "id": "qbitai-ce198b9745",
-      "source": "qbitai",
-      "category": "open",
-      "format": "开源生态",
-      "evidence": "官方一手",
-      "priority": 3,
-      "featured": true,
-      "publishedAt": "2026-04-24",
-      "slots": [
-        "morning",
-        "noon",
-        "evening"
-      ],
-      "titleZh": "DeepSeek-V4发布，华为云首发适配",
-      "titleEn": "DeepSeek-V4发布，华为云首发适配",
-      "summary": "量子位 更新：DeepSeek-V4发布，华为云首发适配",
-      "whyMatters": "量子位 官方发布，直接反映当前 AI 产品方向，影响日常工具使用体验。",
-      "takeaways": [
-        "开源模型的核心优势：可以本地运行，数据不离开你的设备，适合隐私要求高的场景。",
-        "开源和商业 AI 的差距在今年快速缩小，某些任务上开源已经够用甚至更好。",
-        "对普通用户来说，关注以开源模型为底层的封装产品，会比直接用原始模型更方便。"
-      ],
-      "tags": [
-        "AI新闻",
-        "模型",
-        "产品",
-        "创业",
-        "前沿",
-        "资讯"
-      ],
-      "sourceUrl": "https://www.qbitai.com/2026/04/406791.html",
-      "creator": {
-        "duration": "60 秒",
-        "oneLiner": "开源 AI 生态有新进展，可自由部署，开发者和进阶用户值得关注。",
-        "hook": "开源 AI 和商业 AI 的差距，正在快速缩小——这次缩到了这里。",
-        "angle": "这是 量子位 官方发布的动态，会直接反映在你正在使用的 AI 产品里。",
-        "coverTitle": "量子位 · 开源进展",
-        "coverSubtitle": "官方第一手",
-        "commentPrompt": "你用开源还是商业 AI 工具？告诉我你的选择。",
-        "cta": "关注我，每天帮你筛出真正值得关注的 AI 动态。"
-      }
-    },
-    {
       "id": "36kr-ai-62b7df41ae",
       "source": "36kr-ai",
       "category": "research",
@@ -1260,48 +1387,6 @@
         "coverTitle": "最前线｜AI+激光通信，中科天塔要用「太空智驾」体系实现卫星管理",
         "coverSubtitle": "官方第一手",
         "commentPrompt": "你平时在 AI 工具里输入过真实个人信息吗？A有 B没有。",
-        "cta": "关注我，每天帮你筛出真正值得关注的 AI 动态。"
-      }
-    },
-    {
-      "id": "36kr-ai-720701bf96",
-      "source": "36kr-ai",
-      "category": "product",
-      "format": "产品发布",
-      "evidence": "官方一手",
-      "priority": 3,
-      "featured": true,
-      "publishedAt": "2026-04-24",
-      "slots": [
-        "morning",
-        "noon",
-        "evening"
-      ],
-      "titleZh": "氪星晚报｜美团万亿级参数大模型开放测试，训练全程由国产算力集群完成；百度联盟正式发布海外App业务；央行等八部门发布金融产品网络营销管理办法",
-      "titleEn": "氪星晚报｜美团万亿级参数大模型开放测试，训练全程由国产算力集群完成；百度联盟正式发布海外App业务；央行等八部门发布金融产品网络营销管理办法",
-      "summary": "36氪AI 更新：大公司： 京东和格力推出空调换新全包服务 36氪获悉，近日，京东与格力正式签署深度合作协议，推出空调换新全包服务，覆盖全国超过300个城市。 据了解，京东与格力已合作多年，在去年双方合作安装空调量达数百万台。 如祺出行与黑芝麻智能达成战略合作 4月24日，出行科技与服务公司如祺出行和车规级智能汽车计算芯片及解决方案供应商黑芝麻智能达成战略合作。根据协...",
-      "whyMatters": "36氪AI 官方发布，直接反映当前 AI 产品方向，影响日常工具使用体验。",
-      "takeaways": [
-        "京东和格力推出空调换新全包服务 36氪获悉，近日，京东与格力正式签署深度合作协议，推出空调换新全包服务，覆盖全国超过300个城市。 据了解，京东与格力已合作多年，在去年双方合作安装……",
-        "上手成本低，不需要技术背景，建议结合你最高频的工作场景直接实测。",
-        "判断新功能值不值得用：看它能不能替换你现在某个重复性的操作。"
-      ],
-      "tags": [
-        "AI创业",
-        "融资",
-        "商业",
-        "产品",
-        "前沿"
-      ],
-      "sourceUrl": "https://36kr.com/p/3777694346548482?f=rss",
-      "creator": {
-        "duration": "60 秒",
-        "oneLiner": "大公司： 京东和格力推出空调换新全包服务 36氪获悉，近日，京东与格力正式签署深度合作协议，推出空调换新全包服……",
-        "hook": "氪星晚报美团万亿级参数大模型开放——这条 AI 消息，和你直接有关。",
-        "angle": "这是 36氪AI 官方发布的动态，会直接反映在你正在使用的 AI 产品里。",
-        "coverTitle": "氪星晚报｜美团万亿级参数大模型开放测试，训练全程由国产算力集群完",
-        "coverSubtitle": "官方第一手",
-        "commentPrompt": "这个功能你会用还是不用？评论区选边站。",
         "cta": "关注我，每天帮你筛出真正值得关注的 AI 动态。"
       }
     },
@@ -2737,91 +2822,6 @@
         "coverTitle": "Microsoft AI · 开源进展",
         "coverSubtitle": "官方第一手",
         "commentPrompt": "你用开源还是商业 AI 工具？告诉我你的选择。",
-        "cta": "关注我，每天帮你筛出真正值得关注的 AI 动态。"
-      }
-    },
-    {
-      "id": "microsoft-ai-3c6a0e8171",
-      "source": "microsoft-ai",
-      "category": "product",
-      "format": "产品发布",
-      "evidence": "官方一手",
-      "priority": 3,
-      "featured": true,
-      "publishedAt": "2022-06-08",
-      "slots": [
-        "morning",
-        "noon",
-        "evening"
-      ],
-      "titleZh": "Singapore develops Asia’s first AI-based mobile app for shark and ray fin identification to combat illegal wildlife trade",
-      "titleEn": "Singapore develops Asia’s first AI-based mobile app for shark and ray fin identification to combat illegal wildlife trade",
-      "summary": "Microsoft AI 更新：The post Singapore develops Asia’s first AI-based mobile app for shark and ray fin identification to combat illegal wildlife trade appeared first on The AI Blog .",
-      "whyMatters": "Microsoft AI 官方发布，直接反映当前 AI 产品方向，影响日常工具使用体验。",
-      "takeaways": [
-        "功能更新通常先出现在网页版或API，App端会稍后跟进，留意你习惯的入口。",
-        "上手成本低，不需要技术背景，建议结合你最高频的工作场景直接实测。",
-        "判断新功能值不值得用：看它能不能替换你现在某个重复性的操作。"
-      ],
-      "tags": [
-        "Microsoft",
-        "Copilot",
-        "Azure",
-        "产品",
-        "模型",
-        "News Brief"
-      ],
-      "sourceUrl": "https://news.microsoft.com/en-sg/2022/06/08/singapore-develops-asias-first-ai-based-mobile-app-for-shark-and-ray-fin-identification-to-combat-illegal-wildlife-trade/",
-      "creator": {
-        "duration": "60 秒",
-        "oneLiner": "一个 AI 产品发布了新功能，核心变化直接影响现有用户的使用体验。",
-        "hook": "这个功能刚上线，可能你还不知道它能做什么。",
-        "angle": "这是 Microsoft AI 官方发布的动态，会直接反映在你正在使用的 AI 产品里。",
-        "coverTitle": "Microsoft AI · 产品发布",
-        "coverSubtitle": "官方第一手",
-        "commentPrompt": "这个功能你会用还是不用？评论区选边站。",
-        "cta": "关注我，每天帮你筛出真正值得关注的 AI 动态。"
-      }
-    },
-    {
-      "id": "36kr-ai-f562704eeb",
-      "source": "36kr-ai",
-      "category": "product",
-      "format": "产品发布",
-      "evidence": "官方一手",
-      "priority": 2,
-      "featured": false,
-      "publishedAt": "2026-04-26",
-      "slots": [
-        "morning",
-        "noon",
-        "evening"
-      ],
-      "titleZh": "破解行李中转难题 民航新版指南明确全新保障模式",
-      "titleEn": "破解行李中转难题 民航新版指南明确全新保障模式",
-      "summary": "36氪AI 更新：从民航局了解到，为持续提升国内通程航班和中转便利化服务向规范化、标准化、品质化方向发展，民航局日前印发《民航旅客中转便利化实施指南（第三版）》。新修订的《指南》重点规范了旅客服务、行李服务、信息服务、保障措施等方面要求。（央视新闻）",
-      "whyMatters": "36氪AI 官方发布，直接反映当前 AI 产品方向，影响日常工具使用体验。",
-      "takeaways": [
-        "从民航局了解到，为持续提升国内通程航班和中转便利化服务向规范化、标准化、品质化方向发展，民航局日前印发《民航旅客中转便利化实施指南（第三版）》。新修订的《指南》重点规范了旅客服务、……",
-        "上手成本低，不需要技术背景，建议结合你最高频的工作场景直接实测。",
-        "判断新功能值不值得用：看它能不能替换你现在某个重复性的操作。"
-      ],
-      "tags": [
-        "AI创业",
-        "融资",
-        "商业",
-        "产品",
-        "前沿"
-      ],
-      "sourceUrl": "https://36kr.com/newsflashes/3783087154552067?f=rss",
-      "creator": {
-        "duration": "60 秒",
-        "oneLiner": "从民航局了解到，为持续提升国内通程航班和中转便利化服务向规范化、标准化、品质化方向发展，民航局日前印发《民航旅……",
-        "hook": "破解行李中转难题民航新版指南明确——这条 AI 消息，和你直接有关。",
-        "angle": "这是 36氪AI 官方发布的动态，会直接反映在你正在使用的 AI 产品里。",
-        "coverTitle": "破解行李中转难题 民航新版指南明确全新保障模式",
-        "coverSubtitle": "官方第一手",
-        "commentPrompt": "这个功能你会用还是不用？评论区选边站。",
         "cta": "关注我，每天帮你筛出真正值得关注的 AI 动态。"
       }
     }
