@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-04-26T06:17:16.559Z",
+  "generatedAt": "2026-04-26T11:50:13.535Z",
   "timezone": "Asia/Shanghai",
-  "runSlot": "noon",
-  "runSlotLabel": "午报",
+  "runSlot": "evening",
+  "runSlotLabel": "晚报",
   "sourceStats": {
     "official": 10,
     "creator": 5,
@@ -278,6 +278,95 @@
       }
     },
     {
+      "id": "qbitai-df075c3271",
+      "source": "qbitai",
+      "category": "product",
+      "format": "产品发布",
+      "evidence": "官方一手",
+      "priority": 3,
+      "featured": true,
+      "publishedAt": "2026-04-26",
+      "slots": [
+        "morning",
+        "noon",
+        "evening"
+      ],
+      "titleZh": "Claude终于认了！降智坐实，越聊越傻，3个bug全曝光",
+      "titleEn": "Claude终于认了！降智坐实，越聊越傻，3个bug全曝光",
+      "summary": "量子位 更新：模型降智属实，所有使用额度均已重置。",
+      "whyMatters": "量子位 官方发布，直接反映当前 AI 产品方向，影响日常工具使用体验。",
+      "takeaways": [
+        "功能更新通常先出现在网页版或API，App端会稍后跟进，留意你习惯的入口。",
+        "上手成本低，不需要技术背景，建议结合你最高频的工作场景直接实测。",
+        "判断新功能值不值得用：看它能不能替换你现在某个重复性的操作。"
+      ],
+      "tags": [
+        "AI新闻",
+        "模型",
+        "产品",
+        "创业",
+        "前沿",
+        "资讯",
+        "Claude"
+      ],
+      "sourceUrl": "https://www.qbitai.com/2026/04/407502.html",
+      "creator": {
+        "duration": "60 秒",
+        "oneLiner": "一个 AI 产品发布了新功能，核心变化直接影响现有用户的使用体验。",
+        "hook": "这个功能刚上线，可能你还不知道它能做什么。",
+        "angle": "这是 量子位 官方发布的动态，会直接反映在你正在使用的 AI 产品里。",
+        "coverTitle": "量子位 · 产品发布",
+        "coverSubtitle": "官方第一手",
+        "commentPrompt": "这个功能你会用还是不用？评论区选边站。",
+        "cta": "关注我，每天帮你筛出真正值得关注的 AI 动态。"
+      }
+    },
+    {
+      "id": "qbitai-5e29e351d3",
+      "source": "qbitai",
+      "category": "open",
+      "format": "开源生态",
+      "evidence": "官方一手",
+      "priority": 3,
+      "featured": true,
+      "publishedAt": "2026-04-26",
+      "slots": [
+        "morning",
+        "noon",
+        "evening"
+      ],
+      "titleZh": "全球首个医疗视频理解大模型开源！6k+组精标测试集与英雄榜同步上线，开发者速来！",
+      "titleEn": "全球首个医疗视频理解大模型开源！6k+组精标测试集与英雄榜同步上线，开发者速来！",
+      "summary": "量子位 更新：开源，是最好的探针",
+      "whyMatters": "量子位 官方发布，直接反映当前 AI 产品方向，影响日常工具使用体验。",
+      "takeaways": [
+        "开源模型的核心优势：可以本地运行，数据不离开你的设备，适合隐私要求高的场景。",
+        "开源和商业 AI 的差距在今年快速缩小，某些任务上开源已经够用甚至更好。",
+        "对普通用户来说，关注以开源模型为底层的封装产品，会比直接用原始模型更方便。"
+      ],
+      "tags": [
+        "AI新闻",
+        "模型",
+        "产品",
+        "创业",
+        "前沿",
+        "资讯",
+        "首页轮播",
+        "医疗大模型"
+      ],
+      "sourceUrl": "https://www.qbitai.com/2026/04/407486.html",
+      "creator": {
+        "duration": "60 秒",
+        "oneLiner": "开源 AI 生态有新进展，可自由部署，开发者和进阶用户值得关注。",
+        "hook": "全球首个医疗视频理解大模型开源组——这条 AI 消息，和你直接有关。",
+        "angle": "这是 量子位 官方发布的动态，会直接反映在你正在使用的 AI 产品里。",
+        "coverTitle": "全球首个医疗视频理解大模型开源！6k+组精标测试集与英雄榜同步上",
+        "coverSubtitle": "官方第一手",
+        "commentPrompt": "你用开源还是商业 AI 工具？告诉我你的选择。",
+        "cta": "关注我，每天帮你筛出真正值得关注的 AI 动态。"
+      }
+    },
+    {
       "id": "qbitai-6b92075a7d",
       "source": "qbitai",
       "category": "open",
@@ -448,11 +537,11 @@
       }
     },
     {
-      "id": "36kr-ai-acfe697715",
-      "source": "36kr-ai",
-      "category": "product",
-      "format": "产品发布",
-      "evidence": "官方一手",
+      "id": "ithome-88f3c1c2de",
+      "source": "ithome",
+      "category": "research",
+      "format": "个人解读",
+      "evidence": "个人解读",
       "priority": 3,
       "featured": true,
       "publishedAt": "2026-04-26",
@@ -461,31 +550,31 @@
         "noon",
         "evening"
       ],
-      "titleZh": "申万宏源：市场超跌反弹后震荡休整或将延续，二季度关注5月关键事件验证",
-      "titleEn": "申万宏源：市场超跌反弹后震荡休整或将延续，二季度关注5月关键事件验证",
-      "summary": "36氪AI 更新：36氪获悉，申万宏源发布研报称，重申回归“两阶段上涨行情”的中期判断。短期市场超跌反弹，后续还有震荡休整阶段，26H2可能还有新一轮创新高行情。二季度需关注5月关键事件验证；新增景气来源等。该行认为，下阶段，新能源、新能源汽车和出口链，可能是景气验证增加的方向，后续同样可能演绎独立行情。短期可能演绎主题扩散行情的方向，关注商业航天和半导体。",
-      "whyMatters": "36氪AI 官方发布，直接反映当前 AI 产品方向，影响日常工具使用体验。",
+      "titleZh": "美联储：ChatGPT 发布后美国程序员岗位增速腰斩，外包领域最为明显",
+      "titleEn": "美联储：ChatGPT 发布后美国程序员岗位增速腰斩，外包领域最为明显",
+      "summary": "IT之家 更新：IT之家 4 月 26 日消息，美联储理事会 / 委员会发布的一项研究报告显示，美国程序员岗位增速自 ChatGPT 发布（2022 年 11 月）后几乎减半，AI 带来的影响正从日常工作场景扩展至宏观就业数据层面。 该研究将月度就业数据与劳工部按技能要求分类的职业数据库进行交叉比对，精准识别出编程工作量占比较高的职业群体，这类群体约占全美劳动者总数...",
+      "whyMatters": "IT之家 基于实测或研究分享了这条判断，对普通用户了解 AI 工具现状有直接参考价值。",
       "takeaways": [
-        "36氪获悉，申万宏源发布研报称，重申回归“两阶段上涨行情”的中期判断。短期市场超跌反弹，后续还有震荡休整阶段，26H2可能还有新一轮创新高行情。二季度需关注5月关键事件验证；新增景……",
-        "上手成本低，不需要技术背景，建议结合你最高频的工作场景直接实测。",
-        "判断新功能值不值得用：看它能不能替换你现在某个重复性的操作。"
+        "IT之家 4 月 26 日消息，美联储理事会 / 委员会发布的一项研究报告显示，美国程序员岗位增速自 ChatGPT 发布（2022 年 11 月）后几乎减半，AI 带来的影响正从……",
+        "关注这类研究的价值：提前了解 AI 能力还卡在哪些地方、哪些方向已经打通了。",
+        "对普通用户来说，研究成果转化成工具功能才有实际影响，可持续跟进这个领域。"
       ],
       "tags": [
-        "AI创业",
-        "融资",
-        "商业",
+        "AI新闻",
         "产品",
-        "前沿"
+        "科技",
+        "前沿",
+        "热点"
       ],
-      "sourceUrl": "https://36kr.com/newsflashes/3783182326062085?f=rss",
+      "sourceUrl": "https://www.ithome.com/0/943/629.htm",
       "creator": {
         "duration": "60 秒",
-        "oneLiner": "36氪获悉，申万宏源发布研报称，重申回归“两阶段上涨行情”的中期判断。短期市场超跌反弹，后续还有震荡休整阶段，……",
-        "hook": "申万宏源市场超跌反弹后震荡休整或——这条 AI 消息，和你直接有关。",
-        "angle": "这是 36氪AI 官方发布的动态，会直接反映在你正在使用的 AI 产品里。",
-        "coverTitle": "申万宏源：市场超跌反弹后震荡休整或将延续，二季度关注5月关键事件",
-        "coverSubtitle": "官方第一手",
-        "commentPrompt": "这个功能你会用还是不用？评论区选边站。",
+        "oneLiner": "一项 AI 研究出了新结论，代表技术方向的最新信号，几个月后会反映在产品里。",
+        "hook": "一个研究结论让人意外：AI 在这件事上，比我们预期强得多。",
+        "angle": "这位博主长期追踪 AI 工具实际表现，这条判断对你评估工具是否值得用有直接参考价值。",
+        "coverTitle": "IT之家 · 研究发现",
+        "coverSubtitle": "博主深度解读",
+        "commentPrompt": "这个研究结论你信吗？评论区聊聊。",
         "cta": "关注我，每天帮你筛出真正值得关注的 AI 动态。"
       }
     },
@@ -1137,90 +1226,6 @@
       }
     },
     {
-      "id": "ithome-cfd8f2a11e",
-      "source": "ithome",
-      "category": "model",
-      "format": "个人解读",
-      "evidence": "个人解读",
-      "priority": 3,
-      "featured": true,
-      "publishedAt": "2026-04-25",
-      "slots": [
-        "morning",
-        "noon",
-        "evening"
-      ],
-      "titleZh": "AI 需求致苹果 M4 Mac mini 基础款缺货，二手平台溢价严重",
-      "titleEn": "AI 需求致苹果 M4 Mac mini 基础款缺货，二手平台溢价严重",
-      "summary": "IT之家 更新：IT之家 4 月 26 日消息，据 Techcrunch 报道，由于热门机型缺货，溢价严重的 Mac mini 正充斥 eBay 平台。这款设备现已成为运行 OpenClaw 等端侧 AI 模型的热门利器。 本周有消息称，售价 599 美元的 M4 芯片 Mac mini 基础版（16GB 内存 + 256GB 存储空间）已在苹果官网售罄，无法选择配...",
-      "whyMatters": "IT之家 基于实测或研究分享了这条判断，对普通用户了解 AI 工具现状有直接参考价值。",
-      "takeaways": [
-        "模型升级会传导到下游产品，你在用的 AI 工具通常1-2周内就会接入新能力。",
-        "关键看三个提升点：推理更准 / 速度更快 / 输出更长——哪条对你的场景更重要。",
-        "不用急着切换，等产品层接入后看实际表现，再决定要不要调整工作流。"
-      ],
-      "tags": [
-        "AI新闻",
-        "产品",
-        "科技",
-        "前沿",
-        "热点"
-      ],
-      "sourceUrl": "https://www.ithome.com/0/943/561.htm",
-      "creator": {
-        "duration": "60 秒",
-        "oneLiner": "IT之家 4 月 26 日消息，据 Techcrunch 报道，由于热门机型缺货，溢价严重的 Mac mini……",
-        "hook": "需求致苹果基础款缺货二手平台溢价——这条 AI 消息，和你直接有关。",
-        "angle": "这位博主长期追踪 AI 工具实际表现，这条判断对你评估工具是否值得用有直接参考价值。",
-        "coverTitle": "AI 需求致苹果 M4 Mac mini 基础款缺货，二手平台溢",
-        "coverSubtitle": "博主深度解读",
-        "commentPrompt": "你觉得这次升级值不值得关注？A值 B不值。",
-        "cta": "关注我，每天帮你筛出真正值得关注的 AI 动态。"
-      }
-    },
-    {
-      "id": "ithome-217f7b2781",
-      "source": "ithome",
-      "category": "security",
-      "format": "个人解读",
-      "evidence": "个人解读",
-      "priority": 3,
-      "featured": true,
-      "publishedAt": "2026-04-25",
-      "slots": [
-        "morning",
-        "noon",
-        "evening"
-      ],
-      "titleZh": "OpenAI 推出 GPT-5.5 生物安全漏洞赏金计划，提供 2.5 万美元奖励",
-      "titleEn": "OpenAI 推出 GPT-5.5 生物安全漏洞赏金计划，提供 2.5 万美元奖励",
-      "summary": "IT之家 更新：IT之家 4 月 26 日消息，4 月 23 日，OpenAI 启动针对 GPT-5.5 的生物安全漏洞赏金计划，邀请研究人员寻找能突破“五道生物安全挑战题”的通用越狱方法。 计划概览 测试范围：仅限 Codex Desktop 中的 GPT‑5.5 模型。 挑战任务：找出一个通用的越狱提示词，使其在干净的对话环境中成功回答全部五道生物安全问题，且不...",
-      "whyMatters": "IT之家 基于实测或研究分享了这条判断，对普通用户了解 AI 工具现状有直接参考价值。",
-      "takeaways": [
-        "找出一个通用的越狱提示词，使其在干净的对话环境中成功回答全部五道生物安全问题，且不...",
-        "企业用户风险高于个人，公司内部敏感数据要用支持私有化部署的方案处理。",
-        "遇到 AI 工具要求过多权限或存储对话记录的，先查清数据政策再决定是否使用。"
-      ],
-      "tags": [
-        "AI新闻",
-        "产品",
-        "科技",
-        "前沿",
-        "热点"
-      ],
-      "sourceUrl": "https://www.ithome.com/0/943/558.htm",
-      "creator": {
-        "duration": "60 秒",
-        "oneLiner": "一条 AI 安全动态，涉及数据权限或使用风险，普通用户需要了解。",
-        "hook": "用 AI 的时候，有一件事你最好现在就知道。",
-        "angle": "这位博主长期追踪 AI 工具实际表现，这条判断对你评估工具是否值得用有直接参考价值。",
-        "coverTitle": "IT之家 · 安全动态",
-        "coverSubtitle": "博主深度解读",
-        "commentPrompt": "你平时在 AI 工具里输入过真实个人信息吗？A有 B没有。",
-        "cta": "关注我，每天帮你筛出真正值得关注的 AI 动态。"
-      }
-    },
-    {
       "id": "google-ebab479a84",
       "source": "google",
       "category": "product",
@@ -1260,49 +1265,6 @@
         "coverTitle": "Google AI · 产品发布",
         "coverSubtitle": "官方第一手",
         "commentPrompt": "这个功能你会用还是不用？评论区选边站。",
-        "cta": "关注我，每天帮你筛出真正值得关注的 AI 动态。"
-      }
-    },
-    {
-      "id": "qbitai-69ffb30472",
-      "source": "qbitai",
-      "category": "research",
-      "format": "研究发布",
-      "evidence": "官方一手",
-      "priority": 3,
-      "featured": true,
-      "publishedAt": "2026-04-24",
-      "slots": [
-        "morning",
-        "noon",
-        "evening"
-      ],
-      "titleZh": "优必选发布Thinker cosmos：加码开发者生态，推动人形机器人走向规模化",
-      "titleEn": "优必选发布Thinker cosmos：加码开发者生态，推动人形机器人走向规模化",
-      "summary": "量子位 更新：优必选发布Thinker cosmos：加码开发者生态，推动人形机器人走向规模化",
-      "whyMatters": "量子位 官方发布，直接反映当前 AI 产品方向，影响日常工具使用体验。",
-      "takeaways": [
-        "研究结论和产品落地之间通常有6-18个月的滞后，现在看到的是方向信号。",
-        "关注这类研究的价值：提前了解 AI 能力还卡在哪些地方、哪些方向已经打通了。",
-        "对普通用户来说，研究成果转化成工具功能才有实际影响，可持续跟进这个领域。"
-      ],
-      "tags": [
-        "AI新闻",
-        "模型",
-        "产品",
-        "创业",
-        "前沿",
-        "资讯"
-      ],
-      "sourceUrl": "https://www.qbitai.com/2026/04/406806.html",
-      "creator": {
-        "duration": "60 秒",
-        "oneLiner": "一项 AI 研究出了新结论，代表技术方向的最新信号，几个月后会反映在产品里。",
-        "hook": "一个研究结论让人意外：AI 在这件事上，比我们预期强得多。",
-        "angle": "这是 量子位 官方发布的动态，会直接反映在你正在使用的 AI 产品里。",
-        "coverTitle": "量子位 · 研究发现",
-        "coverSubtitle": "官方第一手",
-        "commentPrompt": "这个研究结论你信吗？评论区聊聊。",
         "cta": "关注我，每天帮你筛出真正值得关注的 AI 动态。"
       }
     },
@@ -2822,6 +2784,49 @@
         "coverTitle": "Microsoft AI · 开源进展",
         "coverSubtitle": "官方第一手",
         "commentPrompt": "你用开源还是商业 AI 工具？告诉我你的选择。",
+        "cta": "关注我，每天帮你筛出真正值得关注的 AI 动态。"
+      }
+    },
+    {
+      "id": "microsoft-ai-3c6a0e8171",
+      "source": "microsoft-ai",
+      "category": "product",
+      "format": "产品发布",
+      "evidence": "官方一手",
+      "priority": 3,
+      "featured": true,
+      "publishedAt": "2022-06-08",
+      "slots": [
+        "morning",
+        "noon",
+        "evening"
+      ],
+      "titleZh": "Singapore develops Asia’s first AI-based mobile app for shark and ray fin identification to combat illegal wildlife trade",
+      "titleEn": "Singapore develops Asia’s first AI-based mobile app for shark and ray fin identification to combat illegal wildlife trade",
+      "summary": "Microsoft AI 更新：The post Singapore develops Asia’s first AI-based mobile app for shark and ray fin identification to combat illegal wildlife trade appeared first on The AI Blog .",
+      "whyMatters": "Microsoft AI 官方发布，直接反映当前 AI 产品方向，影响日常工具使用体验。",
+      "takeaways": [
+        "功能更新通常先出现在网页版或API，App端会稍后跟进，留意你习惯的入口。",
+        "上手成本低，不需要技术背景，建议结合你最高频的工作场景直接实测。",
+        "判断新功能值不值得用：看它能不能替换你现在某个重复性的操作。"
+      ],
+      "tags": [
+        "Microsoft",
+        "Copilot",
+        "Azure",
+        "产品",
+        "模型",
+        "News Brief"
+      ],
+      "sourceUrl": "https://news.microsoft.com/en-sg/2022/06/08/singapore-develops-asias-first-ai-based-mobile-app-for-shark-and-ray-fin-identification-to-combat-illegal-wildlife-trade/",
+      "creator": {
+        "duration": "60 秒",
+        "oneLiner": "一个 AI 产品发布了新功能，核心变化直接影响现有用户的使用体验。",
+        "hook": "这个功能刚上线，可能你还不知道它能做什么。",
+        "angle": "这是 Microsoft AI 官方发布的动态，会直接反映在你正在使用的 AI 产品里。",
+        "coverTitle": "Microsoft AI · 产品发布",
+        "coverSubtitle": "官方第一手",
+        "commentPrompt": "这个功能你会用还是不用？评论区选边站。",
         "cta": "关注我，每天帮你筛出真正值得关注的 AI 动态。"
       }
     }
